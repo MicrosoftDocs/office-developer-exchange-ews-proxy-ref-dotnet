@@ -33,16 +33,16 @@
         ]
       },
       "ECMA2Yaml": {
-        "SourceXmlFolder": "dotnet/xml",
-        "OutputYamlFolder": "dotnet/api",
+        "SourceXmlFolder": "officedocs-dev-exchange-ews-proxy/xml",
+        "OutputYamlFolder": "officedocs-dev-exchange-ews-proxy/api",
         "Flatten": true,
-        "id": "dotnet-template"
+        "id": "officedocs-dev-exchange-ews-proxy"
       },
       "SplitTOC": [
-        "dotnet/api/dotnet-template/toc.yml"
+        "officedocs-dev-exchange-ews-proxy/api/officedocs-dev-exchange-ews-proxy/toc.yml"
       ],
       "DiffFolder": [
-        "dotnet/api"
+        "officedocs-dev-exchange-ews-proxy/api"
       ]
     }
   ],
