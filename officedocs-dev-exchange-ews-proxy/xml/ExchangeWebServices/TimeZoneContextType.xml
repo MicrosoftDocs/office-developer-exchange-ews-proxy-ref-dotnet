@@ -1,0 +1,100 @@
+﻿<Type Name="TimeZoneContextType" FullName="ExchangeWebServices.TimeZoneContextType">
+  <TypeSignature Language="C#" Value="public class TimeZoneContextType : System.Web.Services.Protocols.SoapHeader" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit TimeZoneContextType extends System.Web.Services.Protocols.SoapHeader" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.TimeZoneContextType" />
+  <TypeSignature Language="VB.NET" Value="Public Class TimeZoneContextType&#xA;Inherits SoapHeader" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TimeZoneContextType : System::Web::Services::Protocols::SoapHeader" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Web.Services.Protocols.SoapHeader</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlRoot("TimeZoneContext", IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.TimeZoneContextType" /> class specifies the time zone definition that is to be used as the default when assigning the time zone for DateTime properties of objects that are created, updated, and retrieved by using Exchange Web Services (EWS).</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TimeZoneContextType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.TimeZoneContextType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TimeZoneContextType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.TimeZoneContextType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.TimeZoneContextType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AnyAttr">
+      <MemberSignature Language="C#" Value="public System.Xml.XmlAttribute[] AnyAttr { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Xml.XmlAttribute[] AnyAttr" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TimeZoneContextType.AnyAttr" />
+      <MemberSignature Language="VB.NET" Value="Public Property AnyAttr As XmlAttribute()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Xml::XmlAttribute ^&gt; ^ AnyAttr { cli::array &lt;System::Xml::XmlAttribute ^&gt; ^ get(); void set(cli::array &lt;System::Xml::XmlAttribute ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAnyAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Xml.XmlAttribute[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.TimeZoneContextType.AnyAttr" /> property gets or sets a collection of SOAP attributes.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.TimeZoneContextType.AnyAttr" /> property is an array of XmlAttribute objects.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeZoneDefinition">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.TimeZoneDefinitionType TimeZoneDefinition { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.TimeZoneDefinitionType TimeZoneDefinition" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TimeZoneContextType.TimeZoneDefinition" />
+      <MemberSignature Language="VB.NET" Value="Public Property TimeZoneDefinition As TimeZoneDefinitionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::TimeZoneDefinitionType ^ TimeZoneDefinition { ExchangeWebServices::TimeZoneDefinitionType ^ get(); void set(ExchangeWebServices::TimeZoneDefinitionType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TimeZoneDefinitionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.TimeZoneContextType.TimeZoneDefinition" /> property gets or sets the time zone definition.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.TimeZoneContextType.TimeZoneDefinition" /> property is a <see cref="T:ExchangeWebServices.TimeZoneDefinitionType" /> object that defines the time zone.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

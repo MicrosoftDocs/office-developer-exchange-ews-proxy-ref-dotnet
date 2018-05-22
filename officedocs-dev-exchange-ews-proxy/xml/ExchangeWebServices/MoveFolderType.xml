@@ -1,0 +1,98 @@
+﻿<Type Name="MoveFolderType" FullName="ExchangeWebServices.MoveFolderType">
+  <TypeSignature Language="C#" Value="public class MoveFolderType : ExchangeWebServices.BaseMoveCopyFolderType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit MoveFolderType extends ExchangeWebServices.BaseMoveCopyFolderType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.MoveFolderType" />
+  <TypeSignature Language="VB.NET" Value="Public Class MoveFolderType&#xA;Inherits BaseMoveCopyFolderType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MoveFolderType : ExchangeWebServices::BaseMoveCopyFolderType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseMoveCopyFolderType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.MoveFolderType" /> class represents an operation to move folders in a mailbox.</summary>
+    <remarks>
+      <para>The folder identifier and change key do not change when you move a folder. You cannot move default folders.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>The following example shows you how to move two folders to another folder. </para>
+      <code>static void MoveFolder(ExchangeServiceBinding esb)
+{
+    // Identify the folders to move.
+    FolderIdType folder1 = new FolderIdType();
+    FolderIdType folder2 = new FolderIdType();
+    folder1.Id = "AQAlAE1BQG1";
+    folder2.Id = "AQAlAE1BQG3";
+    FolderIdType[] folders = new FolderIdType[2] { folder1, folder2 };
+
+    // Identify the destination folder.
+    DistinguishedFolderIdType destFolder = new DistinguishedFolderIdType();
+    destFolder.Id = DistinguishedFolderIdNameType.drafts;
+
+    // Form the move folder request.
+    MoveFolderType &lt;span class="label"&gt;request&lt;/span&gt; = new MoveFolderType();
+    &lt;span class="label"&gt;request&lt;/span&gt;.FolderIds = folders;
+    &lt;span class="label"&gt;request&lt;/span&gt;.ToFolderId = new TargetFolderIdType();
+    &lt;span class="label"&gt;request&lt;/span&gt;.ToFolderId.Item = destFolder;
+
+    try
+    {
+        // Send the request and get the response.
+        MoveFolderResponseType response = esb.MoveFolder(&lt;span class="label"&gt;request&lt;/span&gt;);
+        ArrayOfResponseMessagesType aormt = response.ResponseMessages;
+        ResponseMessageType[] rmta = aormt.Items;
+
+        foreach (ResponseMessageType rmt in rmta)
+        {
+            if (rmt.ResponseClass == ResponseClassType.Error)
+            {
+                throw new Exception("Folder move failed.");
+            }
+        }
+    }
+
+    catch (Exception e)
+    {
+        Console.WriteLine(e.Message);
+    }
+}</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MoveFolderType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.MoveFolderType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MoveFolderType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.MoveFolderType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.MoveFolderType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,112 @@
+﻿<Type Name="UnifiedMessageServiceConfiguration" FullName="ExchangeWebServices.UnifiedMessageServiceConfiguration">
+  <TypeSignature Language="C#" Value="public class UnifiedMessageServiceConfiguration : ExchangeWebServices.ServiceConfiguration" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit UnifiedMessageServiceConfiguration extends ExchangeWebServices.ServiceConfiguration" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.UnifiedMessageServiceConfiguration" />
+  <TypeSignature Language="VB.NET" Value="Public Class UnifiedMessageServiceConfiguration&#xA;Inherits ServiceConfiguration" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UnifiedMessageServiceConfiguration : ExchangeWebServices::ServiceConfiguration" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.ServiceConfiguration</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UnifiedMessageServiceConfiguration ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.UnifiedMessageServiceConfiguration.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; UnifiedMessageServiceConfiguration();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlayOnPhoneDialString">
+      <MemberSignature Language="C#" Value="public string PlayOnPhoneDialString { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PlayOnPhoneDialString" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UnifiedMessageServiceConfiguration.PlayOnPhoneDialString" />
+      <MemberSignature Language="VB.NET" Value="Public Property PlayOnPhoneDialString As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PlayOnPhoneDialString { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.String" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlayOnPhoneEnabled">
+      <MemberSignature Language="C#" Value="public bool PlayOnPhoneEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool PlayOnPhoneEnabled" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UnifiedMessageServiceConfiguration.PlayOnPhoneEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property PlayOnPhoneEnabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PlayOnPhoneEnabled { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.Boolean" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UmEnabled">
+      <MemberSignature Language="C#" Value="public bool UmEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool UmEnabled" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UnifiedMessageServiceConfiguration.UmEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property UmEnabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool UmEnabled { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.Boolean" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

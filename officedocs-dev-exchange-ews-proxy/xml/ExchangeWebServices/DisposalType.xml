@@ -1,0 +1,88 @@
+﻿<Type Name="DisposalType" FullName="ExchangeWebServices.DisposalType">
+  <TypeSignature Language="C#" Value="public enum DisposalType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed DisposalType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DisposalType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DisposalType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class DisposalType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.DisposalType" /> enumeration describes how an item or folder is deleted.</summary>
+    <remarks>
+      <para>This enumeration is used by the DeleteFolder and DeleteItem operations. This enumeration must be set on the <see cref="P:ExchangeWebServices.DeleteItemType.DeleteType" /> property on the <see cref="T:ExchangeWebServices.DeleteItemType" /> object and the <see cref="P:ExchangeWebServices.DeleteFolderType.DeleteType" /> property on the <see cref="T:ExchangeWebServices.DeleteFolderType" /> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="HardDelete">
+      <MemberSignature Language="C#" Value="HardDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DisposalType HardDelete = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DisposalType.HardDelete" />
+      <MemberSignature Language="VB.NET" Value="HardDelete" />
+      <MemberSignature Language="C++ CLI" Value="HardDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DisposalType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>An item is permanently removed from the store.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveToDeletedItems">
+      <MemberSignature Language="C#" Value="MoveToDeletedItems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DisposalType MoveToDeletedItems = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DisposalType.MoveToDeletedItems" />
+      <MemberSignature Language="VB.NET" Value="MoveToDeletedItems" />
+      <MemberSignature Language="C++ CLI" Value="MoveToDeletedItems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DisposalType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>An item is moved to the Deleted Items folder.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SoftDelete">
+      <MemberSignature Language="C#" Value="SoftDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DisposalType SoftDelete = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DisposalType.SoftDelete" />
+      <MemberSignature Language="VB.NET" Value="SoftDelete" />
+      <MemberSignature Language="C++ CLI" Value="SoftDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DisposalType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>An item is moved to the dumpster if the dumpster is enabled.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

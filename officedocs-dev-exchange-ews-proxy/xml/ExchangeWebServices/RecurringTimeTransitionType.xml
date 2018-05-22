@@ -1,0 +1,103 @@
+﻿<Type Name="RecurringTimeTransitionType" FullName="ExchangeWebServices.RecurringTimeTransitionType">
+  <TypeSignature Language="C#" Value="public abstract class RecurringTimeTransitionType : ExchangeWebServices.TransitionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract serializable beforefieldinit RecurringTimeTransitionType extends ExchangeWebServices.TransitionType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.RecurringTimeTransitionType" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class RecurringTimeTransitionType&#xA;Inherits TransitionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RecurringTimeTransitionType abstract : ExchangeWebServices::TransitionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.TransitionType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.RecurringDayTransitionType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.RecurringDateTransitionType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.RecurringTimeTransitionType" /> class is the base class for derived classes <see cref="T:ExchangeWebServices.RecurringDateTransitionType" /> and <see cref="T:ExchangeWebServices.RecurringDayTransitionType" /> that represent time zone transitions.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected RecurringTimeTransitionType ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.RecurringTimeTransitionType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; RecurringTimeTransitionType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.RecurringTimeTransitionType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.RecurringTimeTransitionType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Month">
+      <MemberSignature Language="C#" Value="public int Month { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Month" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RecurringTimeTransitionType.Month" />
+      <MemberSignature Language="VB.NET" Value="Public Property Month As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Month { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.RecurringTimeTransitionType.Month" /> property gets or sets the month in which the time zone transition occurs.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.RecurringTimeTransitionType.Month" /> property is an integer that represents the month in which the time zone transition occurs.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeOffset">
+      <MemberSignature Language="C#" Value="public string TimeOffset { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TimeOffset" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RecurringTimeTransitionType.TimeOffset" />
+      <MemberSignature Language="VB.NET" Value="Public Property TimeOffset As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TimeOffset { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement(DataType="duration")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.RecurringTimeTransitionType.TimeOffset" /> property gets or sets the duration offset from the Coordinated Universal Time (UTC) for the time zone transition.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.RecurringTimeTransitionType.TimeOffset" /> property is a string that represents the offset from Coordinated Universal Time (UTC).</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

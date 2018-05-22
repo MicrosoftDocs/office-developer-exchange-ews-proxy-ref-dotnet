@@ -1,0 +1,120 @@
+﻿<Type Name="CalendarFolderType" FullName="ExchangeWebServices.CalendarFolderType">
+  <TypeSignature Language="C#" Value="public class CalendarFolderType : ExchangeWebServices.BaseFolderType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit CalendarFolderType extends ExchangeWebServices.BaseFolderType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CalendarFolderType" />
+  <TypeSignature Language="VB.NET" Value="Public Class CalendarFolderType&#xA;Inherits BaseFolderType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CalendarFolderType : ExchangeWebServices::BaseFolderType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseFolderType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.CalendarFolderType" /> class represents a folder that primarily contains calendar items.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CalendarFolderType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.CalendarFolderType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CalendarFolderType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.CalendarFolderType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.CalendarFolderType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PermissionSet">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.CalendarPermissionSetType PermissionSet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.CalendarPermissionSetType PermissionSet" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarFolderType.PermissionSet" />
+      <MemberSignature Language="VB.NET" Value="Public Property PermissionSet As CalendarPermissionSetType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::CalendarPermissionSetType ^ PermissionSet { ExchangeWebServices::CalendarPermissionSetType ^ get(); void set(ExchangeWebServices::CalendarPermissionSetType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarPermissionSetType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.CalendarFolderType.PermissionSet" /> property gets or sets a <see cref="T:ExchangeWebServices.PermissionSetType" /> object that represents all permissions that are configured for a given folder.</summary>
+        <value>The <see cref="P:ExchangeWebServices.CalendarFolderType.PermissionSet" /> property returns a <see cref="T:ExchangeWebServices.PermissionSetType" /> object that represents all permissions that are configured for a folder.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SharingEffectiveRights">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.CalendarPermissionReadAccessType SharingEffectiveRights { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.CalendarPermissionReadAccessType SharingEffectiveRights" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarFolderType.SharingEffectiveRights" />
+      <MemberSignature Language="VB.NET" Value="Public Property SharingEffectiveRights As CalendarPermissionReadAccessType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::CalendarPermissionReadAccessType SharingEffectiveRights { ExchangeWebServices::CalendarPermissionReadAccessType get(); void set(ExchangeWebServices::CalendarPermissionReadAccessType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarPermissionReadAccessType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.CalendarFolderType.SharingEffectiveRights" /> property gets or sets a <see cref="T:ExchangeWebServices.CalendarPermissionReadAccessType" /> object that represents the permissions that the client has for the calendar data that is being shared.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.CalendarFolderType.SharingEffectiveRights" /> property is a <see cref="T:ExchangeWebServices.CalendarPermissionReadAccessType" /> object.</value>
+        <remarks>
+          <para>You must set the <see cref="P:ExchangeWebServices.CalendarFolderType.SharingEffectiveRightsSpecified" /> property to <b>true</b> so that the <see cref="P:ExchangeWebServices.CalendarFolderType.SharingEffectiveRights" /> property is serialized into the SOAP request.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SharingEffectiveRightsSpecified">
+      <MemberSignature Language="C#" Value="public bool SharingEffectiveRightsSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SharingEffectiveRightsSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarFolderType.SharingEffectiveRightsSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property SharingEffectiveRightsSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SharingEffectiveRightsSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.CalendarFolderType.SharingEffectiveRightsSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.CalendarFolderType.SharingEffectiveRights" /> property is serialized into the SOAP request.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.CalendarFolderType.SharingEffectiveRightsSpecified" /> property is <b>true</b> if the <see cref="P:ExchangeWebServices.CalendarFolderType.SharingEffectiveRights" /> property is serialized into the SOAP request; otherwise, the value is <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

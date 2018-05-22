@@ -1,0 +1,116 @@
+﻿<Type Name="GroupByType" FullName="ExchangeWebServices.GroupByType">
+  <TypeSignature Language="C#" Value="public class GroupByType : ExchangeWebServices.BaseGroupByType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GroupByType extends ExchangeWebServices.BaseGroupByType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GroupByType" />
+  <TypeSignature Language="VB.NET" Value="Public Class GroupByType&#xA;Inherits BaseGroupByType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GroupByType : ExchangeWebServices::BaseGroupByType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseGroupByType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.GroupByType" /> class represents an arbitrary grouping for FindItem queries.</summary>
+    <remarks>
+      <para>The FindItem response will contain a collection of groups. Each group will contain all items that had matching values for the GroupBy property.</para>
+      <para>See the <see cref="T:ExchangeWebServices.FindItemType" /> topic for an example of a grouped query.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GroupByType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GroupByType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GroupByType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.GroupByType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.GroupByType" /> class.</summary>
+        <remarks>
+          <para>See the <see cref="T:ExchangeWebServices.FindItemType" /> topic for an example of a grouped query.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AggregateOn">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.AggregateOnType AggregateOn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.AggregateOnType AggregateOn" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GroupByType.AggregateOn" />
+      <MemberSignature Language="VB.NET" Value="Public Property AggregateOn As AggregateOnType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::AggregateOnType ^ AggregateOn { ExchangeWebServices::AggregateOnType ^ get(); void set(ExchangeWebServices::AggregateOnType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.AggregateOnType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GroupByType.AggregateOn" /> property gets or sets a field that is used to determine the order of groups in a response.</summary>
+        <value>The <see cref="P:ExchangeWebServices.GroupByType.AggregateOn" /> property returns an <see cref="T:ExchangeWebServices.AggregateOnType" /> object.</value>
+        <remarks>
+          <para>See the <see cref="T:ExchangeWebServices.FindItemType" /> topic for an example of a grouped query.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BasePathToElementType Item { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BasePathToElementType Item" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GroupByType.Item" />
+      <MemberSignature Language="VB.NET" Value="Public Property Item As BasePathToElementType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::BasePathToElementType ^ Item { ExchangeWebServices::BasePathToElementType ^ get(); void set(ExchangeWebServices::BasePathToElementType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("IndexedFieldURI", typeof(ExchangeWebServices.PathToIndexedFieldType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ExtendedFieldURI", typeof(ExchangeWebServices.PathToExtendedFieldType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("FieldURI", typeof(ExchangeWebServices.PathToUnindexedFieldType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BasePathToElementType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GroupByType.Item" /> property gets or sets a field that specifies the property that a FindItem query uses to group results.</summary>
+        <value>The <see cref="P:ExchangeWebServices.GroupByType.Item" /> property returns a <see cref="T:ExchangeWebServices.BasePathToElementType" /> object that represents either a <see cref="T:ExchangeWebServices.PathToUnindexedFieldType" />, <see cref="T:ExchangeWebServices.PathToIndexedFieldType" />, or <see cref="T:ExchangeWebServices.PathToExtendedFieldType" /> object.</value>
+        <remarks>
+          <para>See the <see cref="T:ExchangeWebServices.FindItemType" /> topic for an example of a grouped query.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

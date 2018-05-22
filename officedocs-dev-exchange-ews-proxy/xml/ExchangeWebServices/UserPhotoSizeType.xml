@@ -1,0 +1,199 @@
+﻿<Type Name="UserPhotoSizeType" FullName="ExchangeWebServices.UserPhotoSizeType">
+  <TypeSignature Language="C#" Value="public enum UserPhotoSizeType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed UserPhotoSizeType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.UserPhotoSizeType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum UserPhotoSizeType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class UserPhotoSizeType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="HR120x120">
+      <MemberSignature Language="C#" Value="HR120x120" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.UserPhotoSizeType HR120x120 = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.UserPhotoSizeType.HR120x120" />
+      <MemberSignature Language="VB.NET" Value="HR120x120" />
+      <MemberSignature Language="C++ CLI" Value="HR120x120" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UserPhotoSizeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="HR240x240">
+      <MemberSignature Language="C#" Value="HR240x240" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.UserPhotoSizeType HR240x240 = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.UserPhotoSizeType.HR240x240" />
+      <MemberSignature Language="VB.NET" Value="HR240x240" />
+      <MemberSignature Language="C++ CLI" Value="HR240x240" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UserPhotoSizeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="HR360x360">
+      <MemberSignature Language="C#" Value="HR360x360" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.UserPhotoSizeType HR360x360 = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.UserPhotoSizeType.HR360x360" />
+      <MemberSignature Language="VB.NET" Value="HR360x360" />
+      <MemberSignature Language="C++ CLI" Value="HR360x360" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UserPhotoSizeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="HR432x432">
+      <MemberSignature Language="C#" Value="HR432x432" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.UserPhotoSizeType HR432x432 = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.UserPhotoSizeType.HR432x432" />
+      <MemberSignature Language="VB.NET" Value="HR432x432" />
+      <MemberSignature Language="C++ CLI" Value="HR432x432" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UserPhotoSizeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="HR48x48">
+      <MemberSignature Language="C#" Value="HR48x48" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.UserPhotoSizeType HR48x48 = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.UserPhotoSizeType.HR48x48" />
+      <MemberSignature Language="VB.NET" Value="HR48x48" />
+      <MemberSignature Language="C++ CLI" Value="HR48x48" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UserPhotoSizeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="HR504x504">
+      <MemberSignature Language="C#" Value="HR504x504" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.UserPhotoSizeType HR504x504 = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.UserPhotoSizeType.HR504x504" />
+      <MemberSignature Language="VB.NET" Value="HR504x504" />
+      <MemberSignature Language="C++ CLI" Value="HR504x504" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UserPhotoSizeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="HR648x648">
+      <MemberSignature Language="C#" Value="HR648x648" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.UserPhotoSizeType HR648x648 = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.UserPhotoSizeType.HR648x648" />
+      <MemberSignature Language="VB.NET" Value="HR648x648" />
+      <MemberSignature Language="C++ CLI" Value="HR648x648" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UserPhotoSizeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="HR64x64">
+      <MemberSignature Language="C#" Value="HR64x64" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.UserPhotoSizeType HR64x64 = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.UserPhotoSizeType.HR64x64" />
+      <MemberSignature Language="VB.NET" Value="HR64x64" />
+      <MemberSignature Language="C++ CLI" Value="HR64x64" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UserPhotoSizeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="HR96x96">
+      <MemberSignature Language="C#" Value="HR96x96" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.UserPhotoSizeType HR96x96 = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.UserPhotoSizeType.HR96x96" />
+      <MemberSignature Language="VB.NET" Value="HR96x96" />
+      <MemberSignature Language="C++ CLI" Value="HR96x96" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UserPhotoSizeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

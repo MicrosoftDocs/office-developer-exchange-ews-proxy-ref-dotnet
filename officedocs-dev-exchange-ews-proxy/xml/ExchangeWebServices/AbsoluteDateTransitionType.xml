@@ -1,0 +1,72 @@
+﻿<Type Name="AbsoluteDateTransitionType" FullName="ExchangeWebServices.AbsoluteDateTransitionType">
+  <TypeSignature Language="C#" Value="public class AbsoluteDateTransitionType : ExchangeWebServices.TransitionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit AbsoluteDateTransitionType extends ExchangeWebServices.TransitionType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.AbsoluteDateTransitionType" />
+  <TypeSignature Language="VB.NET" Value="Public Class AbsoluteDateTransitionType&#xA;Inherits TransitionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AbsoluteDateTransitionType : ExchangeWebServices::TransitionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.TransitionType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.AbsoluteDateTransitionType" /> class represents a time zone transition that occurs on a specific date and at a specific time.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AbsoluteDateTransitionType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.AbsoluteDateTransitionType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AbsoluteDateTransitionType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.AbsoluteDateTransitionType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.AbsoluteDateTransitionType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTime">
+      <MemberSignature Language="C#" Value="public DateTime DateTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime DateTime" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AbsoluteDateTransitionType.DateTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property DateTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime DateTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.AbsoluteDateTransitionType.DateTime" /> property gets or sets the date and time at which the time zone transition occurs.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.AbsoluteDateTransitionType.DateTime" /> property is a DateTime that specifies the date and time at which the time zone transition occurs.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

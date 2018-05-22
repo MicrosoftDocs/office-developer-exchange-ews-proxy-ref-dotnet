@@ -1,0 +1,97 @@
+﻿<Type Name="GetUserAvailabilityResponseType" FullName="ExchangeWebServices.GetUserAvailabilityResponseType">
+  <TypeSignature Language="C#" Value="public class GetUserAvailabilityResponseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetUserAvailabilityResponseType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetUserAvailabilityResponseType" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetUserAvailabilityResponseType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetUserAvailabilityResponseType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.GetUserAvailabilityResponseType" /> class contains the objects and properties that define user availability information or suggested meeting time information.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetUserAvailabilityResponseType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetUserAvailabilityResponseType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetUserAvailabilityResponseType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.GetUserAvailabilityResponseType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.GetUserAvailabilityResponseType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FreeBusyResponseArray">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.FreeBusyResponseType[] FreeBusyResponseArray { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.FreeBusyResponseType[] FreeBusyResponseArray" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetUserAvailabilityResponseType.FreeBusyResponseArray" />
+      <MemberSignature Language="VB.NET" Value="Public Property FreeBusyResponseArray As FreeBusyResponseType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::FreeBusyResponseType ^&gt; ^ FreeBusyResponseArray { cli::array &lt;ExchangeWebServices::FreeBusyResponseType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::FreeBusyResponseType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("FreeBusyResponse", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FreeBusyResponseType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GetUserAvailabilityResponseType.FreeBusyResponseArray" /> property gets or sets the requested users' availability information and the response status.</summary>
+        <value>The <see cref="P:ExchangeWebServices.GetUserAvailabilityResponseType.FreeBusyResponseArray" /> property returns an array of FreeBusyResponseType objects that contains the requested user availablity information and the response status.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuggestionsResponse">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SuggestionsResponseType SuggestionsResponse { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.SuggestionsResponseType SuggestionsResponse" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetUserAvailabilityResponseType.SuggestionsResponse" />
+      <MemberSignature Language="VB.NET" Value="Public Property SuggestionsResponse As SuggestionsResponseType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SuggestionsResponseType ^ SuggestionsResponse { ExchangeWebServices::SuggestionsResponseType ^ get(); void set(ExchangeWebServices::SuggestionsResponseType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SuggestionsResponseType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GetUserAvailabilityResponseType.SuggestionsResponse" /> property gets or sets suggestion data for requested meeting suggestions and the response status.</summary>
+        <value>The <see cref="P:ExchangeWebServices.GetUserAvailabilityResponseType.SuggestionsResponse" /> property returns one of the <see cref="T:ExchangeWebServices.SuggestionsResponseType" /> enumeration values.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

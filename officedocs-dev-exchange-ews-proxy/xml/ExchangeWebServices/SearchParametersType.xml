@@ -1,0 +1,157 @@
+﻿<Type Name="SearchParametersType" FullName="ExchangeWebServices.SearchParametersType">
+  <TypeSignature Language="C#" Value="public class SearchParametersType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SearchParametersType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SearchParametersType" />
+  <TypeSignature Language="VB.NET" Value="Public Class SearchParametersType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SearchParametersType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.SearchParametersType" /> class contains the parameters that define a search folder.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchParametersType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.SearchParametersType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchParametersType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.SearchParametersType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.SearchParametersType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BaseFolderIds">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BaseFolderIdType[] BaseFolderIds { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BaseFolderIdType[] BaseFolderIds" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchParametersType.BaseFolderIds" />
+      <MemberSignature Language="VB.NET" Value="Public Property BaseFolderIds As BaseFolderIdType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ BaseFolderIds { cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("DistinguishedFolderId", typeof(ExchangeWebServices.DistinguishedFolderIdType), IsNullable=false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("FolderId", typeof(ExchangeWebServices.FolderIdType), IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BaseFolderIdType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.SearchParametersType.BaseFolderIds" /> property gets or sets an array of folder identifiers that identify which folders are searched.</summary>
+        <value>The <see cref="P:ExchangeWebServices.SearchParametersType.BaseFolderIds" /> property returns an array of <see cref="T:ExchangeWebServices.BaseFolderIdType" /> objects that identify the folders that are searched by a search folder. </value>
+        <remarks>
+          <para>The <see cref="P:ExchangeWebServices.SearchParametersType.BaseFolderIds" /> property can contain either <see cref="T:ExchangeWebServices.DistinguishedFolderIdType" /> or <see cref="T:ExchangeWebServices.FolderIdType" /> objects.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Restriction">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.RestrictionType Restriction { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.RestrictionType Restriction" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchParametersType.Restriction" />
+      <MemberSignature Language="VB.NET" Value="Public Property Restriction As RestrictionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::RestrictionType ^ Restriction { ExchangeWebServices::RestrictionType ^ get(); void set(ExchangeWebServices::RestrictionType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RestrictionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.SearchParametersType.Restriction" /> property gets or sets the query that defines the contents of a search folder.</summary>
+        <value>The <see cref="P:ExchangeWebServices.SearchParametersType.Restriction" /> property returns a <see cref="T:ExchangeWebServices.RestrictionType" /> object that contains the restriction that is  used to filter the results for a search folder.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Traversal">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SearchFolderTraversalType Traversal { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.SearchFolderTraversalType Traversal" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchParametersType.Traversal" />
+      <MemberSignature Language="VB.NET" Value="Public Property Traversal As SearchFolderTraversalType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SearchFolderTraversalType Traversal { ExchangeWebServices::SearchFolderTraversalType get(); void set(ExchangeWebServices::SearchFolderTraversalType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SearchFolderTraversalType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.SearchParametersType.Traversal" /> property gets or sets the depth of a search folder traversal.</summary>
+        <value>The <see cref="P:ExchangeWebServices.SearchParametersType.Traversal" /> property returns a <see cref="T:ExchangeWebServices.SearchFolderTraversalType" /> enumeration that specifies the depth of a search folder traversal.</value>
+        <remarks>
+          <para>Search folder traversal can be either <b>Deep</b> or <b>Shallow</b>.</para>
+          <para>You must set the <see cref="P:ExchangeWebServices.SearchParametersType.TraversalSpecified" /> property to <b>true</b> so that the <see cref="P:ExchangeWebServices.SearchParametersType.Traversal" /> property is serialized into the SOAP message.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TraversalSpecified">
+      <MemberSignature Language="C#" Value="public bool TraversalSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TraversalSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchParametersType.TraversalSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property TraversalSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TraversalSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.SearchParametersType.TraversalSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.SearchParametersType.Traversal" /> property is serialized into the SOAP message.</summary>
+        <value>The <see cref="P:ExchangeWebServices.SearchParametersType.TraversalSpecified" /> property returns a value of <b>true</b> if the <see cref="P:ExchangeWebServices.SearchParametersType.Traversal" /> property is serialized into the SOAP message; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

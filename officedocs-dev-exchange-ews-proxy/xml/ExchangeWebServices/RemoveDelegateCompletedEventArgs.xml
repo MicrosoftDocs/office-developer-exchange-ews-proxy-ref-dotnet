@@ -1,0 +1,52 @@
+﻿<Type Name="RemoveDelegateCompletedEventArgs" FullName="ExchangeWebServices.RemoveDelegateCompletedEventArgs">
+  <TypeSignature Language="C#" Value="public class RemoveDelegateCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RemoveDelegateCompletedEventArgs extends System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.RemoveDelegateCompletedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class RemoveDelegateCompletedEventArgs&#xA;Inherits AsyncCompletedEventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RemoveDelegateCompletedEventArgs : System::ComponentModel::AsyncCompletedEventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ComponentModel.AsyncCompletedEventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.RemoveDelegateCompletedEventArgs" /> class provides data for the <see cref="E:ExchangeWebServices.ExchangeServiceBinding.RemoveDelegateCompleted" /> event.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Result">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.RemoveDelegateResponseMessageType Result { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.RemoveDelegateResponseMessageType Result" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RemoveDelegateCompletedEventArgs.Result" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As RemoveDelegateResponseMessageType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::RemoveDelegateResponseMessageType ^ Result { ExchangeWebServices::RemoveDelegateResponseMessageType ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RemoveDelegateResponseMessageType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.RemoveDelegateCompletedEventArgs.Result" /> property gets the response from the asynchronous call to the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.RemoveDelegateAsync(ExchangeWebServices.RemoveDelegateType)" /> method.</summary>
+        <value>The <see cref="P:ExchangeWebServices.RemoveDelegateCompletedEventArgs.Result" /> property returns a <see cref="T:ExchangeWebServices.RemoveDelegateResponseMessageType" /> object that contains the results of the asynchronous call to the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.GetDelegateAsync(ExchangeWebServices.GetDelegateType)" /> method.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

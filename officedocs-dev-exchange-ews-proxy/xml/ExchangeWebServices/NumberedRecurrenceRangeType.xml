@@ -1,0 +1,72 @@
+﻿<Type Name="NumberedRecurrenceRangeType" FullName="ExchangeWebServices.NumberedRecurrenceRangeType">
+  <TypeSignature Language="C#" Value="public class NumberedRecurrenceRangeType : ExchangeWebServices.RecurrenceRangeBaseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit NumberedRecurrenceRangeType extends ExchangeWebServices.RecurrenceRangeBaseType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.NumberedRecurrenceRangeType" />
+  <TypeSignature Language="VB.NET" Value="Public Class NumberedRecurrenceRangeType&#xA;Inherits RecurrenceRangeBaseType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NumberedRecurrenceRangeType : ExchangeWebServices::RecurrenceRangeBaseType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.RecurrenceRangeBaseType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.NumberedRecurrenceRangeType" /> class describes the start date and number of occurrences of a recurring item.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public NumberedRecurrenceRangeType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.NumberedRecurrenceRangeType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; NumberedRecurrenceRangeType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.NumberedRecurrenceRangeType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.NumberedRecurrenceRangeType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfOccurrences">
+      <MemberSignature Language="C#" Value="public int NumberOfOccurrences { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfOccurrences" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.NumberedRecurrenceRangeType.NumberOfOccurrences" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumberOfOccurrences As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NumberOfOccurrences { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.NumberedRecurrenceRangeType.NumberOfOccurrences" /> property gets or sets the number of occurrences of a recurring item.</summary>
+        <value>The <see cref="P:ExchangeWebServices.NumberedRecurrenceRangeType.NumberOfOccurrences" /> property returns the number of occurrences of a recurring item.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

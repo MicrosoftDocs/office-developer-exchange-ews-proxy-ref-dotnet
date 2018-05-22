@@ -1,0 +1,164 @@
+﻿<Type Name="NotificationEventTypeType" FullName="ExchangeWebServices.NotificationEventTypeType">
+  <TypeSignature Language="C#" Value="public enum NotificationEventTypeType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed NotificationEventTypeType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.NotificationEventTypeType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum NotificationEventTypeType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class NotificationEventTypeType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.NotificationEventTypeType" /> enumeration identifies the event types that are reported in a notification.</summary>
+    <remarks>
+      <para>The <see cref="T:ExchangeWebServices.NotificationEventTypeType" /> enumeration identifies the event types that are subscribed to for push and pull notifications.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CopiedEvent">
+      <MemberSignature Language="C#" Value="CopiedEvent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.NotificationEventTypeType CopiedEvent = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.NotificationEventTypeType.CopiedEvent" />
+      <MemberSignature Language="VB.NET" Value="CopiedEvent" />
+      <MemberSignature Language="C++ CLI" Value="CopiedEvent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.NotificationEventTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Identifies the notification as a copied event.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CreatedEvent">
+      <MemberSignature Language="C#" Value="CreatedEvent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.NotificationEventTypeType CreatedEvent = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.NotificationEventTypeType.CreatedEvent" />
+      <MemberSignature Language="VB.NET" Value="CreatedEvent" />
+      <MemberSignature Language="C++ CLI" Value="CreatedEvent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.NotificationEventTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Identifies the notification as a created event.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DeletedEvent">
+      <MemberSignature Language="C#" Value="DeletedEvent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.NotificationEventTypeType DeletedEvent = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.NotificationEventTypeType.DeletedEvent" />
+      <MemberSignature Language="VB.NET" Value="DeletedEvent" />
+      <MemberSignature Language="C++ CLI" Value="DeletedEvent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.NotificationEventTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Identifies the notification as a deleted event.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FreeBusyChangedEvent">
+      <MemberSignature Language="C#" Value="FreeBusyChangedEvent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.NotificationEventTypeType FreeBusyChangedEvent = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.NotificationEventTypeType.FreeBusyChangedEvent" />
+      <MemberSignature Language="VB.NET" Value="FreeBusyChangedEvent" />
+      <MemberSignature Language="C++ CLI" Value="FreeBusyChangedEvent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.NotificationEventTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>Identifies the notification as a free busy changed event.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ModifiedEvent">
+      <MemberSignature Language="C#" Value="ModifiedEvent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.NotificationEventTypeType ModifiedEvent = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.NotificationEventTypeType.ModifiedEvent" />
+      <MemberSignature Language="VB.NET" Value="ModifiedEvent" />
+      <MemberSignature Language="C++ CLI" Value="ModifiedEvent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.NotificationEventTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Identifies the notification as a modified event.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MovedEvent">
+      <MemberSignature Language="C#" Value="MovedEvent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.NotificationEventTypeType MovedEvent = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.NotificationEventTypeType.MovedEvent" />
+      <MemberSignature Language="VB.NET" Value="MovedEvent" />
+      <MemberSignature Language="C++ CLI" Value="MovedEvent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.NotificationEventTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Identifies the notification as a moved event.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NewMailEvent">
+      <MemberSignature Language="C#" Value="NewMailEvent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.NotificationEventTypeType NewMailEvent = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.NotificationEventTypeType.NewMailEvent" />
+      <MemberSignature Language="VB.NET" Value="NewMailEvent" />
+      <MemberSignature Language="C++ CLI" Value="NewMailEvent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.NotificationEventTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Identifies the notification as a new mail event.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,110 @@
+﻿<Type Name="DeclineItemType" FullName="ExchangeWebServices.DeclineItemType">
+  <TypeSignature Language="C#" Value="public class DeclineItemType : ExchangeWebServices.WellKnownResponseObjectType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit DeclineItemType extends ExchangeWebServices.WellKnownResponseObjectType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DeclineItemType" />
+  <TypeSignature Language="VB.NET" Value="Public Class DeclineItemType&#xA;Inherits WellKnownResponseObjectType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DeclineItemType : ExchangeWebServices::WellKnownResponseObjectType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.WellKnownResponseObjectType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.DeclineItemType" /> class represents a decline item response object that is used to reply to a meeting request or calendar item.</summary>
+    <remarks>
+      <para>To decline a meeting request or calendar item, you must follow these steps:</para>
+      <list type="number">
+        <item>
+          <description>Find the meeting request or calendar item by using a FindItem operation.</description>
+        </item>
+        <item>
+          <description>Get the item identifier of the meeting request or calendar item.</description>
+        </item>
+        <item>
+          <description>Pass the item identifier of the meeting request or calendar item to the ReferenceItemId property of the <see cref="T:ExchangeWebServices.DeclineItemType" />.</description>
+        </item>
+        <item>
+          <description>Call the CreateItem operation by using the <see cref="T:ExchangeWebServices.DeclineItemType" /> response object type to decline the meeting request or calendar item.</description>
+        </item>
+      </list>
+      <para>
+        <b>Note</b>: A user cannot decline a meeting request or calendar item for which the user is the organizer.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>The following example shows you how to decline a meeting request. The item identifier of the meeting request is used in the <see cref="P:ExchangeWebServices.ResponseObjectCoreType.ReferenceItemId" /> property.</para>
+      <code>static void DeclineItem(ExchangeServiceBinding esb)
+{
+    // Create the request.
+    CreateItemType &lt;span class="label"&gt;request&lt;/span&gt; = new CreateItemType();
+
+    // Set the message disposition on the request.
+    &lt;span class="label"&gt;request&lt;/span&gt;.MessageDisposition = MessageDispositionType.SendAndSaveCopy;
+    &lt;span class="label"&gt;request&lt;/span&gt;.MessageDispositionSpecified = true;
+
+    // Create the DeclineItem response object.
+    DeclineItemType declineItem = new DeclineItemType();
+
+    // Identify the meeting request to decline.
+    declineItem.ReferenceItemId = new ItemIdType();
+    declineItem.ReferenceItemId.Id = "AAArAG1z";
+
+    // Add the DeclineItem response object to the request.
+    &lt;span class="label"&gt;request&lt;/span&gt;.Items = new NonEmptyArrayOfAllItemsType();
+    &lt;span class="label"&gt;request&lt;/span&gt;.Items.Items = new ItemType[1];
+    &lt;span class="label"&gt;request&lt;/span&gt;.Items.Items[0] = declineItem;
+
+    // Send the request and get the response.
+    CreateItemResponseType response = esb.CreateItem(&lt;span class="label"&gt;request&lt;/span&gt;);
+
+    ArrayOfResponseMessagesType aormt = response.ResponseMessages;
+    ResponseMessageType[] rmta = aormt.Items;
+
+    foreach (ResponseMessageType rmt in rmta)
+    {
+        ItemInfoResponseMessageType iirmt = (rmt as ItemInfoResponseMessageType);
+        if (iirmt.ResponseClass == ResponseClassType.Success)
+        {
+            Console.WriteLine("Successfully declined meeting");
+        }
+    }
+}</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DeclineItemType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.DeclineItemType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DeclineItemType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.DeclineItemType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.DeclineItemType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

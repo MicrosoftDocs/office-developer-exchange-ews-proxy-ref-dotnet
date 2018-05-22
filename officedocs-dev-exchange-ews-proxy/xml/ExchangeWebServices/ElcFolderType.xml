@@ -1,0 +1,389 @@
+﻿<Type Name="ElcFolderType" FullName="ExchangeWebServices.ElcFolderType">
+  <TypeSignature Language="C#" Value="public enum ElcFolderType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed ElcFolderType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ElcFolderType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ElcFolderType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ElcFolderType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="All">
+      <MemberSignature Language="C#" Value="All" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ElcFolderType All = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ElcFolderType.All" />
+      <MemberSignature Language="VB.NET" Value="All" />
+      <MemberSignature Language="C++ CLI" Value="All" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Calendar">
+      <MemberSignature Language="C#" Value="Calendar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ElcFolderType Calendar = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ElcFolderType.Calendar" />
+      <MemberSignature Language="VB.NET" Value="Calendar" />
+      <MemberSignature Language="C++ CLI" Value="Calendar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Contacts">
+      <MemberSignature Language="C#" Value="Contacts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ElcFolderType Contacts = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ElcFolderType.Contacts" />
+      <MemberSignature Language="VB.NET" Value="Contacts" />
+      <MemberSignature Language="C++ CLI" Value="Contacts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationHistory">
+      <MemberSignature Language="C#" Value="ConversationHistory" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ElcFolderType ConversationHistory = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ElcFolderType.ConversationHistory" />
+      <MemberSignature Language="VB.NET" Value="ConversationHistory" />
+      <MemberSignature Language="C++ CLI" Value="ConversationHistory" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="DeletedItems">
+      <MemberSignature Language="C#" Value="DeletedItems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ElcFolderType DeletedItems = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ElcFolderType.DeletedItems" />
+      <MemberSignature Language="VB.NET" Value="DeletedItems" />
+      <MemberSignature Language="C++ CLI" Value="DeletedItems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Drafts">
+      <MemberSignature Language="C#" Value="Drafts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ElcFolderType Drafts = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ElcFolderType.Drafts" />
+      <MemberSignature Language="VB.NET" Value="Drafts" />
+      <MemberSignature Language="C++ CLI" Value="Drafts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Inbox">
+      <MemberSignature Language="C#" Value="Inbox" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ElcFolderType Inbox = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ElcFolderType.Inbox" />
+      <MemberSignature Language="VB.NET" Value="Inbox" />
+      <MemberSignature Language="C++ CLI" Value="Inbox" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Journal">
+      <MemberSignature Language="C#" Value="Journal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ElcFolderType Journal = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ElcFolderType.Journal" />
+      <MemberSignature Language="VB.NET" Value="Journal" />
+      <MemberSignature Language="C++ CLI" Value="Journal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="JunkEmail">
+      <MemberSignature Language="C#" Value="JunkEmail" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ElcFolderType JunkEmail = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ElcFolderType.JunkEmail" />
+      <MemberSignature Language="VB.NET" Value="JunkEmail" />
+      <MemberSignature Language="C++ CLI" Value="JunkEmail" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ManagedCustomFolder">
+      <MemberSignature Language="C#" Value="ManagedCustomFolder" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ElcFolderType ManagedCustomFolder = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ElcFolderType.ManagedCustomFolder" />
+      <MemberSignature Language="VB.NET" Value="ManagedCustomFolder" />
+      <MemberSignature Language="C++ CLI" Value="ManagedCustomFolder" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="NonIpmRoot">
+      <MemberSignature Language="C#" Value="NonIpmRoot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ElcFolderType NonIpmRoot = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ElcFolderType.NonIpmRoot" />
+      <MemberSignature Language="VB.NET" Value="NonIpmRoot" />
+      <MemberSignature Language="C++ CLI" Value="NonIpmRoot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Notes">
+      <MemberSignature Language="C#" Value="Notes" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ElcFolderType Notes = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ElcFolderType.Notes" />
+      <MemberSignature Language="VB.NET" Value="Notes" />
+      <MemberSignature Language="C++ CLI" Value="Notes" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Outbox">
+      <MemberSignature Language="C#" Value="Outbox" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ElcFolderType Outbox = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ElcFolderType.Outbox" />
+      <MemberSignature Language="VB.NET" Value="Outbox" />
+      <MemberSignature Language="C++ CLI" Value="Outbox" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Personal">
+      <MemberSignature Language="C#" Value="Personal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ElcFolderType Personal = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ElcFolderType.Personal" />
+      <MemberSignature Language="VB.NET" Value="Personal" />
+      <MemberSignature Language="C++ CLI" Value="Personal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="RecoverableItems">
+      <MemberSignature Language="C#" Value="RecoverableItems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ElcFolderType RecoverableItems = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ElcFolderType.RecoverableItems" />
+      <MemberSignature Language="VB.NET" Value="RecoverableItems" />
+      <MemberSignature Language="C++ CLI" Value="RecoverableItems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="RssSubscriptions">
+      <MemberSignature Language="C#" Value="RssSubscriptions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ElcFolderType RssSubscriptions = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ElcFolderType.RssSubscriptions" />
+      <MemberSignature Language="VB.NET" Value="RssSubscriptions" />
+      <MemberSignature Language="C++ CLI" Value="RssSubscriptions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="SentItems">
+      <MemberSignature Language="C#" Value="SentItems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ElcFolderType SentItems = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ElcFolderType.SentItems" />
+      <MemberSignature Language="VB.NET" Value="SentItems" />
+      <MemberSignature Language="C++ CLI" Value="SentItems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="SyncIssues">
+      <MemberSignature Language="C#" Value="SyncIssues" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ElcFolderType SyncIssues = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ElcFolderType.SyncIssues" />
+      <MemberSignature Language="VB.NET" Value="SyncIssues" />
+      <MemberSignature Language="C++ CLI" Value="SyncIssues" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Tasks">
+      <MemberSignature Language="C#" Value="Tasks" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ElcFolderType Tasks = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ElcFolderType.Tasks" />
+      <MemberSignature Language="VB.NET" Value="Tasks" />
+      <MemberSignature Language="C++ CLI" Value="Tasks" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

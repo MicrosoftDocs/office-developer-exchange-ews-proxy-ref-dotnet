@@ -1,0 +1,145 @@
+﻿<Type Name="TaskDelegateStateType" FullName="ExchangeWebServices.TaskDelegateStateType">
+  <TypeSignature Language="C#" Value="public enum TaskDelegateStateType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed TaskDelegateStateType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.TaskDelegateStateType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum TaskDelegateStateType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class TaskDelegateStateType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.TaskDelegateStateType" /> enumeration represents the status types of a delegated task. This enumeration is never set.</summary>
+    <remarks>
+      <para>This enumeration is used by the <see cref="P:ExchangeWebServices.TaskType.DelegationState" /> property of the <see cref="T:ExchangeWebServices.TaskType" /> object. The mapping for this property is incorrect. This information should come from MAPI property 0x8113, but instead the information comes from MAPI property 0x812A. These properties are the same except that property 0x812A does not include a <see cref="F:ExchangeWebServices.TaskDelegateStateType.Owned" /> value, which means that the enumeration values are shifted forward. The following is the order of the enumeration values: NoMatch, OwnNew, Owned, Accepted, Declined, and Max. Because this enumeration contains errors, we recommend that you use MAPI property 0x8113 to get the task delegation state.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Accepted">
+      <MemberSignature Language="C#" Value="Accepted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TaskDelegateStateType Accepted = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TaskDelegateStateType.Accepted" />
+      <MemberSignature Language="VB.NET" Value="Accepted" />
+      <MemberSignature Language="C++ CLI" Value="Accepted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TaskDelegateStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Specifies that the task has been declined.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Declined">
+      <MemberSignature Language="C#" Value="Declined" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TaskDelegateStateType Declined = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TaskDelegateStateType.Declined" />
+      <MemberSignature Language="VB.NET" Value="Declined" />
+      <MemberSignature Language="C++ CLI" Value="Declined" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TaskDelegateStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Not used.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Max">
+      <MemberSignature Language="C#" Value="Max" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TaskDelegateStateType Max = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TaskDelegateStateType.Max" />
+      <MemberSignature Language="VB.NET" Value="Max" />
+      <MemberSignature Language="C++ CLI" Value="Max" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TaskDelegateStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Not used.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NoMatch">
+      <MemberSignature Language="C#" Value="NoMatch" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TaskDelegateStateType NoMatch = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TaskDelegateStateType.NoMatch" />
+      <MemberSignature Language="VB.NET" Value="NoMatch" />
+      <MemberSignature Language="C++ CLI" Value="NoMatch" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TaskDelegateStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Specifies that this is not a delegated task or that the task request has been created but not sent. This is also used for a task request message, whether in the owner’s Sent Items folder or the delegate’s Inbox.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Owned">
+      <MemberSignature Language="C#" Value="Owned" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TaskDelegateStateType Owned = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TaskDelegateStateType.Owned" />
+      <MemberSignature Language="VB.NET" Value="Owned" />
+      <MemberSignature Language="C++ CLI" Value="Owned" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TaskDelegateStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Specifies that a task has been accepted. This value should not be in the enumeration.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OwnNew">
+      <MemberSignature Language="C#" Value="OwnNew" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TaskDelegateStateType OwnNew = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TaskDelegateStateType.OwnNew" />
+      <MemberSignature Language="VB.NET" Value="OwnNew" />
+      <MemberSignature Language="C++ CLI" Value="OwnNew" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TaskDelegateStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Specifies that this is a new task request that has been sent, but the delegate has not yet responded to the task.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

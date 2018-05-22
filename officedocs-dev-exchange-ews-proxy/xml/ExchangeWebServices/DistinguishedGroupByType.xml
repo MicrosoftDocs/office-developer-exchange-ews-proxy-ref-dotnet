@@ -1,0 +1,72 @@
+﻿<Type Name="DistinguishedGroupByType" FullName="ExchangeWebServices.DistinguishedGroupByType">
+  <TypeSignature Language="C#" Value="public class DistinguishedGroupByType : ExchangeWebServices.BaseGroupByType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit DistinguishedGroupByType extends ExchangeWebServices.BaseGroupByType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DistinguishedGroupByType" />
+  <TypeSignature Language="VB.NET" Value="Public Class DistinguishedGroupByType&#xA;Inherits BaseGroupByType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DistinguishedGroupByType : ExchangeWebServices::BaseGroupByType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseGroupByType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.DistinguishedGroupByType" /> class represents a standard grouping for FindItem queries.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DistinguishedGroupByType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.DistinguishedGroupByType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DistinguishedGroupByType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.DistinguishedGroupByType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.DistinguishedGroupByType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StandardGroupBy">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StandardGroupByType StandardGroupBy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.StandardGroupByType StandardGroupBy" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DistinguishedGroupByType.StandardGroupBy" />
+      <MemberSignature Language="VB.NET" Value="Public Property StandardGroupBy As StandardGroupByType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::StandardGroupByType StandardGroupBy { ExchangeWebServices::StandardGroupByType get(); void set(ExchangeWebServices::StandardGroupByType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StandardGroupByType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.DistinguishedGroupByType.StandardGroupBy" /> property gets or sets the standard property that is used for a grouped query.</summary>
+        <value>The <see cref="P:ExchangeWebServices.DistinguishedGroupByType.StandardGroupBy" /> property returns a <see cref="T:ExchangeWebServices.StandardGroupByType" /> enumeration.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

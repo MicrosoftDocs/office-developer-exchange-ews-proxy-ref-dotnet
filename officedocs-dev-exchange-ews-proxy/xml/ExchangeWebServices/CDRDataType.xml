@@ -1,0 +1,552 @@
+﻿<Type Name="CDRDataType" FullName="ExchangeWebServices.CDRDataType">
+  <TypeSignature Language="C#" Value="public class CDRDataType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit CDRDataType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CDRDataType" />
+  <TypeSignature Language="VB.NET" Value="Public Class CDRDataType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CDRDataType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CDRDataType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.CDRDataType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CDRDataType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AudioQualityMetrics">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.AudioQualityType AudioQualityMetrics { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.AudioQualityType AudioQualityMetrics" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CDRDataType.AudioQualityMetrics" />
+      <MemberSignature Language="VB.NET" Value="Public Property AudioQualityMetrics As AudioQualityType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::AudioQualityType ^ AudioQualityMetrics { ExchangeWebServices::AudioQualityType ^ get(); void set(ExchangeWebServices::AudioQualityType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.AudioQualityType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoAttendantName">
+      <MemberSignature Language="C#" Value="public string AutoAttendantName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AutoAttendantName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CDRDataType.AutoAttendantName" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoAttendantName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AutoAttendantName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallDuration">
+      <MemberSignature Language="C#" Value="public int CallDuration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 CallDuration" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CDRDataType.CallDuration" />
+      <MemberSignature Language="VB.NET" Value="Public Property CallDuration As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CallDuration { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CalledPhoneNumber">
+      <MemberSignature Language="C#" Value="public string CalledPhoneNumber { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CalledPhoneNumber" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CDRDataType.CalledPhoneNumber" />
+      <MemberSignature Language="VB.NET" Value="Public Property CalledPhoneNumber As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CalledPhoneNumber { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CalleeLegacyExchangeDN">
+      <MemberSignature Language="C#" Value="public string CalleeLegacyExchangeDN { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CalleeLegacyExchangeDN" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CDRDataType.CalleeLegacyExchangeDN" />
+      <MemberSignature Language="VB.NET" Value="Public Property CalleeLegacyExchangeDN As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CalleeLegacyExchangeDN { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CalleeMailboxAlias">
+      <MemberSignature Language="C#" Value="public string CalleeMailboxAlias { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CalleeMailboxAlias" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CDRDataType.CalleeMailboxAlias" />
+      <MemberSignature Language="VB.NET" Value="Public Property CalleeMailboxAlias As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CalleeMailboxAlias { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallerLegacyExchangeDN">
+      <MemberSignature Language="C#" Value="public string CallerLegacyExchangeDN { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CallerLegacyExchangeDN" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CDRDataType.CallerLegacyExchangeDN" />
+      <MemberSignature Language="VB.NET" Value="Public Property CallerLegacyExchangeDN As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CallerLegacyExchangeDN { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallerMailboxAlias">
+      <MemberSignature Language="C#" Value="public string CallerMailboxAlias { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CallerMailboxAlias" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CDRDataType.CallerMailboxAlias" />
+      <MemberSignature Language="VB.NET" Value="Public Property CallerMailboxAlias As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CallerMailboxAlias { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallerPhoneNumber">
+      <MemberSignature Language="C#" Value="public string CallerPhoneNumber { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CallerPhoneNumber" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CDRDataType.CallerPhoneNumber" />
+      <MemberSignature Language="VB.NET" Value="Public Property CallerPhoneNumber As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CallerPhoneNumber { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallIdentity">
+      <MemberSignature Language="C#" Value="public string CallIdentity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CallIdentity" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CDRDataType.CallIdentity" />
+      <MemberSignature Language="VB.NET" Value="Public Property CallIdentity As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CallIdentity { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallStartTime">
+      <MemberSignature Language="C#" Value="public DateTime CallStartTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime CallStartTime" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CDRDataType.CallStartTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property CallStartTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime CallStartTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallType">
+      <MemberSignature Language="C#" Value="public string CallType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CallType" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CDRDataType.CallType" />
+      <MemberSignature Language="VB.NET" Value="Public Property CallType As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CallType { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreationTime">
+      <MemberSignature Language="C#" Value="public DateTime CreationTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime CreationTime" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CDRDataType.CreationTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property CreationTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime CreationTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DialedString">
+      <MemberSignature Language="C#" Value="public string DialedString { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DialedString" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CDRDataType.DialedString" />
+      <MemberSignature Language="VB.NET" Value="Public Property DialedString As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DialedString { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DialPlanGuid">
+      <MemberSignature Language="C#" Value="public string DialPlanGuid { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DialPlanGuid" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CDRDataType.DialPlanGuid" />
+      <MemberSignature Language="VB.NET" Value="Public Property DialPlanGuid As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DialPlanGuid { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DialPlanName">
+      <MemberSignature Language="C#" Value="public string DialPlanName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DialPlanName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CDRDataType.DialPlanName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DialPlanName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DialPlanName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DropCallReason">
+      <MemberSignature Language="C#" Value="public string DropCallReason { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DropCallReason" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CDRDataType.DropCallReason" />
+      <MemberSignature Language="VB.NET" Value="Public Property DropCallReason As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DropCallReason { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GatewayGuid">
+      <MemberSignature Language="C#" Value="public string GatewayGuid { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string GatewayGuid" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CDRDataType.GatewayGuid" />
+      <MemberSignature Language="VB.NET" Value="Public Property GatewayGuid As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ GatewayGuid { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IPGatewayAddress">
+      <MemberSignature Language="C#" Value="public string IPGatewayAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string IPGatewayAddress" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CDRDataType.IPGatewayAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property IPGatewayAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ IPGatewayAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IPGatewayName">
+      <MemberSignature Language="C#" Value="public string IPGatewayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string IPGatewayName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CDRDataType.IPGatewayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property IPGatewayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ IPGatewayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OfferResult">
+      <MemberSignature Language="C#" Value="public string OfferResult { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OfferResult" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CDRDataType.OfferResult" />
+      <MemberSignature Language="VB.NET" Value="Public Property OfferResult As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ OfferResult { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentCallIdentity">
+      <MemberSignature Language="C#" Value="public string ParentCallIdentity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ParentCallIdentity" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CDRDataType.ParentCallIdentity" />
+      <MemberSignature Language="VB.NET" Value="Public Property ParentCallIdentity As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ParentCallIdentity { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReasonForCall">
+      <MemberSignature Language="C#" Value="public string ReasonForCall { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ReasonForCall" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CDRDataType.ReasonForCall" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReasonForCall As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ReasonForCall { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TransferredNumber">
+      <MemberSignature Language="C#" Value="public string TransferredNumber { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TransferredNumber" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CDRDataType.TransferredNumber" />
+      <MemberSignature Language="VB.NET" Value="Public Property TransferredNumber As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TransferredNumber { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UMServerName">
+      <MemberSignature Language="C#" Value="public string UMServerName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UMServerName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CDRDataType.UMServerName" />
+      <MemberSignature Language="VB.NET" Value="Public Property UMServerName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ UMServerName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

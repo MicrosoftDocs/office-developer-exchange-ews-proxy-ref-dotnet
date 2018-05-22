@@ -1,0 +1,66 @@
+﻿<Type Name="SearchResultType" FullName="ExchangeWebServices.SearchResultType">
+  <TypeSignature Language="C#" Value="public enum SearchResultType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed SearchResultType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SearchResultType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SearchResultType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SearchResultType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="PreviewOnly">
+      <MemberSignature Language="C#" Value="PreviewOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SearchResultType PreviewOnly = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SearchResultType.PreviewOnly" />
+      <MemberSignature Language="VB.NET" Value="PreviewOnly" />
+      <MemberSignature Language="C++ CLI" Value="PreviewOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SearchResultType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="StatisticsOnly">
+      <MemberSignature Language="C#" Value="StatisticsOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SearchResultType StatisticsOnly = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SearchResultType.StatisticsOnly" />
+      <MemberSignature Language="VB.NET" Value="StatisticsOnly" />
+      <MemberSignature Language="C++ CLI" Value="StatisticsOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SearchResultType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

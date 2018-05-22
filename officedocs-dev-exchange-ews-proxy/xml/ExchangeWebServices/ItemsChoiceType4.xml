@@ -1,0 +1,1320 @@
+﻿<Type Name="ItemsChoiceType4" FullName="ExchangeWebServices.ItemsChoiceType4">
+  <TypeSignature Language="C#" Value="public enum ItemsChoiceType4" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed ItemsChoiceType4 extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ItemsChoiceType4" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ItemsChoiceType4" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ItemsChoiceType4" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(IncludeInSchema=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ApplyConversationActionResponseMessage">
+      <MemberSignature Language="C#" Value="ApplyConversationActionResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 ApplyConversationActionResponseMessage = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.ApplyConversationActionResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="ApplyConversationActionResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="ApplyConversationActionResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ArchiveItemResponseMessage">
+      <MemberSignature Language="C#" Value="ArchiveItemResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 ArchiveItemResponseMessage = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.ArchiveItemResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="ArchiveItemResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="ArchiveItemResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertIdResponseMessage">
+      <MemberSignature Language="C#" Value="ConvertIdResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 ConvertIdResponseMessage = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.ConvertIdResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="ConvertIdResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="ConvertIdResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="CopyFolderResponseMessage">
+      <MemberSignature Language="C#" Value="CopyFolderResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 CopyFolderResponseMessage = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.CopyFolderResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="CopyFolderResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="CopyFolderResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="CopyItemResponseMessage">
+      <MemberSignature Language="C#" Value="CopyItemResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 CopyItemResponseMessage = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.CopyItemResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="CopyItemResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="CopyItemResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="CreateAttachmentResponseMessage">
+      <MemberSignature Language="C#" Value="CreateAttachmentResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 CreateAttachmentResponseMessage = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.CreateAttachmentResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="CreateAttachmentResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="CreateAttachmentResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="CreateFolderPathResponseMessage">
+      <MemberSignature Language="C#" Value="CreateFolderPathResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 CreateFolderPathResponseMessage = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.CreateFolderPathResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="CreateFolderPathResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="CreateFolderPathResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="CreateFolderResponseMessage">
+      <MemberSignature Language="C#" Value="CreateFolderResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 CreateFolderResponseMessage = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.CreateFolderResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="CreateFolderResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="CreateFolderResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="CreateItemResponseMessage">
+      <MemberSignature Language="C#" Value="CreateItemResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 CreateItemResponseMessage = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.CreateItemResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="CreateItemResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="CreateItemResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="CreateManagedFolderResponseMessage">
+      <MemberSignature Language="C#" Value="CreateManagedFolderResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 CreateManagedFolderResponseMessage = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.CreateManagedFolderResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="CreateManagedFolderResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="CreateManagedFolderResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="CreateUserConfigurationResponseMessage">
+      <MemberSignature Language="C#" Value="CreateUserConfigurationResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 CreateUserConfigurationResponseMessage = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.CreateUserConfigurationResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="CreateUserConfigurationResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="CreateUserConfigurationResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteAttachmentResponseMessage">
+      <MemberSignature Language="C#" Value="DeleteAttachmentResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 DeleteAttachmentResponseMessage = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.DeleteAttachmentResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="DeleteAttachmentResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="DeleteAttachmentResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteFolderResponseMessage">
+      <MemberSignature Language="C#" Value="DeleteFolderResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 DeleteFolderResponseMessage = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.DeleteFolderResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="DeleteFolderResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="DeleteFolderResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteItemResponseMessage">
+      <MemberSignature Language="C#" Value="DeleteItemResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 DeleteItemResponseMessage = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.DeleteItemResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="DeleteItemResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="DeleteItemResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteUserConfigurationResponseMessage">
+      <MemberSignature Language="C#" Value="DeleteUserConfigurationResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 DeleteUserConfigurationResponseMessage = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.DeleteUserConfigurationResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="DeleteUserConfigurationResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="DeleteUserConfigurationResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="EmptyFolderResponseMessage">
+      <MemberSignature Language="C#" Value="EmptyFolderResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 EmptyFolderResponseMessage = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.EmptyFolderResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="EmptyFolderResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="EmptyFolderResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExpandDLResponseMessage">
+      <MemberSignature Language="C#" Value="ExpandDLResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 ExpandDLResponseMessage = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.ExpandDLResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="ExpandDLResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="ExpandDLResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExportItemsResponseMessage">
+      <MemberSignature Language="C#" Value="ExportItemsResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 ExportItemsResponseMessage = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.ExportItemsResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="ExportItemsResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="ExportItemsResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="FindFolderResponseMessage">
+      <MemberSignature Language="C#" Value="FindFolderResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 FindFolderResponseMessage = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.FindFolderResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="FindFolderResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="FindFolderResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="FindItemResponseMessage">
+      <MemberSignature Language="C#" Value="FindItemResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 FindItemResponseMessage = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.FindItemResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="FindItemResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="FindItemResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="FindMailboxStatisticsByKeywordsResponseMessage">
+      <MemberSignature Language="C#" Value="FindMailboxStatisticsByKeywordsResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 FindMailboxStatisticsByKeywordsResponseMessage = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.FindMailboxStatisticsByKeywordsResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="FindMailboxStatisticsByKeywordsResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="FindMailboxStatisticsByKeywordsResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="FindPeopleResponseMessage">
+      <MemberSignature Language="C#" Value="FindPeopleResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 FindPeopleResponseMessage = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.FindPeopleResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="FindPeopleResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="FindPeopleResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="GetAppManifestsResponseMessage">
+      <MemberSignature Language="C#" Value="GetAppManifestsResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 GetAppManifestsResponseMessage = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.GetAppManifestsResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="GetAppManifestsResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="GetAppManifestsResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="GetAttachmentResponseMessage">
+      <MemberSignature Language="C#" Value="GetAttachmentResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 GetAttachmentResponseMessage = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.GetAttachmentResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="GetAttachmentResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="GetAttachmentResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="GetClientAccessTokenResponseMessage">
+      <MemberSignature Language="C#" Value="GetClientAccessTokenResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 GetClientAccessTokenResponseMessage = int32(24)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.GetClientAccessTokenResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="GetClientAccessTokenResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="GetClientAccessTokenResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>24</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="GetClientExtensionResponseMessage">
+      <MemberSignature Language="C#" Value="GetClientExtensionResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 GetClientExtensionResponseMessage = int32(25)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.GetClientExtensionResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="GetClientExtensionResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="GetClientExtensionResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>25</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="GetConversationItemsResponseMessage">
+      <MemberSignature Language="C#" Value="GetConversationItemsResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 GetConversationItemsResponseMessage = int32(26)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.GetConversationItemsResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="GetConversationItemsResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="GetConversationItemsResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>26</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="GetDiscoverySearchConfigurationResponseMessage">
+      <MemberSignature Language="C#" Value="GetDiscoverySearchConfigurationResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 GetDiscoverySearchConfigurationResponseMessage = int32(27)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.GetDiscoverySearchConfigurationResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="GetDiscoverySearchConfigurationResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="GetDiscoverySearchConfigurationResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>27</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="GetEventsResponseMessage">
+      <MemberSignature Language="C#" Value="GetEventsResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 GetEventsResponseMessage = int32(28)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.GetEventsResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="GetEventsResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="GetEventsResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>28</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="GetFolderResponseMessage">
+      <MemberSignature Language="C#" Value="GetFolderResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 GetFolderResponseMessage = int32(29)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.GetFolderResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="GetFolderResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="GetFolderResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>29</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="GetHoldOnMailboxesResponseMessage">
+      <MemberSignature Language="C#" Value="GetHoldOnMailboxesResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 GetHoldOnMailboxesResponseMessage = int32(30)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.GetHoldOnMailboxesResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="GetHoldOnMailboxesResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="GetHoldOnMailboxesResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>30</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="GetItemResponseMessage">
+      <MemberSignature Language="C#" Value="GetItemResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 GetItemResponseMessage = int32(31)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.GetItemResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="GetItemResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="GetItemResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>31</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="GetNonIndexableItemDetailsResponseMessage">
+      <MemberSignature Language="C#" Value="GetNonIndexableItemDetailsResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 GetNonIndexableItemDetailsResponseMessage = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.GetNonIndexableItemDetailsResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="GetNonIndexableItemDetailsResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="GetNonIndexableItemDetailsResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="GetNonIndexableItemStatisticsResponseMessage">
+      <MemberSignature Language="C#" Value="GetNonIndexableItemStatisticsResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 GetNonIndexableItemStatisticsResponseMessage = int32(33)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.GetNonIndexableItemStatisticsResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="GetNonIndexableItemStatisticsResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="GetNonIndexableItemStatisticsResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>33</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="GetPasswordExpirationDateResponse">
+      <MemberSignature Language="C#" Value="GetPasswordExpirationDateResponse" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 GetPasswordExpirationDateResponse = int32(34)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.GetPasswordExpirationDateResponse" />
+      <MemberSignature Language="VB.NET" Value="GetPasswordExpirationDateResponse" />
+      <MemberSignature Language="C++ CLI" Value="GetPasswordExpirationDateResponse" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>34</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="GetPersonaResponseMessage">
+      <MemberSignature Language="C#" Value="GetPersonaResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 GetPersonaResponseMessage = int32(35)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.GetPersonaResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="GetPersonaResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="GetPersonaResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>35</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="GetRemindersResponse">
+      <MemberSignature Language="C#" Value="GetRemindersResponse" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 GetRemindersResponse = int32(36)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.GetRemindersResponse" />
+      <MemberSignature Language="VB.NET" Value="GetRemindersResponse" />
+      <MemberSignature Language="C++ CLI" Value="GetRemindersResponse" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>36</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="GetRoomListsResponse">
+      <MemberSignature Language="C#" Value="GetRoomListsResponse" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 GetRoomListsResponse = int32(37)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.GetRoomListsResponse" />
+      <MemberSignature Language="VB.NET" Value="GetRoomListsResponse" />
+      <MemberSignature Language="C++ CLI" Value="GetRoomListsResponse" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>37</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="GetRoomsResponse">
+      <MemberSignature Language="C#" Value="GetRoomsResponse" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 GetRoomsResponse = int32(38)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.GetRoomsResponse" />
+      <MemberSignature Language="VB.NET" Value="GetRoomsResponse" />
+      <MemberSignature Language="C++ CLI" Value="GetRoomsResponse" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>38</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="GetSearchableMailboxesResponseMessage">
+      <MemberSignature Language="C#" Value="GetSearchableMailboxesResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 GetSearchableMailboxesResponseMessage = int32(39)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.GetSearchableMailboxesResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="GetSearchableMailboxesResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="GetSearchableMailboxesResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>39</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="GetServerTimeZonesResponseMessage">
+      <MemberSignature Language="C#" Value="GetServerTimeZonesResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 GetServerTimeZonesResponseMessage = int32(40)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.GetServerTimeZonesResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="GetServerTimeZonesResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="GetServerTimeZonesResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>40</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="GetSharingFolderResponseMessage">
+      <MemberSignature Language="C#" Value="GetSharingFolderResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 GetSharingFolderResponseMessage = int32(41)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.GetSharingFolderResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="GetSharingFolderResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="GetSharingFolderResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>41</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="GetSharingMetadataResponseMessage">
+      <MemberSignature Language="C#" Value="GetSharingMetadataResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 GetSharingMetadataResponseMessage = int32(42)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.GetSharingMetadataResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="GetSharingMetadataResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="GetSharingMetadataResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>42</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="GetStreamingEventsResponseMessage">
+      <MemberSignature Language="C#" Value="GetStreamingEventsResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 GetStreamingEventsResponseMessage = int32(43)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.GetStreamingEventsResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="GetStreamingEventsResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="GetStreamingEventsResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>43</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="GetUserConfigurationResponseMessage">
+      <MemberSignature Language="C#" Value="GetUserConfigurationResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 GetUserConfigurationResponseMessage = int32(44)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.GetUserConfigurationResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="GetUserConfigurationResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="GetUserConfigurationResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>44</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="GetUserPhotoResponseMessage">
+      <MemberSignature Language="C#" Value="GetUserPhotoResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 GetUserPhotoResponseMessage = int32(45)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.GetUserPhotoResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="GetUserPhotoResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="GetUserPhotoResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>45</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="GetUserRetentionPolicyTagsResponseMessage">
+      <MemberSignature Language="C#" Value="GetUserRetentionPolicyTagsResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 GetUserRetentionPolicyTagsResponseMessage = int32(46)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.GetUserRetentionPolicyTagsResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="GetUserRetentionPolicyTagsResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="GetUserRetentionPolicyTagsResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>46</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MarkAllItemsAsReadResponseMessage">
+      <MemberSignature Language="C#" Value="MarkAllItemsAsReadResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 MarkAllItemsAsReadResponseMessage = int32(47)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.MarkAllItemsAsReadResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="MarkAllItemsAsReadResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="MarkAllItemsAsReadResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>47</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MarkAsJunkResponseMessage">
+      <MemberSignature Language="C#" Value="MarkAsJunkResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 MarkAsJunkResponseMessage = int32(48)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.MarkAsJunkResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="MarkAsJunkResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="MarkAsJunkResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>48</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MoveFolderResponseMessage">
+      <MemberSignature Language="C#" Value="MoveFolderResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 MoveFolderResponseMessage = int32(49)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.MoveFolderResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="MoveFolderResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="MoveFolderResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>49</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MoveItemResponseMessage">
+      <MemberSignature Language="C#" Value="MoveItemResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 MoveItemResponseMessage = int32(50)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.MoveItemResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="MoveItemResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="MoveItemResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>50</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="PerformReminderActionResponse">
+      <MemberSignature Language="C#" Value="PerformReminderActionResponse" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 PerformReminderActionResponse = int32(51)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.PerformReminderActionResponse" />
+      <MemberSignature Language="VB.NET" Value="PerformReminderActionResponse" />
+      <MemberSignature Language="C++ CLI" Value="PerformReminderActionResponse" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>51</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="RefreshSharingFolderResponseMessage">
+      <MemberSignature Language="C#" Value="RefreshSharingFolderResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 RefreshSharingFolderResponseMessage = int32(52)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.RefreshSharingFolderResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="RefreshSharingFolderResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="RefreshSharingFolderResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>52</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ResolveNamesResponseMessage">
+      <MemberSignature Language="C#" Value="ResolveNamesResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 ResolveNamesResponseMessage = int32(53)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.ResolveNamesResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="ResolveNamesResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="ResolveNamesResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>53</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="SearchMailboxesResponseMessage">
+      <MemberSignature Language="C#" Value="SearchMailboxesResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 SearchMailboxesResponseMessage = int32(54)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.SearchMailboxesResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="SearchMailboxesResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="SearchMailboxesResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>54</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="SendItemResponseMessage">
+      <MemberSignature Language="C#" Value="SendItemResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 SendItemResponseMessage = int32(55)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.SendItemResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="SendItemResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="SendItemResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>55</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="SendNotificationResponseMessage">
+      <MemberSignature Language="C#" Value="SendNotificationResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 SendNotificationResponseMessage = int32(56)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.SendNotificationResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="SendNotificationResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="SendNotificationResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>56</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="SetClientExtensionResponseMessage">
+      <MemberSignature Language="C#" Value="SetClientExtensionResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 SetClientExtensionResponseMessage = int32(57)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.SetClientExtensionResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="SetClientExtensionResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="SetClientExtensionResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>57</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="SetHoldOnMailboxesResponseMessage">
+      <MemberSignature Language="C#" Value="SetHoldOnMailboxesResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 SetHoldOnMailboxesResponseMessage = int32(58)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.SetHoldOnMailboxesResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="SetHoldOnMailboxesResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="SetHoldOnMailboxesResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>58</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="SubscribeResponseMessage">
+      <MemberSignature Language="C#" Value="SubscribeResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 SubscribeResponseMessage = int32(59)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.SubscribeResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="SubscribeResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="SubscribeResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>59</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="SyncFolderHierarchyResponseMessage">
+      <MemberSignature Language="C#" Value="SyncFolderHierarchyResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 SyncFolderHierarchyResponseMessage = int32(60)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.SyncFolderHierarchyResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="SyncFolderHierarchyResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="SyncFolderHierarchyResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>60</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="SyncFolderItemsResponseMessage">
+      <MemberSignature Language="C#" Value="SyncFolderItemsResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 SyncFolderItemsResponseMessage = int32(61)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.SyncFolderItemsResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="SyncFolderItemsResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="SyncFolderItemsResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>61</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="UnsubscribeResponseMessage">
+      <MemberSignature Language="C#" Value="UnsubscribeResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 UnsubscribeResponseMessage = int32(62)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.UnsubscribeResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="UnsubscribeResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="UnsubscribeResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>62</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateFolderResponseMessage">
+      <MemberSignature Language="C#" Value="UpdateFolderResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 UpdateFolderResponseMessage = int32(63)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.UpdateFolderResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="UpdateFolderResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="UpdateFolderResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>63</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateItemInRecoverableItemsResponseMessage">
+      <MemberSignature Language="C#" Value="UpdateItemInRecoverableItemsResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 UpdateItemInRecoverableItemsResponseMessage = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.UpdateItemInRecoverableItemsResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="UpdateItemInRecoverableItemsResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="UpdateItemInRecoverableItemsResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateItemResponseMessage">
+      <MemberSignature Language="C#" Value="UpdateItemResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 UpdateItemResponseMessage = int32(65)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.UpdateItemResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="UpdateItemResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="UpdateItemResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>65</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateUserConfigurationResponseMessage">
+      <MemberSignature Language="C#" Value="UpdateUserConfigurationResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 UpdateUserConfigurationResponseMessage = int32(66)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.UpdateUserConfigurationResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="UpdateUserConfigurationResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="UpdateUserConfigurationResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>66</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="UploadItemsResponseMessage">
+      <MemberSignature Language="C#" Value="UploadItemsResponseMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ItemsChoiceType4 UploadItemsResponseMessage = int32(67)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ItemsChoiceType4.UploadItemsResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="UploadItemsResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="UploadItemsResponseMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4</ReturnType>
+      </ReturnValue>
+      <MemberValue>67</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

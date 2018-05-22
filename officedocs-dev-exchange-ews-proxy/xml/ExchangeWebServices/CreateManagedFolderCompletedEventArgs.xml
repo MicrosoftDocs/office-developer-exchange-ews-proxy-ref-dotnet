@@ -1,0 +1,58 @@
+﻿<Type Name="CreateManagedFolderCompletedEventArgs" FullName="ExchangeWebServices.CreateManagedFolderCompletedEventArgs">
+  <TypeSignature Language="C#" Value="public class CreateManagedFolderCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CreateManagedFolderCompletedEventArgs extends System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CreateManagedFolderCompletedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class CreateManagedFolderCompletedEventArgs&#xA;Inherits AsyncCompletedEventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CreateManagedFolderCompletedEventArgs : System::ComponentModel::AsyncCompletedEventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ComponentModel.AsyncCompletedEventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.CreateManagedFolderCompletedEventArgs" /> class provides data for the <see cref="E:ExchangeWebServices.ExchangeServiceBinding.CreateManagedFolderCompleted" /> event.</summary>
+    <remarks>
+      <para>See the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.FindFolderAsync(ExchangeWebServices.FindFolderType)" /> method for an asynchronous Exchange Web Services example.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Result">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.CreateManagedFolderResponseType Result { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.CreateManagedFolderResponseType Result" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CreateManagedFolderCompletedEventArgs.Result" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As CreateManagedFolderResponseType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::CreateManagedFolderResponseType ^ Result { ExchangeWebServices::CreateManagedFolderResponseType ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CreateManagedFolderResponseType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.CreateManagedFolderCompletedEventArgs.Result" /> property gets a <see cref="T:ExchangeWebServices.CreateManagedFolderResponseType" /> object for an asynchronous CreateManagedFolder call.</summary>
+        <value>The <see cref="P:ExchangeWebServices.CreateManagedFolderCompletedEventArgs.Result" /> property returns a <see cref="T:ExchangeWebServices.CreateManagedFolderResponseType" /> object.</value>
+        <remarks>
+          <para>See the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.FindFolderAsync(ExchangeWebServices.FindFolderType)" /> method for an asynchronous Exchange Web Services example.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

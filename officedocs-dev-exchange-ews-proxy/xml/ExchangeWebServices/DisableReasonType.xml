@@ -1,0 +1,104 @@
+﻿<Type Name="DisableReasonType" FullName="ExchangeWebServices.DisableReasonType">
+  <TypeSignature Language="C#" Value="public enum DisableReasonType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed DisableReasonType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DisableReasonType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DisableReasonType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class DisableReasonType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="MobileClientPerformance">
+      <MemberSignature Language="C#" Value="MobileClientPerformance" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DisableReasonType MobileClientPerformance = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DisableReasonType.MobileClientPerformance" />
+      <MemberSignature Language="VB.NET" Value="MobileClientPerformance" />
+      <MemberSignature Language="C++ CLI" Value="MobileClientPerformance" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DisableReasonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="NoReason">
+      <MemberSignature Language="C#" Value="NoReason" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DisableReasonType NoReason = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DisableReasonType.NoReason" />
+      <MemberSignature Language="VB.NET" Value="NoReason" />
+      <MemberSignature Language="C++ CLI" Value="NoReason" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DisableReasonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="OutlookClientPerformance">
+      <MemberSignature Language="C#" Value="OutlookClientPerformance" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DisableReasonType OutlookClientPerformance = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DisableReasonType.OutlookClientPerformance" />
+      <MemberSignature Language="VB.NET" Value="OutlookClientPerformance" />
+      <MemberSignature Language="C++ CLI" Value="OutlookClientPerformance" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DisableReasonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="OWAClientPerformance">
+      <MemberSignature Language="C#" Value="OWAClientPerformance" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DisableReasonType OWAClientPerformance = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DisableReasonType.OWAClientPerformance" />
+      <MemberSignature Language="VB.NET" Value="OWAClientPerformance" />
+      <MemberSignature Language="C++ CLI" Value="OWAClientPerformance" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DisableReasonType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

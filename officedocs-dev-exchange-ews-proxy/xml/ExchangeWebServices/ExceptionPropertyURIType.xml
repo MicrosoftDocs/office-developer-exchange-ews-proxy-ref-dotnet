@@ -1,0 +1,271 @@
+﻿<Type Name="ExceptionPropertyURIType" FullName="ExchangeWebServices.ExceptionPropertyURIType">
+  <TypeSignature Language="C#" Value="public enum ExceptionPropertyURIType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed ExceptionPropertyURIType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ExceptionPropertyURIType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ExceptionPropertyURIType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ExceptionPropertyURIType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.ExceptionPropertyURIType" /> enumeration identifies offending property paths in an error. This will only occur within the MessageXml property of a ResponseMessage.</summary>
+    <remarks>
+      <para>This enumeration is used by the <see cref="P:ExchangeWebServices.PathToExceptionFieldType.FieldURI" /> property of the <see cref="T:ExchangeWebServices.PathToExceptionFieldType" /> class. </para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="attachmentContent">
+      <MemberSignature Language="C#" Value="attachmentContent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ExceptionPropertyURIType attachmentContent = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ExceptionPropertyURIType.attachmentContent" />
+      <MemberSignature Language="VB.NET" Value="attachmentContent" />
+      <MemberSignature Language="C++ CLI" Value="attachmentContent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("attachment:Content")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ExceptionPropertyURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Indicates that the attachment Content property contains an error.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="attachmentContentType">
+      <MemberSignature Language="C#" Value="attachmentContentType" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ExceptionPropertyURIType attachmentContentType = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ExceptionPropertyURIType.attachmentContentType" />
+      <MemberSignature Language="VB.NET" Value="attachmentContentType" />
+      <MemberSignature Language="C++ CLI" Value="attachmentContentType" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("attachment:ContentType")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ExceptionPropertyURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Indicates that the attachment ContentType property contains an error.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="attachmentName">
+      <MemberSignature Language="C#" Value="attachmentName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ExceptionPropertyURIType attachmentName = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ExceptionPropertyURIType.attachmentName" />
+      <MemberSignature Language="VB.NET" Value="attachmentName" />
+      <MemberSignature Language="C++ CLI" Value="attachmentName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("attachment:Name")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ExceptionPropertyURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Indicates that the attachment Name (AttachmentType) property contains an error.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="recurrenceDayOfMonth">
+      <MemberSignature Language="C#" Value="recurrenceDayOfMonth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ExceptionPropertyURIType recurrenceDayOfMonth = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ExceptionPropertyURIType.recurrenceDayOfMonth" />
+      <MemberSignature Language="VB.NET" Value="recurrenceDayOfMonth" />
+      <MemberSignature Language="C++ CLI" Value="recurrenceDayOfMonth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("recurrence:DayOfMonth")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ExceptionPropertyURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>Indicates that the recurrence DayOfMonth property contains an error.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="recurrenceDayOfWeekIndex">
+      <MemberSignature Language="C#" Value="recurrenceDayOfWeekIndex" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ExceptionPropertyURIType recurrenceDayOfWeekIndex = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ExceptionPropertyURIType.recurrenceDayOfWeekIndex" />
+      <MemberSignature Language="VB.NET" Value="recurrenceDayOfWeekIndex" />
+      <MemberSignature Language="C++ CLI" Value="recurrenceDayOfWeekIndex" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("recurrence:DayOfWeekIndex")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ExceptionPropertyURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Indicates that the recurrence DayOfWeekIndex property contains an error.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="recurrenceDaysOfWeek">
+      <MemberSignature Language="C#" Value="recurrenceDaysOfWeek" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ExceptionPropertyURIType recurrenceDaysOfWeek = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ExceptionPropertyURIType.recurrenceDaysOfWeek" />
+      <MemberSignature Language="VB.NET" Value="recurrenceDaysOfWeek" />
+      <MemberSignature Language="C++ CLI" Value="recurrenceDaysOfWeek" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("recurrence:DaysOfWeek")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ExceptionPropertyURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Indicates that the recurrence DaysOfWeek (DayOfWeekType) property contains an error.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="recurrenceInterval">
+      <MemberSignature Language="C#" Value="recurrenceInterval" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ExceptionPropertyURIType recurrenceInterval = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ExceptionPropertyURIType.recurrenceInterval" />
+      <MemberSignature Language="VB.NET" Value="recurrenceInterval" />
+      <MemberSignature Language="C++ CLI" Value="recurrenceInterval" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("recurrence:Interval")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ExceptionPropertyURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>Indicates that the recurrence Interval property contains an error.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="recurrenceMonth">
+      <MemberSignature Language="C#" Value="recurrenceMonth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ExceptionPropertyURIType recurrenceMonth = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ExceptionPropertyURIType.recurrenceMonth" />
+      <MemberSignature Language="VB.NET" Value="recurrenceMonth" />
+      <MemberSignature Language="C++ CLI" Value="recurrenceMonth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("recurrence:Month")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ExceptionPropertyURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Indicates that the recurrence Month property contains an error.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="recurrenceNumberOfOccurrences">
+      <MemberSignature Language="C#" Value="recurrenceNumberOfOccurrences" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ExceptionPropertyURIType recurrenceNumberOfOccurrences = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ExceptionPropertyURIType.recurrenceNumberOfOccurrences" />
+      <MemberSignature Language="VB.NET" Value="recurrenceNumberOfOccurrences" />
+      <MemberSignature Language="C++ CLI" Value="recurrenceNumberOfOccurrences" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("recurrence:NumberOfOccurrences")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ExceptionPropertyURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>Indicates that the recurrence NumberOfOccurrences property contains an error.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="timezoneOffset">
+      <MemberSignature Language="C#" Value="timezoneOffset" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ExceptionPropertyURIType timezoneOffset = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ExceptionPropertyURIType.timezoneOffset" />
+      <MemberSignature Language="VB.NET" Value="timezoneOffset" />
+      <MemberSignature Language="C++ CLI" Value="timezoneOffset" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("timezone:Offset")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ExceptionPropertyURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>Indicates that the time zone Offset property contains an error.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

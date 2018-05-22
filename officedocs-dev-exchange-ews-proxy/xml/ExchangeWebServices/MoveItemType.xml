@@ -1,0 +1,97 @@
+﻿<Type Name="MoveItemType" FullName="ExchangeWebServices.MoveItemType">
+  <TypeSignature Language="C#" Value="public class MoveItemType : ExchangeWebServices.BaseMoveCopyItemType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit MoveItemType extends ExchangeWebServices.BaseMoveCopyItemType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.MoveItemType" />
+  <TypeSignature Language="VB.NET" Value="Public Class MoveItemType&#xA;Inherits BaseMoveCopyItemType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MoveItemType : ExchangeWebServices::BaseMoveCopyItemType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseMoveCopyItemType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.MoveItemType" /> class represents an operation to move items in a mailbox.</summary>
+    <remarks>
+      <para>The item identifier of the new item is returned in the response message (<see cref="T:ExchangeWebServices.MoveItemResponseType" />). An item identifier is not returned in a response for a cross-mailbox or mailbox to public folder MoveItem operation.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>The following example shows how to move two items to the Deleted Items default folder.</para>
+      <code>static void MoveItem(ExchangeServiceBinding esb)
+{ 
+    // Identify the items to move.
+    ItemIdType item1 = new ItemIdType();
+    ItemIdType item2 = new ItemIdType();
+    item1.Id = "AAAlAE1";
+    item2.Id = "AAAlAE2";
+    ItemIdType[] items = new ItemIdType[2] { item1, item2 };
+
+    // Identify the destination folder.
+    DistinguishedFolderIdType destFolder = new DistinguishedFolderIdType();
+    destFolder.Id = DistinguishedFolderIdNameType.deleteditems;
+
+    // Form the move request.
+    MoveItemType &lt;span class="label"&gt;request&lt;/span&gt; = new MoveItemType();
+    &lt;span class="label"&gt;request&lt;/span&gt;.ItemIds = items;
+    &lt;span class="label"&gt;request&lt;/span&gt;.ToFolderId = new TargetFolderIdType();
+    &lt;span class="label"&gt;request&lt;/span&gt;.ToFolderId.Item = destFolder;
+
+    try
+    {
+        // Send the request and get the response.
+        MoveItemResponseType response = esb.MoveItem(&lt;span class="label"&gt;request&lt;/span&gt;);
+        ArrayOfResponseMessagesType aormt = response.ResponseMessages;
+        ResponseMessageType[] rmta = aormt.Items;
+
+        foreach (ResponseMessageType rmt in rmta)
+        {
+            if (rmt.ResponseClass == ResponseClassType.Error)
+            {
+                throw new Exception("Item move failed.");
+            }
+        }
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine(e.Message);
+    }
+}</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MoveItemType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.MoveItemType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MoveItemType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.MoveItemType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.MoveItemType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

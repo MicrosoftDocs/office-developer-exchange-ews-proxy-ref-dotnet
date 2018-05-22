@@ -1,0 +1,85 @@
+﻿<Type Name="CreateActionType" FullName="ExchangeWebServices.CreateActionType">
+  <TypeSignature Language="C#" Value="public enum CreateActionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed CreateActionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CreateActionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum CreateActionType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class CreateActionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CreateNew">
+      <MemberSignature Language="C#" Value="CreateNew" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CreateActionType CreateNew = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CreateActionType.CreateNew" />
+      <MemberSignature Language="VB.NET" Value="CreateNew" />
+      <MemberSignature Language="C++ CLI" Value="CreateNew" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CreateActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="Update" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CreateActionType Update = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CreateActionType.Update" />
+      <MemberSignature Language="VB.NET" Value="Update" />
+      <MemberSignature Language="C++ CLI" Value="Update" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CreateActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateOrCreate">
+      <MemberSignature Language="C#" Value="UpdateOrCreate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CreateActionType UpdateOrCreate = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CreateActionType.UpdateOrCreate" />
+      <MemberSignature Language="VB.NET" Value="UpdateOrCreate" />
+      <MemberSignature Language="C++ CLI" Value="UpdateOrCreate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CreateActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

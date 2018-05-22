@@ -1,0 +1,107 @@
+﻿<Type Name="ServiceConfigurationType" FullName="ExchangeWebServices.ServiceConfigurationType">
+  <TypeSignature Language="C#" Value="public enum ServiceConfigurationType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed ServiceConfigurationType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ServiceConfigurationType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ServiceConfigurationType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ServiceConfigurationType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="MailTips">
+      <MemberSignature Language="C#" Value="MailTips" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ServiceConfigurationType MailTips = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ServiceConfigurationType.MailTips" />
+      <MemberSignature Language="VB.NET" Value="MailTips" />
+      <MemberSignature Language="C++ CLI" Value="MailTips" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ServiceConfigurationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="PolicyNudges">
+      <MemberSignature Language="C#" Value="PolicyNudges" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ServiceConfigurationType PolicyNudges = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ServiceConfigurationType.PolicyNudges" />
+      <MemberSignature Language="VB.NET" Value="PolicyNudges" />
+      <MemberSignature Language="C++ CLI" Value="PolicyNudges" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ServiceConfigurationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ProtectionRules">
+      <MemberSignature Language="C#" Value="ProtectionRules" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ServiceConfigurationType ProtectionRules = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ServiceConfigurationType.ProtectionRules" />
+      <MemberSignature Language="VB.NET" Value="ProtectionRules" />
+      <MemberSignature Language="C++ CLI" Value="ProtectionRules" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ServiceConfigurationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="UnifiedMessagingConfiguration">
+      <MemberSignature Language="C#" Value="UnifiedMessagingConfiguration" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ServiceConfigurationType UnifiedMessagingConfiguration = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ServiceConfigurationType.UnifiedMessagingConfiguration" />
+      <MemberSignature Language="VB.NET" Value="UnifiedMessagingConfiguration" />
+      <MemberSignature Language="C++ CLI" Value="UnifiedMessagingConfiguration" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ServiceConfigurationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

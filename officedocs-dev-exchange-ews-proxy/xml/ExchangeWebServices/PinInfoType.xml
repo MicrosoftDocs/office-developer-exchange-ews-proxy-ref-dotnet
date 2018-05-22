@@ -1,0 +1,152 @@
+﻿<Type Name="PinInfoType" FullName="ExchangeWebServices.PinInfoType">
+  <TypeSignature Language="C#" Value="public class PinInfoType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit PinInfoType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.PinInfoType" />
+  <TypeSignature Language="VB.NET" Value="Public Class PinInfoType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PinInfoType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PinInfoType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.PinInfoType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PinInfoType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstTimeUser">
+      <MemberSignature Language="C#" Value="public bool FirstTimeUser { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool FirstTimeUser" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PinInfoType.FirstTimeUser" />
+      <MemberSignature Language="VB.NET" Value="Public Property FirstTimeUser As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool FirstTimeUser { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsValid">
+      <MemberSignature Language="C#" Value="public bool IsValid { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsValid" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PinInfoType.IsValid" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsValid As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsValid { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LockedOut">
+      <MemberSignature Language="C#" Value="public bool LockedOut { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LockedOut" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PinInfoType.LockedOut" />
+      <MemberSignature Language="VB.NET" Value="Public Property LockedOut As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool LockedOut { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PIN">
+      <MemberSignature Language="C#" Value="public string PIN { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PIN" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PinInfoType.PIN" />
+      <MemberSignature Language="VB.NET" Value="Public Property PIN As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PIN { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PinExpired">
+      <MemberSignature Language="C#" Value="public bool PinExpired { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool PinExpired" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PinInfoType.PinExpired" />
+      <MemberSignature Language="VB.NET" Value="Public Property PinExpired As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PinExpired { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

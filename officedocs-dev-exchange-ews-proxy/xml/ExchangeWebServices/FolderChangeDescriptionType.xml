@@ -1,0 +1,64 @@
+﻿<Type Name="FolderChangeDescriptionType" FullName="ExchangeWebServices.FolderChangeDescriptionType">
+  <TypeSignature Language="C#" Value="public class FolderChangeDescriptionType : ExchangeWebServices.ChangeDescriptionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit FolderChangeDescriptionType extends ExchangeWebServices.ChangeDescriptionType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.FolderChangeDescriptionType" />
+  <TypeSignature Language="VB.NET" Value="Public Class FolderChangeDescriptionType&#xA;Inherits ChangeDescriptionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FolderChangeDescriptionType : ExchangeWebServices::ChangeDescriptionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.ChangeDescriptionType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.SetFolderFieldType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.AppendToFolderFieldType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.DeleteFolderFieldType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.FolderChangeDescriptionType" /> class describes a change to a single folder property.</summary>
+    <remarks>
+      <para>The <see cref="T:ExchangeWebServices.SetFolderFieldType" />, <see cref="T:ExchangeWebServices.AppendToFolderFieldType" />, and <see cref="T:ExchangeWebServices.DeleteFolderFieldType" /> classes are descendants of the <see cref="T:ExchangeWebServices.FolderChangeDescriptionType" /> class.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FolderChangeDescriptionType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.FolderChangeDescriptionType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FolderChangeDescriptionType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.FolderChangeDescriptionType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.FolderChangeDescriptionType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

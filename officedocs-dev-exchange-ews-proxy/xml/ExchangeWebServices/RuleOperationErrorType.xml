@@ -1,0 +1,97 @@
+﻿<Type Name="RuleOperationErrorType" FullName="ExchangeWebServices.RuleOperationErrorType">
+  <TypeSignature Language="C#" Value="public class RuleOperationErrorType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit RuleOperationErrorType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.RuleOperationErrorType" />
+  <TypeSignature Language="VB.NET" Value="Public Class RuleOperationErrorType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RuleOperationErrorType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RuleOperationErrorType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.RuleOperationErrorType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RuleOperationErrorType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OperationIndex">
+      <MemberSignature Language="C#" Value="public int OperationIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 OperationIndex" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RuleOperationErrorType.OperationIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property OperationIndex As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int OperationIndex { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ValidationErrors">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.RuleValidationErrorType[] ValidationErrors { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.RuleValidationErrorType[] ValidationErrors" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RuleOperationErrorType.ValidationErrors" />
+      <MemberSignature Language="VB.NET" Value="Public Property ValidationErrors As RuleValidationErrorType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::RuleValidationErrorType ^&gt; ^ ValidationErrors { cli::array &lt;ExchangeWebServices::RuleValidationErrorType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::RuleValidationErrorType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Error", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleValidationErrorType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

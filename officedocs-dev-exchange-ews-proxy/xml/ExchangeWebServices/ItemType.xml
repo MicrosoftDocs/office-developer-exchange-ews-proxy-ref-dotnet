@@ -1,0 +1,1904 @@
+﻿<Type Name="ItemType" FullName="ExchangeWebServices.ItemType">
+  <TypeSignature Language="C#" Value="public class ItemType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ItemType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ItemType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ItemType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ItemType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.AcceptItemType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.TaskType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.DistributionListType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ContactItemType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.CalendarItemType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.MessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.MeetingMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.MeetingCancellationMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.MeetingResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.MeetingRequestMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ResponseObjectCoreType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ResponseObjectType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.PostReplyItemBaseType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.PostReplyItemType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.RemoveItemType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ReferenceItemResponseType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.AcceptSharingInvitationType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.SuppressReadReceiptType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.SmartResponseBaseType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.SmartResponseType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.CancelCalendarItemType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ForwardItemType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ReplyAllToItemType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ReplyToItemType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.WellKnownResponseObjectType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.DeclineItemType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.TentativelyAcceptItemType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.PostItemType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.ItemType" /> class represents a generic item in the Exchange store.</summary>
+    <remarks>
+      <para>The <see cref="T:ExchangeWebServices.ItemType" /> class is the base type for the <see cref="T:ExchangeWebServices.TaskType" />, <see cref="T:ExchangeWebServices.CalendarItemType" />, <see cref="T:ExchangeWebServices.ContactItemType" />, and <see cref="T:ExchangeWebServices.MessageType" /> classes.</para>
+      <para>
+        <see cref="T:ExchangeWebServices.MessageType" /> objects represent e-mail messages and all other items that are not strongly typed by the Exchange Web Services (EWS) schema. Items such as IPM.Sharing and IPM.InfoPath are returned as <see cref="T:ExchangeWebServices.MessageType" /> objects. Versions of Exchange starting with Exchange Server 2010 and Exchange Online do not return the base <see cref="T:ExchangeWebServices.ItemType" /> object in responses.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ItemType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ItemType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ItemType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="M:ExchangeWebServices.ItemType.#ctor" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.ItemType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArchiveTag">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.RetentionTagType ArchiveTag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.RetentionTagType ArchiveTag" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.ArchiveTag" />
+      <MemberSignature Language="VB.NET" Value="Public Property ArchiveTag As RetentionTagType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::RetentionTagType ^ ArchiveTag { ExchangeWebServices::RetentionTagType ^ get(); void set(ExchangeWebServices::RetentionTagType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RetentionTagType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Attachments">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.AttachmentType[] Attachments { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.AttachmentType[] Attachments" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.Attachments" />
+      <MemberSignature Language="VB.NET" Value="Public Property Attachments As AttachmentType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::AttachmentType ^&gt; ^ Attachments { cli::array &lt;ExchangeWebServices::AttachmentType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::AttachmentType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("FileAttachment", typeof(ExchangeWebServices.FileAttachmentType), IsNullable=false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("ItemAttachment", typeof(ExchangeWebServices.ItemAttachmentType), IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.AttachmentType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.Attachments" /> property gets or sets an <see cref="T:ExchangeWebServices.AttachmentType" /> array that contains the items or files that are attached to an item in the Exchange store.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.Attachments" /> property returns an array of type <see cref="T:ExchangeWebServices.AttachmentType" /> that contains the items or files that are attached to an item in the Exchange store.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BlockStatus">
+      <MemberSignature Language="C#" Value="public bool BlockStatus { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool BlockStatus" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.BlockStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Property BlockStatus As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool BlockStatus { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BlockStatusSpecified">
+      <MemberSignature Language="C#" Value="public bool BlockStatusSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool BlockStatusSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.BlockStatusSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property BlockStatusSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool BlockStatusSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Body">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BodyType Body { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BodyType Body" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.Body" />
+      <MemberSignature Language="VB.NET" Value="Public Property Body As BodyType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::BodyType ^ Body { ExchangeWebServices::BodyType ^ get(); void set(ExchangeWebServices::BodyType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BodyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.Body" /> property contains the body content of an item.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.Body" /> property returns an instance of the <see cref="T:ExchangeWebServices.BodyType" /> class that represents the body content of an item.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Categories">
+      <MemberSignature Language="C#" Value="public string[] Categories { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] Categories" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.Categories" />
+      <MemberSignature Language="VB.NET" Value="Public Property Categories As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ Categories { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("String", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.Categories" /> property gets or set a string array that identifies the categories to which an item in the mailbox belongs.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.Categories" /> property returns a string array that contains names of categories to which an item in the mailbox belongs.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationId">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ItemIdType ConversationId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ItemIdType ConversationId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.ConversationId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConversationId As ItemIdType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ItemIdType ^ ConversationId { ExchangeWebServices::ItemIdType ^ get(); void set(ExchangeWebServices::ItemIdType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemIdType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Culture">
+      <MemberSignature Language="C#" Value="public string Culture { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Culture" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.Culture" />
+      <MemberSignature Language="VB.NET" Value="Public Property Culture As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Culture { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement(DataType="language")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.Culture" /> property gets or sets the culture for a given item in a mailbox.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.Culture" /> property returns a string that contains the value for the culture for a given item in a mailbox.</value>
+        <remarks>
+          <para>The string value indicates the language that is used in the Exchange Web Services operations. Culture is specified by using the RFC 1766 culture identifier; for example, en-US.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTimeCreated">
+      <MemberSignature Language="C#" Value="public DateTime DateTimeCreated { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime DateTimeCreated" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.DateTimeCreated" />
+      <MemberSignature Language="VB.NET" Value="Public Property DateTimeCreated As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime DateTimeCreated { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.DateTimeCreated" /> property gets or sets the date and time that an item in the mailbox was created.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.DateTimeCreated" /> property returns an instance of the DateTime structure that represents the date and time when the item was created.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTimeCreatedSpecified">
+      <MemberSignature Language="C#" Value="public bool DateTimeCreatedSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DateTimeCreatedSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.DateTimeCreatedSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property DateTimeCreatedSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DateTimeCreatedSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.DateTimeCreatedSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.ItemType.DateTimeCreated" /> property is serialized into the SOAP request. This property is required if the <see cref="P:ExchangeWebServices.ItemType.DateTimeCreated" /> property is specified.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.DateTimeCreatedSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.ItemType.DateTimeCreated" /> is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTimeReceived">
+      <MemberSignature Language="C#" Value="public DateTime DateTimeReceived { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime DateTimeReceived" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.DateTimeReceived" />
+      <MemberSignature Language="VB.NET" Value="Public Property DateTimeReceived As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime DateTimeReceived { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.DateTimeReceived" /> property gets the date and time that an item in a mailbox was received.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.DateTimeReceived" /> property returns an instance of the DateTime structure that represents the date and time when the item was received.</value>
+        <remarks>
+          <para>The <see cref="P:ExchangeWebServices.ItemType.DateTimeReceived" /> property is read-only.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTimeReceivedSpecified">
+      <MemberSignature Language="C#" Value="public bool DateTimeReceivedSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DateTimeReceivedSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.DateTimeReceivedSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property DateTimeReceivedSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DateTimeReceivedSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.DateTimeReceivedSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.ItemType.DateTimeReceived" /> property is serialized into the SOAP request. This property is required if the <see cref="P:ExchangeWebServices.ItemType.DateTimeReceived" /> property is specified.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.DateTimeReceivedSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.ItemType.DateTimeReceived" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTimeSent">
+      <MemberSignature Language="C#" Value="public DateTime DateTimeSent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime DateTimeSent" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.DateTimeSent" />
+      <MemberSignature Language="VB.NET" Value="Public Property DateTimeSent As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime DateTimeSent { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.DateTimeSent" /> property gets or sets the date and time when an item in a mailbox was sent.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.DateTimeSent" /> property returns an instance of the DateTime structure that represents the date and time when the item was sent.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTimeSentSpecified">
+      <MemberSignature Language="C#" Value="public bool DateTimeSentSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DateTimeSentSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.DateTimeSentSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property DateTimeSentSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DateTimeSentSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.DateTimeSentSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.ItemType.DateTimeSent" /> property is serialized into the SOAP request. This property is required if the DateTimeSent property is specified.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.DateTimeSentSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.ItemType.DateTimeSent" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayCc">
+      <MemberSignature Language="C#" Value="public string DisplayCc { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayCc" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.DisplayCc" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayCc As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayCc { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.DisplayCc" /> property gets or sets the display string that is used for the contents of the Cc box. This is the concatenated string of all Cc recipient display names.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.DisplayCc" /> property returns a string that contains the value that is used for the contents of the Cc box.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayTo">
+      <MemberSignature Language="C#" Value="public string DisplayTo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayTo" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.DisplayTo" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayTo As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayTo { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.DisplayTo" /> property gets or sets the display string that is used for the contents of the To box. This is the concatenated string of all To recipient display names.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.DisplayTo" /> property returns a string that contains the value that is used for the contents of the To box.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EffectiveRights">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EffectiveRightsType EffectiveRights { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EffectiveRightsType EffectiveRights" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.EffectiveRights" />
+      <MemberSignature Language="VB.NET" Value="Public Property EffectiveRights As EffectiveRightsType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::EffectiveRightsType ^ EffectiveRights { ExchangeWebServices::EffectiveRightsType ^ get(); void set(ExchangeWebServices::EffectiveRightsType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EffectiveRightsType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.EffectiveRights" /> property gets or sets an instance of the <see cref="T:ExchangeWebServices.EffectiveRightsType" /> class that represents the client's rights based on the permission settings for the item or folder.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.EffectiveRights" /> property returns an instance of the <see cref="T:ExchangeWebServices.EffectiveRightsType" /> class that represents the client's rights based on the permission settings for the item or folder.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EntityExtractionResult">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EntityExtractionResultType EntityExtractionResult { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EntityExtractionResultType EntityExtractionResult" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.EntityExtractionResult" />
+      <MemberSignature Language="VB.NET" Value="Public Property EntityExtractionResult As EntityExtractionResultType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::EntityExtractionResultType ^ EntityExtractionResult { ExchangeWebServices::EntityExtractionResultType ^ get(); void set(ExchangeWebServices::EntityExtractionResultType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EntityExtractionResultType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedProperty">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ExtendedPropertyType[] ExtendedProperty { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ExtendedPropertyType[] ExtendedProperty" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.ExtendedProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExtendedProperty As ExtendedPropertyType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::ExtendedPropertyType ^&gt; ^ ExtendedProperty { cli::array &lt;ExchangeWebServices::ExtendedPropertyType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::ExtendedPropertyType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ExtendedProperty")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ExtendedPropertyType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.ExtendedProperty" /> property gets or sets an array of the type <see cref="T:ExchangeWebServices.ExtendedPropertyType" /> that identifies extended MAPI properties.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.ExtendedProperty" /> property returns an array of the type <see cref="T:ExchangeWebServices.ExtendedPropertyType" /> that identifies extended MAPI properties.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Flag">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.FlagType Flag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.FlagType Flag" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.Flag" />
+      <MemberSignature Language="VB.NET" Value="Public Property Flag As FlagType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::FlagType ^ Flag { ExchangeWebServices::FlagType ^ get(); void set(ExchangeWebServices::FlagType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FlagType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupingAction">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PredictedMessageActionType GroupingAction { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.PredictedMessageActionType GroupingAction" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.GroupingAction" />
+      <MemberSignature Language="VB.NET" Value="Public Property GroupingAction As PredictedMessageActionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::PredictedMessageActionType GroupingAction { ExchangeWebServices::PredictedMessageActionType get(); void set(ExchangeWebServices::PredictedMessageActionType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PredictedMessageActionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupingActionSpecified">
+      <MemberSignature Language="C#" Value="public bool GroupingActionSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool GroupingActionSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.GroupingActionSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property GroupingActionSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool GroupingActionSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasAttachments">
+      <MemberSignature Language="C#" Value="public bool HasAttachments { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasAttachments" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.HasAttachments" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasAttachments As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasAttachments { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.HasAttachments" /> property gets or sets a Boolean value that indicates whether the item has at least one attachment.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.HasAttachments" /> property returns <b>true</b> if the item has at least one attachment; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasAttachmentsSpecified">
+      <MemberSignature Language="C#" Value="public bool HasAttachmentsSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasAttachmentsSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.HasAttachmentsSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasAttachmentsSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasAttachmentsSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.HasAttachmentsSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.ItemType.HasAttachments" /> property is serialized into the SOAP request. This property is required if the <see cref="P:ExchangeWebServices.ItemType.HasAttachments" /> property is specified.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.HasAttachmentsSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.ItemType.HasAttachments" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasBlockedImages">
+      <MemberSignature Language="C#" Value="public bool HasBlockedImages { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasBlockedImages" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.HasBlockedImages" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasBlockedImages As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasBlockedImages { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasBlockedImagesSpecified">
+      <MemberSignature Language="C#" Value="public bool HasBlockedImagesSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasBlockedImagesSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.HasBlockedImagesSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasBlockedImagesSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasBlockedImagesSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconIndex">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.IconIndexType IconIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.IconIndexType IconIndex" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.IconIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property IconIndex As IconIndexType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::IconIndexType IconIndex { ExchangeWebServices::IconIndexType get(); void set(ExchangeWebServices::IconIndexType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconIndexSpecified">
+      <MemberSignature Language="C#" Value="public bool IconIndexSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IconIndexSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.IconIndexSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IconIndexSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IconIndexSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Importance">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ImportanceChoicesType Importance { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.ImportanceChoicesType Importance" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.Importance" />
+      <MemberSignature Language="VB.NET" Value="Public Property Importance As ImportanceChoicesType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ImportanceChoicesType Importance { ExchangeWebServices::ImportanceChoicesType get(); void set(ExchangeWebServices::ImportanceChoicesType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ImportanceChoicesType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.Importance" /> property gets or sets one of the valid <see cref="T:ExchangeWebServices.ImportanceChoicesType" /> values to indicate the importance of the item.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.Importance" /> property returns one of the valid <see cref="T:ExchangeWebServices.ImportanceChoicesType" /> values.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImportanceSpecified">
+      <MemberSignature Language="C#" Value="public bool ImportanceSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ImportanceSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.ImportanceSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ImportanceSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ImportanceSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.ImportanceSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.ItemType.Importance" /> property is serialized into theSOAP request. This property is required if the <see cref="P:ExchangeWebServices.ItemType.Importance" /> property is specified.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.ImportanceSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.ItemType.Importance" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InReplyTo">
+      <MemberSignature Language="C#" Value="public string InReplyTo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InReplyTo" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.InReplyTo" />
+      <MemberSignature Language="VB.NET" Value="Public Property InReplyTo As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InReplyTo { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.InReplyTo" /> property gets or sets a string value that contains the identifier of the item to which this item is a reply.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.InReplyTo" /> property returns a string value that contains the identifier of the item to which this item is a reply.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstanceKey">
+      <MemberSignature Language="C#" Value="public byte[] InstanceKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] InstanceKey" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.InstanceKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property InstanceKey As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ InstanceKey { cli::array &lt;System::Byte&gt; ^ get(); void set(cli::array &lt;System::Byte&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement(DataType="base64Binary")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InternetMessageHeaders">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.InternetHeaderType[] InternetMessageHeaders { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.InternetHeaderType[] InternetMessageHeaders" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.InternetMessageHeaders" />
+      <MemberSignature Language="VB.NET" Value="Public Property InternetMessageHeaders As InternetHeaderType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::InternetHeaderType ^&gt; ^ InternetMessageHeaders { cli::array &lt;ExchangeWebServices::InternetHeaderType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::InternetHeaderType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("InternetMessageHeader", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.InternetHeaderType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.InternetMessageHeaders" /> property gets or sets an array of the type <see cref="T:ExchangeWebServices.InternetHeaderType" /> that represents the collection of all Internet message headers that are contained in an item in a mailbox.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.InternetMessageHeaders" /> property returns an array of the type <see cref="T:ExchangeWebServices.InternetHeaderType" /> that represents the collection of all Internet message headers that are contained in an item in a mailbox.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAssociated">
+      <MemberSignature Language="C#" Value="public bool IsAssociated { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAssociated" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.IsAssociated" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsAssociated As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAssociated { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAssociatedSpecified">
+      <MemberSignature Language="C#" Value="public bool IsAssociatedSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAssociatedSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.IsAssociatedSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsAssociatedSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAssociatedSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDraft">
+      <MemberSignature Language="C#" Value="public bool IsDraft { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDraft" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.IsDraft" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsDraft As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDraft { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.IsDraft" /> property gets or sets a Boolean value that indicates whether the item has not been sent.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.IsDraft" /> property returns <b>true</b> if the item has not yet been sent; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDraftSpecified">
+      <MemberSignature Language="C#" Value="public bool IsDraftSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDraftSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.IsDraftSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsDraftSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDraftSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.IsDraftSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.ItemType.IsDraft" /> property is serialized into the SOAP request. This property is required if the <see cref="P:ExchangeWebServices.ItemType.IsDraft" /> property is specified.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.IsDraftSpecified" /> returns <b>true</b> if the <see cref="P:ExchangeWebServices.ItemType.IsDraft" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFromMe">
+      <MemberSignature Language="C#" Value="public bool IsFromMe { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFromMe" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.IsFromMe" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsFromMe As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFromMe { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.IsFromMe" /> property gets or sets a Boolean value that indicates whether a user sent an item to him or herself.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.IsFromMe" /> property returns <b>true</b> if the item was sent by a user to him or herself; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFromMeSpecified">
+      <MemberSignature Language="C#" Value="public bool IsFromMeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFromMeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.IsFromMeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsFromMeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFromMeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.IsFromMeSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.ItemType.IsFromMe" /> property is serialized into the SOAP request. This property is required if the <see cref="P:ExchangeWebServices.ItemType.IsFromMe" /> property is specified.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.IsFromMeSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.ItemType.IsFromMe" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsResend">
+      <MemberSignature Language="C#" Value="public bool IsResend { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsResend" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.IsResend" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsResend As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsResend { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.IsResend" /> property gets or sets a Boolean value that indicates whether the item has previously been sent.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.IsResend" /> property returns <b>true</b> if the item has previously been sent; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsResendSpecified">
+      <MemberSignature Language="C#" Value="public bool IsResendSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsResendSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.IsResendSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsResendSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsResendSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.IsResendSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.ItemType.IsResend" /> property is serialized into the SOAP request. This property is required if the <see cref="P:ExchangeWebServices.ItemType.IsResend" /> property is specified.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.IsResendSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.ItemType.IsResend" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSubmitted">
+      <MemberSignature Language="C#" Value="public bool IsSubmitted { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSubmitted" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.IsSubmitted" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsSubmitted As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSubmitted { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.IsSubmitted" /> property gets or sets a Boolean value that indicates whether an item has been submitted to the Outbox default folder.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.IsSubmitted" /> returns <b>true</b> if the item has been submitted to the Outbox default folder; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSubmittedSpecified">
+      <MemberSignature Language="C#" Value="public bool IsSubmittedSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSubmittedSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.IsSubmittedSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsSubmittedSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSubmittedSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.IsSubmittedSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.ItemType.IsSubmitted" /> property is serialized into the (SOAP request. This property is required if the <see cref="P:ExchangeWebServices.ItemType.IsSubmitted" /> property is specified.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.IsSubmittedSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.ItemType.IsSubmitted" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsUnmodified">
+      <MemberSignature Language="C#" Value="public bool IsUnmodified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsUnmodified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.IsUnmodified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsUnmodified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsUnmodified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.IsUnmodified" /> property returns a Boolean value that indicates whether the item has been modified.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.IsUnmodified" /> property returns <b>true</b> if the item is unmodified; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsUnmodifiedSpecified">
+      <MemberSignature Language="C#" Value="public bool IsUnmodifiedSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsUnmodifiedSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.IsUnmodifiedSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsUnmodifiedSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsUnmodifiedSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.IsUnmodifiedSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.ItemType.IsUnmodified" /> property is serialized into the SOAP request. This property is required if the <see cref="P:ExchangeWebServices.ItemType.IsUnmodified" /> property is specified.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.IsUnmodifiedSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.ItemType.IsUnmodified" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemClass">
+      <MemberSignature Language="C#" Value="public string ItemClass { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ItemClass" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.ItemClass" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemClass As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ItemClass { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.ItemClass" /> property gets or sets a string value that indicates the message class of the item.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.ItemClass" /> property returns a string value that indicates the message class of the item.</value>
+        <remarks>
+          <para>The value specified in the <see cref="P:ExchangeWebServices.ItemType.ItemClass" /> property must be consistent with the type of the instance of the <see cref="T:ExchangeWebServices.ItemType" /> class.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemId">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ItemIdType ItemId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ItemIdType ItemId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.ItemId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemId As ItemIdType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ItemIdType ^ ItemId { ExchangeWebServices::ItemIdType ^ get(); void set(ExchangeWebServices::ItemIdType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemIdType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.ItemId" /> property gets or sets an instance of the <see cref="T:ExchangeWebServices.ItemIdType" /> class that represents the unique identifier and change key of an item in the Exchange store.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.ItemId" /> property returns an instance of the <see cref="T:ExchangeWebServices.ItemIdType" /> class that represents the unique identifier and change key of an item in the Exchange store.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastModifiedName">
+      <MemberSignature Language="C#" Value="public string LastModifiedName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LastModifiedName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.LastModifiedName" />
+      <MemberSignature Language="VB.NET" Value="Public Property LastModifiedName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ LastModifiedName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.LastModifiedName" /> property gets a string value that contains the name of the user who last modified the item.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.LastModifiedName" /> property returns a string value that contains the name of the user who last modified the item.</value>
+        <remarks>
+          <para>The LastModifiedName property signature is incorrect because it suggests that this property is settable. The setter property is an artifact of the fact that the auto-generated proxy generator does not have the context to account for the server business logic, which does not allow this property to be set.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastModifiedTime">
+      <MemberSignature Language="C#" Value="public DateTime LastModifiedTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime LastModifiedTime" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.LastModifiedTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property LastModifiedTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime LastModifiedTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.LastModifiedTime" /> property gets an instance of the DateTime structure that represents the date and time that the item was last modified.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.LastModifiedTime" /> property returns an instance of the DateTime structure that represents the date and time that the item was last modified.</value>
+        <remarks>
+          <para>The LastModifiedTime property signature is incorrect because it suggests that this property is settable. The setter property is an artifact of the fact that the auto-generated proxy generator does not have the context to account for the server business logic, which does not allow this property to be set.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastModifiedTimeSpecified">
+      <MemberSignature Language="C#" Value="public bool LastModifiedTimeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LastModifiedTimeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.LastModifiedTimeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property LastModifiedTimeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool LastModifiedTimeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.LastModifiedTimeSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.ItemType.LastModifiedTime" /> property is serialized into the SOAP request. This property is required if the <see cref="P:ExchangeWebServices.ItemType.LastModifiedTime" /> property is specified.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.LastModifiedTimeSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.ItemType.LastModifiedTime" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MimeContent">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.MimeContentType MimeContent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.MimeContentType MimeContent" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.MimeContent" />
+      <MemberSignature Language="VB.NET" Value="Public Property MimeContent As MimeContentType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::MimeContentType ^ MimeContent { ExchangeWebServices::MimeContentType ^ get(); void set(ExchangeWebServices::MimeContentType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MimeContentType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.MimeContent" /> property gets or sets an instance of the <see cref="T:ExchangeWebServices.MimeContentType" /> class that contains the native MIME stream of an object that is represented in base64Binary format.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.MimeContent" /> property returns an instance of the <see cref="T:ExchangeWebServices.MimeContentType" /> class that contains the native MIME stream of an object that is represented in base64Binary format.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NextPredictedAction">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PredictedMessageActionType NextPredictedAction { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.PredictedMessageActionType NextPredictedAction" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.NextPredictedAction" />
+      <MemberSignature Language="VB.NET" Value="Public Property NextPredictedAction As PredictedMessageActionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::PredictedMessageActionType NextPredictedAction { ExchangeWebServices::PredictedMessageActionType get(); void set(ExchangeWebServices::PredictedMessageActionType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PredictedMessageActionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NextPredictedActionSpecified">
+      <MemberSignature Language="C#" Value="public bool NextPredictedActionSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool NextPredictedActionSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.NextPredictedActionSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property NextPredictedActionSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool NextPredictedActionSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NormalizedBody">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BodyType NormalizedBody { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BodyType NormalizedBody" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.NormalizedBody" />
+      <MemberSignature Language="VB.NET" Value="Public Property NormalizedBody As BodyType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::BodyType ^ NormalizedBody { ExchangeWebServices::BodyType ^ get(); void set(ExchangeWebServices::BodyType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BodyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentFolderId">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.FolderIdType ParentFolderId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.FolderIdType ParentFolderId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.ParentFolderId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ParentFolderId As FolderIdType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::FolderIdType ^ ParentFolderId { ExchangeWebServices::FolderIdType ^ get(); void set(ExchangeWebServices::FolderIdType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FolderIdType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.ParentFolderId" /> property gets or sets an instance of the <see cref="T:ExchangeWebServices.FolderIdType" /> class that represents the identifier of the parent folder that contains the item or folder.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.ParentFolderId" /> property returns an instance of the <see cref="T:ExchangeWebServices.FolderIdType" /> class that represents the identifier of the parent folder that contains the item or folder.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PolicyTag">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.RetentionTagType PolicyTag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.RetentionTagType PolicyTag" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.PolicyTag" />
+      <MemberSignature Language="VB.NET" Value="Public Property PolicyTag As RetentionTagType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::RetentionTagType ^ PolicyTag { ExchangeWebServices::RetentionTagType ^ get(); void set(ExchangeWebServices::RetentionTagType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RetentionTagType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Preview">
+      <MemberSignature Language="C#" Value="public string Preview { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Preview" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.Preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property Preview As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Preview { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderDueBy">
+      <MemberSignature Language="C#" Value="public DateTime ReminderDueBy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime ReminderDueBy" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.ReminderDueBy" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReminderDueBy As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime ReminderDueBy { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.ReminderDueBy" /> property gets or sets an instance of the DateTime structure that represents the date and time when the event occurs. This is used by the <see cref="P:ExchangeWebServices.ItemType.ReminderMinutesBeforeStart" /> property to determine when the reminder is displayed.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.ReminderDueBy" /> property returns an instance of the DateTime structure that represents the date and time when the event occurs.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderDueBySpecified">
+      <MemberSignature Language="C#" Value="public bool ReminderDueBySpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReminderDueBySpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.ReminderDueBySpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReminderDueBySpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReminderDueBySpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.ReminderDueBySpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.ItemType.ReminderDueBy" /> property is serialized into the SOAP request. This property is required if the <see cref="P:ExchangeWebServices.ItemType.ReminderDueBy" /> property is specified.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.ReminderDueBySpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.ItemType.ReminderDueBy" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderIsSet">
+      <MemberSignature Language="C#" Value="public bool ReminderIsSet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReminderIsSet" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.ReminderIsSet" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReminderIsSet As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReminderIsSet { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.ReminderIsSet" /> property gets or sets a Boolean value that indicates whether a reminder has been set for an item in the Exchange store.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.ReminderIsSet" /> property returns <b>true</b> if a reminder has been set for the item; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderIsSetSpecified">
+      <MemberSignature Language="C#" Value="public bool ReminderIsSetSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReminderIsSetSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.ReminderIsSetSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReminderIsSetSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReminderIsSetSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.ReminderIsSetSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.ItemType.ReminderIsSet" /> property is serialized into the SOAP request. This property is required if the <see cref="P:ExchangeWebServices.ItemType.ReminderIsSet" /> property is specified.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.ReminderIsSetSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.ItemType.ReminderIsSet" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderMinutesBeforeStart">
+      <MemberSignature Language="C#" Value="public string ReminderMinutesBeforeStart { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ReminderMinutesBeforeStart" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.ReminderMinutesBeforeStart" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReminderMinutesBeforeStart As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ReminderMinutesBeforeStart { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.ReminderMinutesBeforeStart" /> property gets or sets a string value that indicates the number of minutes before an event occurs when a reminder is displayed.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.ReminderMinutesBeforeStart" /> property returns a string value that indicates the number of minutes before an event occurs when a reminder is displayed.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderNextTime">
+      <MemberSignature Language="C#" Value="public DateTime ReminderNextTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime ReminderNextTime" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.ReminderNextTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReminderNextTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime ReminderNextTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderNextTimeSpecified">
+      <MemberSignature Language="C#" Value="public bool ReminderNextTimeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReminderNextTimeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.ReminderNextTimeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReminderNextTimeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReminderNextTimeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResponseObjects">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ResponseObjectType[] ResponseObjects { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ResponseObjectType[] ResponseObjects" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.ResponseObjects" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResponseObjects As ResponseObjectType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::ResponseObjectType ^&gt; ^ ResponseObjects { cli::array &lt;ExchangeWebServices::ResponseObjectType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::ResponseObjectType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("TentativelyAcceptItem", typeof(ExchangeWebServices.TentativelyAcceptItemType), IsNullable=false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("SuppressReadReceipt", typeof(ExchangeWebServices.SuppressReadReceiptType), IsNullable=false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("AcceptItem", typeof(ExchangeWebServices.AcceptItemType), IsNullable=false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("CancelCalendarItem", typeof(ExchangeWebServices.CancelCalendarItemType), IsNullable=false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("DeclineItem", typeof(ExchangeWebServices.DeclineItemType), IsNullable=false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("ForwardItem", typeof(ExchangeWebServices.ForwardItemType), IsNullable=false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("AcceptSharingInvitation", typeof(ExchangeWebServices.AcceptSharingInvitationType), IsNullable=false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("PostReplyItem", typeof(ExchangeWebServices.PostReplyItemType), IsNullable=false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("RemoveItem", typeof(ExchangeWebServices.RemoveItemType), IsNullable=false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("ReplyAllToItem", typeof(ExchangeWebServices.ReplyAllToItemType), IsNullable=false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("ReplyToItem", typeof(ExchangeWebServices.ReplyToItemType), IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResponseObjectType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.ResponseObjects" /> property gets or sets an array of the type <see cref="T:ExchangeWebServices.ResponseObjectType" /> that contains a collection of all the response objects that are associated with an item in the Exchange store.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.ResponseObjects" /> property returns an array of the type <see cref="T:ExchangeWebServices.ResponseObjectType" /> that contains a collection of all the response objects that are associated with an item in the Exchange store.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetentionDate">
+      <MemberSignature Language="C#" Value="public DateTime RetentionDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime RetentionDate" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.RetentionDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property RetentionDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime RetentionDate { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetentionDateSpecified">
+      <MemberSignature Language="C#" Value="public bool RetentionDateSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool RetentionDateSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.RetentionDateSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property RetentionDateSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool RetentionDateSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RightsManagementLicenseData">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.RightsManagementLicenseDataType RightsManagementLicenseData { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.RightsManagementLicenseDataType RightsManagementLicenseData" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.RightsManagementLicenseData" />
+      <MemberSignature Language="VB.NET" Value="Public Property RightsManagementLicenseData As RightsManagementLicenseDataType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::RightsManagementLicenseDataType ^ RightsManagementLicenseData { ExchangeWebServices::RightsManagementLicenseDataType ^ get(); void set(ExchangeWebServices::RightsManagementLicenseDataType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RightsManagementLicenseDataType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sensitivity">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SensitivityChoicesType Sensitivity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.SensitivityChoicesType Sensitivity" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.Sensitivity" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sensitivity As SensitivityChoicesType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SensitivityChoicesType Sensitivity { ExchangeWebServices::SensitivityChoicesType get(); void set(ExchangeWebServices::SensitivityChoicesType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SensitivityChoicesType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.Sensitivity" /> property gets or sets one of the valid <see cref="T:ExchangeWebServices.SensitivityChoicesType" /> values that indicates the sensitivity level of an item.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.Sensitivity" /> property returns one of the valid <see cref="T:ExchangeWebServices.SensitivityChoicesType" /> values that indicates the sensitivity level of the item.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SensitivitySpecified">
+      <MemberSignature Language="C#" Value="public bool SensitivitySpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SensitivitySpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.SensitivitySpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property SensitivitySpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SensitivitySpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.SensitivitySpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.ItemType.Sensitivity" /> property is serialized into the SOAP request. This property is required if the <see cref="P:ExchangeWebServices.ItemType.Sensitivity" /> property is specified.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.SensitivitySpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.ItemType.Sensitivity" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public int Size { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Size" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.Size" />
+      <MemberSignature Language="VB.NET" Value="Public Property Size As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Size { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.Size" /> property gets or sets an integer value that represents the size in bytes of an item.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.Size" /> property returns an integer value that represents the size in bytes of the item.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SizeSpecified">
+      <MemberSignature Language="C#" Value="public bool SizeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SizeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.SizeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property SizeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SizeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.SizeSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.ItemType.Size" /> property is serialized into the SOAP request. This property is required if the <see cref="P:ExchangeWebServices.ItemType.Size" /> property is specified.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.SizeSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.ItemType.Size" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StoreEntryId">
+      <MemberSignature Language="C#" Value="public byte[] StoreEntryId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] StoreEntryId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.StoreEntryId" />
+      <MemberSignature Language="VB.NET" Value="Public Property StoreEntryId As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ StoreEntryId { cli::array &lt;System::Byte&gt; ^ get(); void set(cli::array &lt;System::Byte&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement(DataType="base64Binary")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subject">
+      <MemberSignature Language="C#" Value="public string Subject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Subject" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.Subject" />
+      <MemberSignature Language="VB.NET" Value="Public Property Subject As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subject { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemType.Subject" /> property gets or sets a string value that represents the subject property of Exchange store items. The subject is limited to 255 characters.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ItemType.Subject" /> property returns a string value that represents the subject property of Exchange store items. The subject is limited to 255 characters.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextBody">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BodyType TextBody { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BodyType TextBody" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.TextBody" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextBody As BodyType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::BodyType ^ TextBody { ExchangeWebServices::BodyType ^ get(); void set(ExchangeWebServices::BodyType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BodyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UniqueBody">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BodyType UniqueBody { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BodyType UniqueBody" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.UniqueBody" />
+      <MemberSignature Language="VB.NET" Value="Public Property UniqueBody As BodyType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::BodyType ^ UniqueBody { ExchangeWebServices::BodyType ^ get(); void set(ExchangeWebServices::BodyType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BodyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WebClientEditFormQueryString">
+      <MemberSignature Language="C#" Value="public string WebClientEditFormQueryString { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WebClientEditFormQueryString" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.WebClientEditFormQueryString" />
+      <MemberSignature Language="VB.NET" Value="Public Property WebClientEditFormQueryString As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ WebClientEditFormQueryString { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WebClientReadFormQueryString">
+      <MemberSignature Language="C#" Value="public string WebClientReadFormQueryString { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WebClientReadFormQueryString" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemType.WebClientReadFormQueryString" />
+      <MemberSignature Language="VB.NET" Value="Public Property WebClientReadFormQueryString As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ WebClientReadFormQueryString { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

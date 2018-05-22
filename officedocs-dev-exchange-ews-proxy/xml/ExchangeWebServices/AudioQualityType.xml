@@ -1,0 +1,252 @@
+﻿<Type Name="AudioQualityType" FullName="ExchangeWebServices.AudioQualityType">
+  <TypeSignature Language="C#" Value="public class AudioQualityType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit AudioQualityType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.AudioQualityType" />
+  <TypeSignature Language="VB.NET" Value="Public Class AudioQualityType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AudioQualityType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AudioQualityType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.AudioQualityType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AudioQualityType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AudioCodec">
+      <MemberSignature Language="C#" Value="public string AudioCodec { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AudioCodec" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AudioQualityType.AudioCodec" />
+      <MemberSignature Language="VB.NET" Value="Public Property AudioCodec As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AudioCodec { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BurstDensity">
+      <MemberSignature Language="C#" Value="public float BurstDensity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 BurstDensity" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AudioQualityType.BurstDensity" />
+      <MemberSignature Language="VB.NET" Value="Public Property BurstDensity As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float BurstDensity { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BurstDuration">
+      <MemberSignature Language="C#" Value="public float BurstDuration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 BurstDuration" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AudioQualityType.BurstDuration" />
+      <MemberSignature Language="VB.NET" Value="Public Property BurstDuration As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float BurstDuration { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Jitter">
+      <MemberSignature Language="C#" Value="public float Jitter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 Jitter" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AudioQualityType.Jitter" />
+      <MemberSignature Language="VB.NET" Value="Public Property Jitter As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Jitter { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NMOS">
+      <MemberSignature Language="C#" Value="public float NMOS { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 NMOS" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AudioQualityType.NMOS" />
+      <MemberSignature Language="VB.NET" Value="Public Property NMOS As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float NMOS { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NMOSDegradation">
+      <MemberSignature Language="C#" Value="public float NMOSDegradation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 NMOSDegradation" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AudioQualityType.NMOSDegradation" />
+      <MemberSignature Language="VB.NET" Value="Public Property NMOSDegradation As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float NMOSDegradation { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NMOSDegradationJitter">
+      <MemberSignature Language="C#" Value="public float NMOSDegradationJitter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 NMOSDegradationJitter" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AudioQualityType.NMOSDegradationJitter" />
+      <MemberSignature Language="VB.NET" Value="Public Property NMOSDegradationJitter As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float NMOSDegradationJitter { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NMOSDegradationPacketLoss">
+      <MemberSignature Language="C#" Value="public float NMOSDegradationPacketLoss { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 NMOSDegradationPacketLoss" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AudioQualityType.NMOSDegradationPacketLoss" />
+      <MemberSignature Language="VB.NET" Value="Public Property NMOSDegradationPacketLoss As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float NMOSDegradationPacketLoss { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PacketLoss">
+      <MemberSignature Language="C#" Value="public float PacketLoss { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 PacketLoss" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AudioQualityType.PacketLoss" />
+      <MemberSignature Language="VB.NET" Value="Public Property PacketLoss As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float PacketLoss { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RoundTrip">
+      <MemberSignature Language="C#" Value="public float RoundTrip { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 RoundTrip" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AudioQualityType.RoundTrip" />
+      <MemberSignature Language="VB.NET" Value="Public Property RoundTrip As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float RoundTrip { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

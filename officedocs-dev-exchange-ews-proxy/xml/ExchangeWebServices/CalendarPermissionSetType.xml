@@ -1,0 +1,102 @@
+﻿<Type Name="CalendarPermissionSetType" FullName="ExchangeWebServices.CalendarPermissionSetType">
+  <TypeSignature Language="C#" Value="public class CalendarPermissionSetType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit CalendarPermissionSetType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CalendarPermissionSetType" />
+  <TypeSignature Language="VB.NET" Value="Public Class CalendarPermissionSetType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CalendarPermissionSetType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.CalendarPermissionSetType" /> class contains all the permissions that are configured for a calendar folder. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CalendarPermissionSetType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.CalendarPermissionSetType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CalendarPermissionSetType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.CalendarPermissionSetType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.CalendarPermissionSetType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CalendarPermissions">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.CalendarPermissionType[] CalendarPermissions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.CalendarPermissionType[] CalendarPermissions" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarPermissionSetType.CalendarPermissions" />
+      <MemberSignature Language="VB.NET" Value="Public Property CalendarPermissions As CalendarPermissionType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::CalendarPermissionType ^&gt; ^ CalendarPermissions { cli::array &lt;ExchangeWebServices::CalendarPermissionType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::CalendarPermissionType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("CalendarPermission", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarPermissionType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.CalendarPermissionSetType.CalendarPermissions" /> property gets or sets the calendar permissions for a folder.</summary>
+        <value>The <see cref="P:ExchangeWebServices.CalendarPermissionSetType.CalendarPermissions" /> property returns an array of <see cref="T:ExchangeWebServices.CalendarPermissionType" /> objects that contain the calendar permissions for a folder.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnknownEntries">
+      <MemberSignature Language="C#" Value="public string[] UnknownEntries { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] UnknownEntries" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarPermissionSetType.UnknownEntries" />
+      <MemberSignature Language="VB.NET" Value="Public Property UnknownEntries As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ UnknownEntries { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("UnknownEntry", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.CalendarPermissionSetType.UnknownEntries" /> property gets or sets the entries that cannot be resolved against the Active Directory directory service.</summary>
+        <value>The <see cref="P:ExchangeWebServices.CalendarPermissionSetType.UnknownEntries" /> property returns an array of string values that contains the entries that cannot be resolved against Active Directory.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

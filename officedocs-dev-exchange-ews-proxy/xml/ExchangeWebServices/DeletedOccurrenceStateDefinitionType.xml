@@ -1,0 +1,117 @@
+﻿<Type Name="DeletedOccurrenceStateDefinitionType" FullName="ExchangeWebServices.DeletedOccurrenceStateDefinitionType">
+  <TypeSignature Language="C#" Value="public class DeletedOccurrenceStateDefinitionType : ExchangeWebServices.BaseCalendarItemStateDefinitionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit DeletedOccurrenceStateDefinitionType extends ExchangeWebServices.BaseCalendarItemStateDefinitionType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DeletedOccurrenceStateDefinitionType" />
+  <TypeSignature Language="VB.NET" Value="Public Class DeletedOccurrenceStateDefinitionType&#xA;Inherits BaseCalendarItemStateDefinitionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DeletedOccurrenceStateDefinitionType : ExchangeWebServices::BaseCalendarItemStateDefinitionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseCalendarItemStateDefinitionType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DeletedOccurrenceStateDefinitionType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.DeletedOccurrenceStateDefinitionType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DeletedOccurrenceStateDefinitionType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOccurrencePresent">
+      <MemberSignature Language="C#" Value="public bool IsOccurrencePresent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsOccurrencePresent" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DeletedOccurrenceStateDefinitionType.IsOccurrencePresent" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsOccurrencePresent As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsOccurrencePresent { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOccurrencePresentSpecified">
+      <MemberSignature Language="C#" Value="public bool IsOccurrencePresentSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsOccurrencePresentSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DeletedOccurrenceStateDefinitionType.IsOccurrencePresentSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsOccurrencePresentSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsOccurrencePresentSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OccurrenceDate">
+      <MemberSignature Language="C#" Value="public DateTime OccurrenceDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime OccurrenceDate" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DeletedOccurrenceStateDefinitionType.OccurrenceDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property OccurrenceDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime OccurrenceDate { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

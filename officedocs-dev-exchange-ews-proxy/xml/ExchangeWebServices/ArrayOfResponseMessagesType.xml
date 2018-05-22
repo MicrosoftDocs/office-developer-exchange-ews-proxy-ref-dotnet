@@ -1,0 +1,309 @@
+﻿<Type Name="ArrayOfResponseMessagesType" FullName="ExchangeWebServices.ArrayOfResponseMessagesType">
+  <TypeSignature Language="C#" Value="public class ArrayOfResponseMessagesType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ArrayOfResponseMessagesType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ArrayOfResponseMessagesType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ArrayOfResponseMessagesType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ArrayOfResponseMessagesType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.ArrayOfResponseMessagesType" /> class contains an array of elements of type <see cref="T:ExchangeWebServices.ResponseMessageType" /> that represent the response messages for a request.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ArrayOfResponseMessagesType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ArrayOfResponseMessagesType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ArrayOfResponseMessagesType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="M:ExchangeWebServices.ArrayOfResponseMessagesType.#ctor" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.ArrayOfResponseMessagesType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Items">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ResponseMessageType[] Items { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ResponseMessageType[] Items" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ArrayOfResponseMessagesType.Items" />
+      <MemberSignature Language="VB.NET" Value="Public Property Items As ResponseMessageType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::ResponseMessageType ^&gt; ^ Items { cli::array &lt;ExchangeWebServices::ResponseMessageType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::ResponseMessageType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlChoiceIdentifier("ItemsElementName")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ApplyConversationActionResponseMessage", typeof(ExchangeWebServices.ResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ArchiveItemResponseMessage", typeof(ExchangeWebServices.ItemInfoResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("GetAttachmentResponseMessage", typeof(ExchangeWebServices.AttachmentInfoResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("GetClientAccessTokenResponseMessage", typeof(ExchangeWebServices.GetClientAccessTokenResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("GetPersonaResponseMessage", typeof(ExchangeWebServices.GetPersonaResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("CopyFolderResponseMessage", typeof(ExchangeWebServices.FolderInfoResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("CopyItemResponseMessage", typeof(ExchangeWebServices.ItemInfoResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("CreateAttachmentResponseMessage", typeof(ExchangeWebServices.AttachmentInfoResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("CreateFolderPathResponseMessage", typeof(ExchangeWebServices.FolderInfoResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("CreateFolderResponseMessage", typeof(ExchangeWebServices.FolderInfoResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("CreateItemResponseMessage", typeof(ExchangeWebServices.ItemInfoResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("CreateManagedFolderResponseMessage", typeof(ExchangeWebServices.FolderInfoResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("CreateUserConfigurationResponseMessage", typeof(ExchangeWebServices.ResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("DeleteAttachmentResponseMessage", typeof(ExchangeWebServices.DeleteAttachmentResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("DeleteFolderResponseMessage", typeof(ExchangeWebServices.ResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("DeleteItemResponseMessage", typeof(ExchangeWebServices.ResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("DeleteUserConfigurationResponseMessage", typeof(ExchangeWebServices.ResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("EmptyFolderResponseMessage", typeof(ExchangeWebServices.ResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ExpandDLResponseMessage", typeof(ExchangeWebServices.ExpandDLResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ExportItemsResponseMessage", typeof(ExchangeWebServices.ExportItemsResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("FindFolderResponseMessage", typeof(ExchangeWebServices.FindFolderResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("FindItemResponseMessage", typeof(ExchangeWebServices.FindItemResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("FindMailboxStatisticsByKeywordsResponseMessage", typeof(ExchangeWebServices.FindMailboxStatisticsByKeywordsResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("FindPeopleResponseMessage", typeof(ExchangeWebServices.FindPeopleResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("GetAppManifestsResponseMessage", typeof(ExchangeWebServices.ResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("GetClientExtensionResponseMessage", typeof(ExchangeWebServices.ResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("GetConversationItemsResponseMessage", typeof(ExchangeWebServices.GetConversationItemsResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("GetDiscoverySearchConfigurationResponseMessage", typeof(ExchangeWebServices.GetDiscoverySearchConfigurationResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("GetEventsResponseMessage", typeof(ExchangeWebServices.GetEventsResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("GetFolderResponseMessage", typeof(ExchangeWebServices.FolderInfoResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("GetHoldOnMailboxesResponseMessage", typeof(ExchangeWebServices.GetHoldOnMailboxesResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("GetItemResponseMessage", typeof(ExchangeWebServices.ItemInfoResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("GetNonIndexableItemDetailsResponseMessage", typeof(ExchangeWebServices.GetNonIndexableItemDetailsResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("GetNonIndexableItemStatisticsResponseMessage", typeof(ExchangeWebServices.GetNonIndexableItemStatisticsResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("GetPasswordExpirationDateResponse", typeof(ExchangeWebServices.GetPasswordExpirationDateResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ConvertIdResponseMessage", typeof(ExchangeWebServices.ConvertIdResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("GetRemindersResponse", typeof(ExchangeWebServices.GetRemindersResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("GetRoomListsResponse", typeof(ExchangeWebServices.GetRoomListsResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("GetRoomsResponse", typeof(ExchangeWebServices.GetRoomsResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("GetSearchableMailboxesResponseMessage", typeof(ExchangeWebServices.GetSearchableMailboxesResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("GetServerTimeZonesResponseMessage", typeof(ExchangeWebServices.GetServerTimeZonesResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("GetSharingFolderResponseMessage", typeof(ExchangeWebServices.GetSharingFolderResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("GetSharingMetadataResponseMessage", typeof(ExchangeWebServices.GetSharingMetadataResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("GetStreamingEventsResponseMessage", typeof(ExchangeWebServices.GetStreamingEventsResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("GetUserConfigurationResponseMessage", typeof(ExchangeWebServices.GetUserConfigurationResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("GetUserPhotoResponseMessage", typeof(ExchangeWebServices.GetUserPhotoResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("GetUserRetentionPolicyTagsResponseMessage", typeof(ExchangeWebServices.GetUserRetentionPolicyTagsResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("MarkAllItemsAsReadResponseMessage", typeof(ExchangeWebServices.ResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("MarkAsJunkResponseMessage", typeof(ExchangeWebServices.MarkAsJunkResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("MoveFolderResponseMessage", typeof(ExchangeWebServices.FolderInfoResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("MoveItemResponseMessage", typeof(ExchangeWebServices.ItemInfoResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("PerformReminderActionResponse", typeof(ExchangeWebServices.PerformReminderActionResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("RefreshSharingFolderResponseMessage", typeof(ExchangeWebServices.RefreshSharingFolderResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ResolveNamesResponseMessage", typeof(ExchangeWebServices.ResolveNamesResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("SearchMailboxesResponseMessage", typeof(ExchangeWebServices.SearchMailboxesResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("SendItemResponseMessage", typeof(ExchangeWebServices.ResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("SendNotificationResponseMessage", typeof(ExchangeWebServices.SendNotificationResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("SetClientExtensionResponseMessage", typeof(ExchangeWebServices.ResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("SetHoldOnMailboxesResponseMessage", typeof(ExchangeWebServices.SetHoldOnMailboxesResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("SubscribeResponseMessage", typeof(ExchangeWebServices.SubscribeResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("SyncFolderHierarchyResponseMessage", typeof(ExchangeWebServices.SyncFolderHierarchyResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("SyncFolderItemsResponseMessage", typeof(ExchangeWebServices.SyncFolderItemsResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("UnsubscribeResponseMessage", typeof(ExchangeWebServices.ResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("UpdateFolderResponseMessage", typeof(ExchangeWebServices.FolderInfoResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("UpdateItemInRecoverableItemsResponseMessage", typeof(ExchangeWebServices.UpdateItemInRecoverableItemsResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("UpdateItemResponseMessage", typeof(ExchangeWebServices.UpdateItemResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("UpdateUserConfigurationResponseMessage", typeof(ExchangeWebServices.ResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("UploadItemsResponseMessage", typeof(ExchangeWebServices.UploadItemsResponseMessageType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResponseMessageType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ArrayOfResponseMessagesType.Items" /> property gets or sets an array of elements of type <see cref="T:ExchangeWebServices.ResponseMessageType" />.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ArrayOfResponseMessagesType.Items" /> property returns an array of elements of type <see cref="T:ExchangeWebServices.ResponseMessageType" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemsElementName">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ItemsChoiceType4[] ItemsElementName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.ItemsChoiceType4[] ItemsElementName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ArrayOfResponseMessagesType.ItemsElementName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemsElementName As ItemsChoiceType4()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::ItemsChoiceType4&gt; ^ ItemsElementName { cli::array &lt;ExchangeWebServices::ItemsChoiceType4&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::ItemsChoiceType4&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ItemsElementName")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemsChoiceType4[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ArrayOfResponseMessagesType.ItemsElementName" /> property gets or sets an array of elements of type <see cref="T:ExchangeWebServices.ItemsChoiceType3" /> that specify the type of response for each corresponding element in the <see cref="P:ExchangeWebServices.ArrayOfResponseMessagesType.Items" /> property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ArrayOfResponseMessagesType.ItemsElementName" /> property returns one of the valid <see cref="T:ExchangeWebServices.ItemsChoiceType3" /> enumeration values.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,36 @@
+﻿<Type Name="GetRoomListsCompletedEventHandler" FullName="ExchangeWebServices.GetRoomListsCompletedEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void GetRoomListsCompletedEventHandler(object sender, GetRoomListsCompletedEventArgs e);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed GetRoomListsCompletedEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetRoomListsCompletedEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub GetRoomListsCompletedEventHandler(sender As Object, e As GetRoomListsCompletedEventArgs)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void GetRoomListsCompletedEventHandler(System::Object ^ sender, GetRoomListsCompletedEventArgs ^ e);" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="sender" Type="System.Object" />
+    <Parameter Name="e" Type="ExchangeWebServices.GetRoomListsCompletedEventArgs" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="sender">To be added.</param>
+    <param name="e">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>
+      <para>
+        <b>Note</b>: This member applies to versions of Exchange starting with Exchange Server 2010 Service Pack 1 (SP1), including Exchange Online.</para>
+      <para />
+    </remarks>
+  </Docs>
+</Type>

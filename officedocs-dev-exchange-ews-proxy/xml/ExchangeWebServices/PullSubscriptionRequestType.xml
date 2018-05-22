@@ -1,0 +1,75 @@
+﻿<Type Name="PullSubscriptionRequestType" FullName="ExchangeWebServices.PullSubscriptionRequestType">
+  <TypeSignature Language="C#" Value="public class PullSubscriptionRequestType : ExchangeWebServices.BaseSubscriptionRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit PullSubscriptionRequestType extends ExchangeWebServices.BaseSubscriptionRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.PullSubscriptionRequestType" />
+  <TypeSignature Language="VB.NET" Value="Public Class PullSubscriptionRequestType&#xA;Inherits BaseSubscriptionRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PullSubscriptionRequestType : ExchangeWebServices::BaseSubscriptionRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseSubscriptionRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.PullSubscriptionRequestType" /> class represents a subscription to a pull-based event notification subscription.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PullSubscriptionRequestType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.PullSubscriptionRequestType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PullSubscriptionRequestType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.PullSubscriptionRequestType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.PullSubscriptionRequestType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Timeout">
+      <MemberSignature Language="C#" Value="public int Timeout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Timeout" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PullSubscriptionRequestType.Timeout" />
+      <MemberSignature Language="VB.NET" Value="Public Property Timeout As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Timeout { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.PullSubscriptionRequestType.Timeout" /> property gets or sets the duration that a subscription can remain idle without a GetEvents request from the client.</summary>
+        <value>The <see cref="P:ExchangeWebServices.PullSubscriptionRequestType.Timeout" /> property returns an integer that represents the number of minutes that a subscription can remain idle without a GetEvents request from the client.</value>
+        <remarks>
+          <para>The possible values for this property are 1 to 1440, inclusive. This property is required.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

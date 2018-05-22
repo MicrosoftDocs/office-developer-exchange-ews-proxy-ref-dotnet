@@ -1,0 +1,161 @@
+﻿<Type Name="PredictedMessageActionType" FullName="ExchangeWebServices.PredictedMessageActionType">
+  <TypeSignature Language="C#" Value="public enum PredictedMessageActionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed PredictedMessageActionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.PredictedMessageActionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PredictedMessageActionType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class PredictedMessageActionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="Delete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.PredictedMessageActionType Delete = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.PredictedMessageActionType.Delete" />
+      <MemberSignature Language="VB.NET" Value="Delete" />
+      <MemberSignature Language="C++ CLI" Value="Delete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PredictedMessageActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="FollowUp">
+      <MemberSignature Language="C#" Value="FollowUp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.PredictedMessageActionType FollowUp = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.PredictedMessageActionType.FollowUp" />
+      <MemberSignature Language="VB.NET" Value="FollowUp" />
+      <MemberSignature Language="C++ CLI" Value="FollowUp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PredictedMessageActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Ignore">
+      <MemberSignature Language="C#" Value="Ignore" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.PredictedMessageActionType Ignore = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.PredictedMessageActionType.Ignore" />
+      <MemberSignature Language="VB.NET" Value="Ignore" />
+      <MemberSignature Language="C++ CLI" Value="Ignore" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PredictedMessageActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MoveToFolder">
+      <MemberSignature Language="C#" Value="MoveToFolder" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.PredictedMessageActionType MoveToFolder = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.PredictedMessageActionType.MoveToFolder" />
+      <MemberSignature Language="VB.NET" Value="MoveToFolder" />
+      <MemberSignature Language="C++ CLI" Value="MoveToFolder" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PredictedMessageActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.PredictedMessageActionType None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.PredictedMessageActionType.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PredictedMessageActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Read">
+      <MemberSignature Language="C#" Value="Read" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.PredictedMessageActionType Read = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.PredictedMessageActionType.Read" />
+      <MemberSignature Language="VB.NET" Value="Read" />
+      <MemberSignature Language="C++ CLI" Value="Read" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PredictedMessageActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Respond">
+      <MemberSignature Language="C#" Value="Respond" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.PredictedMessageActionType Respond = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.PredictedMessageActionType.Respond" />
+      <MemberSignature Language="VB.NET" Value="Respond" />
+      <MemberSignature Language="C++ CLI" Value="Respond" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PredictedMessageActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

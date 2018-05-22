@@ -1,0 +1,77 @@
+﻿<Type Name="SearchFolderType" FullName="ExchangeWebServices.SearchFolderType">
+  <TypeSignature Language="C#" Value="public class SearchFolderType : ExchangeWebServices.FolderType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SearchFolderType extends ExchangeWebServices.FolderType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SearchFolderType" />
+  <TypeSignature Language="VB.NET" Value="Public Class SearchFolderType&#xA;Inherits FolderType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SearchFolderType : ExchangeWebServices::FolderType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.FolderType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.SearchFolderType" /> class represents a search folder that is contained in a mailbox.</summary>
+    <remarks>
+      <para>The<b /><see cref="T:ExchangeWebServices.SearchFolderType" /> class is used for both regular search folders and MicrosoftOfficeOutlook and Outlook Web Access visible search folders. For a search folder to be visible to Outlook and Outlook Web Access, the folder must be created under the SearchFolders distinguished folder.</para>
+      <para>
+        <b>Note</b>: If you use the calendar:Organizer property to create a search folder that has a restriction, a subsequent GetFolder call will return the restriction with the message:from property instead of the calendar:Organizer property. These two properties map to the same underlying MAPI property.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchFolderType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.SearchFolderType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchFolderType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.SearchFolderType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.SearchFolderType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchParameters">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SearchParametersType SearchParameters { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.SearchParametersType SearchParameters" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchFolderType.SearchParameters" />
+      <MemberSignature Language="VB.NET" Value="Public Property SearchParameters As SearchParametersType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SearchParametersType ^ SearchParameters { ExchangeWebServices::SearchParametersType ^ get(); void set(ExchangeWebServices::SearchParametersType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SearchParametersType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.SearchFolderType.SearchParameters" /> property gets or sets the parameters that define a search folder.</summary>
+        <value>The <see cref="P:ExchangeWebServices.SearchFolderType.SearchParameters" /> property returns a <see cref="T:ExchangeWebServices.SearchParametersType" /> object that contains the parameters that define a search folder.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

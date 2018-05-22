@@ -1,0 +1,77 @@
+﻿<Type Name="AlternatePublicFolderItemIdType" FullName="ExchangeWebServices.AlternatePublicFolderItemIdType">
+  <TypeSignature Language="C#" Value="public class AlternatePublicFolderItemIdType : ExchangeWebServices.AlternatePublicFolderIdType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit AlternatePublicFolderItemIdType extends ExchangeWebServices.AlternatePublicFolderIdType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.AlternatePublicFolderItemIdType" />
+  <TypeSignature Language="VB.NET" Value="Public Class AlternatePublicFolderItemIdType&#xA;Inherits AlternatePublicFolderIdType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AlternatePublicFolderItemIdType : ExchangeWebServices::AlternatePublicFolderIdType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.AlternatePublicFolderIdType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.AlternatePublicFolderItemIdType" /> class describes a public folder item identifier to convert to another identifier format.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AlternatePublicFolderItemIdType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.AlternatePublicFolderItemIdType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AlternatePublicFolderItemIdType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.AlternatePublicFolderItemIdType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.AlternatePublicFolderItemIdType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemId">
+      <MemberSignature Language="C#" Value="public string ItemId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ItemId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AlternatePublicFolderItemIdType.ItemId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ItemId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.AlternatePublicFolderItemIdType.ItemId" /> property gets or sets the public folder item identifier to convert.</summary>
+        <value>The <see cref="P:ExchangeWebServices.AlternatePublicFolderItemIdType.ItemId" /> property returns a string that represents the public folder item identifier to convert.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

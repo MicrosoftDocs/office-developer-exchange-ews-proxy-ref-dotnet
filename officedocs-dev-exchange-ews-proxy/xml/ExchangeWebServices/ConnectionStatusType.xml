@@ -1,0 +1,66 @@
+﻿<Type Name="ConnectionStatusType" FullName="ExchangeWebServices.ConnectionStatusType">
+  <TypeSignature Language="C#" Value="public enum ConnectionStatusType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed ConnectionStatusType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ConnectionStatusType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ConnectionStatusType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ConnectionStatusType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Closed">
+      <MemberSignature Language="C#" Value="Closed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ConnectionStatusType Closed = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ConnectionStatusType.Closed" />
+      <MemberSignature Language="VB.NET" Value="Closed" />
+      <MemberSignature Language="C++ CLI" Value="Closed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ConnectionStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="OK">
+      <MemberSignature Language="C#" Value="OK" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ConnectionStatusType OK = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ConnectionStatusType.OK" />
+      <MemberSignature Language="VB.NET" Value="OK" />
+      <MemberSignature Language="C++ CLI" Value="OK" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ConnectionStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

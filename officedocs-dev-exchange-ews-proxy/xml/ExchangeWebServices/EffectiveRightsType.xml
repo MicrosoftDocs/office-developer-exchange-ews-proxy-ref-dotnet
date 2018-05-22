@@ -1,0 +1,230 @@
+﻿<Type Name="EffectiveRightsType" FullName="ExchangeWebServices.EffectiveRightsType">
+  <TypeSignature Language="C#" Value="public class EffectiveRightsType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit EffectiveRightsType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.EffectiveRightsType" />
+  <TypeSignature Language="VB.NET" Value="Public Class EffectiveRightsType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EffectiveRightsType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.EffectiveRightsType" /> class contains the client's rights based on the permission settings for the item or folder. This class was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</summary>
+    <remarks>
+      <para>The <see cref="T:ExchangeWebServices.EffectiveRightsType" /> class is supported in the <see cref="T:ExchangeWebServices.GetFolderResponseType" />, <see cref="T:ExchangeWebServices.GetItemType" />, <see cref="T:ExchangeWebServices.FindFolderType" />, <see cref="T:ExchangeWebServices.FindItemType" />, <see cref="T:ExchangeWebServices.SyncFolderHierarchyType" />, and <see cref="T:ExchangeWebServices.SyncFolderItemsType" /> response classes. The <see cref="T:ExchangeWebServices.EffectiveRightsType" /> class is exposed as a property in the <see cref="F:ExchangeWebServices.DefaultShapeNamesType.AllProperties" /> shape for folders and items.</para>
+      <para>The <see cref="T:ExchangeWebServices.EffectiveRightsType" /> class provides access to the same information that is provided in the PR_ACCESS MAPI property.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EffectiveRightsType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.EffectiveRightsType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EffectiveRightsType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.EffectiveRightsType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.EffectiveRightsType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateAssociated">
+      <MemberSignature Language="C#" Value="public bool CreateAssociated { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CreateAssociated" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.EffectiveRightsType.CreateAssociated" />
+      <MemberSignature Language="VB.NET" Value="Public Property CreateAssociated As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CreateAssociated { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.EffectiveRightsType.CreateAssociated" /> property gets or sets a Boolean value that indicates whether the client can create an associated contents table.</summary>
+        <value>The <see cref="P:ExchangeWebServices.EffectiveRightsType.CreateAssociated" /> property returns <b>true</b> if the client can create an associated contents table for a folder; otherwise, the property returns <b>false</b>.</value>
+        <remarks>
+          <para>The <see cref="P:ExchangeWebServices.EffectiveRightsType.CreateAssociated" /> property is only used on folder objects.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateContents">
+      <MemberSignature Language="C#" Value="public bool CreateContents { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CreateContents" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.EffectiveRightsType.CreateContents" />
+      <MemberSignature Language="VB.NET" Value="Public Property CreateContents As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CreateContents { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.EffectiveRightsType.CreateContents" /> property gets or sets a Boolean value that indicates whether the client can create a contents table.</summary>
+        <value>The <see cref="P:ExchangeWebServices.EffectiveRightsType.CreateContents" /> property returns <b>true</b> if the client can create a contents table; otherwise, the property returns <b>false</b>.</value>
+        <remarks>
+          <para>The <see cref="P:ExchangeWebServices.EffectiveRightsType.CreateContents" /> property is only used on folder objects.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateHierarchy">
+      <MemberSignature Language="C#" Value="public bool CreateHierarchy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CreateHierarchy" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.EffectiveRightsType.CreateHierarchy" />
+      <MemberSignature Language="VB.NET" Value="Public Property CreateHierarchy As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CreateHierarchy { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.EffectiveRightsType.CreateHierarchy" /> property gets or sets a Boolean value that indicates whether a client can create a hierarchy table.</summary>
+        <value>The <see cref="P:ExchangeWebServices.EffectiveRightsType.CreateHierarchy" /> property returns <b>true</b> if the client can create a hierarchy table; otherwise, the property returns <b>false</b>.</value>
+        <remarks>
+          <para>The <see cref="P:ExchangeWebServices.EffectiveRightsType.CreateHierarchy" /> property is only used on folder objects.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public bool Delete { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Delete" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.EffectiveRightsType.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Property Delete As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Delete { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.EffectiveRightsType.Delete" /> property gets or sets a Boolean value that indicates whether a client can delete a folder or item.</summary>
+        <value>The <see cref="P:ExchangeWebServices.EffectiveRightsType.Delete" /> property returns <b>true</b> if the client can delete a folder or item; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Modify">
+      <MemberSignature Language="C#" Value="public bool Modify { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Modify" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.EffectiveRightsType.Modify" />
+      <MemberSignature Language="VB.NET" Value="Public Property Modify As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Modify { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.EffectiveRightsType.Modify" /> property gets or sets a Boolean value that indicates whether a client can modify a folder or item.</summary>
+        <value>The <see cref="P:ExchangeWebServices.EffectiveRightsType.Modify" /> property returns <b>true</b> if the client can modify a folder or item; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Read">
+      <MemberSignature Language="C#" Value="public bool Read { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Read" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.EffectiveRightsType.Read" />
+      <MemberSignature Language="VB.NET" Value="Public Property Read As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Read { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.EffectiveRightsType.Read" /> property gets or sets a Boolean value that indicates whether a client can read a folder or item.</summary>
+        <value>The <see cref="P:ExchangeWebServices.EffectiveRightsType.Read" /> property returns <b>true</b> if the client can modify a folder or item; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewPrivateItems">
+      <MemberSignature Language="C#" Value="public bool ViewPrivateItems { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ViewPrivateItems" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.EffectiveRightsType.ViewPrivateItems" />
+      <MemberSignature Language="VB.NET" Value="Public Property ViewPrivateItems As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ViewPrivateItems { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.Boolean" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewPrivateItemsSpecified">
+      <MemberSignature Language="C#" Value="public bool ViewPrivateItemsSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ViewPrivateItemsSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.EffectiveRightsType.ViewPrivateItemsSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ViewPrivateItemsSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ViewPrivateItemsSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.Boolean" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

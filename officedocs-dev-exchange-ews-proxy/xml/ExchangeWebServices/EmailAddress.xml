@@ -1,0 +1,118 @@
+﻿<Type Name="EmailAddress" FullName="ExchangeWebServices.EmailAddress">
+  <TypeSignature Language="C#" Value="public class EmailAddress" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit EmailAddress extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.EmailAddress" />
+  <TypeSignature Language="VB.NET" Value="Public Class EmailAddress" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EmailAddress" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.EmailAddress" /> class represents the address of a mailbox user.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EmailAddress ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.EmailAddress.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EmailAddress();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="M:ExchangeWebServices.EmailAddress.#ctor" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.EmailAddress" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Address">
+      <MemberSignature Language="C#" Value="public string Address { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Address" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.EmailAddress.Address" />
+      <MemberSignature Language="VB.NET" Value="Public Property Address As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Address { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.EmailAddress.Address" /> property gets or sets a string value that specifies the e-mail address that is represented by this instance of the <see cref="T:ExchangeWebServices.EmailAddress" /> class.</summary>
+        <value>The <see cref="P:ExchangeWebServices.EmailAddress.Address" /> property returns a string value that specifies the e-mail address that is represented by this instance of the <see cref="T:ExchangeWebServices.EmailAddress" /> class.</value>
+        <remarks>
+          <para>The value of the <see cref="P:ExchangeWebServices.EmailAddress.RoutingType" /> property specifies the type of routing to use for the e-mail address that is specified by the <see cref="P:ExchangeWebServices.EmailAddress.Address" /> property. If no value is specified for the <see cref="P:ExchangeWebServices.EmailAddress.RoutingType" /> property, SMTP is assumed.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.EmailAddress.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.EmailAddress.Name" /> property gets or sets a string value that specifies the name that is associated with the e-mail address that is represented by this instance of the <see cref="T:ExchangeWebServices.EmailAddress" /> class.</summary>
+        <value>The <see cref="P:ExchangeWebServices.EmailAddress.Name" /> property returns a string value that specifies the name that is associated with the e-mail address that is represented by this instance of the <see cref="T:ExchangeWebServices.EmailAddress" /> class.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RoutingType">
+      <MemberSignature Language="C#" Value="public string RoutingType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RoutingType" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.EmailAddress.RoutingType" />
+      <MemberSignature Language="VB.NET" Value="Public Property RoutingType As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RoutingType { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.EmailAddress.RoutingType" /> property gets or sets a string value that specifies the routing type that is associated with the e-mail address that is represented by this instance of the <see cref="T:ExchangeWebServices.EmailAddress" /> class.</summary>
+        <value>The <see cref="P:ExchangeWebServices.EmailAddress.RoutingType" /> property returns a string value that specifies the routing type that is associated with the e-mail address that is represented by this instance of the <see cref="T:ExchangeWebServices.EmailAddress" /> class.</value>
+        <remarks>
+          <para>If no value is specified for the <see cref="P:ExchangeWebServices.EmailAddress.RoutingType" /> property, SMTP is assumed.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

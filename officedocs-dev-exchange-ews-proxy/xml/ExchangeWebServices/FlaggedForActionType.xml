@@ -1,0 +1,237 @@
+﻿<Type Name="FlaggedForActionType" FullName="ExchangeWebServices.FlaggedForActionType">
+  <TypeSignature Language="C#" Value="public enum FlaggedForActionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed FlaggedForActionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.FlaggedForActionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum FlaggedForActionType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class FlaggedForActionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Any">
+      <MemberSignature Language="C#" Value="Any" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FlaggedForActionType Any = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FlaggedForActionType.Any" />
+      <MemberSignature Language="VB.NET" Value="Any" />
+      <MemberSignature Language="C++ CLI" Value="Any" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FlaggedForActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Call">
+      <MemberSignature Language="C#" Value="Call" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FlaggedForActionType Call = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FlaggedForActionType.Call" />
+      <MemberSignature Language="VB.NET" Value="Call" />
+      <MemberSignature Language="C++ CLI" Value="Call" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FlaggedForActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="DoNotForward">
+      <MemberSignature Language="C#" Value="DoNotForward" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FlaggedForActionType DoNotForward = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FlaggedForActionType.DoNotForward" />
+      <MemberSignature Language="VB.NET" Value="DoNotForward" />
+      <MemberSignature Language="C++ CLI" Value="DoNotForward" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FlaggedForActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="FollowUp">
+      <MemberSignature Language="C#" Value="FollowUp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FlaggedForActionType FollowUp = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FlaggedForActionType.FollowUp" />
+      <MemberSignature Language="VB.NET" Value="FollowUp" />
+      <MemberSignature Language="C++ CLI" Value="FollowUp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FlaggedForActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Forward">
+      <MemberSignature Language="C#" Value="Forward" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FlaggedForActionType Forward = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FlaggedForActionType.Forward" />
+      <MemberSignature Language="VB.NET" Value="Forward" />
+      <MemberSignature Language="C++ CLI" Value="Forward" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FlaggedForActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="FYI">
+      <MemberSignature Language="C#" Value="FYI" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FlaggedForActionType FYI = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FlaggedForActionType.FYI" />
+      <MemberSignature Language="VB.NET" Value="FYI" />
+      <MemberSignature Language="C++ CLI" Value="FYI" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FlaggedForActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="NoResponseNecessary">
+      <MemberSignature Language="C#" Value="NoResponseNecessary" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FlaggedForActionType NoResponseNecessary = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FlaggedForActionType.NoResponseNecessary" />
+      <MemberSignature Language="VB.NET" Value="NoResponseNecessary" />
+      <MemberSignature Language="C++ CLI" Value="NoResponseNecessary" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FlaggedForActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Read">
+      <MemberSignature Language="C#" Value="Read" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FlaggedForActionType Read = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FlaggedForActionType.Read" />
+      <MemberSignature Language="VB.NET" Value="Read" />
+      <MemberSignature Language="C++ CLI" Value="Read" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FlaggedForActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Reply">
+      <MemberSignature Language="C#" Value="Reply" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FlaggedForActionType Reply = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FlaggedForActionType.Reply" />
+      <MemberSignature Language="VB.NET" Value="Reply" />
+      <MemberSignature Language="C++ CLI" Value="Reply" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FlaggedForActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ReplyToAll">
+      <MemberSignature Language="C#" Value="ReplyToAll" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FlaggedForActionType ReplyToAll = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FlaggedForActionType.ReplyToAll" />
+      <MemberSignature Language="VB.NET" Value="ReplyToAll" />
+      <MemberSignature Language="C++ CLI" Value="ReplyToAll" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FlaggedForActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Review">
+      <MemberSignature Language="C#" Value="Review" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FlaggedForActionType Review = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FlaggedForActionType.Review" />
+      <MemberSignature Language="VB.NET" Value="Review" />
+      <MemberSignature Language="C++ CLI" Value="Review" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FlaggedForActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

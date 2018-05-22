@@ -1,0 +1,355 @@
+﻿<Type Name="UpdateItemType" FullName="ExchangeWebServices.UpdateItemType">
+  <TypeSignature Language="C#" Value="public class UpdateItemType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit UpdateItemType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.UpdateItemType" />
+  <TypeSignature Language="VB.NET" Value="Public Class UpdateItemType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UpdateItemType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.UpdateItemType" /> class represents a request to update a set of items.</summary>
+    <remarks>
+      <para>You can append, set, or delete properties when you update an item.</para>
+      <para>If you try to submit a change description that includes more than one property to modify, an <see cref="F:ExchangeWebServices.ResponseCodeType.ErrorIncorrectUpdatePropertyCount" /> error will be returned.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>The following code example shows you how to update a meeting. This example performs the following actions:</para>
+      <list type="number">
+        <item>
+          <description>Adds a new required attendee to the meeting.</description>
+        </item>
+        <item>
+          <description>Updates the start time of the meeting to the current time on the client.</description>
+        </item>
+        <item>
+          <description>Adds a custom MAPI property to the meeting.</description>
+        </item>
+        <item>
+          <description>Deletes all optional attendees.</description>
+        </item>
+        <item>
+          <description>Automatically resolves any conflicts in the update operation.</description>
+        </item>
+        <item>
+          <description>Sends the meeting update to all attendees and saves a copy of the updated meeting request in the folder that the <see cref="P:ExchangeWebServices.UpdateItemType.SavedItemFolderId" /> property identifies.</description>
+        </item>
+      </list>
+      <code>static void UpdateItem(ExchangeServiceBinding esb)
+{
+    // Create calendar items to contain each non-deletion update.
+    CalendarItemType ciAppendRA = new CalendarItemType();
+    CalendarItemType ciSetStart = new CalendarItemType();
+    CalendarItemType ciSetEP = new CalendarItemType();
+
+    // Add a new required attendee to the calendar item.
+    ciAppendRA.RequiredAttendees = new AttendeeType[1];
+    ciAppendRA.RequiredAttendees[0] = new AttendeeType();
+    ciAppendRA.RequiredAttendees[0].Mailbox = new EmailAddressType();
+    ciAppendRA.RequiredAttendees[0].Mailbox.EmailAddress = "mskinner@example.com";
+    // Identify the field to append.
+    PathToUnindexedFieldType appReqAttendees = new PathToUnindexedFieldType();
+    appReqAttendees.FieldURI = UnindexedFieldURIType.calendarRequiredAttendees;
+    // Add the calendar item and the identified appended field to
+    // the ItemChangeDescriptionType. This is an AppendToItemFieldType.
+    AppendToItemFieldType append = new AppendToItemFieldType();
+    append.Item = appReqAttendees;
+    append.Item1 = ciAppendRA;
+
+    // Set a new start time on a calendar item.
+    ciSetStart.Start = DateTime.Now;
+    ciSetStart.StartSpecified = true;
+    // Identify the field to set.
+    PathToUnindexedFieldType modStartTime = new PathToUnindexedFieldType();
+    modStartTime.FieldURI = UnindexedFieldURIType.calendarStart;
+    // Add the calendar item and the identified set field to
+    // the ItemChangeDescriptionType. This is a SetItemFieldType.
+    SetItemFieldType set = new SetItemFieldType();
+    set.Item = modStartTime;
+    set.Item1 = ciSetStart;
+
+    // Set a custom property on a calendar item.
+    PathToExtendedFieldType setMyProperty = new PathToExtendedFieldType();
+    setMyProperty.DistinguishedPropertySetId = DistinguishedPropertySetType.PublicStrings;
+    setMyProperty.DistinguishedPropertySetIdSpecified = true;
+    setMyProperty.PropertyName = "Milestone date";
+    setMyProperty.PropertyType = MapiPropertyTypeType.String;
+    // Identify the custom property to set.
+    ciSetEP.ExtendedProperty = new ExtendedPropertyType[1];
+    ciSetEP.ExtendedProperty[0] = new ExtendedPropertyType();
+    ciSetEP.ExtendedProperty[0].ExtendedFieldURI = setMyProperty;
+    ciSetEP.ExtendedProperty[0].Item = "2007-07-18";
+    // Add the calendar item and the identified custom property
+    // to the ItemChangeDescriptionType. This is an SetItemFieldType.
+    SetItemFieldType setCustomProp = new SetItemFieldType();
+    setCustomProp.Item = setMyProperty;
+    setCustomProp.Item1 = ciSetEP;
+
+    // Delete optional attendees from the calendar item.
+    PathToUnindexedFieldType delOptAttendees = new PathToUnindexedFieldType();
+    delOptAttendees.FieldURI = UnindexedFieldURIType.calendarOptionalAttendees;
+    // Add the property to delete to the ItemChangeDescriptionType.
+    DeleteItemFieldType deletion = new DeleteItemFieldType();
+    deletion.Item = delOptAttendees;            
+
+    // Create the identifier of the item to update.
+    ItemIdType itemId = new ItemIdType();
+    itemId.Id = "AAAlAE1BQG";
+    itemId.ChangeKey = "DwAAABYAAA";
+
+    // Create and populate the request.
+    UpdateItemType &lt;span class="label"&gt;request&lt;/span&gt; = new &lt;span class="label"&gt;UpdateItemType&lt;/span&gt;();
+    &lt;span class="label"&gt;request&lt;/span&gt;.ItemChanges = new ItemChangeType[1] { new ItemChangeType() };
+    &lt;span class="label"&gt;request&lt;/span&gt;.ItemChanges[0].Item = itemId;
+    &lt;span class="label"&gt;request&lt;/span&gt;.ItemChanges[0].Updates = new ItemChangeDescriptionType[4];
+    &lt;span class="label"&gt;request&lt;/span&gt;.ItemChanges[0].Updates[0] = append;
+    &lt;span class="label"&gt;request&lt;/span&gt;.ItemChanges[0].Updates[1] = set;
+    &lt;span class="label"&gt;request&lt;/span&gt;.ItemChanges[0].Updates[2] = deletion;
+    &lt;span class="label"&gt;request&lt;/span&gt;.ItemChanges[0].Updates[3] = setCustomProp;
+
+    &lt;span class="label"&gt;request&lt;/span&gt;.ConflictResolution = ConflictResolutionType.AutoResolve;
+    &lt;span class="label"&gt;request&lt;/span&gt;.SendMeetingInvitationsOrCancellations = CalendarItemUpdateOperationType.SendToAllAndSaveCopy;
+    &lt;span class="label"&gt;request&lt;/span&gt;.SendMeetingInvitationsOrCancellationsSpecified = true;
+
+    // Send the update request and receive the response.
+    UpdateItemResponseType response = esb.UpdateItem(&lt;span class="label"&gt;request&lt;/span&gt;);
+    ArrayOfResponseMessagesType aormt = response.ResponseMessages;
+    ResponseMessageType[] rmta = aormt.Items;
+
+    foreach (ResponseMessageType rmt in rmta)
+    {
+        ItemInfoResponseMessageType respMsg = (rmt as ItemInfoResponseMessageType);
+        foreach (ItemType item in respMsg.Items.Items)
+        {
+            Console.WriteLine("Item ID: " + item.ItemId.Id);
+            Console.WriteLine("New change key: " + item.ItemId.ChangeKey);
+            Console.ReadLine();
+        }
+    }
+}</code>
+      <para>
+        <b>Note</b>: The item identifier and change key in the request have been shortened to preserve readability.</para>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UpdateItemType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.UpdateItemType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; UpdateItemType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.UpdateItemType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.UpdateItemType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConflictResolution">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ConflictResolutionType ConflictResolution { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.ConflictResolutionType ConflictResolution" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UpdateItemType.ConflictResolution" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConflictResolution As ConflictResolutionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ConflictResolutionType ConflictResolution { ExchangeWebServices::ConflictResolutionType get(); void set(ExchangeWebServices::ConflictResolutionType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ConflictResolutionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.UpdateItemType.ConflictResolution" /> property gets or sets an enumeration value that represents the type of conflict resolution that is performed during an update. This property is required. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.UpdateItemType.ConflictResolution" /> property returns a <see cref="T:ExchangeWebServices.ConflictResolutionType" /> enumeration.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemChanges">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ItemChangeType[] ItemChanges { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ItemChangeType[] ItemChanges" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UpdateItemType.ItemChanges" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemChanges As ItemChangeType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::ItemChangeType ^&gt; ^ ItemChanges { cli::array &lt;ExchangeWebServices::ItemChangeType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::ItemChangeType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("ItemChange", IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemChangeType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.UpdateItemType.ItemChanges" /> property gets or sets an array of item changes. This property is required. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.UpdateItemType.ItemChanges" /> property returns an <see cref="T:ExchangeWebServices.ItemChangeType" /> array.</value>
+        <remarks>
+          <para>Each element in the <see cref="T:ExchangeWebServices.ItemChangeType" /> array corresponds to a single item to be changed in the Exchange database.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MessageDisposition">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.MessageDispositionType MessageDisposition { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.MessageDispositionType MessageDisposition" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UpdateItemType.MessageDisposition" />
+      <MemberSignature Language="VB.NET" Value="Public Property MessageDisposition As MessageDispositionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::MessageDispositionType MessageDisposition { ExchangeWebServices::MessageDispositionType get(); void set(ExchangeWebServices::MessageDispositionType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MessageDispositionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.UpdateItemType.MessageDisposition" /> property gets or sets an enumeration value that describes how a message item is handled after it is updated. This property is required for message items, including meeting messages such as meeting cancellations, meeting requests, and meeting responses. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.UpdateItemType.MessageDisposition" /> property returns a <see cref="T:ExchangeWebServices.MessageDispositionType" /> enumeration value.</value>
+        <remarks>
+          <para>You must set the <see cref="P:ExchangeWebServices.UpdateItemType.MessageDispositionSpecified" /> property to <b>true</b> so that the <see cref="P:ExchangeWebServices.UpdateItemType.MessageDisposition" /> property is serialized into the Simple Object Access Protocol (SOAP) request.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MessageDispositionSpecified">
+      <MemberSignature Language="C#" Value="public bool MessageDispositionSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MessageDispositionSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UpdateItemType.MessageDispositionSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property MessageDispositionSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MessageDispositionSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.UpdateItemType.MessageDispositionSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.UpdateItemType.MessageDisposition" /> property is serialized into the Simple Object Access Protocol (SOAP) request. This property is required if the <see cref="P:ExchangeWebServices.UpdateItemType.MessageDisposition" /> property is set. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.UpdateItemType.MessageDispositionSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.UpdateItemType.MessageDisposition" /> property is serialized into the Simple Object Access Protocol (SOAP) request; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SavedItemFolderId">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.TargetFolderIdType SavedItemFolderId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.TargetFolderIdType SavedItemFolderId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UpdateItemType.SavedItemFolderId" />
+      <MemberSignature Language="VB.NET" Value="Public Property SavedItemFolderId As TargetFolderIdType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::TargetFolderIdType ^ SavedItemFolderId { ExchangeWebServices::TargetFolderIdType ^ get(); void set(ExchangeWebServices::TargetFolderIdType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TargetFolderIdType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.UpdateItemType.SavedItemFolderId" /> property gets or sets the target folder for saved items. This property is set with either a <see cref="T:ExchangeWebServices.FolderIdType" /> or <see cref="T:ExchangeWebServices.DistinguishedFolderIdType" /> object. This property is optional. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.UpdateItemType.SavedItemFolderId" /> property returns a <see cref="T:ExchangeWebServices.TargetFolderIdType" /> object that can be cast to either a <see cref="T:ExchangeWebServices.FolderIdType" /> or <see cref="T:ExchangeWebServices.DistinguishedFolderIdType" /> object.</value>
+        <remarks>
+          <para>If this property is not set and either the <see cref="P:ExchangeWebServices.UpdateItemType.MessageDisposition" /> or the <see cref="P:ExchangeWebServices.UpdateItemType.SendMeetingInvitationsOrCancellations" /> property is set so that a copy is saved, the default location for saved items will be the Sent Items folder.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendMeetingInvitationsOrCancellations">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.CalendarItemUpdateOperationType SendMeetingInvitationsOrCancellations { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.CalendarItemUpdateOperationType SendMeetingInvitationsOrCancellations" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UpdateItemType.SendMeetingInvitationsOrCancellations" />
+      <MemberSignature Language="VB.NET" Value="Public Property SendMeetingInvitationsOrCancellations As CalendarItemUpdateOperationType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::CalendarItemUpdateOperationType SendMeetingInvitationsOrCancellations { ExchangeWebServices::CalendarItemUpdateOperationType get(); void set(ExchangeWebServices::CalendarItemUpdateOperationType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarItemUpdateOperationType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.UpdateItemType.SendMeetingInvitationsOrCancellations" /> property gets or sets an enumeration value that describes how a calendar item is handled after it is updated. This property is required for calendar items. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.UpdateItemType.SendMeetingInvitationsOrCancellations" /> property returns a <see cref="T:ExchangeWebServices.CalendarItemUpdateOperationType" /> enumeration value.</value>
+        <remarks>
+          <para>You must set the <see cref="P:ExchangeWebServices.UpdateItemType.SendMeetingInvitationsOrCancellationsSpecified" /> property to <b>true</b> so that the <see cref="P:ExchangeWebServices.UpdateItemType.SendMeetingInvitationsOrCancellations" /> property is serialized into the Simple Object Access Protocol (SOAP) request.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendMeetingInvitationsOrCancellationsSpecified">
+      <MemberSignature Language="C#" Value="public bool SendMeetingInvitationsOrCancellationsSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SendMeetingInvitationsOrCancellationsSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UpdateItemType.SendMeetingInvitationsOrCancellationsSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property SendMeetingInvitationsOrCancellationsSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SendMeetingInvitationsOrCancellationsSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.UpdateItemType.SendMeetingInvitationsOrCancellationsSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.UpdateItemType.SendMeetingInvitationsOrCancellations" /> property is serialized into the Simple Object Access Protocol (SOAP) request. This property is required if the <see cref="P:ExchangeWebServices.UpdateItemType.SendMeetingInvitationsOrCancellations" /> property is set. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.UpdateItemType.SendMeetingInvitationsOrCancellationsSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.UpdateItemType.SendMeetingInvitationsOrCancellations" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,167 @@
+﻿<Type Name="GetFolderType" FullName="ExchangeWebServices.GetFolderType">
+  <TypeSignature Language="C#" Value="public class GetFolderType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetFolderType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetFolderType" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetFolderType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetFolderType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.GetFolderType" /> class represents a request to get folders from a mailbox.</summary>
+    <remarks>
+      <para>The GetFolder operation is used to get regular, managed, and default folders from an Exchange mailbox.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>The following example shows you how to get two folders. One of the folders is identified by the FolderId property and the other folder is identified by the DistinguishedFolderId property. The response will contain the properties that are defined for the AllProperties response shape and the additional information that is provided by the ManagedFolderInformation property if it applies to the folder.</para>
+      <code>static void GetFolder(ExchangeServiceBinding esb)
+{ 
+    // Identify the folders to get.
+    FolderIdType folder1 = new FolderIdType();
+    DistinguishedFolderIdType sentitems = new DistinguishedFolderIdType();
+    folder1.Id = "AQAlAE1BQG";
+    sentitems.Id = DistinguishedFolderIdNameType.sentitems;
+
+    // Identify the folder properties to return.
+    FolderResponseShapeType properties = new FolderResponseShapeType();
+    PathToUnindexedFieldType ptuft = new PathToUnindexedFieldType();
+    ptuft.FieldURI = UnindexedFieldURIType.folderManagedFolderInformation;
+    PathToUnindexedFieldType[] ptufts = new PathToUnindexedFieldType[1] { ptuft };
+    properties.AdditionalProperties = ptufts; 
+    properties.BaseShape = DefaultShapeNamesType.AllProperties;
+
+    // Form the get folder request.
+    GetFolderType &lt;span class="label"&gt;request&lt;/span&gt; = new GetFolderType();
+    &lt;span class="label"&gt;request&lt;/span&gt;.FolderIds = new BaseFolderIdType[2] { folder1, sentitems };
+    &lt;span class="label"&gt;request&lt;/span&gt;.FolderShape = properties;
+
+    try
+    {
+        // Send the request and get the response.
+        GetFolderResponseType response = esb.GetFolder(&lt;span class="label"&gt;request&lt;/span&gt;);
+        ArrayOfResponseMessagesType aormt = response.ResponseMessages;
+        ResponseMessageType[] rmta = aormt.Items;
+
+        foreach (ResponseMessageType rmt in rmta)
+        {
+            if (rmt.ResponseClass == ResponseClassType.Success)
+            {
+                FolderInfoResponseMessageType firmt;
+                firmt = (rmt as FolderInfoResponseMessageType);
+                BaseFolderType[] folders = firmt.Folders;
+
+                foreach (BaseFolderType folder in folders)
+                {
+                    if (folder is CalendarFolderType)
+                    {
+                        CalendarFolderType calendar;
+                        calendar = (folder as CalendarFolderType);
+                    }
+                    else if (folder is ContactsFolderType)
+                    {
+                        // Handle the contacts folder.
+                    }
+                    else
+                    { 
+                        // Handle SearchFolderType, TasksFolderType,
+                        // and FolderType.
+                    }
+                }
+            }
+        }
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine(e.Message);
+    }
+}</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetFolderType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetFolderType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetFolderType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.GetFolderType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.GetFolderType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderIds">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BaseFolderIdType[] FolderIds { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BaseFolderIdType[] FolderIds" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetFolderType.FolderIds" />
+      <MemberSignature Language="VB.NET" Value="Public Property FolderIds As BaseFolderIdType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ FolderIds { cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("FolderId", typeof(ExchangeWebServices.FolderIdType), IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("DistinguishedFolderId", typeof(ExchangeWebServices.DistinguishedFolderIdType), IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BaseFolderIdType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GetFolderType.FolderIds" /> property gets or sets the identifiers of the folders to get.</summary>
+        <value>The <see cref="P:ExchangeWebServices.GetFolderType.FolderIds" /> property returns a <see cref="T:ExchangeWebServices.BaseFolderType" /> array.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderShape">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.FolderResponseShapeType FolderShape { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.FolderResponseShapeType FolderShape" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetFolderType.FolderShape" />
+      <MemberSignature Language="VB.NET" Value="Public Property FolderShape As FolderResponseShapeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::FolderResponseShapeType ^ FolderShape { ExchangeWebServices::FolderResponseShapeType ^ get(); void set(ExchangeWebServices::FolderResponseShapeType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FolderResponseShapeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GetFolderType.FolderShape" /> property gets or sets the properties to be returned in the response.</summary>
+        <value>The <see cref="P:ExchangeWebServices.GetFolderType.FolderShape" /> property returns a <see cref="T:ExchangeWebServices.FolderResponseShapeType" /> object.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

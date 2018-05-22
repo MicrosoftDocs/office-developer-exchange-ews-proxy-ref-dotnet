@@ -1,0 +1,72 @@
+﻿<Type Name="UpdateItemResponseMessageType" FullName="ExchangeWebServices.UpdateItemResponseMessageType">
+  <TypeSignature Language="C#" Value="public class UpdateItemResponseMessageType : ExchangeWebServices.ItemInfoResponseMessageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit UpdateItemResponseMessageType extends ExchangeWebServices.ItemInfoResponseMessageType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.UpdateItemResponseMessageType" />
+  <TypeSignature Language="VB.NET" Value="Public Class UpdateItemResponseMessageType&#xA;Inherits ItemInfoResponseMessageType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UpdateItemResponseMessageType : ExchangeWebServices::ItemInfoResponseMessageType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.ItemInfoResponseMessageType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.UpdateItemResponseMessageType" /> class contains the status and result of a single call to the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.UpdateItem(ExchangeWebServices.UpdateItemType)" /> method.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UpdateItemResponseMessageType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.UpdateItemResponseMessageType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; UpdateItemResponseMessageType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.UpdateItemResponseMessageType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.UpdateItemResponseMessageType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConflictResults">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ConflictResultsType ConflictResults { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ConflictResultsType ConflictResults" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UpdateItemResponseMessageType.ConflictResults" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConflictResults As ConflictResultsType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ConflictResultsType ^ ConflictResults { ExchangeWebServices::ConflictResultsType ^ get(); void set(ExchangeWebServices::ConflictResultsType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ConflictResultsType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.UpdateItemResponseMessageType.ConflictResults" /> property gets or sets the number of conflicts in the result.</summary>
+        <value>The <see cref="P:ExchangeWebServices.UpdateItemResponseMessageType.ConflictResults" /> property returns a ConflictResultsType object that contains the number of conflicts in the result.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

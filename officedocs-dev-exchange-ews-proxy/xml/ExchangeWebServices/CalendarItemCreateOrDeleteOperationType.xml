@@ -1,0 +1,89 @@
+﻿<Type Name="CalendarItemCreateOrDeleteOperationType" FullName="ExchangeWebServices.CalendarItemCreateOrDeleteOperationType">
+  <TypeSignature Language="C#" Value="public enum CalendarItemCreateOrDeleteOperationType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed CalendarItemCreateOrDeleteOperationType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CalendarItemCreateOrDeleteOperationType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum CalendarItemCreateOrDeleteOperationType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class CalendarItemCreateOrDeleteOperationType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.CalendarItemCreateOrDeleteOperationType" /> enumeration describes how meeting requests and cancellations are handled.</summary>
+    <remarks>
+      <para>You can determine the method for handling meeting requests by checking the <see cref="P:ExchangeWebServices.CreateItemType.SendMeetingInvitations" /> property. You must set the <see cref="P:ExchangeWebServices.CreateItemType.SendMeetingInvitationsSpecified" /> property to <b>true</b> so that the <see cref="P:ExchangeWebServices.CreateItemType.SendMeetingInvitations" /> property is serialized into the SOAP request.</para>
+      <para>You can determine the method for handling meeting cancellations by checking the <see cref="P:ExchangeWebServices.DeleteItemType.SendMeetingCancellations" /> property. You must set the <see cref="P:ExchangeWebServices.DeleteItemType.SendMeetingCancellationsSpecified" /> property to <b>true</b> so that the <see cref="P:ExchangeWebServices.DeleteItemType.SendMeetingCancellations" /> property is serialized into the SOAP request.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="SendOnlyToAll">
+      <MemberSignature Language="C#" Value="SendOnlyToAll" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarItemCreateOrDeleteOperationType SendOnlyToAll = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarItemCreateOrDeleteOperationType.SendOnlyToAll" />
+      <MemberSignature Language="VB.NET" Value="SendOnlyToAll" />
+      <MemberSignature Language="C++ CLI" Value="SendOnlyToAll" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarItemCreateOrDeleteOperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>In the CreateItem operation, specifies that the meeting is created and a meeting request is sent to all attendees, but no copy of the meeting request is saved. In the DeleteItem operation, specifies that the meeting is deleted and a meeting cancellation message is sent to all attendees, but no copy of the meeting cancellation is saved.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SendToAllAndSaveCopy">
+      <MemberSignature Language="C#" Value="SendToAllAndSaveCopy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarItemCreateOrDeleteOperationType SendToAllAndSaveCopy = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarItemCreateOrDeleteOperationType.SendToAllAndSaveCopy" />
+      <MemberSignature Language="VB.NET" Value="SendToAllAndSaveCopy" />
+      <MemberSignature Language="C++ CLI" Value="SendToAllAndSaveCopy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarItemCreateOrDeleteOperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>In the CreateItem operation, specifies that the meeting is created, a meeting request is sent to all attendees, and a copy of the meeting request is saved in the Sent Items folder. In the DeleteItem operation, specifies that the meeting is deleted, a meeting cancellation message is sent to all attendees, and a copy of the meeting cancellation is saved in the Sent Items folder.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SendToNone">
+      <MemberSignature Language="C#" Value="SendToNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.CalendarItemCreateOrDeleteOperationType SendToNone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.CalendarItemCreateOrDeleteOperationType.SendToNone" />
+      <MemberSignature Language="VB.NET" Value="SendToNone" />
+      <MemberSignature Language="C++ CLI" Value="SendToNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarItemCreateOrDeleteOperationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>In the CreateItem operation, specifies that the meeting is created but no meeting request is sent to attendees. In the DeleteItem operation, specifies that the meeting is deleted but no meeting cancellation message is sent to attendees.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

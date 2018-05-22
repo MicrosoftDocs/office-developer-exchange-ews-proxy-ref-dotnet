@@ -1,0 +1,647 @@
+﻿<Type Name="RightsManagementLicenseDataType" FullName="ExchangeWebServices.RightsManagementLicenseDataType">
+  <TypeSignature Language="C#" Value="public class RightsManagementLicenseDataType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit RightsManagementLicenseDataType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.RightsManagementLicenseDataType" />
+  <TypeSignature Language="VB.NET" Value="Public Class RightsManagementLicenseDataType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RightsManagementLicenseDataType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RightsManagementLicenseDataType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.RightsManagementLicenseDataType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RightsManagementLicenseDataType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentExpiryDate">
+      <MemberSignature Language="C#" Value="public string ContentExpiryDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ContentExpiryDate" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RightsManagementLicenseDataType.ContentExpiryDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContentExpiryDate As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ContentExpiryDate { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentOwner">
+      <MemberSignature Language="C#" Value="public string ContentOwner { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ContentOwner" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RightsManagementLicenseDataType.ContentOwner" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContentOwner As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ContentOwner { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EditAllowed">
+      <MemberSignature Language="C#" Value="public bool EditAllowed { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EditAllowed" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RightsManagementLicenseDataType.EditAllowed" />
+      <MemberSignature Language="VB.NET" Value="Public Property EditAllowed As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EditAllowed { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EditAllowedSpecified">
+      <MemberSignature Language="C#" Value="public bool EditAllowedSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EditAllowedSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RightsManagementLicenseDataType.EditAllowedSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property EditAllowedSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EditAllowedSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExportAllowed">
+      <MemberSignature Language="C#" Value="public bool ExportAllowed { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ExportAllowed" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RightsManagementLicenseDataType.ExportAllowed" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExportAllowed As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ExportAllowed { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExportAllowedSpecified">
+      <MemberSignature Language="C#" Value="public bool ExportAllowedSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ExportAllowedSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RightsManagementLicenseDataType.ExportAllowedSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExportAllowedSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ExportAllowedSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtractAllowed">
+      <MemberSignature Language="C#" Value="public bool ExtractAllowed { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ExtractAllowed" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RightsManagementLicenseDataType.ExtractAllowed" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExtractAllowed As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ExtractAllowed { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtractAllowedSpecified">
+      <MemberSignature Language="C#" Value="public bool ExtractAllowedSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ExtractAllowedSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RightsManagementLicenseDataType.ExtractAllowedSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExtractAllowedSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ExtractAllowedSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForwardAllowed">
+      <MemberSignature Language="C#" Value="public bool ForwardAllowed { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ForwardAllowed" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RightsManagementLicenseDataType.ForwardAllowed" />
+      <MemberSignature Language="VB.NET" Value="Public Property ForwardAllowed As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ForwardAllowed { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForwardAllowedSpecified">
+      <MemberSignature Language="C#" Value="public bool ForwardAllowedSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ForwardAllowedSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RightsManagementLicenseDataType.ForwardAllowedSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ForwardAllowedSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ForwardAllowedSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOwner">
+      <MemberSignature Language="C#" Value="public bool IsOwner { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsOwner" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RightsManagementLicenseDataType.IsOwner" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsOwner As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsOwner { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOwnerSpecified">
+      <MemberSignature Language="C#" Value="public bool IsOwnerSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsOwnerSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RightsManagementLicenseDataType.IsOwnerSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsOwnerSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsOwnerSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ModifyRecipientsAllowed">
+      <MemberSignature Language="C#" Value="public bool ModifyRecipientsAllowed { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ModifyRecipientsAllowed" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RightsManagementLicenseDataType.ModifyRecipientsAllowed" />
+      <MemberSignature Language="VB.NET" Value="Public Property ModifyRecipientsAllowed As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ModifyRecipientsAllowed { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ModifyRecipientsAllowedSpecified">
+      <MemberSignature Language="C#" Value="public bool ModifyRecipientsAllowedSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ModifyRecipientsAllowedSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RightsManagementLicenseDataType.ModifyRecipientsAllowedSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ModifyRecipientsAllowedSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ModifyRecipientsAllowedSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrintAllowed">
+      <MemberSignature Language="C#" Value="public bool PrintAllowed { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool PrintAllowed" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RightsManagementLicenseDataType.PrintAllowed" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrintAllowed As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PrintAllowed { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrintAllowedSpecified">
+      <MemberSignature Language="C#" Value="public bool PrintAllowedSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool PrintAllowedSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RightsManagementLicenseDataType.PrintAllowedSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrintAllowedSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PrintAllowedSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProgrammaticAccessAllowed">
+      <MemberSignature Language="C#" Value="public bool ProgrammaticAccessAllowed { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ProgrammaticAccessAllowed" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RightsManagementLicenseDataType.ProgrammaticAccessAllowed" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProgrammaticAccessAllowed As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ProgrammaticAccessAllowed { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProgrammaticAccessAllowedSpecified">
+      <MemberSignature Language="C#" Value="public bool ProgrammaticAccessAllowedSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ProgrammaticAccessAllowedSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RightsManagementLicenseDataType.ProgrammaticAccessAllowedSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProgrammaticAccessAllowedSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ProgrammaticAccessAllowedSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplyAllAllowed">
+      <MemberSignature Language="C#" Value="public bool ReplyAllAllowed { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReplyAllAllowed" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RightsManagementLicenseDataType.ReplyAllAllowed" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReplyAllAllowed As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReplyAllAllowed { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplyAllAllowedSpecified">
+      <MemberSignature Language="C#" Value="public bool ReplyAllAllowedSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReplyAllAllowedSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RightsManagementLicenseDataType.ReplyAllAllowedSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReplyAllAllowedSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReplyAllAllowedSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplyAllowed">
+      <MemberSignature Language="C#" Value="public bool ReplyAllowed { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReplyAllowed" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RightsManagementLicenseDataType.ReplyAllowed" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReplyAllowed As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReplyAllowed { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplyAllowedSpecified">
+      <MemberSignature Language="C#" Value="public bool ReplyAllowedSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReplyAllowedSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RightsManagementLicenseDataType.ReplyAllowedSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReplyAllowedSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReplyAllowedSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RightsManagedMessageDecryptionStatus">
+      <MemberSignature Language="C#" Value="public int RightsManagedMessageDecryptionStatus { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 RightsManagedMessageDecryptionStatus" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RightsManagementLicenseDataType.RightsManagedMessageDecryptionStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Property RightsManagedMessageDecryptionStatus As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int RightsManagedMessageDecryptionStatus { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RightsManagedMessageDecryptionStatusSpecified">
+      <MemberSignature Language="C#" Value="public bool RightsManagedMessageDecryptionStatusSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool RightsManagedMessageDecryptionStatusSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RightsManagementLicenseDataType.RightsManagedMessageDecryptionStatusSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property RightsManagedMessageDecryptionStatusSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool RightsManagedMessageDecryptionStatusSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RmsTemplateId">
+      <MemberSignature Language="C#" Value="public string RmsTemplateId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RmsTemplateId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RightsManagementLicenseDataType.RmsTemplateId" />
+      <MemberSignature Language="VB.NET" Value="Public Property RmsTemplateId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RmsTemplateId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TemplateDescription">
+      <MemberSignature Language="C#" Value="public string TemplateDescription { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TemplateDescription" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RightsManagementLicenseDataType.TemplateDescription" />
+      <MemberSignature Language="VB.NET" Value="Public Property TemplateDescription As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TemplateDescription { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TemplateName">
+      <MemberSignature Language="C#" Value="public string TemplateName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TemplateName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RightsManagementLicenseDataType.TemplateName" />
+      <MemberSignature Language="VB.NET" Value="Public Property TemplateName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TemplateName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

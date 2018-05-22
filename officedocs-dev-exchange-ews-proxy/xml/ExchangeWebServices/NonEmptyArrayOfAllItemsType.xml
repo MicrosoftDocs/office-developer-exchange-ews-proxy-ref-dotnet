@@ -1,0 +1,143 @@
+﻿<Type Name="NonEmptyArrayOfAllItemsType" FullName="ExchangeWebServices.NonEmptyArrayOfAllItemsType">
+  <TypeSignature Language="C#" Value="public class NonEmptyArrayOfAllItemsType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit NonEmptyArrayOfAllItemsType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.NonEmptyArrayOfAllItemsType" />
+  <TypeSignature Language="VB.NET" Value="Public Class NonEmptyArrayOfAllItemsType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NonEmptyArrayOfAllItemsType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.NonEmptyArrayOfAllItemsType" /> class contains an array of items that are used with the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.CreateItem(ExchangeWebServices.CreateItemType)" /> method, meeting request items, and calendar items.</summary>
+    <remarks>
+      <para>The <see cref="T:ExchangeWebServices.NonEmptyArrayOfAllItemsType" /> class must always contain at least one object if it is used in a request or response.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public NonEmptyArrayOfAllItemsType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.NonEmptyArrayOfAllItemsType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; NonEmptyArrayOfAllItemsType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="M:ExchangeWebServices.NonEmptyArrayOfAllItemsType.#ctor" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.NonEmptyArrayOfAllItemsType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Items">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ItemType[] Items { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ItemType[] Items" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.NonEmptyArrayOfAllItemsType.Items" />
+      <MemberSignature Language="VB.NET" Value="Public Property Items As ItemType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::ItemType ^&gt; ^ Items { cli::array &lt;ExchangeWebServices::ItemType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::ItemType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("TentativelyAcceptItem", typeof(ExchangeWebServices.TentativelyAcceptItemType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("CalendarItem", typeof(ExchangeWebServices.CalendarItemType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("CancelCalendarItem", typeof(ExchangeWebServices.CancelCalendarItemType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Contact", typeof(ExchangeWebServices.ContactItemType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("DeclineItem", typeof(ExchangeWebServices.DeclineItemType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("DistributionList", typeof(ExchangeWebServices.DistributionListType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ForwardItem", typeof(ExchangeWebServices.ForwardItemType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Item", typeof(ExchangeWebServices.ItemType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("MeetingCancellation", typeof(ExchangeWebServices.MeetingCancellationMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("MeetingMessage", typeof(ExchangeWebServices.MeetingMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("MeetingRequest", typeof(ExchangeWebServices.MeetingRequestMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("MeetingResponse", typeof(ExchangeWebServices.MeetingResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Message", typeof(ExchangeWebServices.MessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("PostItem", typeof(ExchangeWebServices.PostItemType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("PostReplyItem", typeof(ExchangeWebServices.PostReplyItemType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("RemoveItem", typeof(ExchangeWebServices.RemoveItemType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ReplyAllToItem", typeof(ExchangeWebServices.ReplyAllToItemType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ReplyToItem", typeof(ExchangeWebServices.ReplyToItemType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("SuppressReadReceipt", typeof(ExchangeWebServices.SuppressReadReceiptType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Task", typeof(ExchangeWebServices.TaskType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("AcceptItem", typeof(ExchangeWebServices.AcceptItemType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("AcceptSharingInvitation", typeof(ExchangeWebServices.AcceptSharingInvitationType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.NonEmptyArrayOfAllItemsType.Items" /> property gets or sets an array that contains elements of the type <see cref="T:ExchangeWebServices.ItemType" />.</summary>
+        <value>The <see cref="P:ExchangeWebServices.NonEmptyArrayOfAllItemsType.Items" /> property returns an array that contains elements of the type <see cref="T:ExchangeWebServices.ItemType" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

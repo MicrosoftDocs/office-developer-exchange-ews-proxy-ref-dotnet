@@ -1,0 +1,72 @@
+﻿<Type Name="SetUserOofSettingsResponse" FullName="ExchangeWebServices.SetUserOofSettingsResponse">
+  <TypeSignature Language="C#" Value="public class SetUserOofSettingsResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SetUserOofSettingsResponse extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SetUserOofSettingsResponse" />
+  <TypeSignature Language="VB.NET" Value="Public Class SetUserOofSettingsResponse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SetUserOofSettingsResponse" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.SetUserOofSettingsResponse" /> object contains the result of a call to the SetUserOofSettings operation. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SetUserOofSettingsResponse ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.SetUserOofSettingsResponse.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SetUserOofSettingsResponse();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.SetUserOofSettingsResponse" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.SetUserOofSettingsResponse" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResponseMessage">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ResponseMessageType ResponseMessage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ResponseMessageType ResponseMessage" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SetUserOofSettingsResponse.ResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResponseMessage As ResponseMessageType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ResponseMessageType ^ ResponseMessage { ExchangeWebServices::ResponseMessageType ^ get(); void set(ExchangeWebServices::ResponseMessageType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResponseMessageType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.SetUserOofSettingsResponse.ResponseMessage" /> property gets or sets descriptive information about the response status.</summary>
+        <value>The <see cref="P:ExchangeWebServices.SetUserOofSettingsResponse.ResponseMessage" /> property returns a <see cref="T:ExchangeWebServices.ResponseMessageType" /> object that indicates the success or failure of a call to the SetUserOofSettings operation. </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

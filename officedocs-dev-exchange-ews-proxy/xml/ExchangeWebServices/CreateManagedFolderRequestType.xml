@@ -1,0 +1,106 @@
+﻿<Type Name="CreateManagedFolderRequestType" FullName="ExchangeWebServices.CreateManagedFolderRequestType">
+  <TypeSignature Language="C#" Value="public class CreateManagedFolderRequestType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit CreateManagedFolderRequestType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CreateManagedFolderRequestType" />
+  <TypeSignature Language="VB.NET" Value="Public Class CreateManagedFolderRequestType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CreateManagedFolderRequestType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.CreateManagedFolderRequestType" /> class represents a request to add a managed folder to a mailbox.</summary>
+    <remarks>
+      <para>Managed folders are created on the computer that is running Microsoft Exchange Server 2007. To programmatically add managed custom folders to a mailbox, use the <see cref="T:ExchangeWebServices.CreateManagedFolderRequestType" /> class. You can only add managed folders if a managed folder has already been defined by using either the Exchange Management Console or Exchange Management Shell. The CreateManagedFolder operation creates an instance of a managed folder based on a managed folder template that already exists in the Active Directory directory service.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>For an example of how to use the <see cref="T:ExchangeWebServices.CreateManagedFolderRequestType" /> class, see Adding Managed Folders. For a full sample that shows you how to implement managed folders from an application, see <a href="http://go.microsoft.com/fwlink/?LinkID=82742">Managed Folder Selector Sample</a></para>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CreateManagedFolderRequestType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.CreateManagedFolderRequestType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CreateManagedFolderRequestType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.CreateManagedFolderRequestType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.CreateManagedFolderRequestType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderNames">
+      <MemberSignature Language="C#" Value="public string[] FolderNames { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] FolderNames" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CreateManagedFolderRequestType.FolderNames" />
+      <MemberSignature Language="VB.NET" Value="Public Property FolderNames As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ FolderNames { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("FolderName", IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.CreateManagedFolderRequestType.FolderNames" /> property gets or sets an array of managed folders to add to a mailbox. This property is required. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.CreateManagedFolderRequestType.FolderNames" /> property returns a string array that contains the names of managed folders to add to a mailbox.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddressType Mailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddressType Mailbox" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CreateManagedFolderRequestType.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailbox As EmailAddressType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::EmailAddressType ^ Mailbox { ExchangeWebServices::EmailAddressType ^ get(); void set(ExchangeWebServices::EmailAddressType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddressType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.CreateManagedFolderRequestType.Mailbox" /> property gets or sets the e-mail address of the mailbox in which the managed folders are added. This property is optional. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.CreateManagedFolderRequestType.Mailbox" /> property returns an <see cref="T:ExchangeWebServices.EmailAddressType" /> object.</value>
+        <remarks>
+          <para>This property is required when you are adding a mailbox to another account while you are using Exchange Impersonation.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

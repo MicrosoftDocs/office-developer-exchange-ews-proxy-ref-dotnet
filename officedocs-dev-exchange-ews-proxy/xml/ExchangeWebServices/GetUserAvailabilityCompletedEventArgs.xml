@@ -1,0 +1,52 @@
+﻿<Type Name="GetUserAvailabilityCompletedEventArgs" FullName="ExchangeWebServices.GetUserAvailabilityCompletedEventArgs">
+  <TypeSignature Language="C#" Value="public class GetUserAvailabilityCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GetUserAvailabilityCompletedEventArgs extends System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetUserAvailabilityCompletedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetUserAvailabilityCompletedEventArgs&#xA;Inherits AsyncCompletedEventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetUserAvailabilityCompletedEventArgs : System::ComponentModel::AsyncCompletedEventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ComponentModel.AsyncCompletedEventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.GetUserAvailabilityCompletedEventArgs" /> class provides data for the <see cref="E:ExchangeWebServices.ExchangeServiceBinding.GetUserAvailabilityCompleted" /> event.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Result">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.GetUserAvailabilityResponseType Result { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.GetUserAvailabilityResponseType Result" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetUserAvailabilityCompletedEventArgs.Result" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As GetUserAvailabilityResponseType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::GetUserAvailabilityResponseType ^ Result { ExchangeWebServices::GetUserAvailabilityResponseType ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.GetUserAvailabilityResponseType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GetUserAvailabilityCompletedEventArgs.Result" /> property gets the response from the asynchronous call to the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.GetUserAvailabilityAsync(ExchangeWebServices.GetUserAvailabilityRequestType)" /> method.</summary>
+        <value>The <see cref="P:ExchangeWebServices.GetUserAvailabilityCompletedEventArgs.Result" /> property returns a <see cref="T:ExchangeWebServices.GetUserAvailabilityResponseType" /> object that contains the results of the asychronous call to the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.GetUserAvailabilityAsync(ExchangeWebServices.GetUserAvailabilityRequestType)" /> method.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

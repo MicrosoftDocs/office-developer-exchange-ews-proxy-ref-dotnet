@@ -1,0 +1,102 @@
+﻿<Type Name="TransitionTargetType" FullName="ExchangeWebServices.TransitionTargetType">
+  <TypeSignature Language="C#" Value="public class TransitionTargetType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit TransitionTargetType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.TransitionTargetType" />
+  <TypeSignature Language="VB.NET" Value="Public Class TransitionTargetType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TransitionTargetType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.TransitionTargetType" /> class specifies the target of a time zone transition.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TransitionTargetType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.TransitionTargetType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TransitionTargetType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.TransitionTargetType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.TransitionTargetType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Kind">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.TransitionTargetKindType Kind { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.TransitionTargetKindType Kind" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TransitionTargetType.Kind" />
+      <MemberSignature Language="VB.NET" Value="Public Property Kind As TransitionTargetKindType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::TransitionTargetKindType Kind { ExchangeWebServices::TransitionTargetKindType get(); void set(ExchangeWebServices::TransitionTargetKindType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TransitionTargetKindType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.TransitionTargetType.Kind" /> property gets or sets a value that indicates whether the time zone transition target is a period or a group of transitions.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.TransitionTargetType.Kind" /> is one of the <see cref="T:ExchangeWebServices.TransitionTargetKindType" /> enumeration values that represents whether the time zone transition target is a period or a group of time zone transitions.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public string Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Value" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TransitionTargetType.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Value { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlText</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.TransitionTargetType.Value" /> property gets or sets the unique identifier that corresponds to the period or transitions group that is the target of the time zone transition.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.TransitionTargetType.Value" /> property is a string that represents the unique identifier that corresponds to the period or transitions group that is the target of the time zone transition</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

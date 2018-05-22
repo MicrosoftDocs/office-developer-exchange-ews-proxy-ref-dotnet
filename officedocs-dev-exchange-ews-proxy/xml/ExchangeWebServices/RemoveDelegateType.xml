@@ -1,0 +1,133 @@
+﻿<Type Name="RemoveDelegateType" FullName="ExchangeWebServices.RemoveDelegateType">
+  <TypeSignature Language="C#" Value="public class RemoveDelegateType : ExchangeWebServices.BaseDelegateType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit RemoveDelegateType extends ExchangeWebServices.BaseDelegateType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.RemoveDelegateType" />
+  <TypeSignature Language="VB.NET" Value="Public Class RemoveDelegateType&#xA;Inherits BaseDelegateType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RemoveDelegateType : ExchangeWebServices::BaseDelegateType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseDelegateType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.RemoveDelegateType" /> class represents a request to remove delegates from a mailbox.</summary>
+    <remarks>To be added.</remarks>
+    <example>
+      <para>The following example shows you how to remove two delegates from user1's mailbox. In this example, one delegate is removed by using the delegate's primary Simple Mail Transfer Protocol (SMTP) address and the other is removed by using the delegate's security identifier (SID).</para>
+      <code>static void RemoveDelegate()
+{
+    // Set the version, credentials, and the Client Access server on ExchangeServiceBinding.
+    ExchangeServiceBinding esb = new ExchangeServiceBinding();
+    esb.RequestServerVersionValue = new RequestServerVersion();
+    esb.RequestServerVersionValue.Version = ExchangeVersionType.Exchange2007_SP1;
+    esb.Credentials = new NetworkCredential("username", "password", "domain");
+    esb.Url = "https://FQDN/ews/exchange.asmx";
+
+    // Identify the delegates to be removed.
+    UserIdType delegateUser1 = new UserIdType();
+    UserIdType delegateUser2 = new UserIdType();
+    delegateUser1.PrimarySmtpAddress = "user2@example.com";
+    delegateUser2.SID = "S-1-5-21-1333220396-2200287332-232816053-1123";
+    UserIdType[] delegateUsers = new UserIdType[2] { delegateUser1, delegateUser2 };
+
+    // Form the RemoveDelegate request.
+    RemoveDelegateType request = new RemoveDelegateType();
+    request.Mailbox = new EmailAddressType();
+    request.Mailbox.EmailAddress = "user1@example.com";
+    request.UserIds = delegateUsers;
+
+    try
+    {
+        // Send the RemoveDelegate request and get the response.
+        RemoveDelegateResponseMessageType response = esb.RemoveDelegate(request);
+        DelegateUserResponseMessageType[] durmt = new DelegateUserResponseMessageType[] { };
+        durmt = response.ResponseMessages;
+
+        // Check each response message.
+        foreach (DelegateUserResponseMessageType resp in durmt)
+        {
+            if (resp.ResponseClass == ResponseClassType.Success)
+            {
+                Console.WriteLine("Delegate user was removed.");
+            }
+            else if (resp.ResponseClass == ResponseClassType.Error)
+            {
+                Console.WriteLine("Delegate user was not removed, due to error: " + resp.MessageText);
+            }
+            else
+            {
+                Console.WriteLine("Warning: " + resp.MessageText);
+            }
+        }
+        Console.ReadLine();
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine(e.Message);
+        Console.ReadLine();
+    }
+}</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RemoveDelegateType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.RemoveDelegateType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RemoveDelegateType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.RemoveDelegateType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.RemoveDelegateType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserIds">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.UserIdType[] UserIds { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.UserIdType[] UserIds" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RemoveDelegateType.UserIds" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserIds As UserIdType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::UserIdType ^&gt; ^ UserIds { cli::array &lt;ExchangeWebServices::UserIdType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::UserIdType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("UserId", IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UserIdType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.RemoveDelegateType.UserIds" /> property gets or sets a <see cref="T:ExchangeWebServices.UserIdType" /> array that represents the delegates to remove from a mailbox.</summary>
+        <value>The <b>UserIds</b> property returns an array of <see cref="T:ExchangeWebServices.UserIdType" /> that represents the delegates to remove from a mailbox.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

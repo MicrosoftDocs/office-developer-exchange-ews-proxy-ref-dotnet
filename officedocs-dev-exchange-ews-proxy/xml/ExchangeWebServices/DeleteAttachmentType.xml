@@ -1,0 +1,118 @@
+﻿<Type Name="DeleteAttachmentType" FullName="ExchangeWebServices.DeleteAttachmentType">
+  <TypeSignature Language="C#" Value="public class DeleteAttachmentType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit DeleteAttachmentType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DeleteAttachmentType" />
+  <TypeSignature Language="VB.NET" Value="Public Class DeleteAttachmentType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DeleteAttachmentType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.DeleteAttachmentType" /> class represents a request to delete an attachment on an item in the Exchange database.</summary>
+    <remarks>
+      <para>The DeleteAttachment operation returns the identifier and new change key of the item that held the attachment before it was deleted.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>The following code example shows a DeleteItem request that deletes two attachments.</para>
+      <code>static void DeleteAttachment(ExchangeServiceBinding esb)
+{
+    // Create the request.
+    &lt;span class="label"&gt;DeleteAttachmentType&lt;/span&gt;&lt;span class="label"&gt;request&lt;/span&gt; = new DeleteAttachmentType();
+    
+    // Identify the attachments to delete.
+    RequestAttachmentIdType[] attachments = new RequestAttachmentIdType[2];
+    attachments[0] = new RequestAttachmentIdType();
+    attachments[1] = new RequestAttachmentIdType();
+    attachments[0].Id = "AAAlAE1B";
+    attachments[1].Id = "AAAlAE1B";
+
+    &lt;span class="label"&gt;request&lt;/span&gt;.AttachmentIds = attachments;
+
+    try
+    {
+        DeleteAttachmentResponseType response = esb.DeleteAttachment(&lt;span class="label"&gt;request&lt;/span&gt;);
+        ArrayOfResponseMessagesType aormt = response.ResponseMessages;
+        ResponseMessageType[] rmta = aormt.Items;
+
+        foreach (ResponseMessageType rmt in rmta)
+        {
+            DeleteAttachmentResponseMessageType darmt = (rmt as DeleteAttachmentResponseMessageType);
+
+            if (darmt.ResponseClass == ResponseClassType.Success)
+            {
+                Console.WriteLine("Attachment deleted from ItemId: " + darmt.RootItemId.RootItemId);    
+            }
+        }
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine(e.Message);
+    }
+}</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DeleteAttachmentType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.DeleteAttachmentType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DeleteAttachmentType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.DeleteAttachmentType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.DeleteAttachmentType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachmentIds">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.RequestAttachmentIdType[] AttachmentIds { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.RequestAttachmentIdType[] AttachmentIds" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DeleteAttachmentType.AttachmentIds" />
+      <MemberSignature Language="VB.NET" Value="Public Property AttachmentIds As RequestAttachmentIdType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::RequestAttachmentIdType ^&gt; ^ AttachmentIds { cli::array &lt;ExchangeWebServices::RequestAttachmentIdType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::RequestAttachmentIdType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("AttachmentId", IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RequestAttachmentIdType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.DeleteAttachmentType.AttachmentIds" /> property gets or sets the set of attachment identifiers that are used to identify the attachments to delete.</summary>
+        <value>The <see cref="P:ExchangeWebServices.DeleteAttachmentType.AttachmentIds" /> property returns a <see cref="T:ExchangeWebServices.RequestAttachmentIdType" /> array that identifies the set attachments to delete.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

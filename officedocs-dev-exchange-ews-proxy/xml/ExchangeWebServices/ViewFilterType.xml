@@ -1,0 +1,237 @@
+﻿<Type Name="ViewFilterType" FullName="ExchangeWebServices.ViewFilterType">
+  <TypeSignature Language="C#" Value="public enum ViewFilterType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed ViewFilterType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ViewFilterType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ViewFilterType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ViewFilterType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="All">
+      <MemberSignature Language="C#" Value="All" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ViewFilterType All = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ViewFilterType.All" />
+      <MemberSignature Language="VB.NET" Value="All" />
+      <MemberSignature Language="C++ CLI" Value="All" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ViewFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Flagged">
+      <MemberSignature Language="C#" Value="Flagged" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ViewFilterType Flagged = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ViewFilterType.Flagged" />
+      <MemberSignature Language="VB.NET" Value="Flagged" />
+      <MemberSignature Language="C++ CLI" Value="Flagged" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ViewFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="HasAttachment">
+      <MemberSignature Language="C#" Value="HasAttachment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ViewFilterType HasAttachment = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ViewFilterType.HasAttachment" />
+      <MemberSignature Language="VB.NET" Value="HasAttachment" />
+      <MemberSignature Language="C++ CLI" Value="HasAttachment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ViewFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Suggestions">
+      <MemberSignature Language="C#" Value="Suggestions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ViewFilterType Suggestions = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ViewFilterType.Suggestions" />
+      <MemberSignature Language="VB.NET" Value="Suggestions" />
+      <MemberSignature Language="C++ CLI" Value="Suggestions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ViewFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="SuggestionsDelete">
+      <MemberSignature Language="C#" Value="SuggestionsDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ViewFilterType SuggestionsDelete = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ViewFilterType.SuggestionsDelete" />
+      <MemberSignature Language="VB.NET" Value="SuggestionsDelete" />
+      <MemberSignature Language="C++ CLI" Value="SuggestionsDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ViewFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="SuggestionsRespond">
+      <MemberSignature Language="C#" Value="SuggestionsRespond" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ViewFilterType SuggestionsRespond = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ViewFilterType.SuggestionsRespond" />
+      <MemberSignature Language="VB.NET" Value="SuggestionsRespond" />
+      <MemberSignature Language="C++ CLI" Value="SuggestionsRespond" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ViewFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="TaskActive">
+      <MemberSignature Language="C#" Value="TaskActive" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ViewFilterType TaskActive = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ViewFilterType.TaskActive" />
+      <MemberSignature Language="VB.NET" Value="TaskActive" />
+      <MemberSignature Language="C++ CLI" Value="TaskActive" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ViewFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="TaskCompleted">
+      <MemberSignature Language="C#" Value="TaskCompleted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ViewFilterType TaskCompleted = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ViewFilterType.TaskCompleted" />
+      <MemberSignature Language="VB.NET" Value="TaskCompleted" />
+      <MemberSignature Language="C++ CLI" Value="TaskCompleted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ViewFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="TaskOverdue">
+      <MemberSignature Language="C#" Value="TaskOverdue" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ViewFilterType TaskOverdue = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ViewFilterType.TaskOverdue" />
+      <MemberSignature Language="VB.NET" Value="TaskOverdue" />
+      <MemberSignature Language="C++ CLI" Value="TaskOverdue" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ViewFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ToOrCcMe">
+      <MemberSignature Language="C#" Value="ToOrCcMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ViewFilterType ToOrCcMe = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ViewFilterType.ToOrCcMe" />
+      <MemberSignature Language="VB.NET" Value="ToOrCcMe" />
+      <MemberSignature Language="C++ CLI" Value="ToOrCcMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ViewFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Unread">
+      <MemberSignature Language="C#" Value="Unread" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ViewFilterType Unread = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ViewFilterType.Unread" />
+      <MemberSignature Language="VB.NET" Value="Unread" />
+      <MemberSignature Language="C++ CLI" Value="Unread" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ViewFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

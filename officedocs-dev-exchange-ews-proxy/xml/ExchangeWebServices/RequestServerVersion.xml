@@ -1,0 +1,108 @@
+﻿<Type Name="RequestServerVersion" FullName="ExchangeWebServices.RequestServerVersion">
+  <TypeSignature Language="C#" Value="public class RequestServerVersion : System.Web.Services.Protocols.SoapHeader" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit RequestServerVersion extends System.Web.Services.Protocols.SoapHeader" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.RequestServerVersion" />
+  <TypeSignature Language="VB.NET" Value="Public Class RequestServerVersion&#xA;Inherits SoapHeader" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RequestServerVersion : System::Web::Services::Protocols::SoapHeader" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Web.Services.Protocols.SoapHeader</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlRoot(IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(AnonymousType=true, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.RequestServerVersion" /> class contains versioning information to identify the schema version to target. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RequestServerVersion ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.RequestServerVersion.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RequestServerVersion();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.RequestServerVersion" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.RequestServerVersion" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AnyAttr">
+      <MemberSignature Language="C#" Value="public System.Xml.XmlAttribute[] AnyAttr { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Xml.XmlAttribute[] AnyAttr" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RequestServerVersion.AnyAttr" />
+      <MemberSignature Language="VB.NET" Value="Public Property AnyAttr As XmlAttribute()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Xml::XmlAttribute ^&gt; ^ AnyAttr { cli::array &lt;System::Xml::XmlAttribute ^&gt; ^ get(); void set(cli::array &lt;System::Xml::XmlAttribute ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAnyAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Xml.XmlAttribute[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.RequestServerVersion.AnyAttr" /> property gets or sets a collection of SOAP attributes.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.RequestServerVersion.AnyAttr" /> property is an array of XmlAttribute objects.</value>
+        <remarks>
+          <para>The <see cref="P:ExchangeWebServices.RequestServerVersion.AnyAttr" /> property enables the use of attributes in the SOAP namespace.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Version">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ExchangeVersionType Version { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.ExchangeVersionType Version" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RequestServerVersion.Version" />
+      <MemberSignature Language="VB.NET" Value="Public Property Version As ExchangeVersionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ExchangeVersionType Version { ExchangeWebServices::ExchangeVersionType get(); void set(ExchangeWebServices::ExchangeVersionType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ExchangeVersionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.RequestServerVersion.Version" /> property gets or sets the schema version to target for a request.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.RequestServerVersion.Version" /> property is one of the <see cref="T:ExchangeWebServices.ExchangeVersionType" /> enumeration values that indicate the version of the Exchange schema files to target.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

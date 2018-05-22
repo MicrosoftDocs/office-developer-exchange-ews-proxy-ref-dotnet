@@ -1,0 +1,69 @@
+﻿<Type Name="SearchFolderTraversalType" FullName="ExchangeWebServices.SearchFolderTraversalType">
+  <TypeSignature Language="C#" Value="public enum SearchFolderTraversalType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed SearchFolderTraversalType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SearchFolderTraversalType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SearchFolderTraversalType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SearchFolderTraversalType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.SearchFolderTraversalType" /> enumeration identifies the options for how a folder hierarchy is searched by a search folder.</summary>
+    <remarks>
+      <para>This enumeration is used by the <see cref="P:ExchangeWebServices.SearchParametersType.Traversal" /> property of the <see cref="T:ExchangeWebServices.SearchParametersType" /> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Deep">
+      <MemberSignature Language="C#" Value="Deep" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SearchFolderTraversalType Deep = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SearchFolderTraversalType.Deep" />
+      <MemberSignature Language="VB.NET" Value="Deep" />
+      <MemberSignature Language="C++ CLI" Value="Deep" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SearchFolderTraversalType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Specifies that a deep search is used to traverse the folder hierarchy. Deep traversal searches cannot be performed on public folders.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Shallow">
+      <MemberSignature Language="C#" Value="Shallow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SearchFolderTraversalType Shallow = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SearchFolderTraversalType.Shallow" />
+      <MemberSignature Language="VB.NET" Value="Shallow" />
+      <MemberSignature Language="C++ CLI" Value="Shallow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SearchFolderTraversalType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Specifies that a shallow search is used to traverse the folder hierarchy.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

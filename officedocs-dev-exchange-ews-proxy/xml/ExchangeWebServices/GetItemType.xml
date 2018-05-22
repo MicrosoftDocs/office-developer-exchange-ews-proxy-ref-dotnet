@@ -1,0 +1,213 @@
+﻿<Type Name="GetItemType" FullName="ExchangeWebServices.GetItemType">
+  <TypeSignature Language="C#" Value="public class GetItemType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetItemType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetItemType" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetItemType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetItemType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.GetItemType" /> class represents a request to get items from a mailbox in the Exchange database.</summary>
+    <remarks>
+      <para>The GetItem and FindItem operations provide a similar set of information. The GetItem operation is used to get items after they have been found by using FindItem, GetEvents, or SyncFolderItems operations.</para>
+      <para>GetItem returns additional properties that are not returned by FindItem. The following table shows properties not returned by FindItem but are returned by GetItem.</para>
+      <list type="table">
+        <item>
+          <term>Attachments[Ex15WebSvcsOtherRef]</term>
+        </item>
+        <item>
+          <term>Categories[Ex15WebSvcsOtherRef]</term>
+        </item>
+        <item>
+          <term>ReplyTo</term>
+        </item>
+        <item>
+          <term>Body</term>
+        </item>
+        <item>
+          <term>CcRecipients</term>
+        </item>
+        <item>
+          <term>ResponseObjects</term>
+        </item>
+        <item>
+          <term>BccRecipients</term>
+        </item>
+        <item>
+          <term>InternetMessageHeaders</term>
+        </item>
+        <item>
+          <term>ToRecipients</term>
+        </item>
+      </list>
+      <para />
+    </remarks>
+    <example>
+      <para>The following example shows you how to get two items from the Exchange database. The request uses the default response shape with the Sensitivity property returned as an additional property. The response is checked for e-mail messages and calendar items. Be aware that if the only properties that are accessed are contained in the base <see cref="T:ExchangeWebServices.ItemType" /> class, casting to the appropriate type may not be necessary.</para>
+      <code>static void GetItem(ExchangeServiceBinding esb)
+{ 
+    // Create the request.
+    GetItemType request = new GetItemType();
+
+    // Create the response shape.
+    ItemResponseShapeType responseShape = new ItemResponseShapeType();
+    responseShape.BodyType = BodyTypeResponseType.Text;
+    responseShape.BodyTypeSpecified = true;
+    responseShape.BaseShape = DefaultShapeNamesType.Default;
+    // Add more properties to the request.
+    PathToUnindexedFieldType[] sensitivity = new PathToUnindexedFieldType[1];
+    sensitivity[0] = new PathToUnindexedFieldType();
+    sensitivity[0].FieldURI = UnindexedFieldURIType.itemSensitivity;
+    responseShape.AdditionalProperties = sensitivity;
+    // Add the response shape to the request.
+    request.ItemShape = responseShape;
+
+    // Identify the items to get.
+    ItemIdType[] items = new ItemIdType[2];
+    items[0] = new ItemIdType();
+    items[0].Id = "AAAlAE1BQG1";
+    items[0].ChangeKey = "DwAAABYAAAA";
+    items[1] = new ItemIdType();
+    items[1].Id = "AAAlAE1BQG1";
+    items[1].ChangeKey = "DwAAABYAAAA";
+
+    // Add items to the request.
+    request.ItemIds = items;
+
+    try
+    {
+        // Send the request and get the response.
+        GetItemResponseType resp = esb.GetItem(request);
+        ArrayOfResponseMessagesType aormt = resp.ResponseMessages;
+        ResponseMessageType[] rmta = aormt.Items;
+
+        foreach (ResponseMessageType rmt in rmta)
+        {
+            ItemInfoResponseMessageType iirmt = (rmt as ItemInfoResponseMessageType);
+            ArrayOfRealItemsType aorit = iirmt.Items;
+            ItemType[] myItems = aorit.Items;
+            
+            // Determine the type for each item and cast to the approriate type.
+            foreach (ItemType it in myItems)
+            {
+                // Check whether it is an e-mail.
+                if (it is MessageType)
+                {
+                    MessageType message = (it as MessageType);
+                }
+                // Determine whether it is a calendar item.
+                else if (it is CalendarItemType)
+                {
+                    CalendarItemType calendar = (it as CalendarItemType);
+                }
+                else 
+                {
+                    // Check for other item types.
+                }
+            }
+        }
+    }
+    catch (Exception e)
+    {
+        throw new Exception("GetItem failed");
+    }
+}</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetItemType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetItemType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetItemType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.GetItemType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.GetItemType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemIds">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BaseItemIdType[] ItemIds { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BaseItemIdType[] ItemIds" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetItemType.ItemIds" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemIds As BaseItemIdType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::BaseItemIdType ^&gt; ^ ItemIds { cli::array &lt;ExchangeWebServices::BaseItemIdType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::BaseItemIdType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("RecurringMasterItemId", typeof(ExchangeWebServices.RecurringMasterItemIdType), IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("RecurringMasterItemIdRanges", typeof(ExchangeWebServices.RecurringMasterItemIdRangesType), IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("OccurrenceItemId", typeof(ExchangeWebServices.OccurrenceItemIdType), IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("ItemId", typeof(ExchangeWebServices.ItemIdType), IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BaseItemIdType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GetItemType.ItemIds" /> property gets or sets the collection of items to get.</summary>
+        <value>The <see cref="P:ExchangeWebServices.GetItemType.ItemIds" /> property returns a <see cref="T:ExchangeWebServices.BaseItemIdType" /> array that contains the identifiers of all the items to get.</value>
+        <remarks>
+          <para>The <see cref="P:ExchangeWebServices.GetItemType.ItemIds" /> property is set with an <see cref="T:ExchangeWebServices.ItemIdType" /> type.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemShape">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ItemResponseShapeType ItemShape { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ItemResponseShapeType ItemShape" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetItemType.ItemShape" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemShape As ItemResponseShapeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ItemResponseShapeType ^ ItemShape { ExchangeWebServices::ItemResponseShapeType ^ get(); void set(ExchangeWebServices::ItemResponseShapeType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemResponseShapeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GetItemType.ItemShape" /> property gets or sets the response shape of the GetItem response.</summary>
+        <value>The <see cref="P:ExchangeWebServices.GetItemType.ItemShape" /> property returns an <see cref="T:ExchangeWebServices.ItemResponseShapeType" /> object that describes the properties that are returned in a GetItem response.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

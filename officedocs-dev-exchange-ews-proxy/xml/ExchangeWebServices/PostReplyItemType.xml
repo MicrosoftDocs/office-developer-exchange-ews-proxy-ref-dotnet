@@ -1,0 +1,72 @@
+﻿<Type Name="PostReplyItemType" FullName="ExchangeWebServices.PostReplyItemType">
+  <TypeSignature Language="C#" Value="public class PostReplyItemType : ExchangeWebServices.PostReplyItemBaseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit PostReplyItemType extends ExchangeWebServices.PostReplyItemBaseType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.PostReplyItemType" />
+  <TypeSignature Language="VB.NET" Value="Public Class PostReplyItemType&#xA;Inherits PostReplyItemBaseType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PostReplyItemType : ExchangeWebServices::PostReplyItemBaseType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.PostReplyItemBaseType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.PostReplyItemType" /> class contains a reply to a post item. This class was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PostReplyItemType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.PostReplyItemType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PostReplyItemType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.PostReplyItemType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.PostReplyItemType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewBodyContent">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BodyType NewBodyContent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BodyType NewBodyContent" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PostReplyItemType.NewBodyContent" />
+      <MemberSignature Language="VB.NET" Value="Public Property NewBodyContent As BodyType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::BodyType ^ NewBodyContent { ExchangeWebServices::BodyType ^ get(); void set(ExchangeWebServices::BodyType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BodyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.PostReplyItemType.NewBodyContent" /> property gets or sets the new body content of a post item.</summary>
+        <value>The <see cref="P:ExchangeWebServices.PostReplyItemType.NewBodyContent" /> property returns the new body content of a post item.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

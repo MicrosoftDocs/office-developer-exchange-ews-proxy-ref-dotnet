@@ -1,0 +1,142 @@
+﻿<Type Name="LocationSourceType" FullName="ExchangeWebServices.LocationSourceType">
+  <TypeSignature Language="C#" Value="public enum LocationSourceType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed LocationSourceType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.LocationSourceType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum LocationSourceType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class LocationSourceType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Contact">
+      <MemberSignature Language="C#" Value="Contact" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.LocationSourceType Contact = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.LocationSourceType.Contact" />
+      <MemberSignature Language="VB.NET" Value="Contact" />
+      <MemberSignature Language="C++ CLI" Value="Contact" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.LocationSourceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Device">
+      <MemberSignature Language="C#" Value="Device" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.LocationSourceType Device = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.LocationSourceType.Device" />
+      <MemberSignature Language="VB.NET" Value="Device" />
+      <MemberSignature Language="C++ CLI" Value="Device" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.LocationSourceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="LocationServices">
+      <MemberSignature Language="C#" Value="LocationServices" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.LocationSourceType LocationServices = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.LocationSourceType.LocationServices" />
+      <MemberSignature Language="VB.NET" Value="LocationServices" />
+      <MemberSignature Language="C++ CLI" Value="LocationServices" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.LocationSourceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.LocationSourceType None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.LocationSourceType.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.LocationSourceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="PhonebookServices">
+      <MemberSignature Language="C#" Value="PhonebookServices" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.LocationSourceType PhonebookServices = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.LocationSourceType.PhonebookServices" />
+      <MemberSignature Language="VB.NET" Value="PhonebookServices" />
+      <MemberSignature Language="C++ CLI" Value="PhonebookServices" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.LocationSourceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Resource">
+      <MemberSignature Language="C#" Value="Resource" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.LocationSourceType Resource = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.LocationSourceType.Resource" />
+      <MemberSignature Language="VB.NET" Value="Resource" />
+      <MemberSignature Language="C++ CLI" Value="Resource" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.LocationSourceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

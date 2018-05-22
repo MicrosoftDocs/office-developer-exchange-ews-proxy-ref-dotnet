@@ -1,0 +1,92 @@
+﻿<Type Name="GroupedItemsType" FullName="ExchangeWebServices.GroupedItemsType">
+  <TypeSignature Language="C#" Value="public class GroupedItemsType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GroupedItemsType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GroupedItemsType" />
+  <TypeSignature Language="VB.NET" Value="Public Class GroupedItemsType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GroupedItemsType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.GroupedItemsType" /> class contains a collection of items that are the result of a grouped FindItem call.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GroupedItemsType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GroupedItemsType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GroupedItemsType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.GroupedItemsType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.GroupedItemsType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupIndex">
+      <MemberSignature Language="C#" Value="public string GroupIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string GroupIndex" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GroupedItemsType.GroupIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property GroupIndex As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ GroupIndex { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GroupedItemsType.GroupIndex" /> property gets the property value that is used to group items in a grouped FindItem call.</summary>
+        <value>The <see cref="P:ExchangeWebServices.GroupedItemsType.GroupIndex" /> property gets a string that represents a value that is used to group items in a grouped FindItem call.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Items">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ArrayOfRealItemsType Items { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ArrayOfRealItemsType Items" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GroupedItemsType.Items" />
+      <MemberSignature Language="VB.NET" Value="Public Property Items As ArrayOfRealItemsType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ArrayOfRealItemsType ^ Items { ExchangeWebServices::ArrayOfRealItemsType ^ get(); void set(ExchangeWebServices::ArrayOfRealItemsType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ArrayOfRealItemsType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GroupedItemsType.Items" /> property gets an array of grouped items.</summary>
+        <value>The <see cref="P:ExchangeWebServices.GroupedItemsType.Items" /> property returns an <see cref="T:ExchangeWebServices.ArrayOfRealItemsType" /> object.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

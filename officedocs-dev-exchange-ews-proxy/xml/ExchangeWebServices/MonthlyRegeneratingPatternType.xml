@@ -1,0 +1,52 @@
+﻿<Type Name="MonthlyRegeneratingPatternType" FullName="ExchangeWebServices.MonthlyRegeneratingPatternType">
+  <TypeSignature Language="C#" Value="public class MonthlyRegeneratingPatternType : ExchangeWebServices.RegeneratingPatternBaseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit MonthlyRegeneratingPatternType extends ExchangeWebServices.RegeneratingPatternBaseType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.MonthlyRegeneratingPatternType" />
+  <TypeSignature Language="VB.NET" Value="Public Class MonthlyRegeneratingPatternType&#xA;Inherits RegeneratingPatternBaseType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MonthlyRegeneratingPatternType : ExchangeWebServices::RegeneratingPatternBaseType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.RegeneratingPatternBaseType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.MonthlyRegeneratingPatternType" /> class describes the interval, in months, in which a task is regenerated.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MonthlyRegeneratingPatternType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.MonthlyRegeneratingPatternType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MonthlyRegeneratingPatternType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.MonthlyRegeneratingPatternType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.MonthlyRegeneratingPatternType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

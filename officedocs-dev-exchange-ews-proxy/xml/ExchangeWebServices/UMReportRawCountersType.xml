@@ -1,0 +1,272 @@
+﻿<Type Name="UMReportRawCountersType" FullName="ExchangeWebServices.UMReportRawCountersType">
+  <TypeSignature Language="C#" Value="public class UMReportRawCountersType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit UMReportRawCountersType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.UMReportRawCountersType" />
+  <TypeSignature Language="VB.NET" Value="Public Class UMReportRawCountersType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UMReportRawCountersType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UMReportRawCountersType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.UMReportRawCountersType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; UMReportRawCountersType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AudioMetricsAverages">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.UMReportAudioMetricsAverageCountersType AudioMetricsAverages { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.UMReportAudioMetricsAverageCountersType AudioMetricsAverages" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UMReportRawCountersType.AudioMetricsAverages" />
+      <MemberSignature Language="VB.NET" Value="Public Property AudioMetricsAverages As UMReportAudioMetricsAverageCountersType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::UMReportAudioMetricsAverageCountersType ^ AudioMetricsAverages { ExchangeWebServices::UMReportAudioMetricsAverageCountersType ^ get(); void set(ExchangeWebServices::UMReportAudioMetricsAverageCountersType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UMReportAudioMetricsAverageCountersType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoAttendantCalls">
+      <MemberSignature Language="C#" Value="public long AutoAttendantCalls { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 AutoAttendantCalls" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UMReportRawCountersType.AutoAttendantCalls" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoAttendantCalls As Long" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property long AutoAttendantCalls { long get(); void set(long value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Date">
+      <MemberSignature Language="C#" Value="public DateTime Date { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime Date" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UMReportRawCountersType.Date" />
+      <MemberSignature Language="VB.NET" Value="Public Property Date As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime Date { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FailedCalls">
+      <MemberSignature Language="C#" Value="public long FailedCalls { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 FailedCalls" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UMReportRawCountersType.FailedCalls" />
+      <MemberSignature Language="VB.NET" Value="Public Property FailedCalls As Long" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property long FailedCalls { long get(); void set(long value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FaxCalls">
+      <MemberSignature Language="C#" Value="public long FaxCalls { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 FaxCalls" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UMReportRawCountersType.FaxCalls" />
+      <MemberSignature Language="VB.NET" Value="Public Property FaxCalls As Long" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property long FaxCalls { long get(); void set(long value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MissedCalls">
+      <MemberSignature Language="C#" Value="public long MissedCalls { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 MissedCalls" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UMReportRawCountersType.MissedCalls" />
+      <MemberSignature Language="VB.NET" Value="Public Property MissedCalls As Long" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property long MissedCalls { long get(); void set(long value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OtherCalls">
+      <MemberSignature Language="C#" Value="public long OtherCalls { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 OtherCalls" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UMReportRawCountersType.OtherCalls" />
+      <MemberSignature Language="VB.NET" Value="Public Property OtherCalls As Long" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property long OtherCalls { long get(); void set(long value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OutboundCalls">
+      <MemberSignature Language="C#" Value="public long OutboundCalls { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 OutboundCalls" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UMReportRawCountersType.OutboundCalls" />
+      <MemberSignature Language="VB.NET" Value="Public Property OutboundCalls As Long" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property long OutboundCalls { long get(); void set(long value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubscriberAccessCalls">
+      <MemberSignature Language="C#" Value="public long SubscriberAccessCalls { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 SubscriberAccessCalls" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UMReportRawCountersType.SubscriberAccessCalls" />
+      <MemberSignature Language="VB.NET" Value="Public Property SubscriberAccessCalls As Long" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property long SubscriberAccessCalls { long get(); void set(long value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalCalls">
+      <MemberSignature Language="C#" Value="public long TotalCalls { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 TotalCalls" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UMReportRawCountersType.TotalCalls" />
+      <MemberSignature Language="VB.NET" Value="Public Property TotalCalls As Long" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property long TotalCalls { long get(); void set(long value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VoiceMailCalls">
+      <MemberSignature Language="C#" Value="public long VoiceMailCalls { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 VoiceMailCalls" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UMReportRawCountersType.VoiceMailCalls" />
+      <MemberSignature Language="VB.NET" Value="Public Property VoiceMailCalls As Long" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property long VoiceMailCalls { long get(); void set(long value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

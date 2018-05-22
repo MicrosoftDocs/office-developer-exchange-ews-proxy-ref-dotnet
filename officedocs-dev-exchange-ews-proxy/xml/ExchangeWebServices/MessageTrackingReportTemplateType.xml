@@ -1,0 +1,66 @@
+﻿<Type Name="MessageTrackingReportTemplateType" FullName="ExchangeWebServices.MessageTrackingReportTemplateType">
+  <TypeSignature Language="C#" Value="public enum MessageTrackingReportTemplateType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed MessageTrackingReportTemplateType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.MessageTrackingReportTemplateType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MessageTrackingReportTemplateType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MessageTrackingReportTemplateType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="RecipientPath">
+      <MemberSignature Language="C#" Value="RecipientPath" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MessageTrackingReportTemplateType RecipientPath = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MessageTrackingReportTemplateType.RecipientPath" />
+      <MemberSignature Language="VB.NET" Value="RecipientPath" />
+      <MemberSignature Language="C++ CLI" Value="RecipientPath" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MessageTrackingReportTemplateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Summary">
+      <MemberSignature Language="C#" Value="Summary" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MessageTrackingReportTemplateType Summary = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MessageTrackingReportTemplateType.Summary" />
+      <MemberSignature Language="VB.NET" Value="Summary" />
+      <MemberSignature Language="C++ CLI" Value="Summary" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MessageTrackingReportTemplateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

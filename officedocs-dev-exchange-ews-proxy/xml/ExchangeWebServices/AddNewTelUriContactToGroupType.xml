@@ -1,0 +1,132 @@
+﻿<Type Name="AddNewTelUriContactToGroupType" FullName="ExchangeWebServices.AddNewTelUriContactToGroupType">
+  <TypeSignature Language="C#" Value="public class AddNewTelUriContactToGroupType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit AddNewTelUriContactToGroupType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.AddNewTelUriContactToGroupType" />
+  <TypeSignature Language="VB.NET" Value="Public Class AddNewTelUriContactToGroupType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AddNewTelUriContactToGroupType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AddNewTelUriContactToGroupType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.AddNewTelUriContactToGroupType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AddNewTelUriContactToGroupType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupId">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ItemIdType GroupId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ItemIdType GroupId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AddNewTelUriContactToGroupType.GroupId" />
+      <MemberSignature Language="VB.NET" Value="Public Property GroupId As ItemIdType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ItemIdType ^ GroupId { ExchangeWebServices::ItemIdType ^ get(); void set(ExchangeWebServices::ItemIdType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemIdType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImContactSipUriAddress">
+      <MemberSignature Language="C#" Value="public string ImContactSipUriAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ImContactSipUriAddress" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AddNewTelUriContactToGroupType.ImContactSipUriAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property ImContactSipUriAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ImContactSipUriAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImTelephoneNumber">
+      <MemberSignature Language="C#" Value="public string ImTelephoneNumber { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ImTelephoneNumber" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AddNewTelUriContactToGroupType.ImTelephoneNumber" />
+      <MemberSignature Language="VB.NET" Value="Public Property ImTelephoneNumber As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ImTelephoneNumber { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TelUriAddress">
+      <MemberSignature Language="C#" Value="public string TelUriAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TelUriAddress" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AddNewTelUriContactToGroupType.TelUriAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property TelUriAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TelUriAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

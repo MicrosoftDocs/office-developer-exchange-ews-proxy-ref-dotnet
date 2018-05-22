@@ -1,0 +1,122 @@
+﻿<Type Name="SetClientExtensionActionType" FullName="ExchangeWebServices.SetClientExtensionActionType">
+  <TypeSignature Language="C#" Value="public class SetClientExtensionActionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SetClientExtensionActionType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SetClientExtensionActionType" />
+  <TypeSignature Language="VB.NET" Value="Public Class SetClientExtensionActionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SetClientExtensionActionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SetClientExtensionActionType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.SetClientExtensionActionType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SetClientExtensionActionType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionId">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SetClientExtensionActionIdType ActionId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.SetClientExtensionActionIdType ActionId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SetClientExtensionActionType.ActionId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ActionId As SetClientExtensionActionIdType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SetClientExtensionActionIdType ActionId { ExchangeWebServices::SetClientExtensionActionIdType get(); void set(ExchangeWebServices::SetClientExtensionActionIdType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SetClientExtensionActionIdType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClientExtension">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ClientExtensionType ClientExtension { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ClientExtensionType ClientExtension" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SetClientExtensionActionType.ClientExtension" />
+      <MemberSignature Language="VB.NET" Value="Public Property ClientExtension As ClientExtensionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ClientExtensionType ^ ClientExtension { ExchangeWebServices::ClientExtensionType ^ get(); void set(ExchangeWebServices::ClientExtensionType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ClientExtensionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtensionId">
+      <MemberSignature Language="C#" Value="public string ExtensionId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ExtensionId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SetClientExtensionActionType.ExtensionId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExtensionId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ExtensionId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

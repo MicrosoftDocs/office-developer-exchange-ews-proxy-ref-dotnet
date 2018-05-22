@@ -1,0 +1,712 @@
+﻿<Type Name="IconIndexType" FullName="ExchangeWebServices.IconIndexType">
+  <TypeSignature Language="C#" Value="public enum IconIndexType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed IconIndexType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.IconIndexType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum IconIndexType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class IconIndexType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AppointmentItem">
+      <MemberSignature Language="C#" Value="AppointmentItem" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType AppointmentItem = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.AppointmentItem" />
+      <MemberSignature Language="VB.NET" Value="AppointmentItem" />
+      <MemberSignature Language="C++ CLI" Value="AppointmentItem" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="AppointmentMeet">
+      <MemberSignature Language="C#" Value="AppointmentMeet" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType AppointmentMeet = int32(24)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.AppointmentMeet" />
+      <MemberSignature Language="VB.NET" Value="AppointmentMeet" />
+      <MemberSignature Language="C++ CLI" Value="AppointmentMeet" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>24</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="AppointmentMeetCancel">
+      <MemberSignature Language="C#" Value="AppointmentMeetCancel" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType AppointmentMeetCancel = int32(30)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.AppointmentMeetCancel" />
+      <MemberSignature Language="VB.NET" Value="AppointmentMeetCancel" />
+      <MemberSignature Language="C++ CLI" Value="AppointmentMeetCancel" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>30</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="AppointmentMeetInfo">
+      <MemberSignature Language="C#" Value="AppointmentMeetInfo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType AppointmentMeetInfo = int32(31)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.AppointmentMeetInfo" />
+      <MemberSignature Language="VB.NET" Value="AppointmentMeetInfo" />
+      <MemberSignature Language="C++ CLI" Value="AppointmentMeetInfo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>31</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="AppointmentMeetMaybe">
+      <MemberSignature Language="C#" Value="AppointmentMeetMaybe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType AppointmentMeetMaybe = int32(29)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.AppointmentMeetMaybe" />
+      <MemberSignature Language="VB.NET" Value="AppointmentMeetMaybe" />
+      <MemberSignature Language="C++ CLI" Value="AppointmentMeetMaybe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>29</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="AppointmentMeetNo">
+      <MemberSignature Language="C#" Value="AppointmentMeetNo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType AppointmentMeetNo = int32(28)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.AppointmentMeetNo" />
+      <MemberSignature Language="VB.NET" Value="AppointmentMeetNo" />
+      <MemberSignature Language="C++ CLI" Value="AppointmentMeetNo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>28</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="AppointmentMeetNY">
+      <MemberSignature Language="C#" Value="AppointmentMeetNY" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType AppointmentMeetNY = int32(26)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.AppointmentMeetNY" />
+      <MemberSignature Language="VB.NET" Value="AppointmentMeetNY" />
+      <MemberSignature Language="C++ CLI" Value="AppointmentMeetNY" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>26</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="AppointmentMeetRecur">
+      <MemberSignature Language="C#" Value="AppointmentMeetRecur" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType AppointmentMeetRecur = int32(25)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.AppointmentMeetRecur" />
+      <MemberSignature Language="VB.NET" Value="AppointmentMeetRecur" />
+      <MemberSignature Language="C++ CLI" Value="AppointmentMeetRecur" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>25</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="AppointmentMeetYes">
+      <MemberSignature Language="C#" Value="AppointmentMeetYes" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType AppointmentMeetYes = int32(27)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.AppointmentMeetYes" />
+      <MemberSignature Language="VB.NET" Value="AppointmentMeetYes" />
+      <MemberSignature Language="C++ CLI" Value="AppointmentMeetYes" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>27</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="AppointmentRecur">
+      <MemberSignature Language="C#" Value="AppointmentRecur" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType AppointmentRecur = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.AppointmentRecur" />
+      <MemberSignature Language="VB.NET" Value="AppointmentRecur" />
+      <MemberSignature Language="C++ CLI" Value="AppointmentRecur" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="Default" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType Default = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.Default" />
+      <MemberSignature Language="VB.NET" Value="Default" />
+      <MemberSignature Language="C++ CLI" Value="Default" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MailEncrypted">
+      <MemberSignature Language="C#" Value="MailEncrypted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType MailEncrypted = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.MailEncrypted" />
+      <MemberSignature Language="VB.NET" Value="MailEncrypted" />
+      <MemberSignature Language="C++ CLI" Value="MailEncrypted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MailEncryptedForwarded">
+      <MemberSignature Language="C#" Value="MailEncryptedForwarded" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType MailEncryptedForwarded = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.MailEncryptedForwarded" />
+      <MemberSignature Language="VB.NET" Value="MailEncryptedForwarded" />
+      <MemberSignature Language="C++ CLI" Value="MailEncryptedForwarded" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MailEncryptedRead">
+      <MemberSignature Language="C#" Value="MailEncryptedRead" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType MailEncryptedRead = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.MailEncryptedRead" />
+      <MemberSignature Language="VB.NET" Value="MailEncryptedRead" />
+      <MemberSignature Language="C++ CLI" Value="MailEncryptedRead" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MailEncryptedReplied">
+      <MemberSignature Language="C#" Value="MailEncryptedReplied" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType MailEncryptedReplied = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.MailEncryptedReplied" />
+      <MemberSignature Language="VB.NET" Value="MailEncryptedReplied" />
+      <MemberSignature Language="C++ CLI" Value="MailEncryptedReplied" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MailForwarded">
+      <MemberSignature Language="C#" Value="MailForwarded" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType MailForwarded = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.MailForwarded" />
+      <MemberSignature Language="VB.NET" Value="MailForwarded" />
+      <MemberSignature Language="C++ CLI" Value="MailForwarded" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MailIrm">
+      <MemberSignature Language="C#" Value="MailIrm" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType MailIrm = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.MailIrm" />
+      <MemberSignature Language="VB.NET" Value="MailIrm" />
+      <MemberSignature Language="C++ CLI" Value="MailIrm" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MailIrmForwarded">
+      <MemberSignature Language="C#" Value="MailIrmForwarded" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType MailIrmForwarded = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.MailIrmForwarded" />
+      <MemberSignature Language="VB.NET" Value="MailIrmForwarded" />
+      <MemberSignature Language="C++ CLI" Value="MailIrmForwarded" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MailIrmReplied">
+      <MemberSignature Language="C#" Value="MailIrmReplied" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType MailIrmReplied = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.MailIrmReplied" />
+      <MemberSignature Language="VB.NET" Value="MailIrmReplied" />
+      <MemberSignature Language="C++ CLI" Value="MailIrmReplied" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MailRead">
+      <MemberSignature Language="C#" Value="MailRead" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType MailRead = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.MailRead" />
+      <MemberSignature Language="VB.NET" Value="MailRead" />
+      <MemberSignature Language="C++ CLI" Value="MailRead" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MailReplied">
+      <MemberSignature Language="C#" Value="MailReplied" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType MailReplied = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.MailReplied" />
+      <MemberSignature Language="VB.NET" Value="MailReplied" />
+      <MemberSignature Language="C++ CLI" Value="MailReplied" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MailSmimeSigned">
+      <MemberSignature Language="C#" Value="MailSmimeSigned" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType MailSmimeSigned = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.MailSmimeSigned" />
+      <MemberSignature Language="VB.NET" Value="MailSmimeSigned" />
+      <MemberSignature Language="C++ CLI" Value="MailSmimeSigned" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MailSmimeSignedForwarded">
+      <MemberSignature Language="C#" Value="MailSmimeSignedForwarded" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType MailSmimeSignedForwarded = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.MailSmimeSignedForwarded" />
+      <MemberSignature Language="VB.NET" Value="MailSmimeSignedForwarded" />
+      <MemberSignature Language="C++ CLI" Value="MailSmimeSignedForwarded" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MailSmimeSignedRead">
+      <MemberSignature Language="C#" Value="MailSmimeSignedRead" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType MailSmimeSignedRead = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.MailSmimeSignedRead" />
+      <MemberSignature Language="VB.NET" Value="MailSmimeSignedRead" />
+      <MemberSignature Language="C++ CLI" Value="MailSmimeSignedRead" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MailSmimeSignedReplied">
+      <MemberSignature Language="C#" Value="MailSmimeSignedReplied" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType MailSmimeSignedReplied = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.MailSmimeSignedReplied" />
+      <MemberSignature Language="VB.NET" Value="MailSmimeSignedReplied" />
+      <MemberSignature Language="C++ CLI" Value="MailSmimeSignedReplied" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MailUnread">
+      <MemberSignature Language="C#" Value="MailUnread" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType MailUnread = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.MailUnread" />
+      <MemberSignature Language="VB.NET" Value="MailUnread" />
+      <MemberSignature Language="C++ CLI" Value="MailUnread" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="OutlookDefaultForContacts">
+      <MemberSignature Language="C#" Value="OutlookDefaultForContacts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType OutlookDefaultForContacts = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.OutlookDefaultForContacts" />
+      <MemberSignature Language="VB.NET" Value="OutlookDefaultForContacts" />
+      <MemberSignature Language="C++ CLI" Value="OutlookDefaultForContacts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="PostItem">
+      <MemberSignature Language="C#" Value="PostItem" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType PostItem = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.PostItem" />
+      <MemberSignature Language="VB.NET" Value="PostItem" />
+      <MemberSignature Language="C++ CLI" Value="PostItem" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="SmsDelivered">
+      <MemberSignature Language="C#" Value="SmsDelivered" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType SmsDelivered = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.SmsDelivered" />
+      <MemberSignature Language="VB.NET" Value="SmsDelivered" />
+      <MemberSignature Language="C++ CLI" Value="SmsDelivered" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="SmsRoutedToDeliveryPoint">
+      <MemberSignature Language="C#" Value="SmsRoutedToDeliveryPoint" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType SmsRoutedToDeliveryPoint = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.SmsRoutedToDeliveryPoint" />
+      <MemberSignature Language="VB.NET" Value="SmsRoutedToDeliveryPoint" />
+      <MemberSignature Language="C++ CLI" Value="SmsRoutedToDeliveryPoint" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="SmsRoutedToExternalMessagingSystem">
+      <MemberSignature Language="C#" Value="SmsRoutedToExternalMessagingSystem" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType SmsRoutedToExternalMessagingSystem = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.SmsRoutedToExternalMessagingSystem" />
+      <MemberSignature Language="VB.NET" Value="SmsRoutedToExternalMessagingSystem" />
+      <MemberSignature Language="C++ CLI" Value="SmsRoutedToExternalMessagingSystem" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="SmsSubmitted">
+      <MemberSignature Language="C#" Value="SmsSubmitted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType SmsSubmitted = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.SmsSubmitted" />
+      <MemberSignature Language="VB.NET" Value="SmsSubmitted" />
+      <MemberSignature Language="C++ CLI" Value="SmsSubmitted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="TaskDelegated">
+      <MemberSignature Language="C#" Value="TaskDelegated" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType TaskDelegated = int32(35)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.TaskDelegated" />
+      <MemberSignature Language="VB.NET" Value="TaskDelegated" />
+      <MemberSignature Language="C++ CLI" Value="TaskDelegated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>35</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="TaskItem">
+      <MemberSignature Language="C#" Value="TaskItem" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType TaskItem = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.TaskItem" />
+      <MemberSignature Language="VB.NET" Value="TaskItem" />
+      <MemberSignature Language="C++ CLI" Value="TaskItem" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="TaskOwned">
+      <MemberSignature Language="C#" Value="TaskOwned" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType TaskOwned = int32(34)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.TaskOwned" />
+      <MemberSignature Language="VB.NET" Value="TaskOwned" />
+      <MemberSignature Language="C++ CLI" Value="TaskOwned" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>34</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="TaskRecur">
+      <MemberSignature Language="C#" Value="TaskRecur" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.IconIndexType TaskRecur = int32(33)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.IconIndexType.TaskRecur" />
+      <MemberSignature Language="VB.NET" Value="TaskRecur" />
+      <MemberSignature Language="C++ CLI" Value="TaskRecur" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IconIndexType</ReturnType>
+      </ReturnValue>
+      <MemberValue>33</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

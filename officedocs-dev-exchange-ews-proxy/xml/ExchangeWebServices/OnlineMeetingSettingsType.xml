@@ -1,0 +1,112 @@
+﻿<Type Name="OnlineMeetingSettingsType" FullName="ExchangeWebServices.OnlineMeetingSettingsType">
+  <TypeSignature Language="C#" Value="public class OnlineMeetingSettingsType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit OnlineMeetingSettingsType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.OnlineMeetingSettingsType" />
+  <TypeSignature Language="VB.NET" Value="Public Class OnlineMeetingSettingsType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class OnlineMeetingSettingsType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public OnlineMeetingSettingsType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.OnlineMeetingSettingsType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; OnlineMeetingSettingsType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AccessLevel">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.OnlineMeetingAccessLevelType AccessLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.OnlineMeetingAccessLevelType AccessLevel" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.OnlineMeetingSettingsType.AccessLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property AccessLevel As OnlineMeetingAccessLevelType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::OnlineMeetingAccessLevelType AccessLevel { ExchangeWebServices::OnlineMeetingAccessLevelType get(); void set(ExchangeWebServices::OnlineMeetingAccessLevelType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.OnlineMeetingAccessLevelType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LobbyBypass">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.LobbyBypassType LobbyBypass { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.LobbyBypassType LobbyBypass" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.OnlineMeetingSettingsType.LobbyBypass" />
+      <MemberSignature Language="VB.NET" Value="Public Property LobbyBypass As LobbyBypassType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::LobbyBypassType LobbyBypass { ExchangeWebServices::LobbyBypassType get(); void set(ExchangeWebServices::LobbyBypassType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.LobbyBypassType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Presenters">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PresentersType Presenters { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.PresentersType Presenters" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.OnlineMeetingSettingsType.Presenters" />
+      <MemberSignature Language="VB.NET" Value="Public Property Presenters As PresentersType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::PresentersType Presenters { ExchangeWebServices::PresentersType get(); void set(ExchangeWebServices::PresentersType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PresentersType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

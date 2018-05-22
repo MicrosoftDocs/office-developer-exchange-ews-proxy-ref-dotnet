@@ -1,0 +1,116 @@
+﻿<Type Name="GetUserOofSettingsRequest" FullName="ExchangeWebServices.GetUserOofSettingsRequest">
+  <TypeSignature Language="C#" Value="public class GetUserOofSettingsRequest : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetUserOofSettingsRequest extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetUserOofSettingsRequest" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetUserOofSettingsRequest&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetUserOofSettingsRequest : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.GetUserOofSettingsRequest" /> class represents a request to get a user's Out of Office (OOF) settings.</summary>
+    <remarks>
+      <para>If the OOF message is set by Microsoft Office Outlook, this operation will return the OOF message in HTML format.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>The following example shows you how to form a GetUserOofSettings request and receive the response.</para>
+      <code>static void GetOOF(ExchangeServiceBinding esb)
+{
+    // Create the request.
+    GetUserOofSettingsRequest &lt;span class="label"&gt;request&lt;/span&gt; = new GetUserOofSettingsRequest();
+    &lt;span class="label"&gt;request&lt;/span&gt;.Mailbox = new EmailAddress();
+    &lt;span class="label"&gt;request&lt;/span&gt;.Mailbox.Address = "someone@example.com";
+
+    try
+    {
+        // Send the request and get the response.
+        GetUserOofSettingsResponse response = esb.GetUserOofSettings(&lt;span class="label"&gt;request&lt;/span&gt;);
+        if (response.ResponseMessage.ResponseClass == ResponseClassType.Success)
+        {
+            if (response.AllowExternalOofSpecified)
+            {
+                Console.WriteLine("External OOF enabled for: " + response.AllowExternalOof);
+            }
+
+            // Display OOF information.
+            Duration dur = response.OofSettings.Duration;
+            Console.WriteLine("OOF start time: " + dur.StartTime.ToString());
+            Console.WriteLine("OOF end time: " + dur.EndTime.ToString());
+
+            Console.WriteLine("OOF state: " + response.OofSettings.OofState);
+            Console.WriteLine("External reply: " + response.OofSettings.ExternalReply.Message);
+            Console.WriteLine("Internal reply: " + response.OofSettings.InternalReply.Message);
+        }
+    }
+    catch (Exception e)
+    { 
+        Console.WriteLine(e.Message); 
+    }
+}</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetUserOofSettingsRequest ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetUserOofSettingsRequest.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetUserOofSettingsRequest();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.GetUserOofSettingsRequest" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.GetUserOofSettingsRequest" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddress Mailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddress Mailbox" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetUserOofSettingsRequest.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailbox As EmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::EmailAddress ^ Mailbox { ExchangeWebServices::EmailAddress ^ get(); void set(ExchangeWebServices::EmailAddress ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddress</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GetUserOofSettingsRequest.Mailbox" /> property gets or sets the mailbox user whose OOF settings are returned. This property is required. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.GetUserOofSettingsRequest.Mailbox" /> property returns an <see cref="T:ExchangeWebServices.EmailAddress" /> object.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

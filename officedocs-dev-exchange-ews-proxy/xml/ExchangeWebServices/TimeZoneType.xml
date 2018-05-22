@@ -1,0 +1,142 @@
+﻿<Type Name="TimeZoneType" FullName="ExchangeWebServices.TimeZoneType">
+  <TypeSignature Language="C#" Value="public class TimeZoneType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit TimeZoneType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.TimeZoneType" />
+  <TypeSignature Language="VB.NET" Value="Public Class TimeZoneType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TimeZoneType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.TimeZoneType" /> class represents the time zone of the location where a meeting is hosted.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TimeZoneType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.TimeZoneType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TimeZoneType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.TimeZoneType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.TimeZoneType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BaseOffset">
+      <MemberSignature Language="C#" Value="public string BaseOffset { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string BaseOffset" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TimeZoneType.BaseOffset" />
+      <MemberSignature Language="VB.NET" Value="Public Property BaseOffset As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ BaseOffset { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement(DataType="duration")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.TimeZoneType.BaseOffset" /> property gets or sets the hourly offset from Coordinated Universal Time (UTC) for the current time zone.</summary>
+        <value>The <see cref="P:ExchangeWebServices.TimeZoneType.BaseOffset" /> property returns a string that represents the hourly offset from UTC for the current time zone.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Daylight">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.TimeChangeType Daylight { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.TimeChangeType Daylight" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TimeZoneType.Daylight" />
+      <MemberSignature Language="VB.NET" Value="Public Property Daylight As TimeChangeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::TimeChangeType ^ Daylight { ExchangeWebServices::TimeChangeType ^ get(); void set(ExchangeWebServices::TimeChangeType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TimeChangeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.TimeZoneType.Daylight" /> property gets or sets the date and time when the time changes from standard time to daylight saving time.</summary>
+        <value>The <see cref="P:ExchangeWebServices.TimeZoneType.Daylight" /> property returns a <see cref="T:ExchangeWebServices.TimeChangeType" /> object that represents the date and time when the time changes from standard time to daylight saving time.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Standard">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.TimeChangeType Standard { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.TimeChangeType Standard" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TimeZoneType.Standard" />
+      <MemberSignature Language="VB.NET" Value="Public Property Standard As TimeChangeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::TimeChangeType ^ Standard { ExchangeWebServices::TimeChangeType ^ get(); void set(ExchangeWebServices::TimeChangeType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TimeChangeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.TimeZoneType.Standard" /> property gets or sets the date and time when the time changes from daylight saving time to standard time.</summary>
+        <value>The <see cref="P:ExchangeWebServices.TimeZoneType.Standard" /> property returns a <see cref="T:ExchangeWebServices.TimeChangeType" /> object that represents the date and time when the time changes from daylight saving time to standard time.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeZoneName">
+      <MemberSignature Language="C#" Value="public string TimeZoneName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TimeZoneName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TimeZoneType.TimeZoneName" />
+      <MemberSignature Language="VB.NET" Value="Public Property TimeZoneName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TimeZoneName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.TimeZoneType.TimeZoneName" /> property gets or sets the name of the time zone.</summary>
+        <value>The <see cref="P:ExchangeWebServices.TimeZoneType.TimeZoneName" /> property returns a string that represents the name of the time zone.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

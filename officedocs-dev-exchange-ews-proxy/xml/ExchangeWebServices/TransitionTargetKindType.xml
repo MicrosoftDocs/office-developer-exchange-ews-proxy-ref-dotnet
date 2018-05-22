@@ -1,0 +1,66 @@
+﻿<Type Name="TransitionTargetKindType" FullName="ExchangeWebServices.TransitionTargetKindType">
+  <TypeSignature Language="C#" Value="public enum TransitionTargetKindType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed TransitionTargetKindType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.TransitionTargetKindType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum TransitionTargetKindType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class TransitionTargetKindType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.TransitionTargetKindType" /> identifies whether the time zone transition target is a time zone period of a group of time zone transitions.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Group">
+      <MemberSignature Language="C#" Value="Group" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TransitionTargetKindType Group = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TransitionTargetKindType.Group" />
+      <MemberSignature Language="VB.NET" Value="Group" />
+      <MemberSignature Language="C++ CLI" Value="Group" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TransitionTargetKindType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Specifies that the time zone transition target is a group of time zone transitions.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Period">
+      <MemberSignature Language="C#" Value="Period" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TransitionTargetKindType Period = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TransitionTargetKindType.Period" />
+      <MemberSignature Language="VB.NET" Value="Period" />
+      <MemberSignature Language="C++ CLI" Value="Period" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TransitionTargetKindType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Specifies that the time zone transition target is a time zone period.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

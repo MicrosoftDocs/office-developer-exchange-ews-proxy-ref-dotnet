@@ -1,0 +1,88 @@
+﻿<Type Name="PermissionActionType" FullName="ExchangeWebServices.PermissionActionType">
+  <TypeSignature Language="C#" Value="public enum PermissionActionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed PermissionActionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.PermissionActionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PermissionActionType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class PermissionActionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.PermissionActionType" /> enumeration defines which items in a folder a user has permission to edit or delete. This enumeration was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</summary>
+    <remarks>
+      <para>This enumeration is used by the <see cref="P:ExchangeWebServices.BasePermissionType.DeleteItems" /> property and the <see cref="P:ExchangeWebServices.BasePermissionType.EditItems" /> property of the <see cref="T:ExchangeWebServices.BasePermissionType" /> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="All">
+      <MemberSignature Language="C#" Value="All" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.PermissionActionType All = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.PermissionActionType.All" />
+      <MemberSignature Language="VB.NET" Value="All" />
+      <MemberSignature Language="C++ CLI" Value="All" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PermissionActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Indicates that the user has permission to perform the action on all items in the folder.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.PermissionActionType None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.PermissionActionType.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PermissionActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Indicates that the user does not have permission to perform the action on any items in the folder.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Owned">
+      <MemberSignature Language="C#" Value="Owned" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.PermissionActionType Owned = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.PermissionActionType.Owned" />
+      <MemberSignature Language="VB.NET" Value="Owned" />
+      <MemberSignature Language="C++ CLI" Value="Owned" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PermissionActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Indicates that the user has permission to perform the action on the items in the folder that the user owns.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

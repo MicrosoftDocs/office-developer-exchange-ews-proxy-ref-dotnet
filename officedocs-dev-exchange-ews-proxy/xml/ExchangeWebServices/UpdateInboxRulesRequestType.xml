@@ -1,0 +1,148 @@
+﻿<Type Name="UpdateInboxRulesRequestType" FullName="ExchangeWebServices.UpdateInboxRulesRequestType">
+  <TypeSignature Language="C#" Value="public class UpdateInboxRulesRequestType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit UpdateInboxRulesRequestType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.UpdateInboxRulesRequestType" />
+  <TypeSignature Language="VB.NET" Value="Public Class UpdateInboxRulesRequestType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UpdateInboxRulesRequestType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UpdateInboxRulesRequestType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.UpdateInboxRulesRequestType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; UpdateInboxRulesRequestType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailboxSmtpAddress">
+      <MemberSignature Language="C#" Value="public string MailboxSmtpAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MailboxSmtpAddress" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UpdateInboxRulesRequestType.MailboxSmtpAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property MailboxSmtpAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MailboxSmtpAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Operations">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.RuleOperationType[] Operations { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.RuleOperationType[] Operations" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UpdateInboxRulesRequestType.Operations" />
+      <MemberSignature Language="VB.NET" Value="Public Property Operations As RuleOperationType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::RuleOperationType ^&gt; ^ Operations { cli::array &lt;ExchangeWebServices::RuleOperationType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::RuleOperationType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("DeleteRuleOperation", typeof(ExchangeWebServices.DeleteRuleOperationType), IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("SetRuleOperation", typeof(ExchangeWebServices.SetRuleOperationType), IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("CreateRuleOperation", typeof(ExchangeWebServices.CreateRuleOperationType), IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleOperationType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveOutlookRuleBlob">
+      <MemberSignature Language="C#" Value="public bool RemoveOutlookRuleBlob { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool RemoveOutlookRuleBlob" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UpdateInboxRulesRequestType.RemoveOutlookRuleBlob" />
+      <MemberSignature Language="VB.NET" Value="Public Property RemoveOutlookRuleBlob As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool RemoveOutlookRuleBlob { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveOutlookRuleBlobSpecified">
+      <MemberSignature Language="C#" Value="public bool RemoveOutlookRuleBlobSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool RemoveOutlookRuleBlobSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UpdateInboxRulesRequestType.RemoveOutlookRuleBlobSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property RemoveOutlookRuleBlobSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool RemoveOutlookRuleBlobSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

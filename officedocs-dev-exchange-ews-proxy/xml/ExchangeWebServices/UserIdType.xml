@@ -1,0 +1,181 @@
+﻿<Type Name="UserIdType" FullName="ExchangeWebServices.UserIdType">
+  <TypeSignature Language="C#" Value="public class UserIdType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit UserIdType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.UserIdType" />
+  <TypeSignature Language="VB.NET" Value="Public Class UserIdType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UserIdType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.UserIdType" /> class identifies a user or a delegate user who has folder access permissions.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UserIdType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.UserIdType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; UserIdType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.UserIdType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.UserIdType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UserIdType.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.UserIdType.DisplayName" /> property gets or sets the user name for display.</summary>
+        <value>The <see cref="P:ExchangeWebServices.UserIdType.DisplayName" /> property returns a string that contains the user name for display.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DistinguishedUser">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.DistinguishedUserType DistinguishedUser { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.DistinguishedUserType DistinguishedUser" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UserIdType.DistinguishedUser" />
+      <MemberSignature Language="VB.NET" Value="Public Property DistinguishedUser As DistinguishedUserType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::DistinguishedUserType DistinguishedUser { ExchangeWebServices::DistinguishedUserType get(); void set(ExchangeWebServices::DistinguishedUserType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedUserType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.UserIdType.DistinguishedUser" /> property gets or sets a value that identifies the Anonymouse and Default user accounts for delegate access.</summary>
+        <value>The <see cref="P:ExchangeWebServices.UserIdType.DistinguishedUser" /> property returns one of the <see cref="T:ExchangeWebServices.DistinguishedUserType" /> enumeration values.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DistinguishedUserSpecified">
+      <MemberSignature Language="C#" Value="public bool DistinguishedUserSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DistinguishedUserSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UserIdType.DistinguishedUserSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property DistinguishedUserSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DistinguishedUserSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.UserIdType.DistinguishedUserSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.UserIdType.DistinguishedUser" /> property is serialized into the SOAP message. This property is required if the <see cref="P:ExchangeWebServices.UserIdType.DistinguishedUser" /> property is specified.</summary>
+        <value>The <see cref="P:ExchangeWebServices.UserIdType.DistinguishedUserSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.UserIdType.DistinguishedUser" /> property is specified; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalUserIdentity">
+      <MemberSignature Language="C#" Value="public string ExternalUserIdentity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ExternalUserIdentity" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UserIdType.ExternalUserIdentity" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExternalUserIdentity As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ExternalUserIdentity { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.String" />.</value>
+        <remarks>
+          <para>
+            <b>Note</b>: This member applies to versions of Exchange starting with Exchange Server 2010 Service Pack 1 (SP1), including Exchange Online.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrimarySmtpAddress">
+      <MemberSignature Language="C#" Value="public string PrimarySmtpAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PrimarySmtpAddress" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UserIdType.PrimarySmtpAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrimarySmtpAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PrimarySmtpAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.UserIdType.PrimarySmtpAddress" /> property gets or sets the primay SMTP address of an account that is used for delegate access.</summary>
+        <value>The <see cref="P:ExchangeWebServices.UserIdType.PrimarySmtpAddress" /> property returns a string that contains the primary SMTP address of the delegate account.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SID">
+      <MemberSignature Language="C#" Value="public string SID { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SID" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UserIdType.SID" />
+      <MemberSignature Language="VB.NET" Value="Public Property SID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SID { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.UserIdType.SID" /> property gets or sets the security descriptor definition language (SSDL) form of the security identifier (SID).</summary>
+        <value>The <see cref="P:ExchangeWebServices.UserIdType.SID" /> property returns a string that contains the SID.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

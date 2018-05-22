@@ -1,0 +1,123 @@
+﻿<Type Name="HoldStatusType" FullName="ExchangeWebServices.HoldStatusType">
+  <TypeSignature Language="C#" Value="public enum HoldStatusType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed HoldStatusType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.HoldStatusType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum HoldStatusType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class HoldStatusType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Failed">
+      <MemberSignature Language="C#" Value="Failed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.HoldStatusType Failed = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.HoldStatusType.Failed" />
+      <MemberSignature Language="VB.NET" Value="Failed" />
+      <MemberSignature Language="C++ CLI" Value="Failed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.HoldStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="NotOnHold">
+      <MemberSignature Language="C#" Value="NotOnHold" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.HoldStatusType NotOnHold = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.HoldStatusType.NotOnHold" />
+      <MemberSignature Language="VB.NET" Value="NotOnHold" />
+      <MemberSignature Language="C++ CLI" Value="NotOnHold" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.HoldStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="OnHold">
+      <MemberSignature Language="C#" Value="OnHold" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.HoldStatusType OnHold = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.HoldStatusType.OnHold" />
+      <MemberSignature Language="VB.NET" Value="OnHold" />
+      <MemberSignature Language="C++ CLI" Value="OnHold" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.HoldStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="PartialHold">
+      <MemberSignature Language="C#" Value="PartialHold" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.HoldStatusType PartialHold = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.HoldStatusType.PartialHold" />
+      <MemberSignature Language="VB.NET" Value="PartialHold" />
+      <MemberSignature Language="C++ CLI" Value="PartialHold" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.HoldStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Pending">
+      <MemberSignature Language="C#" Value="Pending" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.HoldStatusType Pending = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.HoldStatusType.Pending" />
+      <MemberSignature Language="VB.NET" Value="Pending" />
+      <MemberSignature Language="C++ CLI" Value="Pending" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.HoldStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

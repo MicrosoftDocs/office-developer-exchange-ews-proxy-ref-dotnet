@@ -1,0 +1,130 @@
+﻿<Type Name="OccurrenceItemIdType" FullName="ExchangeWebServices.OccurrenceItemIdType">
+  <TypeSignature Language="C#" Value="public class OccurrenceItemIdType : ExchangeWebServices.BaseItemIdType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit OccurrenceItemIdType extends ExchangeWebServices.BaseItemIdType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.OccurrenceItemIdType" />
+  <TypeSignature Language="VB.NET" Value="Public Class OccurrenceItemIdType&#xA;Inherits BaseItemIdType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class OccurrenceItemIdType : ExchangeWebServices::BaseItemIdType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseItemIdType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.OccurrenceItemIdType" /> class identifies a single occurrence of a recurring item.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public OccurrenceItemIdType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.OccurrenceItemIdType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; OccurrenceItemIdType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.OccurrenceItemIdType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.OccurrenceItemIdType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangeKey">
+      <MemberSignature Language="C#" Value="public string ChangeKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ChangeKey" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.OccurrenceItemIdType.ChangeKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property ChangeKey As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ChangeKey { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.OccurrenceItemIdType.ChangeKey" /> property gets or sets a specific version of a single occurrence of a recurring master item.</summary>
+        <value>The <see cref="P:ExchangeWebServices.OccurrenceItemIdType.ChangeKey" /> property returns a string that contains a change key that identifies a specific version of a single occurrence of a recurring master item.</value>
+        <remarks>
+          <para>The <see cref="P:ExchangeWebServices.OccurrenceItemIdType.ChangeKey" /> property identifies a specific version of the recurring master or an item occurrence. If either the recurring master or any of its occurrences change, the <see cref="P:ExchangeWebServices.OccurrenceItemIdType.ChangeKey" /> changes. The <see cref="P:ExchangeWebServices.OccurrenceItemIdType.ChangeKey" /> is the same for the recurring master and all occurrences.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstanceIndex">
+      <MemberSignature Language="C#" Value="public int InstanceIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 InstanceIndex" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.OccurrenceItemIdType.InstanceIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property InstanceIndex As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int InstanceIndex { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.OccurrenceItemIdType.InstanceIndex" /> property gets or sets the index of the item occurrence.</summary>
+        <value>The <see cref="P:ExchangeWebServices.OccurrenceItemIdType.InstanceIndex" /> property returns the index of the item occurrence.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecurringMasterId">
+      <MemberSignature Language="C#" Value="public string RecurringMasterId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RecurringMasterId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.OccurrenceItemIdType.RecurringMasterId" />
+      <MemberSignature Language="VB.NET" Value="Public Property RecurringMasterId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RecurringMasterId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.OccurrenceItemIdType.RecurringMasterId" /> property gets or sets the identifier of the recurring master of a recurring item.</summary>
+        <value>The <see cref="P:ExchangeWebServices.OccurrenceItemIdType.RecurringMasterId" /> property returns the identifier of the recurring master of a recurring item.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

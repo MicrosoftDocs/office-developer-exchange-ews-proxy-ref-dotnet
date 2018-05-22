@@ -1,0 +1,97 @@
+﻿<Type Name="WorkingHours" FullName="ExchangeWebServices.WorkingHours">
+  <TypeSignature Language="C#" Value="public class WorkingHours" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit WorkingHours extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.WorkingHours" />
+  <TypeSignature Language="VB.NET" Value="Public Class WorkingHours" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WorkingHours" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.WorkingHours" /> class represents the time zone settings and working hours for the requested mailbox user.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WorkingHours ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.WorkingHours.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; WorkingHours();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.WorkingHours" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.WorkingHours" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeZone">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SerializableTimeZone TimeZone { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.SerializableTimeZone TimeZone" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.WorkingHours.TimeZone" />
+      <MemberSignature Language="VB.NET" Value="Public Property TimeZone As SerializableTimeZone" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SerializableTimeZone ^ TimeZone { ExchangeWebServices::SerializableTimeZone ^ get(); void set(ExchangeWebServices::SerializableTimeZone ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SerializableTimeZone</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.WorkingHours.TimeZone" /> property gets or sets a value that identifies the time zone settings for the working hours.</summary>
+        <value>The <see cref="P:ExchangeWebServices.WorkingHours.TimeZone" /> property returns elements that identify time zone information. It also returns any information about the transition between standard time and daylight saving time. </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkingPeriodArray">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.WorkingPeriod[] WorkingPeriodArray { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.WorkingPeriod[] WorkingPeriodArray" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.WorkingHours.WorkingPeriodArray" />
+      <MemberSignature Language="VB.NET" Value="Public Property WorkingPeriodArray As WorkingPeriod()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::WorkingPeriod ^&gt; ^ WorkingPeriodArray { cli::array &lt;ExchangeWebServices::WorkingPeriod ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::WorkingPeriod ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem(IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.WorkingPeriod[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.WorkingHours.WorkingPeriodArray" /> property gets or sets work period information for a mailbox user.</summary>
+        <value>The <see cref="P:ExchangeWebServices.WorkingHours.WorkingPeriodArray" /> property returns an array of <see cref="T:ExchangeWebServices.WorkingPeriod" /> instances that provide the work period information for a mailbox user.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

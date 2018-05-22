@@ -1,0 +1,180 @@
+﻿<Type Name="ResponseTypeType" FullName="ExchangeWebServices.ResponseTypeType">
+  <TypeSignature Language="C#" Value="public enum ResponseTypeType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed ResponseTypeType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ResponseTypeType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ResponseTypeType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ResponseTypeType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.ResponseTypeType" /> enumeration represents the types of recipient responses that are received for a meeting.</summary>
+    <remarks>
+      <para>The following table lists the properties that use this enumeration.</para>
+      <para>Properties that use the ResponseTypeType enumeration</para>
+      <list type="table">
+        <item>
+          <term>
+            <see cref="P:ExchangeWebServices.AttendeeType.ResponseType" />
+          </term>
+          <description>
+            <see cref="T:ExchangeWebServices.AttendeeType" />
+          </description>
+        </item>
+        <item>
+          <term>
+            <see cref="P:ExchangeWebServices.CalendarItemType.MyResponseType" />
+          </term>
+          <description>
+            <see cref="T:ExchangeWebServices.CalendarItemType" />
+          </description>
+        </item>
+        <item>
+          <term>
+            <see cref="P:ExchangeWebServices.MeetingMessageType.ResponseType" />
+          </term>
+          <description>
+            <see cref="T:ExchangeWebServices.MeetingMessageType" />
+          </description>
+        </item>
+        <item>
+          <term>
+            <see cref="P:ExchangeWebServices.MeetingRequestMessageType.MyResponseType" />
+          </term>
+          <description>
+            <see cref="T:ExchangeWebServices.MeetingRequestMessageType" />
+          </description>
+        </item>
+      </list>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Accept">
+      <MemberSignature Language="C#" Value="Accept" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ResponseTypeType Accept = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ResponseTypeType.Accept" />
+      <MemberSignature Language="VB.NET" Value="Accept" />
+      <MemberSignature Language="C++ CLI" Value="Accept" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResponseTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Indicates that the recipient accepted the meeting.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Decline">
+      <MemberSignature Language="C#" Value="Decline" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ResponseTypeType Decline = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ResponseTypeType.Decline" />
+      <MemberSignature Language="VB.NET" Value="Decline" />
+      <MemberSignature Language="C++ CLI" Value="Decline" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResponseTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Indicates that the recipient declined the meeting.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NoResponseReceived">
+      <MemberSignature Language="C#" Value="NoResponseReceived" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ResponseTypeType NoResponseReceived = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ResponseTypeType.NoResponseReceived" />
+      <MemberSignature Language="VB.NET" Value="NoResponseReceived" />
+      <MemberSignature Language="C++ CLI" Value="NoResponseReceived" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResponseTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Indicates that the recipient has not yet responded to the meeting request.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Organizer">
+      <MemberSignature Language="C#" Value="Organizer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ResponseTypeType Organizer = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ResponseTypeType.Organizer" />
+      <MemberSignature Language="VB.NET" Value="Organizer" />
+      <MemberSignature Language="C++ CLI" Value="Organizer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResponseTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Indicates that the recipient is the meeting organizer.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Tentative">
+      <MemberSignature Language="C#" Value="Tentative" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ResponseTypeType Tentative = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ResponseTypeType.Tentative" />
+      <MemberSignature Language="VB.NET" Value="Tentative" />
+      <MemberSignature Language="C++ CLI" Value="Tentative" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResponseTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Indicates that the recipient has tentatively accepted the meeting.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Unknown">
+      <MemberSignature Language="C#" Value="Unknown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ResponseTypeType Unknown = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ResponseTypeType.Unknown" />
+      <MemberSignature Language="VB.NET" Value="Unknown" />
+      <MemberSignature Language="C++ CLI" Value="Unknown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResponseTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Indicates that the recipient's response to the meeting is unknown.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

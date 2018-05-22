@@ -1,0 +1,175 @@
+﻿<Type Name="GetServerTimeZonesType" FullName="ExchangeWebServices.GetServerTimeZonesType">
+  <TypeSignature Language="C#" Value="public class GetServerTimeZonesType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetServerTimeZonesType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetServerTimeZonesType" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetServerTimeZonesType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetServerTimeZonesType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.GetServerTimeZonesType" /> class represents a request to retrieve time zone definitions from the Exchange Server.</summary>
+    <remarks>To be added.</remarks>
+    <example>
+      <para>The following code example shows you how to retrieve complete time zone definitions for the Eastern Standard Time time zone and the Pacific Standard Time time zone.</para>
+      <code>static void GetTZDefinition(ExchangeServiceBinding esb)
+{
+    // Form the request.
+    GetServerTimeZonesType gstzRequest = new GetServerTimeZonesType();
+
+    // Identify the time zone definitions to retrieve.
+    gstzRequest.Ids = new string[] { "Eastern Standard Time", "Pacific Standard Time" };
+
+    // Specify that complete time zone definitions are requested.
+    gstzRequest.ReturnFullTimeZoneData = true;
+    gstzRequest.ReturnFullTimeZoneDataSpecified = true;
+
+    try
+    {
+        // Send the request and get the response.
+        GetServerTimeZonesResponseType gstzResponse = esb.GetServerTimeZones(gstzRequest);
+        GetServerTimeZonesResponseMessageType responseMsg = gstzResponse.ResponseMessages.Items[0] as GetServerTimeZonesResponseMessageType;
+
+        // Iterate through the time zone definitions.
+        if (responseMsg.ResponseClass == ResponseClassType.Success)
+        {
+            foreach (TimeZoneDefinitionType tzd in responseMsg.TimeZoneDefinitions.TimeZoneDefinition)
+            {
+                Console.WriteLine("Time Zone name: " + tzd.Name);
+                Console.WriteLine("Time Zone id:   " + tzd.Id);
+                Console.WriteLine("");
+            }
+        }
+        else
+        {
+            throw new Exception("GetServerTimeZones() failed.");
+        }
+    catch (Exception e)
+    {
+        Console.WriteLine(e.Message);
+    }
+}
+</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetServerTimeZonesType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetServerTimeZonesType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetServerTimeZonesType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.GetServerTimeZonesType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.GetServerTimeZonesType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Ids">
+      <MemberSignature Language="C#" Value="public string[] Ids { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] Ids" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetServerTimeZonesType.Ids" />
+      <MemberSignature Language="VB.NET" Value="Public Property Ids As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ Ids { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Id", IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GetServerTimeZonesType.Ids" /> property gets or sets an array of identifiers that represent the requested time zone definitions.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.GetServerTimeZonesType.Ids" /> property is an array of strings that represent the identifiers of the requested time zone definitions.</value>
+        <remarks>
+          <para>If this property is not specified in the GetServerTimeZones operation request, all time zone definitions that are available on the server are returned in the response.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReturnFullTimeZoneData">
+      <MemberSignature Language="C#" Value="public bool ReturnFullTimeZoneData { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReturnFullTimeZoneData" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetServerTimeZonesType.ReturnFullTimeZoneData" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReturnFullTimeZoneData As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReturnFullTimeZoneData { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GetServerTimeZonesType.ReturnFullTimeZoneData" /> property gets or sets a Boolean value that indicates whether the GetServerTimeZones operation returns the complete definition or only the name and identifier for each time zone.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.GetServerTimeZonesType.ReturnFullTimeZoneData" /> property is <b>true</b> if complete definitions are returned for each time zone; otherwise, the value is <b>false</b>.</value>
+        <remarks>
+          <para>The default value of the <see cref="P:ExchangeWebServices.GetServerTimeZonesType.ReturnFullTimeZoneData" /> property is <b>true</b>.</para>
+          <para>You must set the <see cref="P:ExchangeWebServices.GetServerTimeZonesType.ReturnFullTimeZoneDataSpecified" /> property to <b>true</b> so that the <see cref="P:ExchangeWebServices.GetServerTimeZonesType.ReturnFullTimeZoneData" /> property is serialized into the SOAP request.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReturnFullTimeZoneDataSpecified">
+      <MemberSignature Language="C#" Value="public bool ReturnFullTimeZoneDataSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReturnFullTimeZoneDataSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetServerTimeZonesType.ReturnFullTimeZoneDataSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReturnFullTimeZoneDataSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReturnFullTimeZoneDataSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GetServerTimeZonesType.ReturnFullTimeZoneDataSpecified" /> property gets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.GetServerTimeZonesType.ReturnFullTimeZoneData" /> property is serialized into the SOAP request.</summary>
+        <value> The value of the <see cref="P:ExchangeWebServices.GetServerTimeZonesType.ReturnFullTimeZoneDataSpecified" /> property is <b>true</b> if the <see cref="P:ExchangeWebServices.GetServerTimeZonesType.ReturnFullTimeZoneData" /> property is serialized into the SOAP request; otherwise, the value is <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

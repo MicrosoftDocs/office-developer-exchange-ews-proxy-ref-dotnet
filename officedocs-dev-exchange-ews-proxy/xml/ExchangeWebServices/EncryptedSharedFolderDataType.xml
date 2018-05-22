@@ -1,0 +1,92 @@
+﻿<Type Name="EncryptedSharedFolderDataType" FullName="ExchangeWebServices.EncryptedSharedFolderDataType">
+  <TypeSignature Language="C#" Value="public class EncryptedSharedFolderDataType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit EncryptedSharedFolderDataType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.EncryptedSharedFolderDataType" />
+  <TypeSignature Language="VB.NET" Value="Public Class EncryptedSharedFolderDataType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EncryptedSharedFolderDataType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.EncryptedSharedFolderDataType" /> contains the encrypted data that a client passes to a server to share folder data with other clients.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EncryptedSharedFolderDataType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.EncryptedSharedFolderDataType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EncryptedSharedFolderDataType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.EncryptedSharedFolderDataType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.EncryptedSharedFolderDataType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Data">
+      <MemberSignature Language="C#" Value="public System.Xml.XmlElement Data { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Xml.XmlElement Data" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.EncryptedSharedFolderDataType.Data" />
+      <MemberSignature Language="VB.NET" Value="Public Property Data As XmlElement" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Xml::XmlElement ^ Data { System::Xml::XmlElement ^ get(); void set(System::Xml::XmlElement ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Xml.XmlElement</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.EncryptedSharedFolderDataType.Data" /> property gets or sets the encrypted data that is being shared.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.EncryptedSharedFolderDataType.Data" /> property is the encrypted data that is being shared.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Token">
+      <MemberSignature Language="C#" Value="public System.Xml.XmlElement Token { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Xml.XmlElement Token" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.EncryptedSharedFolderDataType.Token" />
+      <MemberSignature Language="VB.NET" Value="Public Property Token As XmlElement" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Xml::XmlElement ^ Token { System::Xml::XmlElement ^ get(); void set(System::Xml::XmlElement ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Xml.XmlElement</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.EncryptedSharedFolderDataType.Token" /> property gets or sets the encrypted identification token that corresponds to the data that is being shared.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.EncryptedSharedFolderDataType.Token" /> property is an encrypted identification token.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

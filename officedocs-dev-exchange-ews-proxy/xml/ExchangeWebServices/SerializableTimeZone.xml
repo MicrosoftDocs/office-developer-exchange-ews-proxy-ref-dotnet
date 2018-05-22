@@ -1,0 +1,112 @@
+﻿<Type Name="SerializableTimeZone" FullName="ExchangeWebServices.SerializableTimeZone">
+  <TypeSignature Language="C#" Value="public class SerializableTimeZone" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SerializableTimeZone extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SerializableTimeZone" />
+  <TypeSignature Language="VB.NET" Value="Public Class SerializableTimeZone" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SerializableTimeZone" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.SerializableTimeZone" /> class identifies time zone information and the transition between standard time and daylight saving time.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SerializableTimeZone ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.SerializableTimeZone.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SerializableTimeZone();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.SerializableTimeZone" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.SerializableTimeZone" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bias">
+      <MemberSignature Language="C#" Value="public int Bias { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Bias" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SerializableTimeZone.Bias" />
+      <MemberSignature Language="VB.NET" Value="Public Property Bias As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Bias { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.SerializableTimeZone.Bias" /> property gets or sets a value that represents the general offset from Coordinated Universal Time (UTC).</summary>
+        <value>The <see cref="P:ExchangeWebServices.SerializableTimeZone.Bias" /> property returns an integer that represents the offset from the UTC offset. This value is in minutes.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DaylightTime">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SerializableTimeZoneTime DaylightTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.SerializableTimeZoneTime DaylightTime" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SerializableTimeZone.DaylightTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property DaylightTime As SerializableTimeZoneTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SerializableTimeZoneTime ^ DaylightTime { ExchangeWebServices::SerializableTimeZoneTime ^ get(); void set(ExchangeWebServices::SerializableTimeZoneTime ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SerializableTimeZoneTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.SerializableTimeZone.DaylightTime" /> property gets or sets a value that represents an offset from the time relative to Coordinated Universal Time (UTC) that is represented by the <see cref="P:ExchangeWebServices.SerializableTimeZone.Bias" /> property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.SerializableTimeZone.DaylightTime" /> property returns a <see cref="T:ExchangeWebServices.SerializableTimeZoneTime" /> object.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StandardTime">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SerializableTimeZoneTime StandardTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.SerializableTimeZoneTime StandardTime" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SerializableTimeZone.StandardTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property StandardTime As SerializableTimeZoneTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SerializableTimeZoneTime ^ StandardTime { ExchangeWebServices::SerializableTimeZoneTime ^ get(); void set(ExchangeWebServices::SerializableTimeZoneTime ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SerializableTimeZoneTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.SerializableTimeZone.StandardTime" /> property gets or sets a value that represents an offset from the time relative to Coordinated Universal Time (UTC) that is represented by the <see cref="P:ExchangeWebServices.SerializableTimeZone.Bias" /> property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.SerializableTimeZone.StandardTime" /> property returns a <see cref="T:ExchangeWebServices.SerializableTimeZoneTime" /> object.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

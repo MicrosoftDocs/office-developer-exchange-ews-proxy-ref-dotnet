@@ -1,0 +1,484 @@
+﻿<Type Name="RuleValidationErrorCodeType" FullName="ExchangeWebServices.RuleValidationErrorCodeType">
+  <TypeSignature Language="C#" Value="public enum RuleValidationErrorCodeType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed RuleValidationErrorCodeType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.RuleValidationErrorCodeType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum RuleValidationErrorCodeType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class RuleValidationErrorCodeType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ADOperationFailure">
+      <MemberSignature Language="C#" Value="ADOperationFailure" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleValidationErrorCodeType ADOperationFailure = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleValidationErrorCodeType.ADOperationFailure" />
+      <MemberSignature Language="VB.NET" Value="ADOperationFailure" />
+      <MemberSignature Language="C++ CLI" Value="ADOperationFailure" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleValidationErrorCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectedAccountNotFound">
+      <MemberSignature Language="C#" Value="ConnectedAccountNotFound" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleValidationErrorCodeType ConnectedAccountNotFound = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleValidationErrorCodeType.ConnectedAccountNotFound" />
+      <MemberSignature Language="VB.NET" Value="ConnectedAccountNotFound" />
+      <MemberSignature Language="C++ CLI" Value="ConnectedAccountNotFound" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleValidationErrorCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="CreateWithRuleId">
+      <MemberSignature Language="C#" Value="CreateWithRuleId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleValidationErrorCodeType CreateWithRuleId = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleValidationErrorCodeType.CreateWithRuleId" />
+      <MemberSignature Language="VB.NET" Value="CreateWithRuleId" />
+      <MemberSignature Language="C++ CLI" Value="CreateWithRuleId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleValidationErrorCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="DuplicatedOperationOnTheSameRule">
+      <MemberSignature Language="C#" Value="DuplicatedOperationOnTheSameRule" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleValidationErrorCodeType DuplicatedOperationOnTheSameRule = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleValidationErrorCodeType.DuplicatedOperationOnTheSameRule" />
+      <MemberSignature Language="VB.NET" Value="DuplicatedOperationOnTheSameRule" />
+      <MemberSignature Language="C++ CLI" Value="DuplicatedOperationOnTheSameRule" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleValidationErrorCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="DuplicatedPriority">
+      <MemberSignature Language="C#" Value="DuplicatedPriority" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleValidationErrorCodeType DuplicatedPriority = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleValidationErrorCodeType.DuplicatedPriority" />
+      <MemberSignature Language="VB.NET" Value="DuplicatedPriority" />
+      <MemberSignature Language="C++ CLI" Value="DuplicatedPriority" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleValidationErrorCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="EmptyValueFound">
+      <MemberSignature Language="C#" Value="EmptyValueFound" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleValidationErrorCodeType EmptyValueFound = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleValidationErrorCodeType.EmptyValueFound" />
+      <MemberSignature Language="VB.NET" Value="EmptyValueFound" />
+      <MemberSignature Language="C++ CLI" Value="EmptyValueFound" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleValidationErrorCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="FolderDoesNotExist">
+      <MemberSignature Language="C#" Value="FolderDoesNotExist" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleValidationErrorCodeType FolderDoesNotExist = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleValidationErrorCodeType.FolderDoesNotExist" />
+      <MemberSignature Language="VB.NET" Value="FolderDoesNotExist" />
+      <MemberSignature Language="C++ CLI" Value="FolderDoesNotExist" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleValidationErrorCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidAddress">
+      <MemberSignature Language="C#" Value="InvalidAddress" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleValidationErrorCodeType InvalidAddress = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleValidationErrorCodeType.InvalidAddress" />
+      <MemberSignature Language="VB.NET" Value="InvalidAddress" />
+      <MemberSignature Language="C++ CLI" Value="InvalidAddress" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleValidationErrorCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidDateRange">
+      <MemberSignature Language="C#" Value="InvalidDateRange" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleValidationErrorCodeType InvalidDateRange = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleValidationErrorCodeType.InvalidDateRange" />
+      <MemberSignature Language="VB.NET" Value="InvalidDateRange" />
+      <MemberSignature Language="C++ CLI" Value="InvalidDateRange" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleValidationErrorCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidFolderId">
+      <MemberSignature Language="C#" Value="InvalidFolderId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleValidationErrorCodeType InvalidFolderId = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleValidationErrorCodeType.InvalidFolderId" />
+      <MemberSignature Language="VB.NET" Value="InvalidFolderId" />
+      <MemberSignature Language="C++ CLI" Value="InvalidFolderId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleValidationErrorCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidSizeRange">
+      <MemberSignature Language="C#" Value="InvalidSizeRange" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleValidationErrorCodeType InvalidSizeRange = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleValidationErrorCodeType.InvalidSizeRange" />
+      <MemberSignature Language="VB.NET" Value="InvalidSizeRange" />
+      <MemberSignature Language="C++ CLI" Value="InvalidSizeRange" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleValidationErrorCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidValue">
+      <MemberSignature Language="C#" Value="InvalidValue" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleValidationErrorCodeType InvalidValue = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleValidationErrorCodeType.InvalidValue" />
+      <MemberSignature Language="VB.NET" Value="InvalidValue" />
+      <MemberSignature Language="C++ CLI" Value="InvalidValue" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleValidationErrorCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MessageClassificationNotFound">
+      <MemberSignature Language="C#" Value="MessageClassificationNotFound" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleValidationErrorCodeType MessageClassificationNotFound = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleValidationErrorCodeType.MessageClassificationNotFound" />
+      <MemberSignature Language="VB.NET" Value="MessageClassificationNotFound" />
+      <MemberSignature Language="C++ CLI" Value="MessageClassificationNotFound" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleValidationErrorCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MissingAction">
+      <MemberSignature Language="C#" Value="MissingAction" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleValidationErrorCodeType MissingAction = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleValidationErrorCodeType.MissingAction" />
+      <MemberSignature Language="VB.NET" Value="MissingAction" />
+      <MemberSignature Language="C++ CLI" Value="MissingAction" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleValidationErrorCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MissingParameter">
+      <MemberSignature Language="C#" Value="MissingParameter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleValidationErrorCodeType MissingParameter = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleValidationErrorCodeType.MissingParameter" />
+      <MemberSignature Language="VB.NET" Value="MissingParameter" />
+      <MemberSignature Language="C++ CLI" Value="MissingParameter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleValidationErrorCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MissingRangeValue">
+      <MemberSignature Language="C#" Value="MissingRangeValue" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleValidationErrorCodeType MissingRangeValue = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleValidationErrorCodeType.MissingRangeValue" />
+      <MemberSignature Language="VB.NET" Value="MissingRangeValue" />
+      <MemberSignature Language="C++ CLI" Value="MissingRangeValue" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleValidationErrorCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="NotSettable">
+      <MemberSignature Language="C#" Value="NotSettable" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleValidationErrorCodeType NotSettable = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleValidationErrorCodeType.NotSettable" />
+      <MemberSignature Language="VB.NET" Value="NotSettable" />
+      <MemberSignature Language="C++ CLI" Value="NotSettable" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleValidationErrorCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="RecipientDoesNotExist">
+      <MemberSignature Language="C#" Value="RecipientDoesNotExist" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleValidationErrorCodeType RecipientDoesNotExist = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleValidationErrorCodeType.RecipientDoesNotExist" />
+      <MemberSignature Language="VB.NET" Value="RecipientDoesNotExist" />
+      <MemberSignature Language="C++ CLI" Value="RecipientDoesNotExist" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleValidationErrorCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="RuleNotFound">
+      <MemberSignature Language="C#" Value="RuleNotFound" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleValidationErrorCodeType RuleNotFound = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleValidationErrorCodeType.RuleNotFound" />
+      <MemberSignature Language="VB.NET" Value="RuleNotFound" />
+      <MemberSignature Language="C++ CLI" Value="RuleNotFound" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleValidationErrorCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="SizeLessThanZero">
+      <MemberSignature Language="C#" Value="SizeLessThanZero" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleValidationErrorCodeType SizeLessThanZero = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleValidationErrorCodeType.SizeLessThanZero" />
+      <MemberSignature Language="VB.NET" Value="SizeLessThanZero" />
+      <MemberSignature Language="C++ CLI" Value="SizeLessThanZero" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleValidationErrorCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="StringValueTooBig">
+      <MemberSignature Language="C#" Value="StringValueTooBig" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleValidationErrorCodeType StringValueTooBig = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleValidationErrorCodeType.StringValueTooBig" />
+      <MemberSignature Language="VB.NET" Value="StringValueTooBig" />
+      <MemberSignature Language="C++ CLI" Value="StringValueTooBig" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleValidationErrorCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="UnexpectedError">
+      <MemberSignature Language="C#" Value="UnexpectedError" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleValidationErrorCodeType UnexpectedError = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleValidationErrorCodeType.UnexpectedError" />
+      <MemberSignature Language="VB.NET" Value="UnexpectedError" />
+      <MemberSignature Language="C++ CLI" Value="UnexpectedError" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleValidationErrorCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="UnsupportedAddress">
+      <MemberSignature Language="C#" Value="UnsupportedAddress" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleValidationErrorCodeType UnsupportedAddress = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleValidationErrorCodeType.UnsupportedAddress" />
+      <MemberSignature Language="VB.NET" Value="UnsupportedAddress" />
+      <MemberSignature Language="C++ CLI" Value="UnsupportedAddress" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleValidationErrorCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="UnsupportedRule">
+      <MemberSignature Language="C#" Value="UnsupportedRule" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleValidationErrorCodeType UnsupportedRule = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleValidationErrorCodeType.UnsupportedRule" />
+      <MemberSignature Language="VB.NET" Value="UnsupportedRule" />
+      <MemberSignature Language="C++ CLI" Value="UnsupportedRule" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleValidationErrorCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

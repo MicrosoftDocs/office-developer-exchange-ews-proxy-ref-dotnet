@@ -1,0 +1,52 @@
+﻿<Type Name="DailyRegeneratingPatternType" FullName="ExchangeWebServices.DailyRegeneratingPatternType">
+  <TypeSignature Language="C#" Value="public class DailyRegeneratingPatternType : ExchangeWebServices.RegeneratingPatternBaseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit DailyRegeneratingPatternType extends ExchangeWebServices.RegeneratingPatternBaseType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DailyRegeneratingPatternType" />
+  <TypeSignature Language="VB.NET" Value="Public Class DailyRegeneratingPatternType&#xA;Inherits RegeneratingPatternBaseType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DailyRegeneratingPatternType : ExchangeWebServices::RegeneratingPatternBaseType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.RegeneratingPatternBaseType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.DailyRegeneratingPatternType" /> class describes the frequency, in days, in which a task is regenerated.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DailyRegeneratingPatternType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.DailyRegeneratingPatternType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DailyRegeneratingPatternType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.DailyRegeneratingPatternType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.DailyRegeneratingPatternType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

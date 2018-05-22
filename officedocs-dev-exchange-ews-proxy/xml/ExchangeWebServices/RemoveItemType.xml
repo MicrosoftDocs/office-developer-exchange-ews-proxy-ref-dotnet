@@ -1,0 +1,57 @@
+﻿<Type Name="RemoveItemType" FullName="ExchangeWebServices.RemoveItemType">
+  <TypeSignature Language="C#" Value="public class RemoveItemType : ExchangeWebServices.ResponseObjectType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit RemoveItemType extends ExchangeWebServices.ResponseObjectType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.RemoveItemType" />
+  <TypeSignature Language="VB.NET" Value="Public Class RemoveItemType&#xA;Inherits ResponseObjectType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RemoveItemType : ExchangeWebServices::ResponseObjectType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.ResponseObjectType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.RemoveItemType" /> class represents a response object that is used to remove a meeting item when a MeetingCancellation message is received.</summary>
+    <remarks>
+      <para>The <see cref="T:ExchangeWebServices.RemoveItemType" /> class is valid only for a <see cref="T:ExchangeWebServices.MeetingCancellationMessageType" />. Otherwise, an error is thrown.</para>
+      <para>To remove a <see cref="T:ExchangeWebServices.MeetingRequestMessageType" /> and the associated <see cref="T:ExchangeWebServices.CalendarItemType" />, use the <see cref="T:ExchangeWebServices.DeclineItemType" /> response object instead of the <see cref="T:ExchangeWebServices.RemoveItemType" /> response object.</para>
+      <para>RemoveItem is not supported for delegate access.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RemoveItemType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.RemoveItemType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RemoveItemType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.RemoveItemType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.RemoveItemType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

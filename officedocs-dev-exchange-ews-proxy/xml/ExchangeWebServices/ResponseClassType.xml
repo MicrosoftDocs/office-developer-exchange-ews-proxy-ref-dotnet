@@ -1,0 +1,88 @@
+﻿<Type Name="ResponseClassType" FullName="ExchangeWebServices.ResponseClassType">
+  <TypeSignature Language="C#" Value="public enum ResponseClassType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed ResponseClassType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ResponseClassType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ResponseClassType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ResponseClassType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.ResponseClassType" /> enumeration identifies the status states of a response.</summary>
+    <remarks>
+      <para>This enumeration is used by the <see cref="P:ExchangeWebServices.ResponseMessageType.ResponseClass" /> property of the <see cref="T:ExchangeWebServices.ResponseMessageType" /> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Error">
+      <MemberSignature Language="C#" Value="Error" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ResponseClassType Error = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ResponseClassType.Error" />
+      <MemberSignature Language="VB.NET" Value="Error" />
+      <MemberSignature Language="C++ CLI" Value="Error" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResponseClassType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Indicates that the request could not be processed. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Success">
+      <MemberSignature Language="C#" Value="Success" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ResponseClassType Success = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ResponseClassType.Success" />
+      <MemberSignature Language="VB.NET" Value="Success" />
+      <MemberSignature Language="C++ CLI" Value="Success" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResponseClassType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Indicates that the request was successfully processed.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Warning">
+      <MemberSignature Language="C#" Value="Warning" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ResponseClassType Warning = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ResponseClassType.Warning" />
+      <MemberSignature Language="VB.NET" Value="Warning" />
+      <MemberSignature Language="C++ CLI" Value="Warning" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResponseClassType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Indicates that an unusual situation was encountered during the processing of the request and the request may not have been processed successfully.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

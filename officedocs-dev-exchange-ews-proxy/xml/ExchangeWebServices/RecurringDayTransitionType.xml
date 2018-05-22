@@ -1,0 +1,92 @@
+﻿<Type Name="RecurringDayTransitionType" FullName="ExchangeWebServices.RecurringDayTransitionType">
+  <TypeSignature Language="C#" Value="public class RecurringDayTransitionType : ExchangeWebServices.RecurringTimeTransitionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit RecurringDayTransitionType extends ExchangeWebServices.RecurringTimeTransitionType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.RecurringDayTransitionType" />
+  <TypeSignature Language="VB.NET" Value="Public Class RecurringDayTransitionType&#xA;Inherits RecurringTimeTransitionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RecurringDayTransitionType : ExchangeWebServices::RecurringTimeTransitionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.RecurringTimeTransitionType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.RecurringDayTransitionType" /> class defines a time zone transition that occurs on the same day each year.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RecurringDayTransitionType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.RecurringDayTransitionType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RecurringDayTransitionType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.RecurringDayTransitionType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.RecurringDayTransitionType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DayOfWeek">
+      <MemberSignature Language="C#" Value="public string DayOfWeek { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DayOfWeek" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RecurringDayTransitionType.DayOfWeek" />
+      <MemberSignature Language="VB.NET" Value="Public Property DayOfWeek As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DayOfWeek { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.RecurringDayTransitionType.DayOfWeek" /> property gets or sets the day of the week on which the time zone transition occurs.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.RecurringDayTransitionType.DayOfWeek" /> property is one of the following string values:SundayMondayTuesdayWednesdayThursdayFridaySaturday</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Occurrence">
+      <MemberSignature Language="C#" Value="public int Occurrence { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Occurrence" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RecurringDayTransitionType.Occurrence" />
+      <MemberSignature Language="VB.NET" Value="Public Property Occurrence As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Occurrence { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.RecurringDayTransitionType.Occurrence" /> property gets or sets the day of the week in the month that the time zone transition occurs.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.RecurringDayTransitionType.Occurrence" /> property is an integer that represents the day of the week in the month that the time zone transition occurs. The following table lists the possible values.ValueDescription1The first occurrence of the specified day of the week from the beginning of the month.2The second occurrence of the specified day of the week from the beginning of the month.3The third occurrence of the specified day of the week from the beginning of the month.4The fourth occurrence of the specified day of the week from the beginning of the month.-1The first occurrence of the specified day of the week from the end of the month.-2The second occurrence of the specified day of the week from the end of the month.-3The third occurrence of the specified day of the week from the end of the month.-4The fourth occurrence of the specified day of the week from the end of the month.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

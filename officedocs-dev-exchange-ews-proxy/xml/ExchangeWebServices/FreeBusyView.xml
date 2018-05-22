@@ -1,0 +1,137 @@
+﻿<Type Name="FreeBusyView" FullName="ExchangeWebServices.FreeBusyView">
+  <TypeSignature Language="C#" Value="public class FreeBusyView" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit FreeBusyView extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.FreeBusyView" />
+  <TypeSignature Language="VB.NET" Value="Public Class FreeBusyView" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FreeBusyView" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.FreeBusyView" /> class contains availability information for a specific user.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FreeBusyView ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.FreeBusyView.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FreeBusyView();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.FreeBusyView" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.FreeBusyView" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CalendarEventArray">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.CalendarEvent[] CalendarEventArray { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.CalendarEvent[] CalendarEventArray" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FreeBusyView.CalendarEventArray" />
+      <MemberSignature Language="VB.NET" Value="Public Property CalendarEventArray As CalendarEvent()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::CalendarEvent ^&gt; ^ CalendarEventArray { cli::array &lt;ExchangeWebServices::CalendarEvent ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::CalendarEvent ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem(IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarEvent[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.FreeBusyView.CalendarEventArray" /> property gets or sets a set of unique calendar items that represent the requested user's availability. </summary>
+        <value>The <see cref="P:ExchangeWebServices.FreeBusyView.CalendarEventArray" /> property returns an array of <see cref="T:ExchangeWebServices.CalendarEvent" /> objects that represent the requested user's availability.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FreeBusyViewType">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.FreeBusyViewType FreeBusyViewType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.FreeBusyViewType FreeBusyViewType" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FreeBusyView.FreeBusyViewType" />
+      <MemberSignature Language="VB.NET" Value="Public Property FreeBusyViewType As FreeBusyViewType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::FreeBusyViewType FreeBusyViewType { ExchangeWebServices::FreeBusyViewType get(); void set(ExchangeWebServices::FreeBusyViewType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FreeBusyViewType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.FreeBusyView.FreeBusyViewType" /> property gets or sets the type of availabilty information that is contained in the instance.</summary>
+        <value>The <see cref="P:ExchangeWebServices.FreeBusyView.FreeBusyViewType" /> property returns one of the <see cref="T:ExchangeWebServices.FreeBusyViewType" /> enumeration values that indicates the type of availability information that is contained in the response.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MergedFreeBusy">
+      <MemberSignature Language="C#" Value="public string MergedFreeBusy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MergedFreeBusy" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FreeBusyView.MergedFreeBusy" />
+      <MemberSignature Language="VB.NET" Value="Public Property MergedFreeBusy As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MergedFreeBusy { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.FreeBusyView.MergedFreeBusy" /> property gets or sets merged availability data.</summary>
+        <value>The <see cref="P:ExchangeWebServices.FreeBusyView.MergedFreeBusy" /> property returns a string that contains merged availability data. For more information, see the MergedFreeBusy element.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkingHours">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.WorkingHours WorkingHours { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.WorkingHours WorkingHours" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FreeBusyView.WorkingHours" />
+      <MemberSignature Language="VB.NET" Value="Public Property WorkingHours As WorkingHours" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::WorkingHours ^ WorkingHours { ExchangeWebServices::WorkingHours ^ get(); void set(ExchangeWebServices::WorkingHours ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.WorkingHours</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.FreeBusyView.WorkingHours" /> property gets or sets the time zone settings and working hours for a mailbox user.</summary>
+        <value>The <see cref="P:ExchangeWebServices.FreeBusyView.WorkingHours" /> property returns a <see cref="T:ExchangeWebServices.WorkingHours" /> object that contains the time zone settings and working hours for a mailbox user.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

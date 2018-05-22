@@ -1,0 +1,95 @@
+﻿<Type Name="AbsoluteYearlyRecurrencePatternType" FullName="ExchangeWebServices.AbsoluteYearlyRecurrencePatternType">
+  <TypeSignature Language="C#" Value="public class AbsoluteYearlyRecurrencePatternType : ExchangeWebServices.RecurrencePatternBaseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit AbsoluteYearlyRecurrencePatternType extends ExchangeWebServices.RecurrencePatternBaseType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.AbsoluteYearlyRecurrencePatternType" />
+  <TypeSignature Language="VB.NET" Value="Public Class AbsoluteYearlyRecurrencePatternType&#xA;Inherits RecurrencePatternBaseType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AbsoluteYearlyRecurrencePatternType : ExchangeWebServices::RecurrencePatternBaseType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.RecurrencePatternBaseType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.AbsoluteYearlyRecurrencePatternType" /> class represents a yearly recurrence pattern.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AbsoluteYearlyRecurrencePatternType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.AbsoluteYearlyRecurrencePatternType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AbsoluteYearlyRecurrencePatternType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.AbsoluteYearlyRecurrencePatternType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.AbsoluteYearlyRecurrencePatternType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DayOfMonth">
+      <MemberSignature Language="C#" Value="public int DayOfMonth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 DayOfMonth" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AbsoluteYearlyRecurrencePatternType.DayOfMonth" />
+      <MemberSignature Language="VB.NET" Value="Public Property DayOfMonth As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int DayOfMonth { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.AbsoluteYearlyRecurrencePatternType.DayOfMonth" /> property gets or sets the day in a month that a recurring item occurs.</summary>
+        <value>The <see cref="P:ExchangeWebServices.AbsoluteYearlyRecurrencePatternType.DayOfMonth" /> property returns the day in a month that a recurring item occurs.</value>
+        <remarks>
+          <para>The <see cref="P:ExchangeWebServices.AbsoluteYearlyRecurrencePatternType.DayOfMonth" /> property ranges from 1 to 31. If this value for a particular month is larger than the number of days in the month, the last day of the month is assumed for this property.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Month">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.MonthNamesType Month { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.MonthNamesType Month" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AbsoluteYearlyRecurrencePatternType.Month" />
+      <MemberSignature Language="VB.NET" Value="Public Property Month As MonthNamesType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::MonthNamesType Month { ExchangeWebServices::MonthNamesType get(); void set(ExchangeWebServices::MonthNamesType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MonthNamesType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.AbsoluteYearlyRecurrencePatternType.Month" /> property gets or sets the month in which a yearly recurring item occurs.</summary>
+        <value>The <see cref="P:ExchangeWebServices.AbsoluteYearlyRecurrencePatternType.Month" /> property returns the <see cref="T:ExchangeWebServices.MonthNamesType" /> enumeration value for the month in which a recurring item occurs.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

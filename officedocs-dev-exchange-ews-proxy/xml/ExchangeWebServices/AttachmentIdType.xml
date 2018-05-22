@@ -1,0 +1,102 @@
+﻿<Type Name="AttachmentIdType" FullName="ExchangeWebServices.AttachmentIdType">
+  <TypeSignature Language="C#" Value="public class AttachmentIdType : ExchangeWebServices.RequestAttachmentIdType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit AttachmentIdType extends ExchangeWebServices.RequestAttachmentIdType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.AttachmentIdType" />
+  <TypeSignature Language="VB.NET" Value="Public Class AttachmentIdType&#xA;Inherits RequestAttachmentIdType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AttachmentIdType : ExchangeWebServices::RequestAttachmentIdType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.RequestAttachmentIdType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.AttachmentIdType" /> class represents the item identifier and new change key of an item after an attachment has been attached.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AttachmentIdType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.AttachmentIdType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AttachmentIdType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.AttachmentIdType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.AttachmentIdType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RootItemChangeKey">
+      <MemberSignature Language="C#" Value="public string RootItemChangeKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RootItemChangeKey" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AttachmentIdType.RootItemChangeKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property RootItemChangeKey As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RootItemChangeKey { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.AttachmentIdType.RootItemChangeKey" /> property gets or sets the change key of the root store item to which the attachment is attached.</summary>
+        <value>The <see cref="P:ExchangeWebServices.AttachmentIdType.RootItemChangeKey" /> property returns a string that contains the change key of the root store item to which the attachment is attached.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RootItemId">
+      <MemberSignature Language="C#" Value="public string RootItemId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RootItemId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AttachmentIdType.RootItemId" />
+      <MemberSignature Language="VB.NET" Value="Public Property RootItemId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RootItemId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.AttachmentIdType.RootItemId" /> property gets or sets the unique identifier of the root store item to which the attachment is attached.</summary>
+        <value>The <see cref="P:ExchangeWebServices.AttachmentIdType.RootItemId" /> property returns a string that contains the unique identifier of the root store item to which the attachment is attached.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

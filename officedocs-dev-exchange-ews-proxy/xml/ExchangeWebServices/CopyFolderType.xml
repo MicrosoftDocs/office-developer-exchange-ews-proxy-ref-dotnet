@@ -1,0 +1,105 @@
+﻿<Type Name="CopyFolderType" FullName="ExchangeWebServices.CopyFolderType">
+  <TypeSignature Language="C#" Value="public class CopyFolderType : ExchangeWebServices.BaseMoveCopyFolderType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit CopyFolderType extends ExchangeWebServices.BaseMoveCopyFolderType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CopyFolderType" />
+  <TypeSignature Language="VB.NET" Value="Public Class CopyFolderType&#xA;Inherits BaseMoveCopyFolderType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CopyFolderType : ExchangeWebServices::BaseMoveCopyFolderType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseMoveCopyFolderType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.CopyFolderType" /> class represents an operation to copy folders in an Exchange database.</summary>
+    <remarks>
+      <para>The CopyFolder operation copies folders and all their contents while the content is maintained in the same structure. The copied folders will have new folder identifiers and change keys.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>The following code example shows you how to copy two folders to a destination folder and then get the new folder identifiers.</para>
+      <code>static void CopyFolder(ExchangeServiceBinding esb)
+{
+    // Identify the folders to copy.
+    FolderIdType folder1 = new FolderIdType();
+    FolderIdType folder2 = new FolderIdType();
+    folder1.Id = "AQAlAE1BQG1haW5";
+    folder2.Id = "AQAlAE1BQG1haW4";
+    FolderIdType[] folders = new FolderIdType[2] { folder1, folder2 };
+
+    // Identify the destination folder.
+    FolderIdType destFolder = new FolderIdType();
+    destFolder.Id = "AQAlAE1BQG1haW1";
+
+    // Form the copy folder request.
+    CopyFolderType &lt;span class="label"&gt;request&lt;/span&gt; = new CopyFolderType();
+    &lt;span class="label"&gt;request&lt;/span&gt;.FolderIds = folders;
+    &lt;span class="label"&gt;request&lt;/span&gt;.ToFolderId = new TargetFolderIdType();
+    &lt;span class="label"&gt;request&lt;/span&gt;.ToFolderId.Item = destFolder;
+
+    try
+    {
+        // Send the request and get the response.
+        CopyFolderResponseType response = esb.CopyFolder(&lt;span class="label"&gt;request&lt;/span&gt;);
+        ArrayOfResponseMessagesType aormt = response.ResponseMessages;
+        ResponseMessageType[] rmta = aormt.Items;
+
+        foreach (ResponseMessageType rmt in rmta)
+        {
+            if (rmt.ResponseClass == ResponseClassType.Success)
+            { 
+                foreach (BaseFolderType folder in (rmt as FolderInfoResponseMessageType).Folders)
+                {
+                    // Get the new folder ID and change key.
+                    FolderIdType identifier = folder.FolderId;
+                }
+            }
+            else
+            {
+                throw new Exception("Folder copy failed.");
+            }
+        }
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine(e.Message);
+    }
+}</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CopyFolderType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.CopyFolderType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CopyFolderType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.CopyFolderType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.CopyFolderType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

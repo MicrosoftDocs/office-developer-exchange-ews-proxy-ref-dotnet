@@ -1,0 +1,52 @@
+﻿<Type Name="GetDelegateCompletedEventArgs" FullName="ExchangeWebServices.GetDelegateCompletedEventArgs">
+  <TypeSignature Language="C#" Value="public class GetDelegateCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GetDelegateCompletedEventArgs extends System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetDelegateCompletedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetDelegateCompletedEventArgs&#xA;Inherits AsyncCompletedEventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetDelegateCompletedEventArgs : System::ComponentModel::AsyncCompletedEventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ComponentModel.AsyncCompletedEventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.GetDelegateCompletedEventArgs" /> class provides data for the <see cref="E:ExchangeWebServices.ExchangeServiceBinding.GetDelegateCompleted" /> event.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Result">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.GetDelegateResponseMessageType Result { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.GetDelegateResponseMessageType Result" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetDelegateCompletedEventArgs.Result" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As GetDelegateResponseMessageType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::GetDelegateResponseMessageType ^ Result { ExchangeWebServices::GetDelegateResponseMessageType ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.GetDelegateResponseMessageType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GetDelegateCompletedEventArgs.Result" /> property gets the response from the asynchronous call to the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.GetDelegateAsync(ExchangeWebServices.GetDelegateType)" /> method.</summary>
+        <value>The <see cref="P:ExchangeWebServices.GetDelegateCompletedEventArgs.Result" /> property returns a <see cref="T:ExchangeWebServices.GetDelegateResponseMessageType" /> object that contains the results of the asynchronous call to the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.GetDelegateAsync(ExchangeWebServices.GetDelegateType)" /> method.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

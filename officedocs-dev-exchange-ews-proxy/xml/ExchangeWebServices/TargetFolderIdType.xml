@@ -1,0 +1,101 @@
+﻿<Type Name="TargetFolderIdType" FullName="ExchangeWebServices.TargetFolderIdType">
+  <TypeSignature Language="C#" Value="public class TargetFolderIdType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit TargetFolderIdType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.TargetFolderIdType" />
+  <TypeSignature Language="VB.NET" Value="Public Class TargetFolderIdType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TargetFolderIdType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.UserConfigurationNameType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.TargetFolderIdType" /> class represents a target folder for operations that create, save, copy, move, or synchronize items or folders.</summary>
+    <remarks>
+      <para>This class is a container for either a <see cref="T:ExchangeWebServices.FolderIdType" /> or <see cref="T:ExchangeWebServices.DistinguishedFolderIdType" /> object. Either of these types is set on the <see cref="P:ExchangeWebServices.TargetFolderIdType.Item" /> property.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>The following code example shows the <see cref="T:ExchangeWebServices.DistinguishedFolderIdType" /> being set on the <see cref="P:ExchangeWebServices.TargetFolderIdType.Item" /> property.</para>
+      <code>// Identify the destination folder.
+DistinguishedFolderIdType destFolder = new DistinguishedFolderIdType();
+destFolder.Id = DistinguishedFolderIdNameType.inbox;
+
+// Form the copy item request.
+CopyItemType request = new CopyItemType();
+request.ItemIds = items;
+request.&lt;span class="label"&gt;ToFolderId&lt;/span&gt; = new &lt;span class="label"&gt;TargetFolderIdType&lt;/span&gt;();
+request.&lt;span class="label"&gt;ToFolderId&lt;/span&gt;.Item = destFolder;</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TargetFolderIdType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.TargetFolderIdType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TargetFolderIdType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.TargetFolderIdType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.TargetFolderIdType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BaseFolderIdType Item { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BaseFolderIdType Item" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TargetFolderIdType.Item" />
+      <MemberSignature Language="VB.NET" Value="Public Property Item As BaseFolderIdType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::BaseFolderIdType ^ Item { ExchangeWebServices::BaseFolderIdType ^ get(); void set(ExchangeWebServices::BaseFolderIdType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("DistinguishedFolderId", typeof(ExchangeWebServices.DistinguishedFolderIdType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("FolderId", typeof(ExchangeWebServices.FolderIdType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("AddressListId", typeof(ExchangeWebServices.AddressListIdType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BaseFolderIdType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.TargetFolderIdType.Item" /> property gets or sets the identifier of the target folder. Set this property with either a <see cref="T:ExchangeWebServices.FolderIdType" /> or <see cref="T:ExchangeWebServices.DistinguishedFolderIdType" /> object. This property is required. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.TargetFolderIdType.Item" /> property gets or sets a <see cref="T:ExchangeWebServices.BaseFolderIdType" /> object.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

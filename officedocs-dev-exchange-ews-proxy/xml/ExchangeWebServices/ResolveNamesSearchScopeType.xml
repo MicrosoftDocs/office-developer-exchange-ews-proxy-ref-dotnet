@@ -1,0 +1,104 @@
+﻿<Type Name="ResolveNamesSearchScopeType" FullName="ExchangeWebServices.ResolveNamesSearchScopeType">
+  <TypeSignature Language="C#" Value="public enum ResolveNamesSearchScopeType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed ResolveNamesSearchScopeType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ResolveNamesSearchScopeType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ResolveNamesSearchScopeType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ResolveNamesSearchScopeType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.ResolveNamesSearchScopeType" /> enumeration identifies the order and scope for a ResolveNames search.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ActiveDirectory">
+      <MemberSignature Language="C#" Value="ActiveDirectory" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ResolveNamesSearchScopeType ActiveDirectory = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ResolveNamesSearchScopeType.ActiveDirectory" />
+      <MemberSignature Language="VB.NET" Value="ActiveDirectory" />
+      <MemberSignature Language="C++ CLI" Value="ActiveDirectory" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResolveNamesSearchScopeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Only the Active Directory directory service is searched.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ActiveDirectoryContacts">
+      <MemberSignature Language="C#" Value="ActiveDirectoryContacts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ResolveNamesSearchScopeType ActiveDirectoryContacts = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ResolveNamesSearchScopeType.ActiveDirectoryContacts" />
+      <MemberSignature Language="VB.NET" Value="ActiveDirectoryContacts" />
+      <MemberSignature Language="C++ CLI" Value="ActiveDirectoryContacts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResolveNamesSearchScopeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Active Directory is searched first, and then the contact folders that are specified in the <see cref="P:ExchangeWebServices.ResolveNamesType.ParentFolderIds" /> property are searched.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Contacts">
+      <MemberSignature Language="C#" Value="Contacts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ResolveNamesSearchScopeType Contacts = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ResolveNamesSearchScopeType.Contacts" />
+      <MemberSignature Language="VB.NET" Value="Contacts" />
+      <MemberSignature Language="C++ CLI" Value="Contacts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResolveNamesSearchScopeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Only the contact folders that are identified by the <see cref="P:ExchangeWebServices.ResolveNamesType.ParentFolderIds" /> are searched.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactsActiveDirectory">
+      <MemberSignature Language="C#" Value="ContactsActiveDirectory" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ResolveNamesSearchScopeType ContactsActiveDirectory = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ResolveNamesSearchScopeType.ContactsActiveDirectory" />
+      <MemberSignature Language="VB.NET" Value="ContactsActiveDirectory" />
+      <MemberSignature Language="C++ CLI" Value="ContactsActiveDirectory" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResolveNamesSearchScopeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Contact folders that are identified by the <see cref="P:ExchangeWebServices.ResolveNamesType.ParentFolderIds" /> property are searched first and then Active Directory is searched.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

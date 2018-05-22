@@ -1,0 +1,66 @@
+﻿<Type Name="SearchPageDirectionType" FullName="ExchangeWebServices.SearchPageDirectionType">
+  <TypeSignature Language="C#" Value="public enum SearchPageDirectionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed SearchPageDirectionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SearchPageDirectionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SearchPageDirectionType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SearchPageDirectionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Next">
+      <MemberSignature Language="C#" Value="Next" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SearchPageDirectionType Next = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SearchPageDirectionType.Next" />
+      <MemberSignature Language="VB.NET" Value="Next" />
+      <MemberSignature Language="C++ CLI" Value="Next" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SearchPageDirectionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Previous">
+      <MemberSignature Language="C#" Value="Previous" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SearchPageDirectionType Previous = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SearchPageDirectionType.Previous" />
+      <MemberSignature Language="VB.NET" Value="Previous" />
+      <MemberSignature Language="C++ CLI" Value="Previous" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SearchPageDirectionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

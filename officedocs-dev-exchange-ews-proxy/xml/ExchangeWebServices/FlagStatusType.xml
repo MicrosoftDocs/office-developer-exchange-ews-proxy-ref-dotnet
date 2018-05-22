@@ -1,0 +1,85 @@
+﻿<Type Name="FlagStatusType" FullName="ExchangeWebServices.FlagStatusType">
+  <TypeSignature Language="C#" Value="public enum FlagStatusType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed FlagStatusType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.FlagStatusType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum FlagStatusType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class FlagStatusType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Complete">
+      <MemberSignature Language="C#" Value="Complete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FlagStatusType Complete = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FlagStatusType.Complete" />
+      <MemberSignature Language="VB.NET" Value="Complete" />
+      <MemberSignature Language="C++ CLI" Value="Complete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FlagStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Flagged">
+      <MemberSignature Language="C#" Value="Flagged" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FlagStatusType Flagged = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FlagStatusType.Flagged" />
+      <MemberSignature Language="VB.NET" Value="Flagged" />
+      <MemberSignature Language="C++ CLI" Value="Flagged" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FlagStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="NotFlagged">
+      <MemberSignature Language="C#" Value="NotFlagged" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FlagStatusType NotFlagged = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FlagStatusType.NotFlagged" />
+      <MemberSignature Language="VB.NET" Value="NotFlagged" />
+      <MemberSignature Language="C++ CLI" Value="NotFlagged" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FlagStatusType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

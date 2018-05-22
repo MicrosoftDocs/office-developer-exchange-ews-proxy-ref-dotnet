@@ -1,0 +1,132 @@
+﻿<Type Name="ServiceConfigurationResponseMessageType" FullName="ExchangeWebServices.ServiceConfigurationResponseMessageType">
+  <TypeSignature Language="C#" Value="public class ServiceConfigurationResponseMessageType : ExchangeWebServices.ResponseMessageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ServiceConfigurationResponseMessageType extends ExchangeWebServices.ResponseMessageType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ServiceConfigurationResponseMessageType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ServiceConfigurationResponseMessageType&#xA;Inherits ResponseMessageType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ServiceConfigurationResponseMessageType : ExchangeWebServices::ResponseMessageType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.ResponseMessageType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ServiceConfigurationResponseMessageType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ServiceConfigurationResponseMessageType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ServiceConfigurationResponseMessageType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailTipsConfiguration">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.MailTipsServiceConfiguration MailTipsConfiguration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.MailTipsServiceConfiguration MailTipsConfiguration" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ServiceConfigurationResponseMessageType.MailTipsConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public Property MailTipsConfiguration As MailTipsServiceConfiguration" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::MailTipsServiceConfiguration ^ MailTipsConfiguration { ExchangeWebServices::MailTipsServiceConfiguration ^ get(); void set(ExchangeWebServices::MailTipsServiceConfiguration ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MailTipsServiceConfiguration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:ExchangeWebServices.MailTipsServiceConfiguration" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PolicyNudgeRulesConfiguration">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PolicyNudgeRulesServiceConfiguration PolicyNudgeRulesConfiguration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PolicyNudgeRulesServiceConfiguration PolicyNudgeRulesConfiguration" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ServiceConfigurationResponseMessageType.PolicyNudgeRulesConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public Property PolicyNudgeRulesConfiguration As PolicyNudgeRulesServiceConfiguration" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::PolicyNudgeRulesServiceConfiguration ^ PolicyNudgeRulesConfiguration { ExchangeWebServices::PolicyNudgeRulesServiceConfiguration ^ get(); void set(ExchangeWebServices::PolicyNudgeRulesServiceConfiguration ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PolicyNudgeRulesServiceConfiguration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProtectionRulesConfiguration">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ProtectionRulesServiceConfiguration ProtectionRulesConfiguration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ProtectionRulesServiceConfiguration ProtectionRulesConfiguration" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ServiceConfigurationResponseMessageType.ProtectionRulesConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProtectionRulesConfiguration As ProtectionRulesServiceConfiguration" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ProtectionRulesServiceConfiguration ^ ProtectionRulesConfiguration { ExchangeWebServices::ProtectionRulesServiceConfiguration ^ get(); void set(ExchangeWebServices::ProtectionRulesServiceConfiguration ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ProtectionRulesServiceConfiguration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:ExchangeWebServices.ProtectionRulesServiceConfiguration" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnifiedMessagingConfiguration">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.UnifiedMessageServiceConfiguration UnifiedMessagingConfiguration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.UnifiedMessageServiceConfiguration UnifiedMessagingConfiguration" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ServiceConfigurationResponseMessageType.UnifiedMessagingConfiguration" />
+      <MemberSignature Language="VB.NET" Value="Public Property UnifiedMessagingConfiguration As UnifiedMessageServiceConfiguration" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::UnifiedMessageServiceConfiguration ^ UnifiedMessagingConfiguration { ExchangeWebServices::UnifiedMessageServiceConfiguration ^ get(); void set(ExchangeWebServices::UnifiedMessageServiceConfiguration ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UnifiedMessageServiceConfiguration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:ExchangeWebServices.UnifiedMessageServiceConfiguration" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

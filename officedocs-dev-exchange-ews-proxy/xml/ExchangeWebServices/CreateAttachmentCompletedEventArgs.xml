@@ -1,0 +1,52 @@
+﻿<Type Name="CreateAttachmentCompletedEventArgs" FullName="ExchangeWebServices.CreateAttachmentCompletedEventArgs">
+  <TypeSignature Language="C#" Value="public class CreateAttachmentCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CreateAttachmentCompletedEventArgs extends System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CreateAttachmentCompletedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class CreateAttachmentCompletedEventArgs&#xA;Inherits AsyncCompletedEventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CreateAttachmentCompletedEventArgs : System::ComponentModel::AsyncCompletedEventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ComponentModel.AsyncCompletedEventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.CreateAttachmentCompletedEventArgs" /> class provides data for the <see cref="E:ExchangeWebServices.ExchangeServiceBinding.CreateAttachmentCompleted" /> event.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Result">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.CreateAttachmentResponseType Result { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.CreateAttachmentResponseType Result" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CreateAttachmentCompletedEventArgs.Result" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As CreateAttachmentResponseType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::CreateAttachmentResponseType ^ Result { ExchangeWebServices::CreateAttachmentResponseType ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CreateAttachmentResponseType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.CreateAttachmentCompletedEventArgs.Result" /> property gets a <see cref="T:ExchangeWebServices.CreateAttachmentResponseType" /> object for an asynchronous <see cref="M:ExchangeWebServices.ExchangeServiceBinding.CreateAttachment(ExchangeWebServices.CreateAttachmentType)" /> operation call.</summary>
+        <value>The <see cref="P:ExchangeWebServices.CreateAttachmentCompletedEventArgs.Result" /> property returns a <see cref="T:ExchangeWebServices.CreateAttachmentResponseType" /> object.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

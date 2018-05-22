@@ -1,0 +1,199 @@
+﻿<Type Name="ClientIntentMeetingInquiryActionType" FullName="ExchangeWebServices.ClientIntentMeetingInquiryActionType">
+  <TypeSignature Language="C#" Value="public enum ClientIntentMeetingInquiryActionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed ClientIntentMeetingInquiryActionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ClientIntentMeetingInquiryActionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ClientIntentMeetingInquiryActionType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ClientIntentMeetingInquiryActionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DeletedVersionNotFound">
+      <MemberSignature Language="C#" Value="DeletedVersionNotFound" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ClientIntentMeetingInquiryActionType DeletedVersionNotFound = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ClientIntentMeetingInquiryActionType.DeletedVersionNotFound" />
+      <MemberSignature Language="VB.NET" Value="DeletedVersionNotFound" />
+      <MemberSignature Language="C++ CLI" Value="DeletedVersionNotFound" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ClientIntentMeetingInquiryActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExistingOccurrence">
+      <MemberSignature Language="C#" Value="ExistingOccurrence" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ClientIntentMeetingInquiryActionType ExistingOccurrence = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ClientIntentMeetingInquiryActionType.ExistingOccurrence" />
+      <MemberSignature Language="VB.NET" Value="ExistingOccurrence" />
+      <MemberSignature Language="C++ CLI" Value="ExistingOccurrence" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ClientIntentMeetingInquiryActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="FailedToRevive">
+      <MemberSignature Language="C#" Value="FailedToRevive" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ClientIntentMeetingInquiryActionType FailedToRevive = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ClientIntentMeetingInquiryActionType.FailedToRevive" />
+      <MemberSignature Language="VB.NET" Value="FailedToRevive" />
+      <MemberSignature Language="C++ CLI" Value="FailedToRevive" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ClientIntentMeetingInquiryActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="HasDelegates">
+      <MemberSignature Language="C#" Value="HasDelegates" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ClientIntentMeetingInquiryActionType HasDelegates = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ClientIntentMeetingInquiryActionType.HasDelegates" />
+      <MemberSignature Language="VB.NET" Value="HasDelegates" />
+      <MemberSignature Language="C++ CLI" Value="HasDelegates" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ClientIntentMeetingInquiryActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingAlreadyExists">
+      <MemberSignature Language="C#" Value="MeetingAlreadyExists" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ClientIntentMeetingInquiryActionType MeetingAlreadyExists = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ClientIntentMeetingInquiryActionType.MeetingAlreadyExists" />
+      <MemberSignature Language="VB.NET" Value="MeetingAlreadyExists" />
+      <MemberSignature Language="C++ CLI" Value="MeetingAlreadyExists" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ClientIntentMeetingInquiryActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="PairedCancellationFound">
+      <MemberSignature Language="C#" Value="PairedCancellationFound" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ClientIntentMeetingInquiryActionType PairedCancellationFound = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ClientIntentMeetingInquiryActionType.PairedCancellationFound" />
+      <MemberSignature Language="VB.NET" Value="PairedCancellationFound" />
+      <MemberSignature Language="C++ CLI" Value="PairedCancellationFound" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ClientIntentMeetingInquiryActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ReviveMeeting">
+      <MemberSignature Language="C#" Value="ReviveMeeting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ClientIntentMeetingInquiryActionType ReviveMeeting = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ClientIntentMeetingInquiryActionType.ReviveMeeting" />
+      <MemberSignature Language="VB.NET" Value="ReviveMeeting" />
+      <MemberSignature Language="C++ CLI" Value="ReviveMeeting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ClientIntentMeetingInquiryActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="SendCancellation">
+      <MemberSignature Language="C#" Value="SendCancellation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ClientIntentMeetingInquiryActionType SendCancellation = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ClientIntentMeetingInquiryActionType.SendCancellation" />
+      <MemberSignature Language="VB.NET" Value="SendCancellation" />
+      <MemberSignature Language="C++ CLI" Value="SendCancellation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ClientIntentMeetingInquiryActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="SendUpdateForMaster">
+      <MemberSignature Language="C#" Value="SendUpdateForMaster" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ClientIntentMeetingInquiryActionType SendUpdateForMaster = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ClientIntentMeetingInquiryActionType.SendUpdateForMaster" />
+      <MemberSignature Language="VB.NET" Value="SendUpdateForMaster" />
+      <MemberSignature Language="C++ CLI" Value="SendUpdateForMaster" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ClientIntentMeetingInquiryActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

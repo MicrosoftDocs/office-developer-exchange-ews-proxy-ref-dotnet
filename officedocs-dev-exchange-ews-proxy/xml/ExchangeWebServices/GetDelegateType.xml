@@ -1,0 +1,173 @@
+﻿<Type Name="GetDelegateType" FullName="ExchangeWebServices.GetDelegateType">
+  <TypeSignature Language="C#" Value="public class GetDelegateType : ExchangeWebServices.BaseDelegateType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetDelegateType extends ExchangeWebServices.BaseDelegateType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetDelegateType" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetDelegateType&#xA;Inherits BaseDelegateType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetDelegateType : ExchangeWebServices::BaseDelegateType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseDelegateType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.GetDelegateType" /> class represents a request to get delegate settings for a mailbox in the Exchange database.</summary>
+    <remarks>To be added.</remarks>
+    <example>
+      <para>The following example shows you how to retrieve the delegate settings for all the delegates that are set on user1's mailbox. All the permissions for each user are returned in the response.</para>
+      <code>static void GetDelegate()
+{
+    // Set the version, credentials, and the Client Access server on ExchangeServiceBinding.
+    ExchangeServiceBinding esb = new ExchangeServiceBinding();
+    esb.RequestServerVersionValue = new RequestServerVersion();
+    esb.RequestServerVersionValue.Version = ExchangeVersionType.Exchange2007_SP1;
+    esb.Credentials = new NetworkCredential("username", "password", "domain");
+    esb.Url = "https://FQDN/ews/exchange.asmx";
+
+    // Create the request.
+    GetDelegateType request = new GetDelegateType();
+
+    // Identify the mailbox for which to retrieve delegate settings.
+    request.Mailbox = new EmailAddressType();
+    request.Mailbox.EmailAddress = "user1@example.com";
+    request.IncludePermissions = true;
+
+    try
+    {
+        // Send the GetDelegate request and get the response.
+        GetDelegateResponseMessageType response = esb.GetDelegate(request);
+        DelegateUserResponseMessageType[] durmt = new DelegateUserResponseMessageType[] { };
+        if (response.ResponseMessages != null)
+        {
+            durmt = response.ResponseMessages;
+        }
+        else
+        {
+            Console.WriteLine("There are no delegates for " + request.Mailbox.EmailAddress);
+        }
+
+        // Check each response message.
+        foreach (DelegateUserResponseMessageType resp in durmt)
+        {
+            if (resp.ResponseClass == ResponseClassType.Success)
+            {
+                DelegateUserType dut = resp.DelegateUser;
+                Console.WriteLine("=====================");
+                Console.WriteLine("Delegate user's display name: " + dut.UserId.DisplayName);
+                Console.WriteLine("Primary SMTP address: " + dut.UserId.PrimarySmtpAddress);
+                Console.WriteLine("Calendar folder permission level: " + dut.DelegatePermissions.CalendarFolderPermissionLevel.ToString());
+                Console.WriteLine("Contacts folder permission level: " + dut.DelegatePermissions.ContactsFolderPermissionLevel.ToString());
+                Console.WriteLine("Journal folder permission level: " + dut.DelegatePermissions.JournalFolderPermissionLevel.ToString());
+                Console.WriteLine("Delegate user receives copies of meeting messages? " + dut.ReceiveCopiesOfMeetingMessages.ToString());
+                Console.WriteLine("Delegate user can view private items? " + dut.ViewPrivateItems);
+            }
+            else if (resp.ResponseClass == ResponseClassType.Error)
+            {
+                Console.WriteLine("Error: " + resp.MessageText);
+            }
+            else
+                Console.WriteLine("Warning: " + resp.MessageText);
+        }
+
+        //Identify who receives meeting requests.
+        Console.WriteLine("=====================");
+        Console.WriteLine("Meeting requests are delivered to: " + response.DeliverMeetingRequests.ToString());
+        Console.ReadLine();
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine(e.Message);
+        Console.ReadLine();
+    }
+}</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetDelegateType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetDelegateType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetDelegateType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.GetDelegateType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.GetDelegateType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludePermissions">
+      <MemberSignature Language="C#" Value="public bool IncludePermissions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IncludePermissions" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetDelegateType.IncludePermissions" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncludePermissions As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludePermissions { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GetDelegateType.IncludePermissions" /> property gets or sets a Boolean value that specifies whether permission settings for delegates are included in the response.</summary>
+        <value>The <b>IncludePermissions</b> property returns a value of <b>true</b> if permission settings are included in the response; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserIds">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.UserIdType[] UserIds { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.UserIdType[] UserIds" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetDelegateType.UserIds" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserIds As UserIdType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::UserIdType ^&gt; ^ UserIds { cli::array &lt;ExchangeWebServices::UserIdType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::UserIdType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("UserId", IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UserIdType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GetDelegateType.UserIds" /> property gets or sets a <see cref="T:ExchangeWebServices.UserIdType" /> array that represents the delegates to get from a mailbox. </summary>
+        <value>The <b>UserIds</b> property returns a <see cref="T:ExchangeWebServices.UserIdType" /> array that represents the delegates to get from a mailbox.</value>
+        <remarks>
+          <para>If <b>UserIds</b> is not set in the Simple Object Access Protocol (SOAP) request, information for all the delegates in the specified mailbox will be returned in the response.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
