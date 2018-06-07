@@ -1,0 +1,297 @@
+﻿<Type Name="ChangeHighlightsType" FullName="ExchangeWebServices.ChangeHighlightsType">
+  <TypeSignature Language="C#" Value="public class ChangeHighlightsType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ChangeHighlightsType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ChangeHighlightsType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ChangeHighlightsType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ChangeHighlightsType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ChangeHighlightsType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ChangeHighlightsType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ChangeHighlightsType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="End">
+      <MemberSignature Language="C#" Value="public DateTime End { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime End" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ChangeHighlightsType.End" />
+      <MemberSignature Language="VB.NET" Value="Public Property End As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime End { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndSpecified">
+      <MemberSignature Language="C#" Value="public bool EndSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EndSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ChangeHighlightsType.EndSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EndSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasEndTimeChanged">
+      <MemberSignature Language="C#" Value="public bool HasEndTimeChanged { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasEndTimeChanged" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ChangeHighlightsType.HasEndTimeChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasEndTimeChanged As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasEndTimeChanged { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasEndTimeChangedSpecified">
+      <MemberSignature Language="C#" Value="public bool HasEndTimeChangedSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasEndTimeChangedSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ChangeHighlightsType.HasEndTimeChangedSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasEndTimeChangedSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasEndTimeChangedSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasLocationChanged">
+      <MemberSignature Language="C#" Value="public bool HasLocationChanged { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasLocationChanged" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ChangeHighlightsType.HasLocationChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasLocationChanged As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasLocationChanged { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasLocationChangedSpecified">
+      <MemberSignature Language="C#" Value="public bool HasLocationChangedSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasLocationChangedSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ChangeHighlightsType.HasLocationChangedSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasLocationChangedSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasLocationChangedSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasStartTimeChanged">
+      <MemberSignature Language="C#" Value="public bool HasStartTimeChanged { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasStartTimeChanged" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ChangeHighlightsType.HasStartTimeChanged" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasStartTimeChanged As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasStartTimeChanged { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasStartTimeChangedSpecified">
+      <MemberSignature Language="C#" Value="public bool HasStartTimeChangedSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasStartTimeChangedSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ChangeHighlightsType.HasStartTimeChangedSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasStartTimeChangedSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasStartTimeChangedSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Location">
+      <MemberSignature Language="C#" Value="public string Location { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Location" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ChangeHighlightsType.Location" />
+      <MemberSignature Language="VB.NET" Value="Public Property Location As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Location { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Start">
+      <MemberSignature Language="C#" Value="public DateTime Start { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime Start" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ChangeHighlightsType.Start" />
+      <MemberSignature Language="VB.NET" Value="Public Property Start As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime Start { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartSpecified">
+      <MemberSignature Language="C#" Value="public bool StartSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool StartSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ChangeHighlightsType.StartSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool StartSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

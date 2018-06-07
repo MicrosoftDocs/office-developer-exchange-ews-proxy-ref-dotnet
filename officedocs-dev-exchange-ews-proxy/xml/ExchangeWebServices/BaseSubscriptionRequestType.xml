@@ -1,0 +1,187 @@
+﻿<Type Name="BaseSubscriptionRequestType" FullName="ExchangeWebServices.BaseSubscriptionRequestType">
+  <TypeSignature Language="C#" Value="public abstract class BaseSubscriptionRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract serializable beforefieldinit BaseSubscriptionRequestType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.BaseSubscriptionRequestType" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class BaseSubscriptionRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class BaseSubscriptionRequestType abstract" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.PullSubscriptionRequestType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.PushSubscriptionRequestType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.BaseSubscriptionRequestType" /> class is the base class for descendant classes that form the notification requests.</summary>
+    <remarks>
+      <para>The <see cref="T:ExchangeWebServices.PullSubscriptionRequestType" /> and <see cref="T:ExchangeWebServices.PushSubscriptionRequestType" /> classes derive from the <see cref="T:ExchangeWebServices.BaseSubscriptionRequestType" /> class.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected BaseSubscriptionRequestType ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.BaseSubscriptionRequestType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; BaseSubscriptionRequestType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.BaseSubscriptionRequestType" /> class is abstract and cannot be instantiated.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EventTypes">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.NotificationEventTypeType[] EventTypes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.NotificationEventTypeType[] EventTypes" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BaseSubscriptionRequestType.EventTypes" />
+      <MemberSignature Language="VB.NET" Value="Public Property EventTypes As NotificationEventTypeType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::NotificationEventTypeType&gt; ^ EventTypes { cli::array &lt;ExchangeWebServices::NotificationEventTypeType&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::NotificationEventTypeType&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("EventType", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.NotificationEventTypeType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.BaseSubscriptionRequestType.EventTypes" /> property gets or sets the monitored event types for a notification subscription.</summary>
+        <value>The <see cref="P:ExchangeWebServices.BaseSubscriptionRequestType.EventTypes" /> property returns an array of <see cref="T:ExchangeWebServices.NotificationEventTypeType" /> objects.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderIds">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BaseFolderIdType[] FolderIds { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BaseFolderIdType[] FolderIds" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BaseSubscriptionRequestType.FolderIds" />
+      <MemberSignature Language="VB.NET" Value="Public Property FolderIds As BaseFolderIdType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ FolderIds { cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("FolderId", typeof(ExchangeWebServices.FolderIdType), IsNullable=false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("DistinguishedFolderId", typeof(ExchangeWebServices.DistinguishedFolderIdType), IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BaseFolderIdType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.BaseSubscriptionRequestType.FolderIds" /> property gets or sets an array of folder identifiers that are used to identify folders to monitor for event notifications.</summary>
+        <value>The <see cref="P:ExchangeWebServices.BaseSubscriptionRequestType.FolderIds" /> property returns an array of <see cref="T:ExchangeWebServices.BaseFolderIdType" /> objects.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubscribeToAllFolders">
+      <MemberSignature Language="C#" Value="public bool SubscribeToAllFolders { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SubscribeToAllFolders" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BaseSubscriptionRequestType.SubscribeToAllFolders" />
+      <MemberSignature Language="VB.NET" Value="Public Property SubscribeToAllFolders As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SubscribeToAllFolders { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.Boolean" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubscribeToAllFoldersSpecified">
+      <MemberSignature Language="C#" Value="public bool SubscribeToAllFoldersSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SubscribeToAllFoldersSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BaseSubscriptionRequestType.SubscribeToAllFoldersSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property SubscribeToAllFoldersSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SubscribeToAllFoldersSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.Boolean" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Watermark">
+      <MemberSignature Language="C#" Value="public string Watermark { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Watermark" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BaseSubscriptionRequestType.Watermark" />
+      <MemberSignature Language="VB.NET" Value="Public Property Watermark As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Watermark { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.BaseSubscriptionRequestType.Watermark" /> property gets or sets an event bookmark in the mailbox events table.</summary>
+        <value>The <see cref="P:ExchangeWebServices.BaseSubscriptionRequestType.Watermark" /> property returns a string that represents an event bookmark.</value>
+        <remarks>
+          <para>The <see cref="P:ExchangeWebServices.BaseSubscriptionRequestType.Watermark" /> property is used to create a subscription that starts at an event that is represented by the watermark. If the watermark from a Subscribe request is not found, an error response will be returned to the client. This error may occur if the watermark is older than 30 days or if the watermark was never present in the mailbox.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

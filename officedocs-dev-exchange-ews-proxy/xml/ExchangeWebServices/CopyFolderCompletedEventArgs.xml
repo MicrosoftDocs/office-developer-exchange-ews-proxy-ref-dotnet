@@ -1,0 +1,58 @@
+﻿<Type Name="CopyFolderCompletedEventArgs" FullName="ExchangeWebServices.CopyFolderCompletedEventArgs">
+  <TypeSignature Language="C#" Value="public class CopyFolderCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CopyFolderCompletedEventArgs extends System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CopyFolderCompletedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class CopyFolderCompletedEventArgs&#xA;Inherits AsyncCompletedEventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CopyFolderCompletedEventArgs : System::ComponentModel::AsyncCompletedEventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ComponentModel.AsyncCompletedEventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.CopyFolderCompletedEventArgs" /> class provides data for the <see cref="E:ExchangeWebServices.ExchangeServiceBinding.CopyFolderCompleted" /> event.</summary>
+    <remarks>
+      <para>See the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.FindFolderAsync(ExchangeWebServices.FindFolderType)" /> method for an asynchronous Exchange Web Services example.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Result">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.CopyFolderResponseType Result { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.CopyFolderResponseType Result" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CopyFolderCompletedEventArgs.Result" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As CopyFolderResponseType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::CopyFolderResponseType ^ Result { ExchangeWebServices::CopyFolderResponseType ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CopyFolderResponseType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.CopyFolderCompletedEventArgs.Result" /> property gets a <see cref="T:ExchangeWebServices.CopyFolderResponseType" /> object for an asynchronous CopyFolder call.</summary>
+        <value>The <see cref="P:ExchangeWebServices.CopyFolderCompletedEventArgs.Result" /> property returns a <see cref="T:ExchangeWebServices.CopyFolderResponseType" /> object.</value>
+        <remarks>
+          <para>See the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.FindFolderAsync(ExchangeWebServices.FindFolderType)" /> method for an asynchronous Exchange Web Services example.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

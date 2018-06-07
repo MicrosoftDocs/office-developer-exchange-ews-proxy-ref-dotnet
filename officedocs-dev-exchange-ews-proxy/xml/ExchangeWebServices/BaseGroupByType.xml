@@ -1,0 +1,86 @@
+﻿<Type Name="BaseGroupByType" FullName="ExchangeWebServices.BaseGroupByType">
+  <TypeSignature Language="C#" Value="public abstract class BaseGroupByType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract serializable beforefieldinit BaseGroupByType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.BaseGroupByType" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class BaseGroupByType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class BaseGroupByType abstract" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GroupByType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.DistinguishedGroupByType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.BaseGroupByType" /> class represents the base class for derived classes that define grouped FindItem queries.</summary>
+    <remarks>
+      <para>The <see cref="T:ExchangeWebServices.BaseGroupByType" /> class is the base class for the <see cref="T:ExchangeWebServices.GroupByType" /> and <see cref="T:ExchangeWebServices.DistinguishedGroupByType" /> classes.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected BaseGroupByType ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.BaseGroupByType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; BaseGroupByType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.BaseGroupByType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.BaseGroupByType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Order">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SortDirectionType Order { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.SortDirectionType Order" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BaseGroupByType.Order" />
+      <MemberSignature Language="VB.NET" Value="Public Property Order As SortDirectionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SortDirectionType Order { ExchangeWebServices::SortDirectionType get(); void set(ExchangeWebServices::SortDirectionType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SortDirectionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.BaseGroupByType.Order" /> property gets or sets the order of the groups in the grouped item array that is returned in the response.</summary>
+        <value>The <see cref="P:ExchangeWebServices.BaseGroupByType.Order" /> property returns a <see cref="T:ExchangeWebServices.SortDirectionType" /> enumeration.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

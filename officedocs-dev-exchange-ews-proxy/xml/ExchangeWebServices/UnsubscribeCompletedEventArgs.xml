@@ -1,0 +1,52 @@
+﻿<Type Name="UnsubscribeCompletedEventArgs" FullName="ExchangeWebServices.UnsubscribeCompletedEventArgs">
+  <TypeSignature Language="C#" Value="public class UnsubscribeCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit UnsubscribeCompletedEventArgs extends System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.UnsubscribeCompletedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class UnsubscribeCompletedEventArgs&#xA;Inherits AsyncCompletedEventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UnsubscribeCompletedEventArgs : System::ComponentModel::AsyncCompletedEventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ComponentModel.AsyncCompletedEventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.UnsubscribeCompletedEventArgs" /> class provides data for the <see cref="E:ExchangeWebServices.ExchangeServiceBinding.UnsubscribeCompleted" /> event.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Result">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.UnsubscribeResponseType Result { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.UnsubscribeResponseType Result" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UnsubscribeCompletedEventArgs.Result" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As UnsubscribeResponseType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::UnsubscribeResponseType ^ Result { ExchangeWebServices::UnsubscribeResponseType ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UnsubscribeResponseType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.UnsubscribeCompletedEventArgs.Result" /> class gets the response from an asynchronous call to the Unsubscribe operation.</summary>
+        <value>The <see cref="P:ExchangeWebServices.UnsubscribeCompletedEventArgs.Result" /> property returns an <see cref="T:ExchangeWebServices.UnsubscribeResponseType" /> object that contains the results of an asynchronous call to the Unsubscribe operation.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

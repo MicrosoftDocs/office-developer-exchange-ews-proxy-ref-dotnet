@@ -1,0 +1,72 @@
+﻿<Type Name="GetServerTimeZonesResponseMessageType" FullName="ExchangeWebServices.GetServerTimeZonesResponseMessageType">
+  <TypeSignature Language="C#" Value="public class GetServerTimeZonesResponseMessageType : ExchangeWebServices.ResponseMessageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetServerTimeZonesResponseMessageType extends ExchangeWebServices.ResponseMessageType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetServerTimeZonesResponseMessageType" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetServerTimeZonesResponseMessageType&#xA;Inherits ResponseMessageType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetServerTimeZonesResponseMessageType : ExchangeWebServices::ResponseMessageType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.ResponseMessageType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.GetServerTimeZonesResponseMessageType" /> class contains the status and results of a call to the GetServerTimeZones operation.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetServerTimeZonesResponseMessageType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetServerTimeZonesResponseMessageType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetServerTimeZonesResponseMessageType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.GetServerTimeZonesResponseMessageType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.GetServerTimeZonesResponseMessageType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeZoneDefinitions">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ArrayOfTimeZoneDefinitionType TimeZoneDefinitions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ArrayOfTimeZoneDefinitionType TimeZoneDefinitions" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetServerTimeZonesResponseMessageType.TimeZoneDefinitions" />
+      <MemberSignature Language="VB.NET" Value="Public Property TimeZoneDefinitions As ArrayOfTimeZoneDefinitionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ArrayOfTimeZoneDefinitionType ^ TimeZoneDefinitions { ExchangeWebServices::ArrayOfTimeZoneDefinitionType ^ get(); void set(ExchangeWebServices::ArrayOfTimeZoneDefinitionType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ArrayOfTimeZoneDefinitionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GetServerTimeZonesResponseMessageType.TimeZoneDefinitions" /> property gets or sets an array of time zone definitions.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.GetServerTimeZonesResponseMessageType.TimeZoneDefinitions" /> property is an <see cref="T:ExchangeWebServices.ArrayOfTimeZoneDefinitionType" /> object that contains an array of time zone definitions.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

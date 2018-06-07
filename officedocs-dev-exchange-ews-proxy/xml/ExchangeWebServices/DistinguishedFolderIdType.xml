@@ -1,0 +1,134 @@
+﻿<Type Name="DistinguishedFolderIdType" FullName="ExchangeWebServices.DistinguishedFolderIdType">
+  <TypeSignature Language="C#" Value="public class DistinguishedFolderIdType : ExchangeWebServices.BaseFolderIdType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit DistinguishedFolderIdType extends ExchangeWebServices.BaseFolderIdType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DistinguishedFolderIdType" />
+  <TypeSignature Language="VB.NET" Value="Public Class DistinguishedFolderIdType&#xA;Inherits BaseFolderIdType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DistinguishedFolderIdType : ExchangeWebServices::BaseFolderIdType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseFolderIdType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.DistinguishedFolderIdType" /> class identifies Microsoft Exchange Server folders that can be referenced by name. If you do not use this class, you must use the <see cref="T:ExchangeWebServices.FolderIdType" /> class to identify a folder.</summary>
+    <remarks>
+      <para>A <see cref="T:ExchangeWebServices.DistinguishedFolderIdType" /> object resolves to a <see cref="T:ExchangeWebServices.FolderIdType" /> object on the Exchange server.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DistinguishedFolderIdType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.DistinguishedFolderIdType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DistinguishedFolderIdType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.DistinguishedFolderIdType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.DistinguishedFolderIdType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangeKey">
+      <MemberSignature Language="C#" Value="public string ChangeKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ChangeKey" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DistinguishedFolderIdType.ChangeKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property ChangeKey As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ChangeKey { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.DistinguishedFolderIdType.ChangeKey" /> property gets or sets a string that identifies a version of a folder that is identified by the <see cref="P:ExchangeWebServices.DistinguishedFolderIdType.Id" /> property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.DistinguishedFolderIdType.ChangeKey" /> property returns a string that represents a change key.</value>
+        <remarks>
+          <para>This property is optional. Use this property to make sure that the correct version of a folder is used.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.DistinguishedFolderIdNameType Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.DistinguishedFolderIdNameType Id" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DistinguishedFolderIdType.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As DistinguishedFolderIdNameType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::DistinguishedFolderIdNameType Id { ExchangeWebServices::DistinguishedFolderIdNameType get(); void set(ExchangeWebServices::DistinguishedFolderIdNameType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.DistinguishedFolderIdType.Id" /> property gets or sets the identity of a default folder.</summary>
+        <value>The <see cref="P:ExchangeWebServices.DistinguishedFolderIdType.Id" /> property returns a <see cref="T:ExchangeWebServices.DistinguishedFolderIdNameType" /> enumeration that represents a default folder.</value>
+        <remarks>
+          <para>This property is required.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddressType Mailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddressType Mailbox" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DistinguishedFolderIdType.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailbox As EmailAddressType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::EmailAddressType ^ Mailbox { ExchangeWebServices::EmailAddressType ^ get(); void set(ExchangeWebServices::EmailAddressType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddressType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.DistinguishedFolderIdType.Mailbox" /> property gets or sets a primary SMTP address of a principal for a delegate access scenario.</summary>
+        <value>The <see cref="P:ExchangeWebServices.DistinguishedFolderIdType.Mailbox" /> property returns an <see cref="T:ExchangeWebServices.EmailAddressType" /> object that represents a principal in a delegate access scenario.</value>
+        <remarks>
+          <para>Proxy addresses are not allowed as a value for this property. This property is required for delegate access.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

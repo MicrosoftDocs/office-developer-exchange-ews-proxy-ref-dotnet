@@ -1,0 +1,147 @@
+﻿<Type Name="WorkingPeriod" FullName="ExchangeWebServices.WorkingPeriod">
+  <TypeSignature Language="C#" Value="public class WorkingPeriod" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit WorkingPeriod extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.WorkingPeriod" />
+  <TypeSignature Language="VB.NET" Value="Public Class WorkingPeriod" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WorkingPeriod" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.WorkingPeriod" /> class contains the work week days and hours of the mailbox user.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WorkingPeriod ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.WorkingPeriod.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; WorkingPeriod();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.WorkingPeriod" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.WorkingPeriod" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DayOfWeek">
+      <MemberSignature Language="C#" Value="public string DayOfWeek { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DayOfWeek" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.WorkingPeriod.DayOfWeek" />
+      <MemberSignature Language="VB.NET" Value="Public Property DayOfWeek As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DayOfWeek { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.WorkingPeriod.DayOfWeek" /> property gets or sets the list of working days that are scheduled for the mailbox user.</summary>
+        <value>If the mailbox user has set the days that represent the work week, the <see cref="P:ExchangeWebServices.WorkingPeriod.DayOfWeek" /> property contains a list of the days that the user works.</value>
+        <remarks>
+          <para>The <see cref="P:ExchangeWebServices.WorkingPeriod.DayOfWeek" /> property can contain any of the following values:</para>
+          <list type="bullet">
+            <item>
+              <description>Sunday</description>
+            </item>
+            <item>
+              <description>Monday</description>
+            </item>
+            <item>
+              <description>Tuesday</description>
+            </item>
+            <item>
+              <description>Wednesday</description>
+            </item>
+            <item>
+              <description>Thursday</description>
+            </item>
+            <item>
+              <description>Friday</description>
+            </item>
+            <item>
+              <description>Saturday</description>
+            </item>
+          </list>
+          <para>The text values are returned in the order listed.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndTimeInMinutes">
+      <MemberSignature Language="C#" Value="public int EndTimeInMinutes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 EndTimeInMinutes" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.WorkingPeriod.EndTimeInMinutes" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndTimeInMinutes As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int EndTimeInMinutes { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.WorkingPeriod.EndTimeInMinutes" /> property gets or sets the end of the work day for a mailbox user.</summary>
+        <value>The <see cref="P:ExchangeWebServices.WorkingPeriod.EndTimeInMinutes" /> property returns the end time of the work day expressed as the number of minutes that have elapsed since the day began.</value>
+        <remarks>
+          <para>The <see cref="P:ExchangeWebServices.WorkingPeriod.EndTimeInMinutes" /> property represents the end of the mailbox user's work day expressed as the number of minutes that have elapsed since the day began. For example, an end time of 6:00 P.M. is expressed by 1080 minutes.</para>
+          <para>The range of possible values for this property is 0 to 1440.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTimeInMinutes">
+      <MemberSignature Language="C#" Value="public int StartTimeInMinutes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 StartTimeInMinutes" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.WorkingPeriod.StartTimeInMinutes" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartTimeInMinutes As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int StartTimeInMinutes { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.WorkingPeriod.StartTimeInMinutes" /> property gets or sets the start of the work day for a mailbox user.</summary>
+        <value>The <see cref="P:ExchangeWebServices.WorkingPeriod.StartTimeInMinutes" /> property returns the start time of the work day expressed as the number of minutes that have elapsed since the day began.</value>
+        <remarks>
+          <para>The <see cref="P:ExchangeWebServices.WorkingPeriod.StartTimeInMinutes" /> property represents the start of the mailbox user's work day expressed as the number of minutes that have elapsed since the day began. For example, a start time of 8:00 A.M. is expressed as 480 minutes.</para>
+          <para>The range of possible values for this property is 0 to 1440.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

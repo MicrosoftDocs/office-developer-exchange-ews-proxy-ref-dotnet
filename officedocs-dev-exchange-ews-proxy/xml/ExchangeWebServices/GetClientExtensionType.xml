@@ -1,0 +1,142 @@
+﻿<Type Name="GetClientExtensionType" FullName="ExchangeWebServices.GetClientExtensionType">
+  <TypeSignature Language="C#" Value="public class GetClientExtensionType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetClientExtensionType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetClientExtensionType" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetClientExtensionType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetClientExtensionType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetClientExtensionType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetClientExtensionType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetClientExtensionType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDebug">
+      <MemberSignature Language="C#" Value="public bool IsDebug { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDebug" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetClientExtensionType.IsDebug" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsDebug As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDebug { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDebugSpecified">
+      <MemberSignature Language="C#" Value="public bool IsDebugSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDebugSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetClientExtensionType.IsDebugSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsDebugSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDebugSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestedExtensionIds">
+      <MemberSignature Language="C#" Value="public string[] RequestedExtensionIds { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] RequestedExtensionIds" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetClientExtensionType.RequestedExtensionIds" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestedExtensionIds As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ RequestedExtensionIds { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("String", IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserParameters">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.GetClientExtensionUserParametersType UserParameters { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.GetClientExtensionUserParametersType UserParameters" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetClientExtensionType.UserParameters" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserParameters As GetClientExtensionUserParametersType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::GetClientExtensionUserParametersType ^ UserParameters { ExchangeWebServices::GetClientExtensionUserParametersType ^ get(); void set(ExchangeWebServices::GetClientExtensionUserParametersType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.GetClientExtensionUserParametersType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

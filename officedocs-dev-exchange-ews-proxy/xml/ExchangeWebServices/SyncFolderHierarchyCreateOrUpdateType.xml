@@ -1,0 +1,89 @@
+﻿<Type Name="SyncFolderHierarchyCreateOrUpdateType" FullName="ExchangeWebServices.SyncFolderHierarchyCreateOrUpdateType">
+  <TypeSignature Language="C#" Value="public class SyncFolderHierarchyCreateOrUpdateType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SyncFolderHierarchyCreateOrUpdateType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SyncFolderHierarchyCreateOrUpdateType" />
+  <TypeSignature Language="VB.NET" Value="Public Class SyncFolderHierarchyCreateOrUpdateType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SyncFolderHierarchyCreateOrUpdateType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.SyncFolderHierarchyCreateOrUpdateType" /> class represents a single folder to create or update in the local client store.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SyncFolderHierarchyCreateOrUpdateType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.SyncFolderHierarchyCreateOrUpdateType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SyncFolderHierarchyCreateOrUpdateType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.SyncFolderHierarchyCreateOrUpdateType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.SyncFolderHierarchyCreateOrUpdateType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BaseFolderType Item { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BaseFolderType Item" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SyncFolderHierarchyCreateOrUpdateType.Item" />
+      <MemberSignature Language="VB.NET" Value="Public Property Item As BaseFolderType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::BaseFolderType ^ Item { ExchangeWebServices::BaseFolderType ^ get(); void set(ExchangeWebServices::BaseFolderType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("CalendarFolder", typeof(ExchangeWebServices.CalendarFolderType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Folder", typeof(ExchangeWebServices.FolderType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ContactsFolder", typeof(ExchangeWebServices.ContactsFolderType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("TasksFolder", typeof(ExchangeWebServices.TasksFolderType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("SearchFolder", typeof(ExchangeWebServices.SearchFolderType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BaseFolderType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.SyncFolderHierarchyCreateOrUpdateType.Item" /> property gets or sets the folder to create in the local client store.</summary>
+        <value>The <see cref="P:ExchangeWebServices.SyncFolderHierarchyCreateOrUpdateType.Item" /> property returns a <see cref="T:ExchangeWebServices.BaseFolderType" /> object that represents the folder to create in the local client store.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

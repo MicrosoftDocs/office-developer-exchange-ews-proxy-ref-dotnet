@@ -1,0 +1,375 @@
+﻿<Type Name="FileAsMappingType" FullName="ExchangeWebServices.FileAsMappingType">
+  <TypeSignature Language="C#" Value="public enum FileAsMappingType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed FileAsMappingType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.FileAsMappingType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum FileAsMappingType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class FileAsMappingType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.FileAsMappingType" /> enumeration defines how to construct what is displayed for a contact in the FileAs property.</summary>
+    <remarks>
+      <para>This enumeration is used by the <see cref="P:ExchangeWebServices.ContactItemType.FileAsMapping" /> property of the <see cref="T:ExchangeWebServices.ContactItemType" /> object.</para>
+      <para>
+        <b>Note</b>: The FileAsMapping property has no effect when the FileAs property is explicitly set. Do not set both the <b>FileAs</b> and <b>FileAsMapping</b> properties at the same time, unless you set the <b>FileAsMapping</b> property to <b>None</b>.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Company">
+      <MemberSignature Language="C#" Value="Company" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FileAsMappingType Company = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FileAsMappingType.Company" />
+      <MemberSignature Language="VB.NET" Value="Company" />
+      <MemberSignature Language="C++ CLI" Value="Company" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FileAsMappingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Indicates that the company name is displayed.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CompanyLastCommaFirst">
+      <MemberSignature Language="C#" Value="CompanyLastCommaFirst" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FileAsMappingType CompanyLastCommaFirst = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FileAsMappingType.CompanyLastCommaFirst" />
+      <MemberSignature Language="VB.NET" Value="CompanyLastCommaFirst" />
+      <MemberSignature Language="C++ CLI" Value="CompanyLastCommaFirst" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FileAsMappingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>Indicates that the contact is displayed as the company name, the last name, a comma, and the first name.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CompanyLastFirst">
+      <MemberSignature Language="C#" Value="CompanyLastFirst" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FileAsMappingType CompanyLastFirst = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FileAsMappingType.CompanyLastFirst" />
+      <MemberSignature Language="VB.NET" Value="CompanyLastFirst" />
+      <MemberSignature Language="C++ CLI" Value="CompanyLastFirst" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FileAsMappingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Indicates that the contact is displayed as the company name, the last name, and the first name.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CompanyLastSpaceFirst">
+      <MemberSignature Language="C#" Value="CompanyLastSpaceFirst" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FileAsMappingType CompanyLastSpaceFirst = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FileAsMappingType.CompanyLastSpaceFirst" />
+      <MemberSignature Language="VB.NET" Value="CompanyLastSpaceFirst" />
+      <MemberSignature Language="C++ CLI" Value="CompanyLastSpaceFirst" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FileAsMappingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>Indicates that the contact is displayed as the company name, the last name, a space, and the first name.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="DisplayName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FileAsMappingType DisplayName = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FileAsMappingType.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="DisplayName" />
+      <MemberSignature Language="C++ CLI" Value="DisplayName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FileAsMappingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>Indicates that the contact is displayed as the display name.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Empty">
+      <MemberSignature Language="C#" Value="Empty" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FileAsMappingType Empty = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FileAsMappingType.Empty" />
+      <MemberSignature Language="VB.NET" Value="Empty" />
+      <MemberSignature Language="C++ CLI" Value="Empty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FileAsMappingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>Indicates that no information is displayed for the contact; that is, the <see cref="P:ExchangeWebServices.ContactItemType.FileAs" /> property is empty.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstName">
+      <MemberSignature Language="C#" Value="FirstName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FileAsMappingType FirstName = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FileAsMappingType.FirstName" />
+      <MemberSignature Language="VB.NET" Value="FirstName" />
+      <MemberSignature Language="C++ CLI" Value="FirstName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FileAsMappingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>Indicates that the contact is displayed as the first name.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstSpaceLast">
+      <MemberSignature Language="C#" Value="FirstSpaceLast" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FileAsMappingType FirstSpaceLast = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FileAsMappingType.FirstSpaceLast" />
+      <MemberSignature Language="VB.NET" Value="FirstSpaceLast" />
+      <MemberSignature Language="C++ CLI" Value="FirstSpaceLast" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FileAsMappingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Indicates that the contact is displayed as the first name followed by a space and the last name.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LastCommaFirst">
+      <MemberSignature Language="C#" Value="LastCommaFirst" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FileAsMappingType LastCommaFirst = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FileAsMappingType.LastCommaFirst" />
+      <MemberSignature Language="VB.NET" Value="LastCommaFirst" />
+      <MemberSignature Language="C++ CLI" Value="LastCommaFirst" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FileAsMappingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Indicates that the contact is displayed as the last name followed by a comma and the first name.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LastCommaFirstCompany">
+      <MemberSignature Language="C#" Value="LastCommaFirstCompany" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FileAsMappingType LastCommaFirstCompany = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FileAsMappingType.LastCommaFirstCompany" />
+      <MemberSignature Language="VB.NET" Value="LastCommaFirstCompany" />
+      <MemberSignature Language="C++ CLI" Value="LastCommaFirstCompany" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FileAsMappingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Indicates that the contact is displayed as the last name, a comma, the first name, and the company name.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LastFirst">
+      <MemberSignature Language="C#" Value="LastFirst" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FileAsMappingType LastFirst = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FileAsMappingType.LastFirst" />
+      <MemberSignature Language="VB.NET" Value="LastFirst" />
+      <MemberSignature Language="C++ CLI" Value="LastFirst" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FileAsMappingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>Indicates that the contact is displayed as the last name followed by the first name.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LastFirstCompany">
+      <MemberSignature Language="C#" Value="LastFirstCompany" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FileAsMappingType LastFirstCompany = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FileAsMappingType.LastFirstCompany" />
+      <MemberSignature Language="VB.NET" Value="LastFirstCompany" />
+      <MemberSignature Language="C++ CLI" Value="LastFirstCompany" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FileAsMappingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>Indicates that the contact is displayed as the last name, the first name, and the company name.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LastFirstMiddleSuffix">
+      <MemberSignature Language="C#" Value="LastFirstMiddleSuffix" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FileAsMappingType LastFirstMiddleSuffix = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FileAsMappingType.LastFirstMiddleSuffix" />
+      <MemberSignature Language="VB.NET" Value="LastFirstMiddleSuffix" />
+      <MemberSignature Language="C++ CLI" Value="LastFirstMiddleSuffix" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FileAsMappingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>Indicates that the contact is displayed as the last name, followed by the first name, the middle name, and the suffix for the contact.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LastFirstSuffix">
+      <MemberSignature Language="C#" Value="LastFirstSuffix" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FileAsMappingType LastFirstSuffix = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FileAsMappingType.LastFirstSuffix" />
+      <MemberSignature Language="VB.NET" Value="LastFirstSuffix" />
+      <MemberSignature Language="C++ CLI" Value="LastFirstSuffix" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FileAsMappingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>Indicates that the contact is displayed as the last name, the first name, and the suffix for the contact.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LastName">
+      <MemberSignature Language="C#" Value="LastName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FileAsMappingType LastName = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FileAsMappingType.LastName" />
+      <MemberSignature Language="VB.NET" Value="LastName" />
+      <MemberSignature Language="C++ CLI" Value="LastName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FileAsMappingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>Indicates that the contact is displayed as the last name.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LastSpaceFirst">
+      <MemberSignature Language="C#" Value="LastSpaceFirst" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FileAsMappingType LastSpaceFirst = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FileAsMappingType.LastSpaceFirst" />
+      <MemberSignature Language="VB.NET" Value="LastSpaceFirst" />
+      <MemberSignature Language="C++ CLI" Value="LastSpaceFirst" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FileAsMappingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>Indicates that the contact is displayed as the last name, followed by a space and the first name.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LastSpaceFirstCompany">
+      <MemberSignature Language="C#" Value="LastSpaceFirstCompany" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FileAsMappingType LastSpaceFirstCompany = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FileAsMappingType.LastSpaceFirstCompany" />
+      <MemberSignature Language="VB.NET" Value="LastSpaceFirstCompany" />
+      <MemberSignature Language="C++ CLI" Value="LastSpaceFirstCompany" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FileAsMappingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>Indicates that the contact is displayed as the last name, a space, the first name, and the company name.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.FileAsMappingType None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.FileAsMappingType.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FileAsMappingType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Indicates that no additional information is displayed about the contact.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

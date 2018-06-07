@@ -1,0 +1,88 @@
+﻿<Type Name="BodyTypeResponseType" FullName="ExchangeWebServices.BodyTypeResponseType">
+  <TypeSignature Language="C#" Value="public enum BodyTypeResponseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed BodyTypeResponseType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.BodyTypeResponseType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum BodyTypeResponseType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class BodyTypeResponseType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.BodyTypeResponseType" /> enumeration identifies how the body or attachment text is formatted in a response.</summary>
+    <remarks>
+      <para>This enumeration is used by the <see cref="P:ExchangeWebServices.ItemResponseShapeType.BodyType" /> property of the <see cref="T:ExchangeWebServices.ItemResponseShapeType" /> object and the <see cref="P:ExchangeWebServices.AttachmentResponseShapeType.BodyType" /> property of the <see cref="T:ExchangeWebServices.AttachmentResponseShapeType" /> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Best">
+      <MemberSignature Language="C#" Value="Best" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.BodyTypeResponseType Best = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.BodyTypeResponseType.Best" />
+      <MemberSignature Language="VB.NET" Value="Best" />
+      <MemberSignature Language="C++ CLI" Value="Best" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BodyTypeResponseType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Specifies that the response returns the richest available body content. This is useful if it is unknown whether the content is text or HTML.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HTML">
+      <MemberSignature Language="C#" Value="HTML" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.BodyTypeResponseType HTML = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.BodyTypeResponseType.HTML" />
+      <MemberSignature Language="VB.NET" Value="HTML" />
+      <MemberSignature Language="C++ CLI" Value="HTML" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BodyTypeResponseType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Specifies that the response returns an item body as HTML.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Text">
+      <MemberSignature Language="C#" Value="Text" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.BodyTypeResponseType Text = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.BodyTypeResponseType.Text" />
+      <MemberSignature Language="VB.NET" Value="Text" />
+      <MemberSignature Language="C++ CLI" Value="Text" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BodyTypeResponseType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Specifies that the response returns an item body as plain text. </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

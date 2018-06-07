@@ -1,0 +1,105 @@
+﻿<Type Name="UnsubscribeType" FullName="ExchangeWebServices.UnsubscribeType">
+  <TypeSignature Language="C#" Value="public class UnsubscribeType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit UnsubscribeType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.UnsubscribeType" />
+  <TypeSignature Language="VB.NET" Value="Public Class UnsubscribeType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UnsubscribeType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.UnsubscribeType" /> class represents a request to end a pull notification subscription.</summary>
+    <remarks>
+      <para>We recommend that you intentionally end a subscription instead of letting a subscription time out. </para>
+      <para />
+    </remarks>
+    <example>
+      <para>The following example shows you how to end a single subscription.</para>
+      <code>static void Unsubscribe(ExchangeServiceBinding esb)
+{
+    // Create the request by using a subscription ID.
+    UnsubscribeType &lt;span class="label"&gt;request&lt;/span&gt; = new UnsubscribeType();
+    &lt;span class="label"&gt;request&lt;/span&gt;.SubscriptionId = "a87a6b81-cf30-4fa0-b86a-6c66ff902123";
+
+    // Send the request and get the response.
+    UnsubscribeResponseType response = esb.Unsubscribe(&lt;span class="label"&gt;request&lt;/span&gt;);
+
+    ArrayOfResponseMessagesType aormt = response.ResponseMessages;
+    ResponseMessageType[] rmta = aormt.Items;
+
+    foreach (ResponseMessageType rmt in rmta)
+    {
+        if (rmt.ResponseClass == ResponseClassType.Success)
+        {
+            Console.WriteLine("Subscription ended successfully.");
+        }
+        else
+        {
+            Console.WriteLine("Unsubscribe failed.");
+        }
+    }
+}</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UnsubscribeType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.UnsubscribeType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; UnsubscribeType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.UnsubscribeType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.UnsubscribeType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubscriptionId">
+      <MemberSignature Language="C#" Value="public string SubscriptionId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SubscriptionId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UnsubscribeType.SubscriptionId" />
+      <MemberSignature Language="VB.NET" Value="Public Property SubscriptionId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SubscriptionId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.UnsubscribeType.SubscriptionId" /> property gets or sets the subscription identifier of a subscription to cancel. This property is required. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.UnsubscribeType.SubscriptionId" /> property returns a GUID that represents a subscription identifier.</value>
+        <remarks>
+          <para>Get the <see cref="P:ExchangeWebServices.UnsubscribeType.SubscriptionId" /> from the Subscribe operation or the GetEvents operation response.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

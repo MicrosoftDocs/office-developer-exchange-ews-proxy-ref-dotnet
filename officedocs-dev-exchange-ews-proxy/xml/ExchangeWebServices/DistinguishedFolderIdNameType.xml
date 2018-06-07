@@ -1,0 +1,798 @@
+﻿<Type Name="DistinguishedFolderIdNameType" FullName="ExchangeWebServices.DistinguishedFolderIdNameType">
+  <TypeSignature Language="C#" Value="public enum DistinguishedFolderIdNameType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed DistinguishedFolderIdNameType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DistinguishedFolderIdNameType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DistinguishedFolderIdNameType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class DistinguishedFolderIdNameType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.DistinguishedFolderIdNameType" /> enumeration identifies well-known Microsoft Exchange Server 2007 folders that can be referenced by name.</summary>
+    <remarks>
+      <para>The <see cref="T:ExchangeWebServices.DistinguishedFolderIdNameType" /> enumeration values act as aliases for default folders in a mailbox. All folders that are identified by this enumeration can also be identified by a folder identifier. </para>
+      <para />
+    </remarks>
+    <example>
+      <para>The following code example from the Creating Folders (Exchange Web Services) topic shows you how the <see cref="T:ExchangeWebServices.DistinguishedFolderIdNameType" /> enumeration is used to identify a folder in a mailbox.</para>
+      <code>DistinguishedFolderIdType distFolder = new DistinguishedFolderIdType();
+distFolder.Id = &lt;span class="label"&gt;DistinguishedFolderIdNameType&lt;/span&gt;.inbox;
+TargetFolderIdType targetID = new TargetFolderIdType();
+targetID.Item = distFolder;</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName="adminauditlogs">
+      <MemberSignature Language="C#" Value="adminauditlogs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType adminauditlogs = int32(34)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.adminauditlogs" />
+      <MemberSignature Language="VB.NET" Value="adminauditlogs" />
+      <MemberSignature Language="C++ CLI" Value="adminauditlogs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>34</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="archivedeleteditems">
+      <MemberSignature Language="C#" Value="archivedeleteditems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType archivedeleteditems = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.archivedeleteditems" />
+      <MemberSignature Language="VB.NET" Value="archivedeleteditems" />
+      <MemberSignature Language="C++ CLI" Value="archivedeleteditems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="archivemsgfolderroot">
+      <MemberSignature Language="C#" Value="archivemsgfolderroot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType archivemsgfolderroot = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.archivemsgfolderroot" />
+      <MemberSignature Language="VB.NET" Value="archivemsgfolderroot" />
+      <MemberSignature Language="C++ CLI" Value="archivemsgfolderroot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="archiverecoverableitemsdeletions">
+      <MemberSignature Language="C#" Value="archiverecoverableitemsdeletions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType archiverecoverableitemsdeletions = int32(24)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.archiverecoverableitemsdeletions" />
+      <MemberSignature Language="VB.NET" Value="archiverecoverableitemsdeletions" />
+      <MemberSignature Language="C++ CLI" Value="archiverecoverableitemsdeletions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>24</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="archiverecoverableitemspurges">
+      <MemberSignature Language="C#" Value="archiverecoverableitemspurges" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType archiverecoverableitemspurges = int32(26)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.archiverecoverableitemspurges" />
+      <MemberSignature Language="VB.NET" Value="archiverecoverableitemspurges" />
+      <MemberSignature Language="C++ CLI" Value="archiverecoverableitemspurges" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>26</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="archiverecoverableitemsroot">
+      <MemberSignature Language="C#" Value="archiverecoverableitemsroot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType archiverecoverableitemsroot = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.archiverecoverableitemsroot" />
+      <MemberSignature Language="VB.NET" Value="archiverecoverableitemsroot" />
+      <MemberSignature Language="C++ CLI" Value="archiverecoverableitemsroot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="archiverecoverableitemsversions">
+      <MemberSignature Language="C#" Value="archiverecoverableitemsversions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType archiverecoverableitemsversions = int32(25)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.archiverecoverableitemsversions" />
+      <MemberSignature Language="VB.NET" Value="archiverecoverableitemsversions" />
+      <MemberSignature Language="C++ CLI" Value="archiverecoverableitemsversions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>25</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="archiveroot">
+      <MemberSignature Language="C#" Value="archiveroot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType archiveroot = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.archiveroot" />
+      <MemberSignature Language="VB.NET" Value="archiveroot" />
+      <MemberSignature Language="C++ CLI" Value="archiveroot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="calendar">
+      <MemberSignature Language="C#" Value="calendar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType calendar = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.calendar" />
+      <MemberSignature Language="VB.NET" Value="calendar" />
+      <MemberSignature Language="C++ CLI" Value="calendar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Represents the Calendar folder.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="conflicts">
+      <MemberSignature Language="C#" Value="conflicts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType conflicts = int32(28)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.conflicts" />
+      <MemberSignature Language="VB.NET" Value="conflicts" />
+      <MemberSignature Language="C++ CLI" Value="conflicts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>28</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="contacts">
+      <MemberSignature Language="C#" Value="contacts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType contacts = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.contacts" />
+      <MemberSignature Language="VB.NET" Value="contacts" />
+      <MemberSignature Language="C++ CLI" Value="contacts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Represents the Contacts folder.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="conversationhistory">
+      <MemberSignature Language="C#" Value="conversationhistory" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType conversationhistory = int32(33)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.conversationhistory" />
+      <MemberSignature Language="VB.NET" Value="conversationhistory" />
+      <MemberSignature Language="C++ CLI" Value="conversationhistory" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>33</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="deleteditems">
+      <MemberSignature Language="C#" Value="deleteditems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType deleteditems = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.deleteditems" />
+      <MemberSignature Language="VB.NET" Value="deleteditems" />
+      <MemberSignature Language="C++ CLI" Value="deleteditems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Represents the Deleted Items folder.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="directory">
+      <MemberSignature Language="C#" Value="directory" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType directory = int32(37)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.directory" />
+      <MemberSignature Language="VB.NET" Value="directory" />
+      <MemberSignature Language="C++ CLI" Value="directory" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>37</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="drafts">
+      <MemberSignature Language="C#" Value="drafts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType drafts = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.drafts" />
+      <MemberSignature Language="VB.NET" Value="drafts" />
+      <MemberSignature Language="C++ CLI" Value="drafts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Represents the Drafts folder.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="imcontactlist">
+      <MemberSignature Language="C#" Value="imcontactlist" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType imcontactlist = int32(38)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.imcontactlist" />
+      <MemberSignature Language="VB.NET" Value="imcontactlist" />
+      <MemberSignature Language="C++ CLI" Value="imcontactlist" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>38</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="inbox">
+      <MemberSignature Language="C#" Value="inbox" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType inbox = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.inbox" />
+      <MemberSignature Language="VB.NET" Value="inbox" />
+      <MemberSignature Language="C++ CLI" Value="inbox" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Represents the Inbox folder.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="journal">
+      <MemberSignature Language="C#" Value="journal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType journal = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.journal" />
+      <MemberSignature Language="VB.NET" Value="journal" />
+      <MemberSignature Language="C++ CLI" Value="journal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Represents the Journal folder.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="junkemail">
+      <MemberSignature Language="C#" Value="junkemail" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType junkemail = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.junkemail" />
+      <MemberSignature Language="VB.NET" Value="junkemail" />
+      <MemberSignature Language="C++ CLI" Value="junkemail" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>Represents the Junk E-mail folder.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="localfailures">
+      <MemberSignature Language="C#" Value="localfailures" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType localfailures = int32(29)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.localfailures" />
+      <MemberSignature Language="VB.NET" Value="localfailures" />
+      <MemberSignature Language="C++ CLI" Value="localfailures" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>29</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="msgfolderroot">
+      <MemberSignature Language="C#" Value="msgfolderroot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType msgfolderroot = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.msgfolderroot" />
+      <MemberSignature Language="VB.NET" Value="msgfolderroot" />
+      <MemberSignature Language="C++ CLI" Value="msgfolderroot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>Represents the message folder root.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="mycontacts">
+      <MemberSignature Language="C#" Value="mycontacts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType mycontacts = int32(36)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.mycontacts" />
+      <MemberSignature Language="VB.NET" Value="mycontacts" />
+      <MemberSignature Language="C++ CLI" Value="mycontacts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>36</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="notes">
+      <MemberSignature Language="C#" Value="notes" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType notes = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.notes" />
+      <MemberSignature Language="VB.NET" Value="notes" />
+      <MemberSignature Language="C++ CLI" Value="notes" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>Represents the Notes folder.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="outbox">
+      <MemberSignature Language="C#" Value="outbox" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType outbox = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.outbox" />
+      <MemberSignature Language="VB.NET" Value="outbox" />
+      <MemberSignature Language="C++ CLI" Value="outbox" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>Represents the Outbox folder.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="peopleconnect">
+      <MemberSignature Language="C#" Value="peopleconnect" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType peopleconnect = int32(39)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.peopleconnect" />
+      <MemberSignature Language="VB.NET" Value="peopleconnect" />
+      <MemberSignature Language="C++ CLI" Value="peopleconnect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>39</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="publicfoldersroot">
+      <MemberSignature Language="C#" Value="publicfoldersroot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType publicfoldersroot = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.publicfoldersroot" />
+      <MemberSignature Language="VB.NET" Value="publicfoldersroot" />
+      <MemberSignature Language="C++ CLI" Value="publicfoldersroot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="quickcontacts">
+      <MemberSignature Language="C#" Value="quickcontacts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType quickcontacts = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.quickcontacts" />
+      <MemberSignature Language="VB.NET" Value="quickcontacts" />
+      <MemberSignature Language="C++ CLI" Value="quickcontacts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="recipientcache">
+      <MemberSignature Language="C#" Value="recipientcache" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType recipientcache = int32(31)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.recipientcache" />
+      <MemberSignature Language="VB.NET" Value="recipientcache" />
+      <MemberSignature Language="C++ CLI" Value="recipientcache" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>31</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="recoverableitemsdeletions">
+      <MemberSignature Language="C#" Value="recoverableitemsdeletions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType recoverableitemsdeletions = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.recoverableitemsdeletions" />
+      <MemberSignature Language="VB.NET" Value="recoverableitemsdeletions" />
+      <MemberSignature Language="C++ CLI" Value="recoverableitemsdeletions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="recoverableitemspurges">
+      <MemberSignature Language="C#" Value="recoverableitemspurges" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType recoverableitemspurges = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.recoverableitemspurges" />
+      <MemberSignature Language="VB.NET" Value="recoverableitemspurges" />
+      <MemberSignature Language="C++ CLI" Value="recoverableitemspurges" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="recoverableitemsroot">
+      <MemberSignature Language="C#" Value="recoverableitemsroot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType recoverableitemsroot = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.recoverableitemsroot" />
+      <MemberSignature Language="VB.NET" Value="recoverableitemsroot" />
+      <MemberSignature Language="C++ CLI" Value="recoverableitemsroot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="recoverableitemsversions">
+      <MemberSignature Language="C#" Value="recoverableitemsversions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType recoverableitemsversions = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.recoverableitemsversions" />
+      <MemberSignature Language="VB.NET" Value="recoverableitemsversions" />
+      <MemberSignature Language="C++ CLI" Value="recoverableitemsversions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="root">
+      <MemberSignature Language="C#" Value="root" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType root = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.root" />
+      <MemberSignature Language="VB.NET" Value="root" />
+      <MemberSignature Language="C++ CLI" Value="root" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>Represents the root of the mailbox.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="searchfolders">
+      <MemberSignature Language="C#" Value="searchfolders" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType searchfolders = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.searchfolders" />
+      <MemberSignature Language="VB.NET" Value="searchfolders" />
+      <MemberSignature Language="C++ CLI" Value="searchfolders" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>Represents the Search Folders folder. This is also an alias for the Finder folder.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="sentitems">
+      <MemberSignature Language="C#" Value="sentitems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType sentitems = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.sentitems" />
+      <MemberSignature Language="VB.NET" Value="sentitems" />
+      <MemberSignature Language="C++ CLI" Value="sentitems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>Represents the Sent Items folder.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="serverfailures">
+      <MemberSignature Language="C#" Value="serverfailures" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType serverfailures = int32(30)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.serverfailures" />
+      <MemberSignature Language="VB.NET" Value="serverfailures" />
+      <MemberSignature Language="C++ CLI" Value="serverfailures" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>30</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="syncissues">
+      <MemberSignature Language="C#" Value="syncissues" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType syncissues = int32(27)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.syncissues" />
+      <MemberSignature Language="VB.NET" Value="syncissues" />
+      <MemberSignature Language="C++ CLI" Value="syncissues" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>27</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="tasks">
+      <MemberSignature Language="C#" Value="tasks" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType tasks = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.tasks" />
+      <MemberSignature Language="VB.NET" Value="tasks" />
+      <MemberSignature Language="C++ CLI" Value="tasks" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>Represents the Tasks folder.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="todosearch">
+      <MemberSignature Language="C#" Value="todosearch" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType todosearch = int32(35)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.todosearch" />
+      <MemberSignature Language="VB.NET" Value="todosearch" />
+      <MemberSignature Language="C++ CLI" Value="todosearch" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>35</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="voicemail">
+      <MemberSignature Language="C#" Value="voicemail" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedFolderIdNameType voicemail = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedFolderIdNameType.voicemail" />
+      <MemberSignature Language="VB.NET" Value="voicemail" />
+      <MemberSignature Language="C++ CLI" Value="voicemail" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedFolderIdNameType</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>Represents the Voice Mail folder.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

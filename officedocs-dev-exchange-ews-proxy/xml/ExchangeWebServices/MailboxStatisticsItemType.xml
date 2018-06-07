@@ -1,0 +1,132 @@
+﻿<Type Name="MailboxStatisticsItemType" FullName="ExchangeWebServices.MailboxStatisticsItemType">
+  <TypeSignature Language="C#" Value="public class MailboxStatisticsItemType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit MailboxStatisticsItemType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.MailboxStatisticsItemType" />
+  <TypeSignature Language="VB.NET" Value="Public Class MailboxStatisticsItemType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MailboxStatisticsItemType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MailboxStatisticsItemType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.MailboxStatisticsItemType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MailboxStatisticsItemType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailboxStatisticsItemType.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemCount">
+      <MemberSignature Language="C#" Value="public long ItemCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 ItemCount" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailboxStatisticsItemType.ItemCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemCount As Long" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property long ItemCount { long get(); void set(long value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailboxId">
+      <MemberSignature Language="C#" Value="public string MailboxId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MailboxId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailboxStatisticsItemType.MailboxId" />
+      <MemberSignature Language="VB.NET" Value="Public Property MailboxId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MailboxId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public long Size { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 Size" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailboxStatisticsItemType.Size" />
+      <MemberSignature Language="VB.NET" Value="Public Property Size As Long" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property long Size { long get(); void set(long value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,217 @@
+﻿<Type Name="ResolveNamesType" FullName="ExchangeWebServices.ResolveNamesType">
+  <TypeSignature Language="C#" Value="public class ResolveNamesType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ResolveNamesType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ResolveNamesType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ResolveNamesType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ResolveNamesType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.ResolveNamesType" /> class represents a request to resolve names against the Active Directory directory service and a user's default Contacts folder.</summary>
+    <remarks>
+      <para>The ResolveNames response returns a maximum of 100 candidates. The 100 candidates that are returned are the first 100 that are encountered in the lookup operation.</para>
+      <para>Only one ambiguous name can be specified in a single request. Active Directory is searched first, and then the user's contact folder is searched. Resolved entries from a user's contact folder have a non-null ItemId property, which can be used in a GetItem request. If the ID is that of a private distribution list, it can be used in an ExpandDL operation. If the <see cref="P:ExchangeWebServices.ResolveNamesType.ReturnFullContactData" /> property is set to <b>true</b>, Active Directory entries that are found by using the ResolveNames operation will return additional properties that describe a <see cref="T:ExchangeWebServices.ContactItemType" />. The <see cref="P:ExchangeWebServices.ResolveNamesType.ReturnFullContactData" /> property does not affect the data that is returned for contacts and private distribution lists from the user's contact folder.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>The following code example shows you how to create a request to resolve an ambiguous name.</para>
+      <code>// Create the ResolveNamesType and set the unresolved entry.
+ResolveNamesType rnRequest = new ResolveNamesType();
+rnRequest.ReturnFullContactData = true;
+rnRequest.UnresolvedEntry = "brianjb";
+
+// Send the request and get the response.
+ResolveNamesResponseType resolveNamesResponse = esb.ResolveNames(rnRequest);</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ResolveNamesType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ResolveNamesType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ResolveNamesType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.ResolveNamesType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.ResolveNamesType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactDataShape">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.DefaultShapeNamesType ContactDataShape { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.DefaultShapeNamesType ContactDataShape" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ResolveNamesType.ContactDataShape" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContactDataShape As DefaultShapeNamesType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::DefaultShapeNamesType ContactDataShape { ExchangeWebServices::DefaultShapeNamesType get(); void set(ExchangeWebServices::DefaultShapeNamesType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DefaultShapeNamesType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactDataShapeSpecified">
+      <MemberSignature Language="C#" Value="public bool ContactDataShapeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ContactDataShapeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ResolveNamesType.ContactDataShapeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContactDataShapeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ContactDataShapeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentFolderIds">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BaseFolderIdType[] ParentFolderIds { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BaseFolderIdType[] ParentFolderIds" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ResolveNamesType.ParentFolderIds" />
+      <MemberSignature Language="VB.NET" Value="Public Property ParentFolderIds As BaseFolderIdType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ ParentFolderIds { cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("DistinguishedFolderId", typeof(ExchangeWebServices.DistinguishedFolderIdType), IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("FolderId", typeof(ExchangeWebServices.FolderIdType), IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BaseFolderIdType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReturnFullContactData">
+      <MemberSignature Language="C#" Value="public bool ReturnFullContactData { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReturnFullContactData" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ResolveNamesType.ReturnFullContactData" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReturnFullContactData As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReturnFullContactData { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ResolveNamesType.ReturnFullContactData" /> property gets or sets a Boolean value that specifies whether contact details for a public contact are returned in the response. This property is required. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ResolveNamesType.ReturnFullContactData" /> property returns <b>true</b> if the full contact data is returned; otherwise, it returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchScope">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ResolveNamesSearchScopeType SearchScope { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.ResolveNamesSearchScopeType SearchScope" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ResolveNamesType.SearchScope" />
+      <MemberSignature Language="VB.NET" Value="Public Property SearchScope As ResolveNamesSearchScopeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ResolveNamesSearchScopeType SearchScope { ExchangeWebServices::ResolveNamesSearchScopeType get(); void set(ExchangeWebServices::ResolveNamesSearchScopeType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResolveNamesSearchScopeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnresolvedEntry">
+      <MemberSignature Language="C#" Value="public string UnresolvedEntry { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UnresolvedEntry" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ResolveNamesType.UnresolvedEntry" />
+      <MemberSignature Language="VB.NET" Value="Public Property UnresolvedEntry As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ UnresolvedEntry { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ResolveNamesType.UnresolvedEntry" /> property gets or sets a string that specifies an ambiguous name to resolve. This property is required. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ResolveNamesType.UnresolvedEntry" /> property returns a string that represents a single ambiguous name to resolve.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

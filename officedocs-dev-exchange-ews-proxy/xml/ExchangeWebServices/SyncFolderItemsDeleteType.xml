@@ -1,0 +1,72 @@
+﻿<Type Name="SyncFolderItemsDeleteType" FullName="ExchangeWebServices.SyncFolderItemsDeleteType">
+  <TypeSignature Language="C#" Value="public class SyncFolderItemsDeleteType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SyncFolderItemsDeleteType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SyncFolderItemsDeleteType" />
+  <TypeSignature Language="VB.NET" Value="Public Class SyncFolderItemsDeleteType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SyncFolderItemsDeleteType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.SyncFolderItemsDeleteType" /> class identifies a single item to delete from the local client store.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SyncFolderItemsDeleteType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.SyncFolderItemsDeleteType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SyncFolderItemsDeleteType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.SyncFolderItemsDeleteType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.SyncFolderItemsDeleteType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemId">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ItemIdType ItemId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ItemIdType ItemId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SyncFolderItemsDeleteType.ItemId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemId As ItemIdType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ItemIdType ^ ItemId { ExchangeWebServices::ItemIdType ^ get(); void set(ExchangeWebServices::ItemIdType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemIdType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.SyncFolderItemsDeleteType.ItemId" /> property gets or sets the item to delete from the local client store.</summary>
+        <value>The <see cref="P:ExchangeWebServices.SyncFolderItemsDeleteType.ItemId" /> property returns the identifier of the item to delete in the local client store.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

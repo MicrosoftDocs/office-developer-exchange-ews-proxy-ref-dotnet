@@ -1,0 +1,416 @@
+﻿<Type Name="MeetingMessageType" FullName="ExchangeWebServices.MeetingMessageType">
+  <TypeSignature Language="C#" Value="public class MeetingMessageType : ExchangeWebServices.MessageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit MeetingMessageType extends ExchangeWebServices.MessageType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.MeetingMessageType" />
+  <TypeSignature Language="VB.NET" Value="Public Class MeetingMessageType&#xA;Inherits MessageType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MeetingMessageType : ExchangeWebServices::MessageType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.MessageType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.MeetingRequestMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.MeetingCancellationMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.MeetingResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.MeetingMessageType" /> class represents a meeting in the Exchange store.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MeetingMessageType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.MeetingMessageType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MeetingMessageType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.MeetingMessageType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.MeetingMessageType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AssociatedCalendarItemId">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ItemIdType AssociatedCalendarItemId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ItemIdType AssociatedCalendarItemId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingMessageType.AssociatedCalendarItemId" />
+      <MemberSignature Language="VB.NET" Value="Public Property AssociatedCalendarItemId As ItemIdType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ItemIdType ^ AssociatedCalendarItemId { ExchangeWebServices::ItemIdType ^ get(); void set(ExchangeWebServices::ItemIdType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemIdType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.MeetingMessageType.AssociatedCalendarItemId" /> property gets or sets the calendar item that is associated with this instance of the <see cref="T:ExchangeWebServices.MeetingMessageType" /> class.</summary>
+        <value>The <see cref="P:ExchangeWebServices.MeetingMessageType.AssociatedCalendarItemId" /> property returns an instance of the <see cref="T:ExchangeWebServices.ItemIdType" /> class that represents the calendar item that is associated with this instance of the <see cref="T:ExchangeWebServices.MeetingMessageType" /> class.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTimeStamp">
+      <MemberSignature Language="C#" Value="public DateTime DateTimeStamp { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime DateTimeStamp" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingMessageType.DateTimeStamp" />
+      <MemberSignature Language="VB.NET" Value="Public Property DateTimeStamp As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime DateTimeStamp { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.MeetingMessageType.DateTimeStamp" /> property gets or sets the date and time that the meeting was created.</summary>
+        <value>The <see cref="P:ExchangeWebServices.MeetingMessageType.DateTimeStamp" /> property returns an instance of the DateTime class that represents the date and time that the meeting was created.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTimeStampSpecified">
+      <MemberSignature Language="C#" Value="public bool DateTimeStampSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DateTimeStampSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingMessageType.DateTimeStampSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property DateTimeStampSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DateTimeStampSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.MeetingMessageType.DateTimeStampSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.MeetingMessageType.DateTimeStamp" /> property is serialized into the SOAP message. This property is required if the <see cref="P:ExchangeWebServices.MeetingMessageType.DateTimeStamp" /> property is specified.</summary>
+        <value>The <see cref="P:ExchangeWebServices.MeetingMessageType.DateTimeStampSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.MeetingMessageType.DateTimeStamp" /> property is serialized into the SOAP message; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasBeenProcessed">
+      <MemberSignature Language="C#" Value="public bool HasBeenProcessed { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasBeenProcessed" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingMessageType.HasBeenProcessed" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasBeenProcessed As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasBeenProcessed { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.MeetingMessageType.HasBeenProcessed" /> property gets or sets a Boolean value that indicates whether a meeting message item has been processed.</summary>
+        <value>The <see cref="P:ExchangeWebServices.MeetingMessageType.HasBeenProcessed" /> property returns <b>true</b> if the meeting message item has been processed; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasBeenProcessedSpecified">
+      <MemberSignature Language="C#" Value="public bool HasBeenProcessedSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasBeenProcessedSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingMessageType.HasBeenProcessedSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasBeenProcessedSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasBeenProcessedSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.MeetingMessageType.HasBeenProcessedSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.MeetingMessageType.HasBeenProcessed" /> property is serialized into the SOAP message. This property is required if the <see cref="P:ExchangeWebServices.MeetingMessageType.HasBeenProcessed" /> property is specified.</summary>
+        <value>The <see cref="P:ExchangeWebServices.MeetingMessageType.HasBeenProcessedSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.MeetingMessageType.HasBeenProcessed" /> property is serialized into the SOAP message; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDelegated">
+      <MemberSignature Language="C#" Value="public bool IsDelegated { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDelegated" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingMessageType.IsDelegated" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsDelegated As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDelegated { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.MeetingMessageType.IsDelegated" /> property gets or sets a Boolean value that indicates whether a meeting was handled by an account with delegate access.</summary>
+        <value>The <see cref="P:ExchangeWebServices.MeetingMessageType.IsDelegated" /> property returns <b>true</b> if the meeting was handled by an account with delegate access; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDelegatedSpecified">
+      <MemberSignature Language="C#" Value="public bool IsDelegatedSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDelegatedSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingMessageType.IsDelegatedSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsDelegatedSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDelegatedSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.MeetingMessageType.IsDelegatedSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.MeetingMessageType.IsDelegated" /> property is serialized into the SOAP message. This property is required if the <see cref="P:ExchangeWebServices.MeetingMessageType.IsDelegated" /> property is specified.</summary>
+        <value>The <see cref="P:ExchangeWebServices.MeetingMessageType.IsDelegatedSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.MeetingMessageType.IsDelegated" /> property is serialized into the SOAP message; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOrganizer">
+      <MemberSignature Language="C#" Value="public bool IsOrganizer { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsOrganizer" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingMessageType.IsOrganizer" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsOrganizer As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsOrganizer { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOrganizerSpecified">
+      <MemberSignature Language="C#" Value="public bool IsOrganizerSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsOrganizerSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingMessageType.IsOrganizerSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsOrganizerSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsOrganizerSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOutOfDate">
+      <MemberSignature Language="C#" Value="public bool IsOutOfDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsOutOfDate" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingMessageType.IsOutOfDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsOutOfDate As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsOutOfDate { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.MeetingMessageType.IsOutOfDate" /> property gets or sets a Boolean value that indicates whether a meeting message is out-of-date.</summary>
+        <value>The <see cref="P:ExchangeWebServices.MeetingMessageType.IsOutOfDate" /> property returns <b>true</b> if the meeting message is out-of-date; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOutOfDateSpecified">
+      <MemberSignature Language="C#" Value="public bool IsOutOfDateSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsOutOfDateSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingMessageType.IsOutOfDateSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsOutOfDateSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsOutOfDateSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.MeetingMessageType.IsOutOfDateSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.MeetingMessageType.IsOutOfDate" /> property is serialized into the SOAP message. This property is required if the <see cref="P:ExchangeWebServices.MeetingMessageType.IsOutOfDate" /> property is specified.</summary>
+        <value>The <see cref="P:ExchangeWebServices.MeetingMessageType.IsOutOfDateSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.MeetingMessageType.IsOutOfDate" /> property is serialized into the SOAP message; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecurrenceId">
+      <MemberSignature Language="C#" Value="public DateTime RecurrenceId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime RecurrenceId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingMessageType.RecurrenceId" />
+      <MemberSignature Language="VB.NET" Value="Public Property RecurrenceId As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime RecurrenceId { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.MeetingMessageType.RecurrenceId" /> property gets or sets a DateTime value that is used with the <see cref="P:ExchangeWebServices.MeetingMessageType.UID" /> property to identify a specific instance of a recurring meeting.</summary>
+        <value>The <see cref="P:ExchangeWebServices.MeetingMessageType.RecurrenceId" /> property returns an instance of the DateTime class that is used with the <see cref="P:ExchangeWebServices.MeetingMessageType.UID" /> property to identify a specific instance of a recurring meeting.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecurrenceIdSpecified">
+      <MemberSignature Language="C#" Value="public bool RecurrenceIdSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool RecurrenceIdSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingMessageType.RecurrenceIdSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property RecurrenceIdSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool RecurrenceIdSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.MeetingMessageType.RecurrenceIdSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.MeetingMessageType.RecurrenceId" /> property is serialized into the SOAP message. This property is required if the <see cref="P:ExchangeWebServices.MeetingMessageType.RecurrenceId" /> property is specified.</summary>
+        <value>The <see cref="P:ExchangeWebServices.MeetingMessageType.RecurrenceIdSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.MeetingMessageType.RecurrenceId" /> property is serialized into the SOAP message; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResponseType">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ResponseTypeType ResponseType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.ResponseTypeType ResponseType" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingMessageType.ResponseType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResponseType As ResponseTypeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ResponseTypeType ResponseType { ExchangeWebServices::ResponseTypeType get(); void set(ExchangeWebServices::ResponseTypeType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResponseTypeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.MeetingMessageType.ResponseType" /> property gets or sets the type of recipient response that is received for a meeting.</summary>
+        <value>The <see cref="P:ExchangeWebServices.MeetingMessageType.ResponseType" /> property returns an instance of the <see cref="T:ExchangeWebServices.ResponseTypeType" /> class that represents the type of recipient response that is received for a meeting.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResponseTypeSpecified">
+      <MemberSignature Language="C#" Value="public bool ResponseTypeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ResponseTypeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingMessageType.ResponseTypeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResponseTypeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ResponseTypeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.MeetingMessageType.ResponseTypeSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.MeetingMessageType.ResponseType" /> property is serialized into the SOAP message. This property is required if the <see cref="P:ExchangeWebServices.MeetingMessageType.ResponseType" /> property is specified.</summary>
+        <value>The <see cref="P:ExchangeWebServices.MeetingMessageType.ResponseTypeSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.MeetingMessageType.ResponseType" /> property is serialized into the SOAP message; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UID">
+      <MemberSignature Language="C#" Value="public string UID { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UID" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MeetingMessageType.UID" />
+      <MemberSignature Language="VB.NET" Value="Public Property UID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ UID { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.MeetingMessageType.UID" /> property gets or sets a value that uniquely identifies a meeting message.</summary>
+        <value>The <see cref="P:ExchangeWebServices.MeetingMessageType.UID" /> property returns a value that uniquely identifies a meeting message.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,52 @@
+﻿<Type Name="SyncFolderHierarchyCompletedEventArgs" FullName="ExchangeWebServices.SyncFolderHierarchyCompletedEventArgs">
+  <TypeSignature Language="C#" Value="public class SyncFolderHierarchyCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SyncFolderHierarchyCompletedEventArgs extends System.ComponentModel.AsyncCompletedEventArgs" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SyncFolderHierarchyCompletedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class SyncFolderHierarchyCompletedEventArgs&#xA;Inherits AsyncCompletedEventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SyncFolderHierarchyCompletedEventArgs : System::ComponentModel::AsyncCompletedEventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ComponentModel.AsyncCompletedEventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.SyncFolderHierarchyCompletedEventArgs" /> class provides data for the <see cref="E:ExchangeWebServices.ExchangeServiceBinding.SyncFolderHierarchyCompleted" /> event.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Result">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SyncFolderHierarchyResponseType Result { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.SyncFolderHierarchyResponseType Result" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SyncFolderHierarchyCompletedEventArgs.Result" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Result As SyncFolderHierarchyResponseType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SyncFolderHierarchyResponseType ^ Result { ExchangeWebServices::SyncFolderHierarchyResponseType ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SyncFolderHierarchyResponseType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.SyncFolderHierarchyCompletedEventArgs.Result" /> property gets or sets the reponse to the asynchronous call to the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.SyncFolderHierarchyAsync(ExchangeWebServices.SyncFolderHierarchyType)" /> method.</summary>
+        <value>The <see cref="P:ExchangeWebServices.SyncFolderHierarchyCompletedEventArgs.Result" /> property returns a <see cref="T:ExchangeWebServices.SyncFolderHierarchyResponseType" /> object that contains the results of the asynchronous call to the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.SyncFolderHierarchyAsync(ExchangeWebServices.SyncFolderHierarchyType)" /> method.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,177 @@
+﻿<Type Name="ClientIntentType" FullName="ExchangeWebServices.ClientIntentType">
+  <TypeSignature Language="C#" Value="public class ClientIntentType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ClientIntentType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ClientIntentType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ClientIntentType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ClientIntentType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ClientIntentType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ClientIntentType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ClientIntentType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Intent">
+      <MemberSignature Language="C#" Value="public int Intent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Intent" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ClientIntentType.Intent" />
+      <MemberSignature Language="VB.NET" Value="Public Property Intent As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Intent { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemId">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ItemIdType ItemId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ItemIdType ItemId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ClientIntentType.ItemId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemId As ItemIdType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ItemIdType ^ ItemId { ExchangeWebServices::ItemIdType ^ get(); void set(ExchangeWebServices::ItemIdType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemIdType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemVersion">
+      <MemberSignature Language="C#" Value="public int ItemVersion { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ItemVersion" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ClientIntentType.ItemVersion" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemVersion As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ItemVersion { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PredictedAction">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ClientIntentMeetingInquiryActionType PredictedAction { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.ClientIntentMeetingInquiryActionType PredictedAction" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ClientIntentType.PredictedAction" />
+      <MemberSignature Language="VB.NET" Value="Public Property PredictedAction As ClientIntentMeetingInquiryActionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ClientIntentMeetingInquiryActionType PredictedAction { ExchangeWebServices::ClientIntentMeetingInquiryActionType get(); void set(ExchangeWebServices::ClientIntentMeetingInquiryActionType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ClientIntentMeetingInquiryActionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PredictedActionSpecified">
+      <MemberSignature Language="C#" Value="public bool PredictedActionSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool PredictedActionSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ClientIntentType.PredictedActionSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property PredictedActionSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PredictedActionSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WouldRepair">
+      <MemberSignature Language="C#" Value="public bool WouldRepair { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool WouldRepair" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ClientIntentType.WouldRepair" />
+      <MemberSignature Language="VB.NET" Value="Public Property WouldRepair As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool WouldRepair { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

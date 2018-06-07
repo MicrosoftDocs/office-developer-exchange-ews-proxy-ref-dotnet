@@ -1,0 +1,66 @@
+﻿<Type Name="ReminderGroupType" FullName="ExchangeWebServices.ReminderGroupType">
+  <TypeSignature Language="C#" Value="public enum ReminderGroupType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed ReminderGroupType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ReminderGroupType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ReminderGroupType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ReminderGroupType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Calendar">
+      <MemberSignature Language="C#" Value="Calendar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ReminderGroupType Calendar = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ReminderGroupType.Calendar" />
+      <MemberSignature Language="VB.NET" Value="Calendar" />
+      <MemberSignature Language="C++ CLI" Value="Calendar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ReminderGroupType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Task">
+      <MemberSignature Language="C#" Value="Task" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ReminderGroupType Task = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ReminderGroupType.Task" />
+      <MemberSignature Language="VB.NET" Value="Task" />
+      <MemberSignature Language="C++ CLI" Value="Task" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ReminderGroupType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

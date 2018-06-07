@@ -1,0 +1,2357 @@
+﻿<Type Name="PersonaType" FullName="ExchangeWebServices.PersonaType">
+  <TypeSignature Language="C#" Value="public class PersonaType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit PersonaType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.PersonaType" />
+  <TypeSignature Language="VB.NET" Value="Public Class PersonaType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PersonaType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PersonaType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.PersonaType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PersonaType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AssistantNames">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] AssistantNames { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] AssistantNames" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.AssistantNames" />
+      <MemberSignature Language="VB.NET" Value="Public Property AssistantNames As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ AssistantNames { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AssistantPhoneNumbers">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PhoneNumberAttributedValueType[] AssistantPhoneNumbers { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PhoneNumberAttributedValueType[] AssistantPhoneNumbers" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.AssistantPhoneNumbers" />
+      <MemberSignature Language="VB.NET" Value="Public Property AssistantPhoneNumbers As PhoneNumberAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ AssistantPhoneNumbers { cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("PhoneNumberAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneNumberAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Attributions">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PersonaAttributionType[] Attributions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PersonaAttributionType[] Attributions" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.Attributions" />
+      <MemberSignature Language="VB.NET" Value="Public Property Attributions As PersonaAttributionType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::PersonaAttributionType ^&gt; ^ Attributions { cli::array &lt;ExchangeWebServices::PersonaAttributionType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::PersonaAttributionType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Attribution", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PersonaAttributionType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Birthdays">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] Birthdays { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] Birthdays" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.Birthdays" />
+      <MemberSignature Language="VB.NET" Value="Public Property Birthdays As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ Birthdays { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bodies">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BodyContentAttributedValueType[] Bodies { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BodyContentAttributedValueType[] Bodies" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.Bodies" />
+      <MemberSignature Language="VB.NET" Value="Public Property Bodies As BodyContentAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::BodyContentAttributedValueType ^&gt; ^ Bodies { cli::array &lt;ExchangeWebServices::BodyContentAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::BodyContentAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("BodyContentAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BodyContentAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusinessAddresses">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PostalAddressAttributedValueType[] BusinessAddresses { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PostalAddressAttributedValueType[] BusinessAddresses" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.BusinessAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public Property BusinessAddresses As PostalAddressAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::PostalAddressAttributedValueType ^&gt; ^ BusinessAddresses { cli::array &lt;ExchangeWebServices::PostalAddressAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::PostalAddressAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("PostalAddressAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PostalAddressAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusinessHomePages">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] BusinessHomePages { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] BusinessHomePages" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.BusinessHomePages" />
+      <MemberSignature Language="VB.NET" Value="Public Property BusinessHomePages As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ BusinessHomePages { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusinessPhoneNumbers">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PhoneNumberAttributedValueType[] BusinessPhoneNumbers { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PhoneNumberAttributedValueType[] BusinessPhoneNumbers" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.BusinessPhoneNumbers" />
+      <MemberSignature Language="VB.NET" Value="Public Property BusinessPhoneNumbers As PhoneNumberAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ BusinessPhoneNumbers { cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("PhoneNumberAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneNumberAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusinessPhoneNumbers2">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PhoneNumberAttributedValueType[] BusinessPhoneNumbers2 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PhoneNumberAttributedValueType[] BusinessPhoneNumbers2" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.BusinessPhoneNumbers2" />
+      <MemberSignature Language="VB.NET" Value="Public Property BusinessPhoneNumbers2 As PhoneNumberAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ BusinessPhoneNumbers2 { cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("PhoneNumberAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneNumberAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CallbackPhones">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PhoneNumberAttributedValueType[] CallbackPhones { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PhoneNumberAttributedValueType[] CallbackPhones" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.CallbackPhones" />
+      <MemberSignature Language="VB.NET" Value="Public Property CallbackPhones As PhoneNumberAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ CallbackPhones { cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("PhoneNumberAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneNumberAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CarPhones">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PhoneNumberAttributedValueType[] CarPhones { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PhoneNumberAttributedValueType[] CarPhones" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.CarPhones" />
+      <MemberSignature Language="VB.NET" Value="Public Property CarPhones As PhoneNumberAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ CarPhones { cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("PhoneNumberAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneNumberAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Children">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringArrayAttributedValueType[] Children { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringArrayAttributedValueType[] Children" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.Children" />
+      <MemberSignature Language="VB.NET" Value="Public Property Children As StringArrayAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringArrayAttributedValueType ^&gt; ^ Children { cli::array &lt;ExchangeWebServices::StringArrayAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringArrayAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringArrayAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringArrayAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompanyName">
+      <MemberSignature Language="C#" Value="public string CompanyName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CompanyName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.CompanyName" />
+      <MemberSignature Language="VB.NET" Value="Public Property CompanyName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CompanyName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompanyNames">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] CompanyNames { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] CompanyNames" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.CompanyNames" />
+      <MemberSignature Language="VB.NET" Value="Public Property CompanyNames As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ CompanyNames { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompanyNameSortKey">
+      <MemberSignature Language="C#" Value="public string CompanyNameSortKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CompanyNameSortKey" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.CompanyNameSortKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property CompanyNameSortKey As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CompanyNameSortKey { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreationTime">
+      <MemberSignature Language="C#" Value="public DateTime CreationTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime CreationTime" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.CreationTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property CreationTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime CreationTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreationTimeSpecified">
+      <MemberSignature Language="C#" Value="public bool CreationTimeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CreationTimeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.CreationTimeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property CreationTimeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CreationTimeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Department">
+      <MemberSignature Language="C#" Value="public string Department { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Department" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.Department" />
+      <MemberSignature Language="VB.NET" Value="Public Property Department As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Department { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Departments">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] Departments { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] Departments" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.Departments" />
+      <MemberSignature Language="VB.NET" Value="Public Property Departments As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ Departments { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayNameFirstLast">
+      <MemberSignature Language="C#" Value="public string DisplayNameFirstLast { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayNameFirstLast" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.DisplayNameFirstLast" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayNameFirstLast As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayNameFirstLast { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayNameFirstLastHeader">
+      <MemberSignature Language="C#" Value="public string DisplayNameFirstLastHeader { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayNameFirstLastHeader" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.DisplayNameFirstLastHeader" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayNameFirstLastHeader As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayNameFirstLastHeader { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayNameFirstLastSortKey">
+      <MemberSignature Language="C#" Value="public string DisplayNameFirstLastSortKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayNameFirstLastSortKey" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.DisplayNameFirstLastSortKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayNameFirstLastSortKey As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayNameFirstLastSortKey { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayNameLastFirst">
+      <MemberSignature Language="C#" Value="public string DisplayNameLastFirst { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayNameLastFirst" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.DisplayNameLastFirst" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayNameLastFirst As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayNameLastFirst { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayNameLastFirstHeader">
+      <MemberSignature Language="C#" Value="public string DisplayNameLastFirstHeader { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayNameLastFirstHeader" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.DisplayNameLastFirstHeader" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayNameLastFirstHeader As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayNameLastFirstHeader { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayNameLastFirstSortKey">
+      <MemberSignature Language="C#" Value="public string DisplayNameLastFirstSortKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayNameLastFirstSortKey" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.DisplayNameLastFirstSortKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayNameLastFirstSortKey As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayNameLastFirstSortKey { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayNamePrefix">
+      <MemberSignature Language="C#" Value="public string DisplayNamePrefix { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayNamePrefix" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.DisplayNamePrefix" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayNamePrefix As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayNamePrefix { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayNamePrefixes">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] DisplayNamePrefixes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] DisplayNamePrefixes" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.DisplayNamePrefixes" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayNamePrefixes As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ DisplayNamePrefixes { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayNames">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] DisplayNames { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] DisplayNames" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.DisplayNames" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayNames As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ DisplayNames { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailAddress">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddressType EmailAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddressType EmailAddress" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.EmailAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property EmailAddress As EmailAddressType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::EmailAddressType ^ EmailAddress { ExchangeWebServices::EmailAddressType ^ get(); void set(ExchangeWebServices::EmailAddressType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddressType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailAddresses">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddressType[] EmailAddresses { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddressType[] EmailAddresses" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.EmailAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public Property EmailAddresses As EmailAddressType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::EmailAddressType ^&gt; ^ EmailAddresses { cli::array &lt;ExchangeWebServices::EmailAddressType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::EmailAddressType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Address", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddressType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Emails1">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddressAttributedValueType[] Emails1 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddressAttributedValueType[] Emails1" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.Emails1" />
+      <MemberSignature Language="VB.NET" Value="Public Property Emails1 As EmailAddressAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::EmailAddressAttributedValueType ^&gt; ^ Emails1 { cli::array &lt;ExchangeWebServices::EmailAddressAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::EmailAddressAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("EmailAddressAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddressAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Emails2">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddressAttributedValueType[] Emails2 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddressAttributedValueType[] Emails2" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.Emails2" />
+      <MemberSignature Language="VB.NET" Value="Public Property Emails2 As EmailAddressAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::EmailAddressAttributedValueType ^&gt; ^ Emails2 { cli::array &lt;ExchangeWebServices::EmailAddressAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::EmailAddressAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("EmailAddressAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddressAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Emails3">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddressAttributedValueType[] Emails3 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddressAttributedValueType[] Emails3" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.Emails3" />
+      <MemberSignature Language="VB.NET" Value="Public Property Emails3 As EmailAddressAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::EmailAddressAttributedValueType ^&gt; ^ Emails3 { cli::array &lt;ExchangeWebServices::EmailAddressAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::EmailAddressAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("EmailAddressAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddressAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedProperties">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ExtendedPropertyAttributedValueType[] ExtendedProperties { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ExtendedPropertyAttributedValueType[] ExtendedProperties" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.ExtendedProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExtendedProperties As ExtendedPropertyAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::ExtendedPropertyAttributedValueType ^&gt; ^ ExtendedProperties { cli::array &lt;ExchangeWebServices::ExtendedPropertyAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::ExtendedPropertyAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("ExtendedPropertyAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ExtendedPropertyAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileAs">
+      <MemberSignature Language="C#" Value="public string FileAs { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FileAs" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.FileAs" />
+      <MemberSignature Language="VB.NET" Value="Public Property FileAs As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FileAs { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileAses">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] FileAses { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] FileAses" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.FileAses" />
+      <MemberSignature Language="VB.NET" Value="Public Property FileAses As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ FileAses { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileAsId">
+      <MemberSignature Language="C#" Value="public string FileAsId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FileAsId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.FileAsId" />
+      <MemberSignature Language="VB.NET" Value="Public Property FileAsId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FileAsId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileAsIds">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] FileAsIds { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] FileAsIds" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.FileAsIds" />
+      <MemberSignature Language="VB.NET" Value="Public Property FileAsIds As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ FileAsIds { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderIds">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.FolderIdType[] FolderIds { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.FolderIdType[] FolderIds" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.FolderIds" />
+      <MemberSignature Language="VB.NET" Value="Public Property FolderIds As FolderIdType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::FolderIdType ^&gt; ^ FolderIds { cli::array &lt;ExchangeWebServices::FolderIdType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::FolderIdType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("FolderId", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FolderIdType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Generation">
+      <MemberSignature Language="C#" Value="public string Generation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Generation" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.Generation" />
+      <MemberSignature Language="VB.NET" Value="Public Property Generation As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Generation { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Generations">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] Generations { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] Generations" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.Generations" />
+      <MemberSignature Language="VB.NET" Value="Public Property Generations As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ Generations { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GivenName">
+      <MemberSignature Language="C#" Value="public string GivenName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string GivenName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.GivenName" />
+      <MemberSignature Language="VB.NET" Value="Public Property GivenName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ GivenName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GivenNames">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] GivenNames { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] GivenNames" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.GivenNames" />
+      <MemberSignature Language="VB.NET" Value="Public Property GivenNames As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ GivenNames { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Hobbies">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] Hobbies { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] Hobbies" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.Hobbies" />
+      <MemberSignature Language="VB.NET" Value="Public Property Hobbies As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ Hobbies { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HomeAddresses">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PostalAddressAttributedValueType[] HomeAddresses { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PostalAddressAttributedValueType[] HomeAddresses" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.HomeAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public Property HomeAddresses As PostalAddressAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::PostalAddressAttributedValueType ^&gt; ^ HomeAddresses { cli::array &lt;ExchangeWebServices::PostalAddressAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::PostalAddressAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("PostalAddressAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PostalAddressAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HomeCity">
+      <MemberSignature Language="C#" Value="public string HomeCity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string HomeCity" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.HomeCity" />
+      <MemberSignature Language="VB.NET" Value="Public Property HomeCity As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ HomeCity { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HomeCitySortKey">
+      <MemberSignature Language="C#" Value="public string HomeCitySortKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string HomeCitySortKey" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.HomeCitySortKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property HomeCitySortKey As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ HomeCitySortKey { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HomeFaxes">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PhoneNumberAttributedValueType[] HomeFaxes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PhoneNumberAttributedValueType[] HomeFaxes" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.HomeFaxes" />
+      <MemberSignature Language="VB.NET" Value="Public Property HomeFaxes As PhoneNumberAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ HomeFaxes { cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("PhoneNumberAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneNumberAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HomePhones">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PhoneNumberAttributedValueType[] HomePhones { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PhoneNumberAttributedValueType[] HomePhones" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.HomePhones" />
+      <MemberSignature Language="VB.NET" Value="Public Property HomePhones As PhoneNumberAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ HomePhones { cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("PhoneNumberAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneNumberAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HomePhones2">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PhoneNumberAttributedValueType[] HomePhones2 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PhoneNumberAttributedValueType[] HomePhones2" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.HomePhones2" />
+      <MemberSignature Language="VB.NET" Value="Public Property HomePhones2 As PhoneNumberAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ HomePhones2 { cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("PhoneNumberAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneNumberAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImAddress">
+      <MemberSignature Language="C#" Value="public string ImAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ImAddress" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.ImAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property ImAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ImAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImAddresses">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] ImAddresses { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] ImAddresses" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.ImAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public Property ImAddresses As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ ImAddresses { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImAddresses2">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] ImAddresses2 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] ImAddresses2" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.ImAddresses2" />
+      <MemberSignature Language="VB.NET" Value="Public Property ImAddresses2 As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ ImAddresses2 { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImAddresses3">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] ImAddresses3 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] ImAddresses3" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.ImAddresses3" />
+      <MemberSignature Language="VB.NET" Value="Public Property ImAddresses3 As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ ImAddresses3 { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Initials">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] Initials { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] Initials" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.Initials" />
+      <MemberSignature Language="VB.NET" Value="Public Property Initials As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ Initials { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Location">
+      <MemberSignature Language="C#" Value="public string Location { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Location" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.Location" />
+      <MemberSignature Language="VB.NET" Value="Public Property Location As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Location { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Locations">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] Locations { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] Locations" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.Locations" />
+      <MemberSignature Language="VB.NET" Value="Public Property Locations As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ Locations { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Managers">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] Managers { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] Managers" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.Managers" />
+      <MemberSignature Language="VB.NET" Value="Public Property Managers As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ Managers { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MiddleName">
+      <MemberSignature Language="C#" Value="public string MiddleName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MiddleName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.MiddleName" />
+      <MemberSignature Language="VB.NET" Value="Public Property MiddleName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MiddleName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MiddleNames">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] MiddleNames { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] MiddleNames" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.MiddleNames" />
+      <MemberSignature Language="VB.NET" Value="Public Property MiddleNames As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ MiddleNames { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MobilePhones">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PhoneNumberAttributedValueType[] MobilePhones { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PhoneNumberAttributedValueType[] MobilePhones" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.MobilePhones" />
+      <MemberSignature Language="VB.NET" Value="Public Property MobilePhones As PhoneNumberAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ MobilePhones { cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("PhoneNumberAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneNumberAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MobilePhones2">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PhoneNumberAttributedValueType[] MobilePhones2 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PhoneNumberAttributedValueType[] MobilePhones2" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.MobilePhones2" />
+      <MemberSignature Language="VB.NET" Value="Public Property MobilePhones2 As PhoneNumberAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ MobilePhones2 { cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("PhoneNumberAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneNumberAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Nickname">
+      <MemberSignature Language="C#" Value="public string Nickname { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Nickname" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.Nickname" />
+      <MemberSignature Language="VB.NET" Value="Public Property Nickname As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Nickname { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Nicknames">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] Nicknames { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] Nicknames" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.Nicknames" />
+      <MemberSignature Language="VB.NET" Value="Public Property Nicknames As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ Nicknames { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OfficeLocations">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] OfficeLocations { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] OfficeLocations" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.OfficeLocations" />
+      <MemberSignature Language="VB.NET" Value="Public Property OfficeLocations As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ OfficeLocations { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OrganizationMainPhones">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PhoneNumberAttributedValueType[] OrganizationMainPhones { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PhoneNumberAttributedValueType[] OrganizationMainPhones" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.OrganizationMainPhones" />
+      <MemberSignature Language="VB.NET" Value="Public Property OrganizationMainPhones As PhoneNumberAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ OrganizationMainPhones { cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("PhoneNumberAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneNumberAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OtherAddresses">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PostalAddressAttributedValueType[] OtherAddresses { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PostalAddressAttributedValueType[] OtherAddresses" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.OtherAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public Property OtherAddresses As PostalAddressAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::PostalAddressAttributedValueType ^&gt; ^ OtherAddresses { cli::array &lt;ExchangeWebServices::PostalAddressAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::PostalAddressAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("PostalAddressAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PostalAddressAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OtherFaxes">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PhoneNumberAttributedValueType[] OtherFaxes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PhoneNumberAttributedValueType[] OtherFaxes" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.OtherFaxes" />
+      <MemberSignature Language="VB.NET" Value="Public Property OtherFaxes As PhoneNumberAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ OtherFaxes { cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("PhoneNumberAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneNumberAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OtherPhones2">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PhoneNumberAttributedValueType[] OtherPhones2 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PhoneNumberAttributedValueType[] OtherPhones2" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.OtherPhones2" />
+      <MemberSignature Language="VB.NET" Value="Public Property OtherPhones2 As PhoneNumberAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ OtherPhones2 { cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("PhoneNumberAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneNumberAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OtherTelephones">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PhoneNumberAttributedValueType[] OtherTelephones { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PhoneNumberAttributedValueType[] OtherTelephones" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.OtherTelephones" />
+      <MemberSignature Language="VB.NET" Value="Public Property OtherTelephones As PhoneNumberAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ OtherTelephones { cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("PhoneNumberAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneNumberAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Pagers">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PhoneNumberAttributedValueType[] Pagers { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PhoneNumberAttributedValueType[] Pagers" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.Pagers" />
+      <MemberSignature Language="VB.NET" Value="Public Property Pagers As PhoneNumberAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ Pagers { cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("PhoneNumberAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneNumberAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PersonaId">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ItemIdType PersonaId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ItemIdType PersonaId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.PersonaId" />
+      <MemberSignature Language="VB.NET" Value="Public Property PersonaId As ItemIdType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ItemIdType ^ PersonaId { ExchangeWebServices::ItemIdType ^ get(); void set(ExchangeWebServices::ItemIdType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemIdType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PersonalHomePages">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] PersonalHomePages { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] PersonalHomePages" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.PersonalHomePages" />
+      <MemberSignature Language="VB.NET" Value="Public Property PersonalHomePages As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ PersonalHomePages { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PersonaObjectStatus">
+      <MemberSignature Language="C#" Value="public string PersonaObjectStatus { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PersonaObjectStatus" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.PersonaObjectStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Property PersonaObjectStatus As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PersonaObjectStatus { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PersonaType1">
+      <MemberSignature Language="C#" Value="public string PersonaType1 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PersonaType1" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.PersonaType1" />
+      <MemberSignature Language="VB.NET" Value="Public Property PersonaType1 As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PersonaType1 { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("PersonaType")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneNumber">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PersonaPhoneNumberType PhoneNumber { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PersonaPhoneNumberType PhoneNumber" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.PhoneNumber" />
+      <MemberSignature Language="VB.NET" Value="Public Property PhoneNumber As PersonaPhoneNumberType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::PersonaPhoneNumberType ^ PhoneNumber { ExchangeWebServices::PersonaPhoneNumberType ^ get(); void set(ExchangeWebServices::PersonaPhoneNumberType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PersonaPhoneNumberType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Professions">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] Professions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] Professions" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.Professions" />
+      <MemberSignature Language="VB.NET" Value="Public Property Professions As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ Professions { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RadioPhones">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PhoneNumberAttributedValueType[] RadioPhones { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PhoneNumberAttributedValueType[] RadioPhones" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.RadioPhones" />
+      <MemberSignature Language="VB.NET" Value="Public Property RadioPhones As PhoneNumberAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ RadioPhones { cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("PhoneNumberAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneNumberAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RelevanceScore">
+      <MemberSignature Language="C#" Value="public int RelevanceScore { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 RelevanceScore" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.RelevanceScore" />
+      <MemberSignature Language="VB.NET" Value="Public Property RelevanceScore As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int RelevanceScore { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RelevanceScoreSpecified">
+      <MemberSignature Language="C#" Value="public bool RelevanceScoreSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool RelevanceScoreSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.RelevanceScoreSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property RelevanceScoreSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool RelevanceScoreSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Schools">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] Schools { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] Schools" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.Schools" />
+      <MemberSignature Language="VB.NET" Value="Public Property Schools As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ Schools { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SpouseNames">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] SpouseNames { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] SpouseNames" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.SpouseNames" />
+      <MemberSignature Language="VB.NET" Value="Public Property SpouseNames As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ SpouseNames { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Surname">
+      <MemberSignature Language="C#" Value="public string Surname { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Surname" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.Surname" />
+      <MemberSignature Language="VB.NET" Value="Public Property Surname As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Surname { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Surnames">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] Surnames { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] Surnames" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.Surnames" />
+      <MemberSignature Language="VB.NET" Value="Public Property Surnames As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ Surnames { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TelexNumbers">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PhoneNumberAttributedValueType[] TelexNumbers { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PhoneNumberAttributedValueType[] TelexNumbers" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.TelexNumbers" />
+      <MemberSignature Language="VB.NET" Value="Public Property TelexNumbers As PhoneNumberAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ TelexNumbers { cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("PhoneNumberAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneNumberAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Title">
+      <MemberSignature Language="C#" Value="public string Title { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Title" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.Title" />
+      <MemberSignature Language="VB.NET" Value="Public Property Title As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Titles">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] Titles { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] Titles" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.Titles" />
+      <MemberSignature Language="VB.NET" Value="Public Property Titles As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ Titles { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TTYTDDPhoneNumbers">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PhoneNumberAttributedValueType[] TTYTDDPhoneNumbers { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PhoneNumberAttributedValueType[] TTYTDDPhoneNumbers" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.TTYTDDPhoneNumbers" />
+      <MemberSignature Language="VB.NET" Value="Public Property TTYTDDPhoneNumbers As PhoneNumberAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ TTYTDDPhoneNumbers { cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("PhoneNumberAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneNumberAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WeddingAnniversaries">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] WeddingAnniversaries { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] WeddingAnniversaries" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.WeddingAnniversaries" />
+      <MemberSignature Language="VB.NET" Value="Public Property WeddingAnniversaries As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ WeddingAnniversaries { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkCity">
+      <MemberSignature Language="C#" Value="public string WorkCity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WorkCity" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.WorkCity" />
+      <MemberSignature Language="VB.NET" Value="Public Property WorkCity As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ WorkCity { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkCitySortKey">
+      <MemberSignature Language="C#" Value="public string WorkCitySortKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WorkCitySortKey" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.WorkCitySortKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property WorkCitySortKey As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ WorkCitySortKey { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkFaxes">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PhoneNumberAttributedValueType[] WorkFaxes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PhoneNumberAttributedValueType[] WorkFaxes" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.WorkFaxes" />
+      <MemberSignature Language="VB.NET" Value="Public Property WorkFaxes As PhoneNumberAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ WorkFaxes { cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::PhoneNumberAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("PhoneNumberAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneNumberAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="YomiCompanyName">
+      <MemberSignature Language="C#" Value="public string YomiCompanyName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string YomiCompanyName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.YomiCompanyName" />
+      <MemberSignature Language="VB.NET" Value="Public Property YomiCompanyName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ YomiCompanyName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="YomiCompanyNames">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] YomiCompanyNames { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] YomiCompanyNames" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.YomiCompanyNames" />
+      <MemberSignature Language="VB.NET" Value="Public Property YomiCompanyNames As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ YomiCompanyNames { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="YomiFirstName">
+      <MemberSignature Language="C#" Value="public string YomiFirstName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string YomiFirstName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.YomiFirstName" />
+      <MemberSignature Language="VB.NET" Value="Public Property YomiFirstName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ YomiFirstName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="YomiFirstNames">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] YomiFirstNames { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] YomiFirstNames" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.YomiFirstNames" />
+      <MemberSignature Language="VB.NET" Value="Public Property YomiFirstNames As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ YomiFirstNames { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="YomiLastName">
+      <MemberSignature Language="C#" Value="public string YomiLastName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string YomiLastName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.YomiLastName" />
+      <MemberSignature Language="VB.NET" Value="Public Property YomiLastName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ YomiLastName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="YomiLastNames">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.StringAttributedValueType[] YomiLastNames { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.StringAttributedValueType[] YomiLastNames" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaType.YomiLastNames" />
+      <MemberSignature Language="VB.NET" Value="Public Property YomiLastNames As StringAttributedValueType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ YomiLastNames { cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::StringAttributedValueType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("StringAttributedValue", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.StringAttributedValueType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

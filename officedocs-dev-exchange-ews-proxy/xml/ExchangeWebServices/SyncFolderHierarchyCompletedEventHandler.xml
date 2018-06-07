@@ -1,0 +1,32 @@
+﻿<Type Name="SyncFolderHierarchyCompletedEventHandler" FullName="ExchangeWebServices.SyncFolderHierarchyCompletedEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void SyncFolderHierarchyCompletedEventHandler(object sender, SyncFolderHierarchyCompletedEventArgs e);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SyncFolderHierarchyCompletedEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SyncFolderHierarchyCompletedEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub SyncFolderHierarchyCompletedEventHandler(sender As Object, e As SyncFolderHierarchyCompletedEventArgs)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void SyncFolderHierarchyCompletedEventHandler(System::Object ^ sender, SyncFolderHierarchyCompletedEventArgs ^ e);" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="sender" Type="System.Object" />
+    <Parameter Name="e" Type="ExchangeWebServices.SyncFolderHierarchyCompletedEventArgs" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="sender">To be added.</param>
+    <param name="e">To be added.</param>
+    <summary>The <see cref="T:ExchangeWebServices.SyncFolderHierarchyCompletedEventHandler" /> is the delegate type that defines the event handler that is called when the corresponding asynchronous operation is complete.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

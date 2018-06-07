@@ -1,0 +1,102 @@
+﻿<Type Name="NonIndexableItemDetailResultType" FullName="ExchangeWebServices.NonIndexableItemDetailResultType">
+  <TypeSignature Language="C#" Value="public class NonIndexableItemDetailResultType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit NonIndexableItemDetailResultType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.NonIndexableItemDetailResultType" />
+  <TypeSignature Language="VB.NET" Value="Public Class NonIndexableItemDetailResultType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NonIndexableItemDetailResultType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public NonIndexableItemDetailResultType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.NonIndexableItemDetailResultType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; NonIndexableItemDetailResultType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FailedMailboxes">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.FailedSearchMailboxType[] FailedMailboxes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.FailedSearchMailboxType[] FailedMailboxes" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.NonIndexableItemDetailResultType.FailedMailboxes" />
+      <MemberSignature Language="VB.NET" Value="Public Property FailedMailboxes As FailedSearchMailboxType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::FailedSearchMailboxType ^&gt; ^ FailedMailboxes { cli::array &lt;ExchangeWebServices::FailedSearchMailboxType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::FailedSearchMailboxType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("FailedMailbox", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FailedSearchMailboxType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Items">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.NonIndexableItemDetailType[] Items { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.NonIndexableItemDetailType[] Items" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.NonIndexableItemDetailResultType.Items" />
+      <MemberSignature Language="VB.NET" Value="Public Property Items As NonIndexableItemDetailType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::NonIndexableItemDetailType ^&gt; ^ Items { cli::array &lt;ExchangeWebServices::NonIndexableItemDetailType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::NonIndexableItemDetailType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("NonIndexableItemDetail", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.NonIndexableItemDetailType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

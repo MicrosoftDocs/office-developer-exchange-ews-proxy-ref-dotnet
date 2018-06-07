@@ -1,0 +1,95 @@
+﻿<Type Name="FreeBusyResponseType" FullName="ExchangeWebServices.FreeBusyResponseType">
+  <TypeSignature Language="C#" Value="public class FreeBusyResponseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit FreeBusyResponseType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.FreeBusyResponseType" />
+  <TypeSignature Language="VB.NET" Value="Public Class FreeBusyResponseType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FreeBusyResponseType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.FreeBusyResponseType" /> class contains the availibility information for a single mailbox user.</summary>
+    <remarks>
+      <para>A <see cref="T:ExchangeWebServices.FreeBusyResponseType" /> instance is not returned by the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.GetUserAvailability(ExchangeWebServices.GetUserAvailabilityRequestType)" /> method if availability information is not requested.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FreeBusyResponseType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.FreeBusyResponseType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FreeBusyResponseType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.FreeBusyResponseType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.FreeBusyResponseType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FreeBusyView">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.FreeBusyView FreeBusyView { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.FreeBusyView FreeBusyView" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FreeBusyResponseType.FreeBusyView" />
+      <MemberSignature Language="VB.NET" Value="Public Property FreeBusyView As FreeBusyView" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::FreeBusyView ^ FreeBusyView { ExchangeWebServices::FreeBusyView ^ get(); void set(ExchangeWebServices::FreeBusyView ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FreeBusyView</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.FreeBusyResponseType.FreeBusyView" /> property gets or sets the availability information for a specific user.</summary>
+        <value>The <see cref="P:ExchangeWebServices.FreeBusyResponseType.FreeBusyView" /> property returns a <see cref="T:ExchangeWebServices.FreeBusyView" /> object that includes availability information for a specific user.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResponseMessage">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ResponseMessageType ResponseMessage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ResponseMessageType ResponseMessage" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FreeBusyResponseType.ResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResponseMessage As ResponseMessageType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ResponseMessageType ^ ResponseMessage { ExchangeWebServices::ResponseMessageType ^ get(); void set(ExchangeWebServices::ResponseMessageType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResponseMessageType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.FreeBusyResponseType.ResponseMessage" /> property gets or sets descriptive information about the response.</summary>
+        <value>The <see cref="P:ExchangeWebServices.FreeBusyResponseType.ResponseMessage" /> property returns a <see cref="T:ExchangeWebServices.ResponseMessageType" /> instance that contains descriptive information about the response.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

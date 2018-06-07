@@ -1,0 +1,72 @@
+﻿<Type Name="IndividualAttendeeConflictData" FullName="ExchangeWebServices.IndividualAttendeeConflictData">
+  <TypeSignature Language="C#" Value="public class IndividualAttendeeConflictData : ExchangeWebServices.AttendeeConflictData" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit IndividualAttendeeConflictData extends ExchangeWebServices.AttendeeConflictData" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.IndividualAttendeeConflictData" />
+  <TypeSignature Language="VB.NET" Value="Public Class IndividualAttendeeConflictData&#xA;Inherits AttendeeConflictData" />
+  <TypeSignature Language="C++ CLI" Value="public ref class IndividualAttendeeConflictData : ExchangeWebServices::AttendeeConflictData" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.AttendeeConflictData</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.IndividualAttendeeConflictData" /> class contains a mailbox user's or contact's free/busy status for a specific time window.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IndividualAttendeeConflictData ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.IndividualAttendeeConflictData.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IndividualAttendeeConflictData();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.IndividualAttendeeConflictData" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.IndividualAttendeeConflictData" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusyType">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.LegacyFreeBusyType BusyType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.LegacyFreeBusyType BusyType" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.IndividualAttendeeConflictData.BusyType" />
+      <MemberSignature Language="VB.NET" Value="Public Property BusyType As LegacyFreeBusyType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::LegacyFreeBusyType BusyType { ExchangeWebServices::LegacyFreeBusyType get(); void set(ExchangeWebServices::LegacyFreeBusyType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.LegacyFreeBusyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.IndividualAttendeeConflictData.BusyType" /> property gets or sets a value that indicates the free/busy status of a user for a suggested meeting time.</summary>
+        <value>The <see cref="P:ExchangeWebServices.IndividualAttendeeConflictData.BusyType" /> property returns a <see cref="T:ExchangeWebServices.LegacyFreeBusyType" /> enumeration value that indicates the user's status for the suggested meeting time. </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

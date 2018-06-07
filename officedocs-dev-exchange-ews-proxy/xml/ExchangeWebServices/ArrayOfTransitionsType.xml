@@ -1,0 +1,111 @@
+﻿<Type Name="ArrayOfTransitionsType" FullName="ExchangeWebServices.ArrayOfTransitionsType">
+  <TypeSignature Language="C#" Value="public class ArrayOfTransitionsType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ArrayOfTransitionsType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ArrayOfTransitionsType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ArrayOfTransitionsType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ArrayOfTransitionsType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.ArrayOfTransitionsType" /> class contains an array of time zone transitions.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ArrayOfTransitionsType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ArrayOfTransitionsType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ArrayOfTransitionsType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.ArrayOfTransitionsType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.ArrayOfTransitionsType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ArrayOfTransitionsType.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ArrayOfTransitionsType.Id" /> property gets or sets the unique identifier for the time zone definition.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.ArrayOfTransitionsType.Id" /> is a string that represents the unique identifier of the time zone definition.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Items">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.TransitionType[] Items { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.TransitionType[] Items" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ArrayOfTransitionsType.Items" />
+      <MemberSignature Language="VB.NET" Value="Public Property Items As TransitionType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::TransitionType ^&gt; ^ Items { cli::array &lt;ExchangeWebServices::TransitionType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::TransitionType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("RecurringDateTransition", typeof(ExchangeWebServices.RecurringDateTransitionType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Transition", typeof(ExchangeWebServices.TransitionType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("RecurringDayTransition", typeof(ExchangeWebServices.RecurringDayTransitionType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("AbsoluteDateTransition", typeof(ExchangeWebServices.AbsoluteDateTransitionType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TransitionType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ArrayOfTransitionsType.Items" /> property gets or sets an array of time zone transitions.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.ArrayOfTransitionsType.Items" /> property is an array of time zone transitions. The time zone transitions can be <see cref="T:ExchangeWebServices.TransitionType" />, <see cref="T:ExchangeWebServices.AbsoluteDateTransitionType" />, <see cref="T:ExchangeWebServices.RecurringDateTransitionType" />, or <see cref="T:ExchangeWebServices.RecurringDayTransitionType" /> objects.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

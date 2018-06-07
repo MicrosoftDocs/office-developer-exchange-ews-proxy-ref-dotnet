@@ -1,0 +1,232 @@
+﻿<Type Name="GetRemindersType" FullName="ExchangeWebServices.GetRemindersType">
+  <TypeSignature Language="C#" Value="public class GetRemindersType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetRemindersType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetRemindersType" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetRemindersType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetRemindersType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetRemindersType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetRemindersType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetRemindersType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginTime">
+      <MemberSignature Language="C#" Value="public DateTime BeginTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime BeginTime" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetRemindersType.BeginTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property BeginTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime BeginTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginTimeSpecified">
+      <MemberSignature Language="C#" Value="public bool BeginTimeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool BeginTimeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetRemindersType.BeginTimeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property BeginTimeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool BeginTimeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndTime">
+      <MemberSignature Language="C#" Value="public DateTime EndTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime EndTime" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetRemindersType.EndTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime EndTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndTimeSpecified">
+      <MemberSignature Language="C#" Value="public bool EndTimeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EndTimeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetRemindersType.EndTimeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndTimeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EndTimeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxItems">
+      <MemberSignature Language="C#" Value="public int MaxItems { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaxItems" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetRemindersType.MaxItems" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxItems As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MaxItems { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxItemsSpecified">
+      <MemberSignature Language="C#" Value="public bool MaxItemsSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MaxItemsSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetRemindersType.MaxItemsSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxItemsSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MaxItemsSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderType">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.GetRemindersTypeReminderType ReminderType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.GetRemindersTypeReminderType ReminderType" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetRemindersType.ReminderType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReminderType As GetRemindersTypeReminderType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::GetRemindersTypeReminderType ReminderType { ExchangeWebServices::GetRemindersTypeReminderType get(); void set(ExchangeWebServices::GetRemindersTypeReminderType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.GetRemindersTypeReminderType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderTypeSpecified">
+      <MemberSignature Language="C#" Value="public bool ReminderTypeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReminderTypeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetRemindersType.ReminderTypeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReminderTypeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReminderTypeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

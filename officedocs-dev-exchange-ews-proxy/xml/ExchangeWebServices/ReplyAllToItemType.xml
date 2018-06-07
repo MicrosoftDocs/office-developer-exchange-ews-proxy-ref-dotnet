@@ -1,0 +1,107 @@
+﻿<Type Name="ReplyAllToItemType" FullName="ExchangeWebServices.ReplyAllToItemType">
+  <TypeSignature Language="C#" Value="public class ReplyAllToItemType : ExchangeWebServices.SmartResponseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ReplyAllToItemType extends ExchangeWebServices.SmartResponseType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ReplyAllToItemType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ReplyAllToItemType&#xA;Inherits SmartResponseType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ReplyAllToItemType : ExchangeWebServices::SmartResponseType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.SmartResponseType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.ReplyAllToItemType" /> class represents a reply all item response object that is used to reply to the sender and all recipients of an item.</summary>
+    <remarks>
+      <para>The following are the only properties that are valid for the <see cref="T:ExchangeWebServices.ReplyAllToItemType" /> class:</para>
+      <list type="bullet">
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.ItemType.Subject" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.ItemType.Body" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.MessageType.ToRecipients" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.MessageType.CcRecipients" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.MessageType.BccRecipients" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.MessageType.IsReadReceiptRequested" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.MessageType.IsDeliveryReceiptRequested" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.MessageType.From" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.ResponseObjectCoreType.ReferenceItemId" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.SmartResponseType.NewBodyContent" />
+          </description>
+        </item>
+      </list>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ReplyAllToItemType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ReplyAllToItemType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ReplyAllToItemType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.ReplyAllToItemType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.ReplyAllToItemType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

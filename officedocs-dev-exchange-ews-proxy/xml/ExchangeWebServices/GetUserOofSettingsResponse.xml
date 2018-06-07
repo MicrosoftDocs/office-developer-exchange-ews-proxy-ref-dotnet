@@ -1,0 +1,142 @@
+﻿<Type Name="GetUserOofSettingsResponse" FullName="ExchangeWebServices.GetUserOofSettingsResponse">
+  <TypeSignature Language="C#" Value="public class GetUserOofSettingsResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetUserOofSettingsResponse extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetUserOofSettingsResponse" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetUserOofSettingsResponse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetUserOofSettingsResponse" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.GetUserOofSettingsResponse" /> class contains the response message and the out of office (OOF) settings for a user.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetUserOofSettingsResponse ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetUserOofSettingsResponse.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetUserOofSettingsResponse();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.GetUserOofSettingsResponse" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.GetUserOofSettingsResponse" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowExternalOof">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ExternalAudience AllowExternalOof { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.ExternalAudience AllowExternalOof" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetUserOofSettingsResponse.AllowExternalOof" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllowExternalOof As ExternalAudience" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ExternalAudience AllowExternalOof { ExchangeWebServices::ExternalAudience get(); void set(ExchangeWebServices::ExternalAudience value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ExternalAudience</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GetUserOofSettingsResponse.AllowExternalOof" /> property gets or sets a value that indicates to whom external out of office (OOF) messages are sent.</summary>
+        <value>The <see cref="P:ExchangeWebServices.GetUserOofSettingsResponse.AllowExternalOof" /> property returns one of the <see cref="T:ExchangeWebServices.ExternalAudience" /> enumeration values that indicate to whom external out of office (OOF) messages are sent.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowExternalOofSpecified">
+      <MemberSignature Language="C#" Value="public bool AllowExternalOofSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowExternalOofSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetUserOofSettingsResponse.AllowExternalOofSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllowExternalOofSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllowExternalOofSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GetUserOofSettingsResponse.AllowExternalOofSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.GetUserOofSettingsResponse.AllowExternalOof" /> property is serialized into the SOAP message. This property is required if the <see cref="P:ExchangeWebServices.GetUserOofSettingsResponse.AllowExternalOof" /> property is specified.</summary>
+        <value>The <see cref="P:ExchangeWebServices.GetUserOofSettingsResponse.AllowExternalOofSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.GetUserOofSettingsResponse.AllowExternalOof" /> property is serialized into the SOAP message; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OofSettings">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.UserOofSettings OofSettings { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.UserOofSettings OofSettings" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetUserOofSettingsResponse.OofSettings" />
+      <MemberSignature Language="VB.NET" Value="Public Property OofSettings As UserOofSettings" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::UserOofSettings ^ OofSettings { ExchangeWebServices::UserOofSettings ^ get(); void set(ExchangeWebServices::UserOofSettings ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UserOofSettings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GetUserOofSettingsResponse.OofSettings" /> property gets or sets the user's out of office (OOF) settings.</summary>
+        <value>The <see cref="P:ExchangeWebServices.GetUserOofSettingsResponse.OofSettings" /> property returns a <see cref="T:ExchangeWebServices.UserOofSettings" /> object that contains the user's OOF settings.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResponseMessage">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ResponseMessageType ResponseMessage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ResponseMessageType ResponseMessage" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetUserOofSettingsResponse.ResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResponseMessage As ResponseMessageType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ResponseMessageType ^ ResponseMessage { ExchangeWebServices::ResponseMessageType ^ get(); void set(ExchangeWebServices::ResponseMessageType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResponseMessageType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GetUserOofSettingsResponse.ResponseMessage" /> property gets or sets descriptive information about the response status for a single entity in a request.</summary>
+        <value>The <see cref="P:ExchangeWebServices.GetUserOofSettingsResponse.ResponseMessage" /> property returns a <see cref="T:ExchangeWebServices.ResponseMessageType" /> object that contains information about the response status.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

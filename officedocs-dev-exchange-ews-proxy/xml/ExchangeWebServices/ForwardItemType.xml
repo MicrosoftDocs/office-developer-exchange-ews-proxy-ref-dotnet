@@ -1,0 +1,154 @@
+﻿<Type Name="ForwardItemType" FullName="ExchangeWebServices.ForwardItemType">
+  <TypeSignature Language="C#" Value="public class ForwardItemType : ExchangeWebServices.SmartResponseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ForwardItemType extends ExchangeWebServices.SmartResponseType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ForwardItemType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ForwardItemType&#xA;Inherits SmartResponseType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ForwardItemType : ExchangeWebServices::SmartResponseType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.SmartResponseType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.ForwardItemType" /> class represents a forward item response object that is used to forward meeting messages to another recipient.</summary>
+    <remarks>
+      <para>The ReferenceItemId property must be set on the <see cref="T:ExchangeWebServices.ForwardItemType" /> object to identify the meeting message that is forwarded. ToRecipients, CcRecipients, or BccRecipients must be set to the recipients of the forwarded meeting message. One recipient must be set if the message is sent. You do not have to set a recipient if the message disposition is to save.</para>
+      <para>The following are the only properties that are valid for the <see cref="T:ExchangeWebServices.ForwardItemType" />:</para>
+      <list type="bullet">
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.ItemType.Subject" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.ItemType.Body" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.MessageType.ToRecipients" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.MessageType.CcRecipients" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.MessageType.BccRecipients" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.MessageType.IsReadReceiptRequested" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.MessageType.IsDeliveryReceiptRequested" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.MessageType.From" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.ResponseObjectCoreType.ReferenceItemId" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:ExchangeWebServices.SmartResponseType.NewBodyContent" />
+          </description>
+        </item>
+      </list>
+      <para />
+    </remarks>
+    <example>
+      <para>The following example shows you how to forward a meeting request to a single recipient and add content to the message body. The item identifier of the meeting request is used in the <see cref="P:ExchangeWebServices.ResponseObjectCoreType.ReferenceItemId" /> property.</para>
+      <code>static void ForwardItem(ExchangeServiceBinding esb)
+{
+    // Create the request.
+    CreateItemType &lt;span class="label"&gt;request&lt;/span&gt; = new CreateItemType();
+
+    // Set the message disposition on the request.
+    &lt;span class="label"&gt;request&lt;/span&gt;.MessageDisposition = MessageDispositionType.SendAndSaveCopy;
+    &lt;span class="label"&gt;request&lt;/span&gt;.MessageDispositionSpecified = true;
+    
+    // Create the ForwardItem response object.
+    ForwardItemType forwardItem = new ForwardItemType();
+    forwardItem.ToRecipients = new EmailAddressType[1];
+    forwardItem.ToRecipients[0] = new EmailAddressType();
+    forwardItem.ToRecipients[0].EmailAddress=  "someone@example.com";
+    forwardItem.NewBodyContent = new BodyType();
+    forwardItem.NewBodyContent.BodyType1 = BodyTypeType.Text;
+    forwardItem.NewBodyContent.Value = "You may want to attend this meeting.";
+
+    // Identify the meeting request to forward.
+    forwardItem.ReferenceItemId = new ItemIdType();
+    forwardItem.ReferenceItemId.Id = "AAArAG1za2lubmVyQG1haW5lcmNvbnRvc28";
+    forwardItem.ReferenceItemId.ChangeKey = "CwAAABYAAAAMoHzy8/QATr21q";
+
+    // Add the ForwardItem response object to the request.
+    &lt;span class="label"&gt;request&lt;/span&gt;.Items = new NonEmptyArrayOfAllItemsType();
+    &lt;span class="label"&gt;request&lt;/span&gt;.Items.Items = new ItemType[1];
+    &lt;span class="label"&gt;request&lt;/span&gt;.Items.Items[0] = forwardItem;
+
+    // Send the request and get the response.
+    CreateItemResponseType response = esb.CreateItem(&lt;span class="label"&gt;request&lt;/span&gt;);
+
+    ArrayOfResponseMessagesType aormt = response.ResponseMessages;
+    ResponseMessageType[] rmta = aormt.Items;
+
+    foreach (ResponseMessageType rmt in rmta)
+    {
+        ItemInfoResponseMessageType iirmt = (rmt as ItemInfoResponseMessageType);
+        if (iirmt.ResponseClass == ResponseClassType.Success)
+        {
+            Console.WriteLine("Successfully forwarded meeting.");
+        }
+    }
+}</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ForwardItemType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ForwardItemType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ForwardItemType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.ForwardItemType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.ForwardItemType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

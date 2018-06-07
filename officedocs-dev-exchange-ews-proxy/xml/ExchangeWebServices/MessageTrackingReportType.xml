@@ -1,0 +1,232 @@
+﻿<Type Name="MessageTrackingReportType" FullName="ExchangeWebServices.MessageTrackingReportType">
+  <TypeSignature Language="C#" Value="public class MessageTrackingReportType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit MessageTrackingReportType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.MessageTrackingReportType" />
+  <TypeSignature Language="VB.NET" Value="Public Class MessageTrackingReportType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MessageTrackingReportType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MessageTrackingReportType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.MessageTrackingReportType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MessageTrackingReportType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OriginalRecipients">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddressType[] OriginalRecipients { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddressType[] OriginalRecipients" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MessageTrackingReportType.OriginalRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public Property OriginalRecipients As EmailAddressType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::EmailAddressType ^&gt; ^ OriginalRecipients { cli::array &lt;ExchangeWebServices::EmailAddressType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::EmailAddressType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Address", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddressType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:ExchangeWebServices.EmailAddressType" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Properties">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.TrackingPropertyType[] Properties { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.TrackingPropertyType[] Properties" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MessageTrackingReportType.Properties" />
+      <MemberSignature Language="VB.NET" Value="Public Property Properties As TrackingPropertyType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::TrackingPropertyType ^&gt; ^ Properties { cli::array &lt;ExchangeWebServices::TrackingPropertyType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::TrackingPropertyType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem(IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TrackingPropertyType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:ExchangeWebServices.TrackingPropertyType" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PurportedSender">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddressType PurportedSender { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddressType PurportedSender" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MessageTrackingReportType.PurportedSender" />
+      <MemberSignature Language="VB.NET" Value="Public Property PurportedSender As EmailAddressType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::EmailAddressType ^ PurportedSender { ExchangeWebServices::EmailAddressType ^ get(); void set(ExchangeWebServices::EmailAddressType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddressType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:ExchangeWebServices.EmailAddressType" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecipientTrackingEvents">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.RecipientTrackingEventType[] RecipientTrackingEvents { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.RecipientTrackingEventType[] RecipientTrackingEvents" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MessageTrackingReportType.RecipientTrackingEvents" />
+      <MemberSignature Language="VB.NET" Value="Public Property RecipientTrackingEvents As RecipientTrackingEventType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::RecipientTrackingEventType ^&gt; ^ RecipientTrackingEvents { cli::array &lt;ExchangeWebServices::RecipientTrackingEventType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::RecipientTrackingEventType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("RecipientTrackingEvent", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RecipientTrackingEventType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:ExchangeWebServices.RecipientTrackingEventType" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sender">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddressType Sender { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddressType Sender" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MessageTrackingReportType.Sender" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sender As EmailAddressType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::EmailAddressType ^ Sender { ExchangeWebServices::EmailAddressType ^ get(); void set(ExchangeWebServices::EmailAddressType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddressType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:ExchangeWebServices.EmailAddressType" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subject">
+      <MemberSignature Language="C#" Value="public string Subject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Subject" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MessageTrackingReportType.Subject" />
+      <MemberSignature Language="VB.NET" Value="Public Property Subject As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subject { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.String" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubmitTime">
+      <MemberSignature Language="C#" Value="public DateTime SubmitTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime SubmitTime" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MessageTrackingReportType.SubmitTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property SubmitTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime SubmitTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.DateTime" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubmitTimeSpecified">
+      <MemberSignature Language="C#" Value="public bool SubmitTimeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SubmitTimeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MessageTrackingReportType.SubmitTimeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property SubmitTimeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SubmitTimeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.Boolean" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

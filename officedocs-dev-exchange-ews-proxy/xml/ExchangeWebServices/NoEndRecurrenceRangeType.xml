@@ -1,0 +1,52 @@
+﻿<Type Name="NoEndRecurrenceRangeType" FullName="ExchangeWebServices.NoEndRecurrenceRangeType">
+  <TypeSignature Language="C#" Value="public class NoEndRecurrenceRangeType : ExchangeWebServices.RecurrenceRangeBaseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit NoEndRecurrenceRangeType extends ExchangeWebServices.RecurrenceRangeBaseType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.NoEndRecurrenceRangeType" />
+  <TypeSignature Language="VB.NET" Value="Public Class NoEndRecurrenceRangeType&#xA;Inherits RecurrenceRangeBaseType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NoEndRecurrenceRangeType : ExchangeWebServices::RecurrenceRangeBaseType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.RecurrenceRangeBaseType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.NoEndRecurrenceRangeType" /> class describes the start date of an item recurrence pattern that does not have a defined end date.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public NoEndRecurrenceRangeType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.NoEndRecurrenceRangeType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; NoEndRecurrenceRangeType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.NoEndRecurrenceRangeType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.NoEndRecurrenceRangeType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

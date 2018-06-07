@@ -1,0 +1,108 @@
+﻿<Type Name="CalendarViewType" FullName="ExchangeWebServices.CalendarViewType">
+  <TypeSignature Language="C#" Value="public class CalendarViewType : ExchangeWebServices.BasePagingType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit CalendarViewType extends ExchangeWebServices.BasePagingType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CalendarViewType" />
+  <TypeSignature Language="VB.NET" Value="Public Class CalendarViewType&#xA;Inherits BasePagingType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CalendarViewType : ExchangeWebServices::BasePagingType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BasePagingType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.CalendarViewType" /> class represents the settings that are used to return calendar items as they appear in a calendar.</summary>
+    <remarks>
+      <para>A Calendar View returns single calendar items and occurrences of recurring calendar items. Recurring master calendar items, not recurring calendar occurrences, are returned if the Calendar View is not used. This type is only used in FindItem operation requests.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CalendarViewType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.CalendarViewType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CalendarViewType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.CalendarViewType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.CalendarViewType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndDate">
+      <MemberSignature Language="C#" Value="public DateTime EndDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime EndDate" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarViewType.EndDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime EndDate { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.CalendarViewType.EndDate" /> property sets the end of the time span for a Calendar View.</summary>
+        <value>The <see cref="P:ExchangeWebServices.CalendarViewType.EndDate" /> property returns the DateTime object that represents the end of the Calendar View time span.</value>
+        <remarks>
+          <para>This property is not returned in a FindItem response.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartDate">
+      <MemberSignature Language="C#" Value="public DateTime StartDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime StartDate" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarViewType.StartDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime StartDate { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.CalendarViewType.StartDate" /> property sets the start of the time span for a Calendar View.</summary>
+        <value>The <see cref="P:ExchangeWebServices.CalendarViewType.StartDate" /> property returns the DateTime object that represents the start of the Calendar View time span.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

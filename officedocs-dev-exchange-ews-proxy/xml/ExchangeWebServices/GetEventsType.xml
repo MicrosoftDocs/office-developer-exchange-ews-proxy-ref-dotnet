@@ -1,0 +1,147 @@
+﻿<Type Name="GetEventsType" FullName="ExchangeWebServices.GetEventsType">
+  <TypeSignature Language="C#" Value="public class GetEventsType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetEventsType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetEventsType" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetEventsType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetEventsType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.GetEventsType" /> class represents a request to get events for a pull notification subscription.</summary>
+    <remarks>
+      <para>Changes to calendar items may result in the generation of multiple events. Operations on other items can also generate multiple low-level events. These events are the result of the creation of temporary items in the mailbox and changes to free/busy data storage items as part of the usual Calendar operations, or both. Events for item class IPM.SchedulePlus.FreeBusy.BinaryData should be ignored by Web services clients. These temporary items are deleted after they are created. If an attempt is made to retrieve these items, an error will be returned that states that the item was not found.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>The following example shows you how to compose a request to get the events for a pull notification subscription. The watermark that is used to build the request must be the last watermark that is returned in the last GetEvents call or, if this is the first GetEvents call, the watermark from the Subscribe response. The watermark of the last event should be saved to be used for the next call to GetEvents.</para>
+      <code>static void GetEvents(ExchangeServiceBinding esb)
+{ 
+    // Create the GetEvents request.
+    GetEventsType &lt;span class="label"&gt;request&lt;/span&gt; = new GetEventsType();
+
+    // Identify the subscription identifier and watermark for the subscription 
+    // that will be polled for changes in the Exchange store.
+    &lt;span class="label"&gt;request&lt;/span&gt;.SubscriptionId = "2448550a-4685-412c-bc40-62f0999a8bdb";
+    &lt;span class="label"&gt;request&lt;/span&gt;.Watermark = "AQAAAM/SnQORsD1IqTUHelGT0oxxHQAAAAAAAAE=";
+
+    // Send the request and get the response.
+    GetEventsResponseType response = esb.GetEvents(&lt;span class="label"&gt;request&lt;/span&gt;);
+    ArrayOfResponseMessagesType aormt = response.ResponseMessages;
+    ResponseMessageType[] rmta = aormt.Items;
+
+    foreach (ResponseMessageType rmt in rmta)
+    {
+        // Determine whether the request was a success.
+        if (rmt.ResponseClass == ResponseClassType.Success)
+        {
+            // Cast to appropriate response message type.
+            GetEventsResponseMessageType responseMessage = (rmt as GetEventsResponseMessageType);
+
+            // Get the notifications.
+            NotificationType notificaton = responseMessage.Notification;
+            BaseNotificationEventType[] bneta = notificaton.Items;
+
+            foreach (BaseNotificationEventType bnet in bneta)
+            {
+                // TODO: Handle each notification. Refer to the Push Notification 
+                //       sample for an example of how to do this.
+            }
+
+            if (notificaton.MoreEvents)
+            {
+                // TODO: Call GetEvents again with the watermark to get the
+                //       remaining events.
+            }
+        }
+    }
+}</code>
+      <para>For more information about pull notifications, see Push Notification Sample Application.</para>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetEventsType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetEventsType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetEventsType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.GetEventsType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.GetEventsType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubscriptionId">
+      <MemberSignature Language="C#" Value="public string SubscriptionId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SubscriptionId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetEventsType.SubscriptionId" />
+      <MemberSignature Language="VB.NET" Value="Public Property SubscriptionId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SubscriptionId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GetEventsType.SubscriptionId" /> property gets or sets the identifier of a subscription. This property is required. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.GetEventsType.SubscriptionId" /> property returns a string.</value>
+        <remarks>
+          <para>The string that represents the subscription identifier is a GUID. The GUID is generated by the Client Access server when the subscription is created.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Watermark">
+      <MemberSignature Language="C#" Value="public string Watermark { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Watermark" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetEventsType.Watermark" />
+      <MemberSignature Language="VB.NET" Value="Public Property Watermark As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Watermark { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GetEventsType.Watermark" /> property gets or sets a string that represents an event bookmark in the mailbox event queue. This property is required. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.GetEventsType.Watermark" /> property returns a string.</value>
+        <remarks>
+          <para>This watermark describes where the GetEvents operation begins to return events. The watermark that is passed to GetEvents must be the last watermark that was returned to the client. If this is the first call to GetEvents after Subscribe, the watermark that is returned by Subscribe should be passed to GetEvents. If GetEvents has already been called, the watermark that is passed to the next GetEvents call must be the watermark of the last event that is returned from the previous GetEvents call.</para>
+          <para>If the <see cref="P:ExchangeWebServices.GetEventsType.Watermark" /> property is set with an invalid watermark, an <see cref="F:ExchangeWebServices.ResponseCodeType.ErrorInvalidWatermark" /> error is returned to the client application.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

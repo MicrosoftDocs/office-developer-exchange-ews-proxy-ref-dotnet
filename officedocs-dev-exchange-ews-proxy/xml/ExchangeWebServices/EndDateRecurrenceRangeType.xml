@@ -1,0 +1,77 @@
+﻿<Type Name="EndDateRecurrenceRangeType" FullName="ExchangeWebServices.EndDateRecurrenceRangeType">
+  <TypeSignature Language="C#" Value="public class EndDateRecurrenceRangeType : ExchangeWebServices.RecurrenceRangeBaseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit EndDateRecurrenceRangeType extends ExchangeWebServices.RecurrenceRangeBaseType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.EndDateRecurrenceRangeType" />
+  <TypeSignature Language="VB.NET" Value="Public Class EndDateRecurrenceRangeType&#xA;Inherits RecurrenceRangeBaseType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EndDateRecurrenceRangeType : ExchangeWebServices::RecurrenceRangeBaseType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.RecurrenceRangeBaseType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.EndDateRecurrenceRangeType" /> class describes the start date and the end date of an item recurrence pattern.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EndDateRecurrenceRangeType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.EndDateRecurrenceRangeType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EndDateRecurrenceRangeType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.EndDateRecurrenceRangeType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.EndDateRecurrenceRangeType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndDate">
+      <MemberSignature Language="C#" Value="public DateTime EndDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime EndDate" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.EndDateRecurrenceRangeType.EndDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime EndDate { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement(DataType="date")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.EndDateRecurrenceRangeType.EndDate" /> property gets or sets the end date of a recurring task or calendar item.</summary>
+        <value>The <see cref="P:ExchangeWebServices.EndDateRecurrenceRangeType.EndDate" /> property returns a date/time value for the end date of a recurring task or calendar item.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

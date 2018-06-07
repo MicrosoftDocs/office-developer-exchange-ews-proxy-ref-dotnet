@@ -1,0 +1,2143 @@
+﻿<Type Name="RuleFieldURIType" FullName="ExchangeWebServices.RuleFieldURIType">
+  <TypeSignature Language="C#" Value="public enum RuleFieldURIType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed RuleFieldURIType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.RuleFieldURIType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum RuleFieldURIType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class RuleFieldURIType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ActionAssignCategories">
+      <MemberSignature Language="C#" Value="ActionAssignCategories" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ActionAssignCategories = int32(73)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ActionAssignCategories" />
+      <MemberSignature Language="VB.NET" Value="ActionAssignCategories" />
+      <MemberSignature Language="C++ CLI" Value="ActionAssignCategories" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Action:AssignCategories")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>73</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ActionCopyToFolder">
+      <MemberSignature Language="C#" Value="ActionCopyToFolder" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ActionCopyToFolder = int32(74)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ActionCopyToFolder" />
+      <MemberSignature Language="VB.NET" Value="ActionCopyToFolder" />
+      <MemberSignature Language="C++ CLI" Value="ActionCopyToFolder" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Action:CopyToFolder")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>74</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ActionDelete">
+      <MemberSignature Language="C#" Value="ActionDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ActionDelete = int32(75)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ActionDelete" />
+      <MemberSignature Language="VB.NET" Value="ActionDelete" />
+      <MemberSignature Language="C++ CLI" Value="ActionDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Action:Delete")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>75</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ActionForwardAsAttachmentToRecipients">
+      <MemberSignature Language="C#" Value="ActionForwardAsAttachmentToRecipients" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ActionForwardAsAttachmentToRecipients = int32(76)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ActionForwardAsAttachmentToRecipients" />
+      <MemberSignature Language="VB.NET" Value="ActionForwardAsAttachmentToRecipients" />
+      <MemberSignature Language="C++ CLI" Value="ActionForwardAsAttachmentToRecipients" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Action:ForwardAsAttachmentToRecipients")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>76</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ActionForwardToRecipients">
+      <MemberSignature Language="C#" Value="ActionForwardToRecipients" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ActionForwardToRecipients = int32(77)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ActionForwardToRecipients" />
+      <MemberSignature Language="VB.NET" Value="ActionForwardToRecipients" />
+      <MemberSignature Language="C++ CLI" Value="ActionForwardToRecipients" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Action:ForwardToRecipients")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>77</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ActionMarkAsRead">
+      <MemberSignature Language="C#" Value="ActionMarkAsRead" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ActionMarkAsRead = int32(79)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ActionMarkAsRead" />
+      <MemberSignature Language="VB.NET" Value="ActionMarkAsRead" />
+      <MemberSignature Language="C++ CLI" Value="ActionMarkAsRead" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Action:MarkAsRead")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>79</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ActionMarkImportance">
+      <MemberSignature Language="C#" Value="ActionMarkImportance" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ActionMarkImportance = int32(78)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ActionMarkImportance" />
+      <MemberSignature Language="VB.NET" Value="ActionMarkImportance" />
+      <MemberSignature Language="C++ CLI" Value="ActionMarkImportance" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Action:MarkImportance")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>78</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ActionMoveToFolder">
+      <MemberSignature Language="C#" Value="ActionMoveToFolder" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ActionMoveToFolder = int32(80)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ActionMoveToFolder" />
+      <MemberSignature Language="VB.NET" Value="ActionMoveToFolder" />
+      <MemberSignature Language="C++ CLI" Value="ActionMoveToFolder" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Action:MoveToFolder")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>80</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ActionPermanentDelete">
+      <MemberSignature Language="C#" Value="ActionPermanentDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ActionPermanentDelete = int32(81)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ActionPermanentDelete" />
+      <MemberSignature Language="VB.NET" Value="ActionPermanentDelete" />
+      <MemberSignature Language="C++ CLI" Value="ActionPermanentDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Action:PermanentDelete")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>81</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ActionRedirectToRecipients">
+      <MemberSignature Language="C#" Value="ActionRedirectToRecipients" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ActionRedirectToRecipients = int32(82)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ActionRedirectToRecipients" />
+      <MemberSignature Language="VB.NET" Value="ActionRedirectToRecipients" />
+      <MemberSignature Language="C++ CLI" Value="ActionRedirectToRecipients" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Action:RedirectToRecipients")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>82</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Actions">
+      <MemberSignature Language="C#" Value="Actions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType Actions = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.Actions" />
+      <MemberSignature Language="VB.NET" Value="Actions" />
+      <MemberSignature Language="C++ CLI" Value="Actions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ActionSendSMSAlertToRecipients">
+      <MemberSignature Language="C#" Value="ActionSendSMSAlertToRecipients" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ActionSendSMSAlertToRecipients = int32(83)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ActionSendSMSAlertToRecipients" />
+      <MemberSignature Language="VB.NET" Value="ActionSendSMSAlertToRecipients" />
+      <MemberSignature Language="C++ CLI" Value="ActionSendSMSAlertToRecipients" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Action:SendSMSAlertToRecipients")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>83</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ActionServerReplyWithMessage">
+      <MemberSignature Language="C#" Value="ActionServerReplyWithMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ActionServerReplyWithMessage = int32(84)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ActionServerReplyWithMessage" />
+      <MemberSignature Language="VB.NET" Value="ActionServerReplyWithMessage" />
+      <MemberSignature Language="C++ CLI" Value="ActionServerReplyWithMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Action:ServerReplyWithMessage")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>84</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ActionStopProcessingRules">
+      <MemberSignature Language="C#" Value="ActionStopProcessingRules" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ActionStopProcessingRules = int32(85)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ActionStopProcessingRules" />
+      <MemberSignature Language="VB.NET" Value="ActionStopProcessingRules" />
+      <MemberSignature Language="C++ CLI" Value="ActionStopProcessingRules" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Action:StopProcessingRules")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>85</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionCategories">
+      <MemberSignature Language="C#" Value="ConditionCategories" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionCategories = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionCategories" />
+      <MemberSignature Language="VB.NET" Value="ConditionCategories" />
+      <MemberSignature Language="C++ CLI" Value="ConditionCategories" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:Categories")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionContainsBodyStrings">
+      <MemberSignature Language="C#" Value="ConditionContainsBodyStrings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionContainsBodyStrings = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionContainsBodyStrings" />
+      <MemberSignature Language="VB.NET" Value="ConditionContainsBodyStrings" />
+      <MemberSignature Language="C++ CLI" Value="ConditionContainsBodyStrings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:ContainsBodyStrings")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionContainsHeaderStrings">
+      <MemberSignature Language="C#" Value="ConditionContainsHeaderStrings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionContainsHeaderStrings = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionContainsHeaderStrings" />
+      <MemberSignature Language="VB.NET" Value="ConditionContainsHeaderStrings" />
+      <MemberSignature Language="C++ CLI" Value="ConditionContainsHeaderStrings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:ContainsHeaderStrings")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionContainsRecipientStrings">
+      <MemberSignature Language="C#" Value="ConditionContainsRecipientStrings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionContainsRecipientStrings = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionContainsRecipientStrings" />
+      <MemberSignature Language="VB.NET" Value="ConditionContainsRecipientStrings" />
+      <MemberSignature Language="C++ CLI" Value="ConditionContainsRecipientStrings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:ContainsRecipientStrings")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionContainsSenderStrings">
+      <MemberSignature Language="C#" Value="ConditionContainsSenderStrings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionContainsSenderStrings = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionContainsSenderStrings" />
+      <MemberSignature Language="VB.NET" Value="ConditionContainsSenderStrings" />
+      <MemberSignature Language="C++ CLI" Value="ConditionContainsSenderStrings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:ContainsSenderStrings")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionContainsSubjectOrBodyStrings">
+      <MemberSignature Language="C#" Value="ConditionContainsSubjectOrBodyStrings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionContainsSubjectOrBodyStrings = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionContainsSubjectOrBodyStrings" />
+      <MemberSignature Language="VB.NET" Value="ConditionContainsSubjectOrBodyStrings" />
+      <MemberSignature Language="C++ CLI" Value="ConditionContainsSubjectOrBodyStrings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:ContainsSubjectOrBodyStrings")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionContainsSubjectStrings">
+      <MemberSignature Language="C#" Value="ConditionContainsSubjectStrings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionContainsSubjectStrings = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionContainsSubjectStrings" />
+      <MemberSignature Language="VB.NET" Value="ConditionContainsSubjectStrings" />
+      <MemberSignature Language="C++ CLI" Value="ConditionContainsSubjectStrings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:ContainsSubjectStrings")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionFlaggedForAction">
+      <MemberSignature Language="C#" Value="ConditionFlaggedForAction" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionFlaggedForAction = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionFlaggedForAction" />
+      <MemberSignature Language="VB.NET" Value="ConditionFlaggedForAction" />
+      <MemberSignature Language="C++ CLI" Value="ConditionFlaggedForAction" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:FlaggedForAction")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionFromAddresses">
+      <MemberSignature Language="C#" Value="ConditionFromAddresses" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionFromAddresses = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionFromAddresses" />
+      <MemberSignature Language="VB.NET" Value="ConditionFromAddresses" />
+      <MemberSignature Language="C++ CLI" Value="ConditionFromAddresses" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:FromAddresses")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionFromConnectedAccounts">
+      <MemberSignature Language="C#" Value="ConditionFromConnectedAccounts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionFromConnectedAccounts = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionFromConnectedAccounts" />
+      <MemberSignature Language="VB.NET" Value="ConditionFromConnectedAccounts" />
+      <MemberSignature Language="C++ CLI" Value="ConditionFromConnectedAccounts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:FromConnectedAccounts")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionHasAttachments">
+      <MemberSignature Language="C#" Value="ConditionHasAttachments" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionHasAttachments = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionHasAttachments" />
+      <MemberSignature Language="VB.NET" Value="ConditionHasAttachments" />
+      <MemberSignature Language="C++ CLI" Value="ConditionHasAttachments" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:HasAttachments")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionImportance">
+      <MemberSignature Language="C#" Value="ConditionImportance" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionImportance = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionImportance" />
+      <MemberSignature Language="VB.NET" Value="ConditionImportance" />
+      <MemberSignature Language="C++ CLI" Value="ConditionImportance" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:Importance")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionIsApprovalRequest">
+      <MemberSignature Language="C#" Value="ConditionIsApprovalRequest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionIsApprovalRequest = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionIsApprovalRequest" />
+      <MemberSignature Language="VB.NET" Value="ConditionIsApprovalRequest" />
+      <MemberSignature Language="C++ CLI" Value="ConditionIsApprovalRequest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:IsApprovalRequest")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionIsAutomaticForward">
+      <MemberSignature Language="C#" Value="ConditionIsAutomaticForward" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionIsAutomaticForward = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionIsAutomaticForward" />
+      <MemberSignature Language="VB.NET" Value="ConditionIsAutomaticForward" />
+      <MemberSignature Language="C++ CLI" Value="ConditionIsAutomaticForward" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:IsAutomaticForward")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionIsAutomaticReply">
+      <MemberSignature Language="C#" Value="ConditionIsAutomaticReply" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionIsAutomaticReply = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionIsAutomaticReply" />
+      <MemberSignature Language="VB.NET" Value="ConditionIsAutomaticReply" />
+      <MemberSignature Language="C++ CLI" Value="ConditionIsAutomaticReply" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:IsAutomaticReply")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionIsEncrypted">
+      <MemberSignature Language="C#" Value="ConditionIsEncrypted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionIsEncrypted = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionIsEncrypted" />
+      <MemberSignature Language="VB.NET" Value="ConditionIsEncrypted" />
+      <MemberSignature Language="C++ CLI" Value="ConditionIsEncrypted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:IsEncrypted")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionIsMeetingRequest">
+      <MemberSignature Language="C#" Value="ConditionIsMeetingRequest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionIsMeetingRequest = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionIsMeetingRequest" />
+      <MemberSignature Language="VB.NET" Value="ConditionIsMeetingRequest" />
+      <MemberSignature Language="C++ CLI" Value="ConditionIsMeetingRequest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:IsMeetingRequest")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionIsMeetingResponse">
+      <MemberSignature Language="C#" Value="ConditionIsMeetingResponse" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionIsMeetingResponse = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionIsMeetingResponse" />
+      <MemberSignature Language="VB.NET" Value="ConditionIsMeetingResponse" />
+      <MemberSignature Language="C++ CLI" Value="ConditionIsMeetingResponse" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:IsMeetingResponse")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionIsNDR">
+      <MemberSignature Language="C#" Value="ConditionIsNDR" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionIsNDR = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionIsNDR" />
+      <MemberSignature Language="VB.NET" Value="ConditionIsNDR" />
+      <MemberSignature Language="C++ CLI" Value="ConditionIsNDR" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:IsNDR")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionIsPermissionControlled">
+      <MemberSignature Language="C#" Value="ConditionIsPermissionControlled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionIsPermissionControlled = int32(24)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionIsPermissionControlled" />
+      <MemberSignature Language="VB.NET" Value="ConditionIsPermissionControlled" />
+      <MemberSignature Language="C++ CLI" Value="ConditionIsPermissionControlled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:IsPermissionControlled")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>24</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionIsReadReceipt">
+      <MemberSignature Language="C#" Value="ConditionIsReadReceipt" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionIsReadReceipt = int32(25)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionIsReadReceipt" />
+      <MemberSignature Language="VB.NET" Value="ConditionIsReadReceipt" />
+      <MemberSignature Language="C++ CLI" Value="ConditionIsReadReceipt" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:IsReadReceipt")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>25</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionIsSigned">
+      <MemberSignature Language="C#" Value="ConditionIsSigned" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionIsSigned = int32(26)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionIsSigned" />
+      <MemberSignature Language="VB.NET" Value="ConditionIsSigned" />
+      <MemberSignature Language="C++ CLI" Value="ConditionIsSigned" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:IsSigned")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>26</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionIsVoicemail">
+      <MemberSignature Language="C#" Value="ConditionIsVoicemail" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionIsVoicemail = int32(27)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionIsVoicemail" />
+      <MemberSignature Language="VB.NET" Value="ConditionIsVoicemail" />
+      <MemberSignature Language="C++ CLI" Value="ConditionIsVoicemail" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:IsVoicemail")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>27</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionItemClasses">
+      <MemberSignature Language="C#" Value="ConditionItemClasses" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionItemClasses = int32(28)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionItemClasses" />
+      <MemberSignature Language="VB.NET" Value="ConditionItemClasses" />
+      <MemberSignature Language="C++ CLI" Value="ConditionItemClasses" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:ItemClasses")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>28</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionMessageClassifications">
+      <MemberSignature Language="C#" Value="ConditionMessageClassifications" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionMessageClassifications = int32(29)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionMessageClassifications" />
+      <MemberSignature Language="VB.NET" Value="ConditionMessageClassifications" />
+      <MemberSignature Language="C++ CLI" Value="ConditionMessageClassifications" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:MessageClassifications")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>29</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionNotSentToMe">
+      <MemberSignature Language="C#" Value="ConditionNotSentToMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionNotSentToMe = int32(30)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionNotSentToMe" />
+      <MemberSignature Language="VB.NET" Value="ConditionNotSentToMe" />
+      <MemberSignature Language="C++ CLI" Value="ConditionNotSentToMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:NotSentToMe")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>30</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Conditions">
+      <MemberSignature Language="C#" Value="Conditions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType Conditions = int32(88)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.Conditions" />
+      <MemberSignature Language="VB.NET" Value="Conditions" />
+      <MemberSignature Language="C++ CLI" Value="Conditions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>88</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionSensitivity">
+      <MemberSignature Language="C#" Value="ConditionSensitivity" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionSensitivity = int32(36)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionSensitivity" />
+      <MemberSignature Language="VB.NET" Value="ConditionSensitivity" />
+      <MemberSignature Language="C++ CLI" Value="ConditionSensitivity" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:Sensitivity")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>36</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionSentCcMe">
+      <MemberSignature Language="C#" Value="ConditionSentCcMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionSentCcMe = int32(31)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionSentCcMe" />
+      <MemberSignature Language="VB.NET" Value="ConditionSentCcMe" />
+      <MemberSignature Language="C++ CLI" Value="ConditionSentCcMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:SentCcMe")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>31</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionSentOnlyToMe">
+      <MemberSignature Language="C#" Value="ConditionSentOnlyToMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionSentOnlyToMe = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionSentOnlyToMe" />
+      <MemberSignature Language="VB.NET" Value="ConditionSentOnlyToMe" />
+      <MemberSignature Language="C++ CLI" Value="ConditionSentOnlyToMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:SentOnlyToMe")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionSentToAddresses">
+      <MemberSignature Language="C#" Value="ConditionSentToAddresses" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionSentToAddresses = int32(33)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionSentToAddresses" />
+      <MemberSignature Language="VB.NET" Value="ConditionSentToAddresses" />
+      <MemberSignature Language="C++ CLI" Value="ConditionSentToAddresses" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:SentToAddresses")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>33</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionSentToMe">
+      <MemberSignature Language="C#" Value="ConditionSentToMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionSentToMe = int32(34)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionSentToMe" />
+      <MemberSignature Language="VB.NET" Value="ConditionSentToMe" />
+      <MemberSignature Language="C++ CLI" Value="ConditionSentToMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:SentToMe")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>34</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionSentToOrCcMe">
+      <MemberSignature Language="C#" Value="ConditionSentToOrCcMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionSentToOrCcMe = int32(35)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionSentToOrCcMe" />
+      <MemberSignature Language="VB.NET" Value="ConditionSentToOrCcMe" />
+      <MemberSignature Language="C++ CLI" Value="ConditionSentToOrCcMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:SentToOrCcMe")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>35</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionWithinDateRange">
+      <MemberSignature Language="C#" Value="ConditionWithinDateRange" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionWithinDateRange = int32(37)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionWithinDateRange" />
+      <MemberSignature Language="VB.NET" Value="ConditionWithinDateRange" />
+      <MemberSignature Language="C++ CLI" Value="ConditionWithinDateRange" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:WithinDateRange")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>37</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionWithinSizeRange">
+      <MemberSignature Language="C#" Value="ConditionWithinSizeRange" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ConditionWithinSizeRange = int32(38)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ConditionWithinSizeRange" />
+      <MemberSignature Language="VB.NET" Value="ConditionWithinSizeRange" />
+      <MemberSignature Language="C++ CLI" Value="ConditionWithinSizeRange" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Condition:WithinSizeRange")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>38</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="DisplayName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType DisplayName = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="DisplayName" />
+      <MemberSignature Language="C++ CLI" Value="DisplayName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionCategories">
+      <MemberSignature Language="C#" Value="ExceptionCategories" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionCategories = int32(39)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionCategories" />
+      <MemberSignature Language="VB.NET" Value="ExceptionCategories" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionCategories" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:Categories")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>39</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionContainsBodyStrings">
+      <MemberSignature Language="C#" Value="ExceptionContainsBodyStrings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionContainsBodyStrings = int32(40)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionContainsBodyStrings" />
+      <MemberSignature Language="VB.NET" Value="ExceptionContainsBodyStrings" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionContainsBodyStrings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:ContainsBodyStrings")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>40</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionContainsHeaderStrings">
+      <MemberSignature Language="C#" Value="ExceptionContainsHeaderStrings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionContainsHeaderStrings = int32(41)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionContainsHeaderStrings" />
+      <MemberSignature Language="VB.NET" Value="ExceptionContainsHeaderStrings" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionContainsHeaderStrings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:ContainsHeaderStrings")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>41</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionContainsRecipientStrings">
+      <MemberSignature Language="C#" Value="ExceptionContainsRecipientStrings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionContainsRecipientStrings = int32(42)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionContainsRecipientStrings" />
+      <MemberSignature Language="VB.NET" Value="ExceptionContainsRecipientStrings" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionContainsRecipientStrings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:ContainsRecipientStrings")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>42</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionContainsSenderStrings">
+      <MemberSignature Language="C#" Value="ExceptionContainsSenderStrings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionContainsSenderStrings = int32(43)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionContainsSenderStrings" />
+      <MemberSignature Language="VB.NET" Value="ExceptionContainsSenderStrings" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionContainsSenderStrings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:ContainsSenderStrings")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>43</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionContainsSubjectOrBodyStrings">
+      <MemberSignature Language="C#" Value="ExceptionContainsSubjectOrBodyStrings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionContainsSubjectOrBodyStrings = int32(44)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionContainsSubjectOrBodyStrings" />
+      <MemberSignature Language="VB.NET" Value="ExceptionContainsSubjectOrBodyStrings" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionContainsSubjectOrBodyStrings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:ContainsSubjectOrBodyStrings")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>44</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionContainsSubjectStrings">
+      <MemberSignature Language="C#" Value="ExceptionContainsSubjectStrings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionContainsSubjectStrings = int32(45)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionContainsSubjectStrings" />
+      <MemberSignature Language="VB.NET" Value="ExceptionContainsSubjectStrings" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionContainsSubjectStrings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:ContainsSubjectStrings")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>45</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionFlaggedForAction">
+      <MemberSignature Language="C#" Value="ExceptionFlaggedForAction" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionFlaggedForAction = int32(46)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionFlaggedForAction" />
+      <MemberSignature Language="VB.NET" Value="ExceptionFlaggedForAction" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionFlaggedForAction" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:FlaggedForAction")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>46</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionFromAddresses">
+      <MemberSignature Language="C#" Value="ExceptionFromAddresses" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionFromAddresses = int32(47)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionFromAddresses" />
+      <MemberSignature Language="VB.NET" Value="ExceptionFromAddresses" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionFromAddresses" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:FromAddresses")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>47</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionFromConnectedAccounts">
+      <MemberSignature Language="C#" Value="ExceptionFromConnectedAccounts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionFromConnectedAccounts = int32(48)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionFromConnectedAccounts" />
+      <MemberSignature Language="VB.NET" Value="ExceptionFromConnectedAccounts" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionFromConnectedAccounts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:FromConnectedAccounts")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>48</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionHasAttachments">
+      <MemberSignature Language="C#" Value="ExceptionHasAttachments" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionHasAttachments = int32(49)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionHasAttachments" />
+      <MemberSignature Language="VB.NET" Value="ExceptionHasAttachments" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionHasAttachments" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:HasAttachments")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>49</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionImportance">
+      <MemberSignature Language="C#" Value="ExceptionImportance" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionImportance = int32(50)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionImportance" />
+      <MemberSignature Language="VB.NET" Value="ExceptionImportance" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionImportance" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:Importance")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>50</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionIsApprovalRequest">
+      <MemberSignature Language="C#" Value="ExceptionIsApprovalRequest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionIsApprovalRequest = int32(51)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionIsApprovalRequest" />
+      <MemberSignature Language="VB.NET" Value="ExceptionIsApprovalRequest" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionIsApprovalRequest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:IsApprovalRequest")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>51</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionIsAutomaticForward">
+      <MemberSignature Language="C#" Value="ExceptionIsAutomaticForward" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionIsAutomaticForward = int32(52)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionIsAutomaticForward" />
+      <MemberSignature Language="VB.NET" Value="ExceptionIsAutomaticForward" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionIsAutomaticForward" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:IsAutomaticForward")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>52</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionIsAutomaticReply">
+      <MemberSignature Language="C#" Value="ExceptionIsAutomaticReply" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionIsAutomaticReply = int32(53)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionIsAutomaticReply" />
+      <MemberSignature Language="VB.NET" Value="ExceptionIsAutomaticReply" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionIsAutomaticReply" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:IsAutomaticReply")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>53</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionIsEncrypted">
+      <MemberSignature Language="C#" Value="ExceptionIsEncrypted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionIsEncrypted = int32(54)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionIsEncrypted" />
+      <MemberSignature Language="VB.NET" Value="ExceptionIsEncrypted" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionIsEncrypted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:IsEncrypted")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>54</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionIsMeetingRequest">
+      <MemberSignature Language="C#" Value="ExceptionIsMeetingRequest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionIsMeetingRequest = int32(55)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionIsMeetingRequest" />
+      <MemberSignature Language="VB.NET" Value="ExceptionIsMeetingRequest" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionIsMeetingRequest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:IsMeetingRequest")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>55</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionIsMeetingResponse">
+      <MemberSignature Language="C#" Value="ExceptionIsMeetingResponse" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionIsMeetingResponse = int32(56)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionIsMeetingResponse" />
+      <MemberSignature Language="VB.NET" Value="ExceptionIsMeetingResponse" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionIsMeetingResponse" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:IsMeetingResponse")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>56</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionIsNDR">
+      <MemberSignature Language="C#" Value="ExceptionIsNDR" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionIsNDR = int32(57)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionIsNDR" />
+      <MemberSignature Language="VB.NET" Value="ExceptionIsNDR" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionIsNDR" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:IsNDR")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>57</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionIsPermissionControlled">
+      <MemberSignature Language="C#" Value="ExceptionIsPermissionControlled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionIsPermissionControlled = int32(58)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionIsPermissionControlled" />
+      <MemberSignature Language="VB.NET" Value="ExceptionIsPermissionControlled" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionIsPermissionControlled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:IsPermissionControlled")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>58</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionIsReadReceipt">
+      <MemberSignature Language="C#" Value="ExceptionIsReadReceipt" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionIsReadReceipt = int32(59)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionIsReadReceipt" />
+      <MemberSignature Language="VB.NET" Value="ExceptionIsReadReceipt" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionIsReadReceipt" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:IsReadReceipt")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>59</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionIsSigned">
+      <MemberSignature Language="C#" Value="ExceptionIsSigned" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionIsSigned = int32(60)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionIsSigned" />
+      <MemberSignature Language="VB.NET" Value="ExceptionIsSigned" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionIsSigned" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:IsSigned")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>60</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionIsVoicemail">
+      <MemberSignature Language="C#" Value="ExceptionIsVoicemail" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionIsVoicemail = int32(61)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionIsVoicemail" />
+      <MemberSignature Language="VB.NET" Value="ExceptionIsVoicemail" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionIsVoicemail" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:IsVoicemail")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>61</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionItemClasses">
+      <MemberSignature Language="C#" Value="ExceptionItemClasses" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionItemClasses = int32(62)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionItemClasses" />
+      <MemberSignature Language="VB.NET" Value="ExceptionItemClasses" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionItemClasses" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:ItemClasses")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>62</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionMessageClassifications">
+      <MemberSignature Language="C#" Value="ExceptionMessageClassifications" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionMessageClassifications = int32(63)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionMessageClassifications" />
+      <MemberSignature Language="VB.NET" Value="ExceptionMessageClassifications" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionMessageClassifications" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:MessageClassifications")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>63</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionNotSentToMe">
+      <MemberSignature Language="C#" Value="ExceptionNotSentToMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionNotSentToMe = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionNotSentToMe" />
+      <MemberSignature Language="VB.NET" Value="ExceptionNotSentToMe" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionNotSentToMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:NotSentToMe")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Exceptions">
+      <MemberSignature Language="C#" Value="Exceptions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType Exceptions = int32(89)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.Exceptions" />
+      <MemberSignature Language="VB.NET" Value="Exceptions" />
+      <MemberSignature Language="C++ CLI" Value="Exceptions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>89</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionSensitivity">
+      <MemberSignature Language="C#" Value="ExceptionSensitivity" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionSensitivity = int32(70)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionSensitivity" />
+      <MemberSignature Language="VB.NET" Value="ExceptionSensitivity" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionSensitivity" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:Sensitivity")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>70</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionSentCcMe">
+      <MemberSignature Language="C#" Value="ExceptionSentCcMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionSentCcMe = int32(65)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionSentCcMe" />
+      <MemberSignature Language="VB.NET" Value="ExceptionSentCcMe" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionSentCcMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:SentCcMe")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>65</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionSentOnlyToMe">
+      <MemberSignature Language="C#" Value="ExceptionSentOnlyToMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionSentOnlyToMe = int32(66)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionSentOnlyToMe" />
+      <MemberSignature Language="VB.NET" Value="ExceptionSentOnlyToMe" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionSentOnlyToMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:SentOnlyToMe")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>66</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionSentToAddresses">
+      <MemberSignature Language="C#" Value="ExceptionSentToAddresses" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionSentToAddresses = int32(67)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionSentToAddresses" />
+      <MemberSignature Language="VB.NET" Value="ExceptionSentToAddresses" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionSentToAddresses" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:SentToAddresses")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>67</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionSentToMe">
+      <MemberSignature Language="C#" Value="ExceptionSentToMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionSentToMe = int32(68)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionSentToMe" />
+      <MemberSignature Language="VB.NET" Value="ExceptionSentToMe" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionSentToMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:SentToMe")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>68</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionSentToOrCcMe">
+      <MemberSignature Language="C#" Value="ExceptionSentToOrCcMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionSentToOrCcMe = int32(69)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionSentToOrCcMe" />
+      <MemberSignature Language="VB.NET" Value="ExceptionSentToOrCcMe" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionSentToOrCcMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:SentToOrCcMe")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>69</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionWithinDateRange">
+      <MemberSignature Language="C#" Value="ExceptionWithinDateRange" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionWithinDateRange = int32(71)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionWithinDateRange" />
+      <MemberSignature Language="VB.NET" Value="ExceptionWithinDateRange" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionWithinDateRange" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:WithinDateRange")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>71</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExceptionWithinSizeRange">
+      <MemberSignature Language="C#" Value="ExceptionWithinSizeRange" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType ExceptionWithinSizeRange = int32(72)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.ExceptionWithinSizeRange" />
+      <MemberSignature Language="VB.NET" Value="ExceptionWithinSizeRange" />
+      <MemberSignature Language="C++ CLI" Value="ExceptionWithinSizeRange" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlEnum("Exception:WithinSizeRange")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>72</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="IsEnabled">
+      <MemberSignature Language="C#" Value="IsEnabled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType IsEnabled = int32(86)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.IsEnabled" />
+      <MemberSignature Language="VB.NET" Value="IsEnabled" />
+      <MemberSignature Language="C++ CLI" Value="IsEnabled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>86</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="IsInError">
+      <MemberSignature Language="C#" Value="IsInError" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType IsInError = int32(87)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.IsInError" />
+      <MemberSignature Language="VB.NET" Value="IsInError" />
+      <MemberSignature Language="C++ CLI" Value="IsInError" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>87</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="IsNotSupported">
+      <MemberSignature Language="C#" Value="IsNotSupported" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType IsNotSupported = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.IsNotSupported" />
+      <MemberSignature Language="VB.NET" Value="IsNotSupported" />
+      <MemberSignature Language="C++ CLI" Value="IsNotSupported" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Priority">
+      <MemberSignature Language="C#" Value="Priority" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType Priority = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.Priority" />
+      <MemberSignature Language="VB.NET" Value="Priority" />
+      <MemberSignature Language="C++ CLI" Value="Priority" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="RuleId">
+      <MemberSignature Language="C#" Value="RuleId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RuleFieldURIType RuleId = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RuleFieldURIType.RuleId" />
+      <MemberSignature Language="VB.NET" Value="RuleId" />
+      <MemberSignature Language="C++ CLI" Value="RuleId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RuleFieldURIType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

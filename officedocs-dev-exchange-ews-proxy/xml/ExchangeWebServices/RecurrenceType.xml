@@ -1,0 +1,183 @@
+﻿<Type Name="RecurrenceType" FullName="ExchangeWebServices.RecurrenceType">
+  <TypeSignature Language="C#" Value="public class RecurrenceType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit RecurrenceType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.RecurrenceType" />
+  <TypeSignature Language="VB.NET" Value="Public Class RecurrenceType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RecurrenceType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.RecurrenceType" /> class contains the recurrence pattern for calendar items and meeting requests.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RecurrenceType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.RecurrenceType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RecurrenceType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.RecurrenceType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.RecurrenceType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.RecurrencePatternBaseType Item { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.RecurrencePatternBaseType Item" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RecurrenceType.Item" />
+      <MemberSignature Language="VB.NET" Value="Public Property Item As RecurrencePatternBaseType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::RecurrencePatternBaseType ^ Item { ExchangeWebServices::RecurrencePatternBaseType ^ get(); void set(ExchangeWebServices::RecurrencePatternBaseType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("AbsoluteMonthlyRecurrence", typeof(ExchangeWebServices.AbsoluteMonthlyRecurrencePatternType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("DailyRecurrence", typeof(ExchangeWebServices.DailyRecurrencePatternType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("RelativeMonthlyRecurrence", typeof(ExchangeWebServices.RelativeMonthlyRecurrencePatternType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("RelativeYearlyRecurrence", typeof(ExchangeWebServices.RelativeYearlyRecurrencePatternType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("WeeklyRecurrence", typeof(ExchangeWebServices.WeeklyRecurrencePatternType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("AbsoluteYearlyRecurrence", typeof(ExchangeWebServices.AbsoluteYearlyRecurrencePatternType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RecurrencePatternBaseType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.RecurrenceType.Item" /> property gets or sets a recurrence pattern.</summary>
+        <value>The <see cref="P:ExchangeWebServices.RecurrenceType.Item" /> property returns a RecurrencePatternBaseType object that represents a recurring calendar item or task.</value>
+        <remarks>
+          <para>The actual object returned by the <see cref="P:ExchangeWebServices.RecurrenceType.Item" /> property will be an instance of one of the following classes:</para>
+          <list type="bullet">
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.RelativeYearlyRecurrencePatternType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.AbsoluteYearlyRecurrencePatternType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.RelativeMonthlyRecurrencePatternType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.AbsoluteMonthlyRecurrencePatternType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.WeeklyRecurrencePatternType" />
+              </description>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item1">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.RecurrenceRangeBaseType Item1 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.RecurrenceRangeBaseType Item1" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RecurrenceType.Item1" />
+      <MemberSignature Language="VB.NET" Value="Public Property Item1 As RecurrenceRangeBaseType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::RecurrenceRangeBaseType ^ Item1 { ExchangeWebServices::RecurrenceRangeBaseType ^ get(); void set(ExchangeWebServices::RecurrenceRangeBaseType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("EndDateRecurrence", typeof(ExchangeWebServices.EndDateRecurrenceRangeType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("NoEndRecurrence", typeof(ExchangeWebServices.NoEndRecurrenceRangeType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("NumberedRecurrence", typeof(ExchangeWebServices.NumberedRecurrenceRangeType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RecurrenceRangeBaseType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.RecurrenceType.Item1" /> property gets or sets a recurrence pattern.</summary>
+        <value>The <see cref="P:ExchangeWebServices.RecurrenceType.Item1" /> property returns a RecurrencePatternBaseType object that represents a recurring calendar item or task.</value>
+        <remarks>
+          <para>The actual object returned by the <see cref="P:ExchangeWebServices.RecurrenceType.Item1" /> property will be an instance of one of the following classes:</para>
+          <list type="bullet">
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.RelativeYearlyRecurrencePatternType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.AbsoluteYearlyRecurrencePatternType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.RelativeMonthlyRecurrencePatternType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.AbsoluteMonthlyRecurrencePatternType" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:ExchangeWebServices.WeeklyRecurrencePatternType" />
+              </description>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

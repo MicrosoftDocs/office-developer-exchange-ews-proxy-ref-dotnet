@@ -1,0 +1,233 @@
+﻿<Type Name="DayOfWeekType" FullName="ExchangeWebServices.DayOfWeekType">
+  <TypeSignature Language="C#" Value="public enum DayOfWeekType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed DayOfWeekType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DayOfWeekType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DayOfWeekType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class DayOfWeekType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.DayOfWeekType" /> enumeration describes days of the week that are used in item recurrence patterns.</summary>
+    <remarks>
+      <para>This enumeration is used by the following properties:</para>
+      <list type="bullet">
+        <item>
+          <description>The <see cref="P:ExchangeWebServices.RelativeMonthlyRecurrencePatternType.DaysOfWeek" /> property of the <see cref="T:ExchangeWebServices.RelativeMonthlyRecurrencePatternType" /> object.</description>
+        </item>
+        <item>
+          <description>The <see cref="P:ExchangeWebServices.RelativeYearlyRecurrencePatternType.DaysOfWeek" /> property of the <see cref="T:ExchangeWebServices.RelativeYearlyRecurrencePatternType" /> object.</description>
+        </item>
+        <item>
+          <description>The <see cref="P:ExchangeWebServices.WeeklyRecurrencePatternType.DaysOfWeek" /> property of the <see cref="T:ExchangeWebServices.WeeklyRecurrencePatternType" /> object, which may contain multiple values for the days of the week.</description>
+        </item>
+      </list>
+      <para>The <see cref="P:ExchangeWebServices.SerializableTimeZoneTime.DayOfWeek" /> property of the <see cref="T:ExchangeWebServices.SerializableTimeZoneTime" /> class supports the string format of each DayOfWeekType enumeration value.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Day">
+      <MemberSignature Language="C#" Value="Day" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DayOfWeekType Day = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DayOfWeekType.Day" />
+      <MemberSignature Language="VB.NET" Value="Day" />
+      <MemberSignature Language="C++ CLI" Value="Day" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DayOfWeekType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>Identifies every day as part of the recurrence pattern. This value is not used in the <see cref="T:ExchangeWebServices.RelativeYearlyRecurrencePatternType" /> or in the <see cref="T:ExchangeWebServices.WeeklyRecurrencePatternType" />.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Friday">
+      <MemberSignature Language="C#" Value="Friday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DayOfWeekType Friday = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DayOfWeekType.Friday" />
+      <MemberSignature Language="VB.NET" Value="Friday" />
+      <MemberSignature Language="C++ CLI" Value="Friday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DayOfWeekType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Identifies Fridays as part of the recurrence pattern.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Monday">
+      <MemberSignature Language="C#" Value="Monday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DayOfWeekType Monday = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DayOfWeekType.Monday" />
+      <MemberSignature Language="VB.NET" Value="Monday" />
+      <MemberSignature Language="C++ CLI" Value="Monday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DayOfWeekType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Identifies Mondays as part of the recurrence pattern.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Saturday">
+      <MemberSignature Language="C#" Value="Saturday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DayOfWeekType Saturday = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DayOfWeekType.Saturday" />
+      <MemberSignature Language="VB.NET" Value="Saturday" />
+      <MemberSignature Language="C++ CLI" Value="Saturday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DayOfWeekType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>Identifies Saturdays as part of the recurrence pattern.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Sunday">
+      <MemberSignature Language="C#" Value="Sunday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DayOfWeekType Sunday = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DayOfWeekType.Sunday" />
+      <MemberSignature Language="VB.NET" Value="Sunday" />
+      <MemberSignature Language="C++ CLI" Value="Sunday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DayOfWeekType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Identifies Sundays as part of the recurrence pattern.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Thursday">
+      <MemberSignature Language="C#" Value="Thursday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DayOfWeekType Thursday = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DayOfWeekType.Thursday" />
+      <MemberSignature Language="VB.NET" Value="Thursday" />
+      <MemberSignature Language="C++ CLI" Value="Thursday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DayOfWeekType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Identifies Thursdays as part of the recurrence pattern.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Tuesday">
+      <MemberSignature Language="C#" Value="Tuesday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DayOfWeekType Tuesday = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DayOfWeekType.Tuesday" />
+      <MemberSignature Language="VB.NET" Value="Tuesday" />
+      <MemberSignature Language="C++ CLI" Value="Tuesday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DayOfWeekType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Identifies Tuesdays as part of the recurrence pattern.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Wednesday">
+      <MemberSignature Language="C#" Value="Wednesday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DayOfWeekType Wednesday = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DayOfWeekType.Wednesday" />
+      <MemberSignature Language="VB.NET" Value="Wednesday" />
+      <MemberSignature Language="C++ CLI" Value="Wednesday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DayOfWeekType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Identifies Wednesdays as part of the recurrence pattern.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Weekday">
+      <MemberSignature Language="C#" Value="Weekday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DayOfWeekType Weekday = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DayOfWeekType.Weekday" />
+      <MemberSignature Language="VB.NET" Value="Weekday" />
+      <MemberSignature Language="C++ CLI" Value="Weekday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DayOfWeekType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>Identifies weekdays as part of the recurrence pattern. This value is not used in the <see cref="T:ExchangeWebServices.RelativeYearlyRecurrencePatternType" /> or in the <see cref="T:ExchangeWebServices.WeeklyRecurrencePatternType" />.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WeekendDay">
+      <MemberSignature Language="C#" Value="WeekendDay" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DayOfWeekType WeekendDay = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DayOfWeekType.WeekendDay" />
+      <MemberSignature Language="VB.NET" Value="WeekendDay" />
+      <MemberSignature Language="C++ CLI" Value="WeekendDay" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DayOfWeekType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>Identifies weekend days as part of the recurrence pattern. This value is not used in the <see cref="T:ExchangeWebServices.RelativeYearlyRecurrencePatternType" /> or in the <see cref="T:ExchangeWebServices.WeeklyRecurrencePatternType" />.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,89 @@
+﻿<Type Name="MessageDispositionType" FullName="ExchangeWebServices.MessageDispositionType">
+  <TypeSignature Language="C#" Value="public enum MessageDispositionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed MessageDispositionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.MessageDispositionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MessageDispositionType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MessageDispositionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.MessageDispositionType" /> enumeration specifies how a message item is handled after it is created or updated.</summary>
+    <remarks>
+      <para>When the <see cref="T:ExchangeWebServices.MessageDispositionType" /> is used for the <see cref="T:ExchangeWebServices.CreateItemType" />, it only applies to e-mail messages. When the <see cref="T:ExchangeWebServices.MessageDispositionType" /> is used for the <see cref="T:ExchangeWebServices.UpdateItemType" /> type, it can apply to e-mail messages and meeting messages, including meeting cancellations, meeting requests, and meeting responses. This enumeration is not used for response objects.</para>
+      <para>CreateItem responses return an ItemId when <see cref="T:ExchangeWebServices.MessageDispositionType" /> is set to <see cref="F:ExchangeWebServices.MessageDispositionType.SaveOnly" />.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="SaveOnly">
+      <MemberSignature Language="C#" Value="SaveOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MessageDispositionType SaveOnly = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MessageDispositionType.SaveOnly" />
+      <MemberSignature Language="VB.NET" Value="SaveOnly" />
+      <MemberSignature Language="C++ CLI" Value="SaveOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MessageDispositionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>When used in the <see cref="T:ExchangeWebServices.CreateItemType" />, the e-mail message item is saved in the folder that is specified by the <see cref="P:ExchangeWebServices.CreateItemType.SavedItemFolderId" /> property, or in the Sent Items folder if <see cref="P:ExchangeWebServices.CreateItemType.SavedItemFolderId" /> is not specified. Messages can be sent later by using the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.SendItem(ExchangeWebServices.SendItemType)" /> method on an <see cref="T:ExchangeWebServices.ExchangeServiceBinding" /> object. An item identifier is returned in this case.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SendAndSaveCopy">
+      <MemberSignature Language="C#" Value="SendAndSaveCopy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MessageDispositionType SendAndSaveCopy = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MessageDispositionType.SendAndSaveCopy" />
+      <MemberSignature Language="VB.NET" Value="SendAndSaveCopy" />
+      <MemberSignature Language="C++ CLI" Value="SendAndSaveCopy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MessageDispositionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>When used in the <see cref="T:ExchangeWebServices.CreateItemType" />, the e-mail message item is sent and a copy is saved in the folder that is specified by the <see cref="P:ExchangeWebServices.CreateItemType.SavedItemFolderId" /> property, or in the Sent Items folder if <see cref="P:ExchangeWebServices.CreateItemType.SavedItemFolderId" /> is not specified. An item identifier is not returned in this case.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SendOnly">
+      <MemberSignature Language="C#" Value="SendOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MessageDispositionType SendOnly = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MessageDispositionType.SendOnly" />
+      <MemberSignature Language="VB.NET" Value="SendOnly" />
+      <MemberSignature Language="C++ CLI" Value="SendOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MessageDispositionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>When used in the <see cref="T:ExchangeWebServices.CreateItemType" />, the e-mail message item is sent but no copy is saved. An item identifier is not returned in this case.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

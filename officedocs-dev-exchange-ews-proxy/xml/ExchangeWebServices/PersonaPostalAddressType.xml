@@ -1,0 +1,502 @@
+﻿<Type Name="PersonaPostalAddressType" FullName="ExchangeWebServices.PersonaPostalAddressType">
+  <TypeSignature Language="C#" Value="public class PersonaPostalAddressType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit PersonaPostalAddressType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.PersonaPostalAddressType" />
+  <TypeSignature Language="VB.NET" Value="Public Class PersonaPostalAddressType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PersonaPostalAddressType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PersonaPostalAddressType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.PersonaPostalAddressType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PersonaPostalAddressType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Accuracy">
+      <MemberSignature Language="C#" Value="public double Accuracy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Accuracy" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaPostalAddressType.Accuracy" />
+      <MemberSignature Language="VB.NET" Value="Public Property Accuracy As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Accuracy { double get(); void set(double value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AccuracySpecified">
+      <MemberSignature Language="C#" Value="public bool AccuracySpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AccuracySpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaPostalAddressType.AccuracySpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property AccuracySpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AccuracySpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Altitude">
+      <MemberSignature Language="C#" Value="public double Altitude { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Altitude" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaPostalAddressType.Altitude" />
+      <MemberSignature Language="VB.NET" Value="Public Property Altitude As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Altitude { double get(); void set(double value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AltitudeAccuracy">
+      <MemberSignature Language="C#" Value="public double AltitudeAccuracy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 AltitudeAccuracy" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaPostalAddressType.AltitudeAccuracy" />
+      <MemberSignature Language="VB.NET" Value="Public Property AltitudeAccuracy As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double AltitudeAccuracy { double get(); void set(double value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AltitudeAccuracySpecified">
+      <MemberSignature Language="C#" Value="public bool AltitudeAccuracySpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AltitudeAccuracySpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaPostalAddressType.AltitudeAccuracySpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property AltitudeAccuracySpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AltitudeAccuracySpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AltitudeSpecified">
+      <MemberSignature Language="C#" Value="public bool AltitudeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AltitudeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaPostalAddressType.AltitudeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property AltitudeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AltitudeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="City">
+      <MemberSignature Language="C#" Value="public string City { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string City" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaPostalAddressType.City" />
+      <MemberSignature Language="VB.NET" Value="Public Property City As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ City { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Country">
+      <MemberSignature Language="C#" Value="public string Country { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Country" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaPostalAddressType.Country" />
+      <MemberSignature Language="VB.NET" Value="Public Property Country As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Country { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FormattedAddress">
+      <MemberSignature Language="C#" Value="public string FormattedAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FormattedAddress" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaPostalAddressType.FormattedAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property FormattedAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FormattedAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Latitude">
+      <MemberSignature Language="C#" Value="public double Latitude { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Latitude" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaPostalAddressType.Latitude" />
+      <MemberSignature Language="VB.NET" Value="Public Property Latitude As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Latitude { double get(); void set(double value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LatitudeSpecified">
+      <MemberSignature Language="C#" Value="public bool LatitudeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LatitudeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaPostalAddressType.LatitudeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property LatitudeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool LatitudeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LocationSource">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.LocationSourceType LocationSource { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.LocationSourceType LocationSource" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaPostalAddressType.LocationSource" />
+      <MemberSignature Language="VB.NET" Value="Public Property LocationSource As LocationSourceType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::LocationSourceType LocationSource { ExchangeWebServices::LocationSourceType get(); void set(ExchangeWebServices::LocationSourceType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.LocationSourceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LocationSourceSpecified">
+      <MemberSignature Language="C#" Value="public bool LocationSourceSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LocationSourceSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaPostalAddressType.LocationSourceSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property LocationSourceSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool LocationSourceSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LocationUri">
+      <MemberSignature Language="C#" Value="public string LocationUri { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LocationUri" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaPostalAddressType.LocationUri" />
+      <MemberSignature Language="VB.NET" Value="Public Property LocationUri As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ LocationUri { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Longitude">
+      <MemberSignature Language="C#" Value="public double Longitude { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Longitude" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaPostalAddressType.Longitude" />
+      <MemberSignature Language="VB.NET" Value="Public Property Longitude As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Longitude { double get(); void set(double value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LongitudeSpecified">
+      <MemberSignature Language="C#" Value="public bool LongitudeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LongitudeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaPostalAddressType.LongitudeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property LongitudeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool LongitudeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PostalCode">
+      <MemberSignature Language="C#" Value="public string PostalCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PostalCode" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaPostalAddressType.PostalCode" />
+      <MemberSignature Language="VB.NET" Value="Public Property PostalCode As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PostalCode { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PostOfficeBox">
+      <MemberSignature Language="C#" Value="public string PostOfficeBox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PostOfficeBox" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaPostalAddressType.PostOfficeBox" />
+      <MemberSignature Language="VB.NET" Value="Public Property PostOfficeBox As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PostOfficeBox { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="State">
+      <MemberSignature Language="C#" Value="public string State { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string State" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaPostalAddressType.State" />
+      <MemberSignature Language="VB.NET" Value="Public Property State As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ State { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Street">
+      <MemberSignature Language="C#" Value="public string Street { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Street" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaPostalAddressType.Street" />
+      <MemberSignature Language="VB.NET" Value="Public Property Street As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Street { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public string Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Type" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PersonaPostalAddressType.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Type { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

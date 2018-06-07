@@ -1,0 +1,180 @@
+﻿<Type Name="PhoneCallStateType" FullName="ExchangeWebServices.PhoneCallStateType">
+  <TypeSignature Language="C#" Value="public enum PhoneCallStateType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed PhoneCallStateType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.PhoneCallStateType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PhoneCallStateType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class PhoneCallStateType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Alerted">
+      <MemberSignature Language="C#" Value="Alerted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.PhoneCallStateType Alerted = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.PhoneCallStateType.Alerted" />
+      <MemberSignature Language="VB.NET" Value="Alerted" />
+      <MemberSignature Language="C++ CLI" Value="Alerted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneCallStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Connected">
+      <MemberSignature Language="C#" Value="Connected" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.PhoneCallStateType Connected = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.PhoneCallStateType.Connected" />
+      <MemberSignature Language="VB.NET" Value="Connected" />
+      <MemberSignature Language="C++ CLI" Value="Connected" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneCallStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Connecting">
+      <MemberSignature Language="C#" Value="Connecting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.PhoneCallStateType Connecting = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.PhoneCallStateType.Connecting" />
+      <MemberSignature Language="VB.NET" Value="Connecting" />
+      <MemberSignature Language="C++ CLI" Value="Connecting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneCallStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Disconnected">
+      <MemberSignature Language="C#" Value="Disconnected" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.PhoneCallStateType Disconnected = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.PhoneCallStateType.Disconnected" />
+      <MemberSignature Language="VB.NET" Value="Disconnected" />
+      <MemberSignature Language="C++ CLI" Value="Disconnected" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneCallStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Forwarding">
+      <MemberSignature Language="C#" Value="Forwarding" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.PhoneCallStateType Forwarding = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.PhoneCallStateType.Forwarding" />
+      <MemberSignature Language="VB.NET" Value="Forwarding" />
+      <MemberSignature Language="C++ CLI" Value="Forwarding" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneCallStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Idle">
+      <MemberSignature Language="C#" Value="Idle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.PhoneCallStateType Idle = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.PhoneCallStateType.Idle" />
+      <MemberSignature Language="VB.NET" Value="Idle" />
+      <MemberSignature Language="C++ CLI" Value="Idle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneCallStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Incoming">
+      <MemberSignature Language="C#" Value="Incoming" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.PhoneCallStateType Incoming = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.PhoneCallStateType.Incoming" />
+      <MemberSignature Language="VB.NET" Value="Incoming" />
+      <MemberSignature Language="C++ CLI" Value="Incoming" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneCallStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Transferring">
+      <MemberSignature Language="C#" Value="Transferring" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.PhoneCallStateType Transferring = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.PhoneCallStateType.Transferring" />
+      <MemberSignature Language="VB.NET" Value="Transferring" />
+      <MemberSignature Language="C++ CLI" Value="Transferring" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneCallStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

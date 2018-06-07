@@ -1,0 +1,72 @@
+﻿<Type Name="DeleteAttachmentResponseMessageType" FullName="ExchangeWebServices.DeleteAttachmentResponseMessageType">
+  <TypeSignature Language="C#" Value="public class DeleteAttachmentResponseMessageType : ExchangeWebServices.ResponseMessageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit DeleteAttachmentResponseMessageType extends ExchangeWebServices.ResponseMessageType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DeleteAttachmentResponseMessageType" />
+  <TypeSignature Language="VB.NET" Value="Public Class DeleteAttachmentResponseMessageType&#xA;Inherits ResponseMessageType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DeleteAttachmentResponseMessageType : ExchangeWebServices::ResponseMessageType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.ResponseMessageType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.DeleteAttachmentResponseMessageType" /> class contains the status and result of a single <see cref="M:ExchangeWebServices.ExchangeServiceBinding.DeleteAttachment(ExchangeWebServices.DeleteAttachmentType)" /> method call.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DeleteAttachmentResponseMessageType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.DeleteAttachmentResponseMessageType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DeleteAttachmentResponseMessageType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.DeleteAttachmentResponseMessageType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.DeleteAttachmentResponseMessageType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RootItemId">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.RootItemIdType RootItemId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.RootItemIdType RootItemId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DeleteAttachmentResponseMessageType.RootItemId" />
+      <MemberSignature Language="VB.NET" Value="Public Property RootItemId As RootItemIdType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::RootItemIdType ^ RootItemId { ExchangeWebServices::RootItemIdType ^ get(); void set(ExchangeWebServices::RootItemIdType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RootItemIdType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.DeleteAttachmentResponseMessageType.RootItemId" /> property gets or sets the parent item of a deleted attachment.</summary>
+        <value>The <see cref="P:ExchangeWebServices.DeleteAttachmentResponseMessageType.RootItemId" /> property returns a <see cref="T:ExchangeWebServices.RootItemIdType" /> object that identifies the parent item of a deleted attachment.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

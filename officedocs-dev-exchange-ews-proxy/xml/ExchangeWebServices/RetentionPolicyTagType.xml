@@ -1,0 +1,232 @@
+﻿<Type Name="RetentionPolicyTagType" FullName="ExchangeWebServices.RetentionPolicyTagType">
+  <TypeSignature Language="C#" Value="public class RetentionPolicyTagType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit RetentionPolicyTagType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.RetentionPolicyTagType" />
+  <TypeSignature Language="VB.NET" Value="Public Class RetentionPolicyTagType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RetentionPolicyTagType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RetentionPolicyTagType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.RetentionPolicyTagType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RetentionPolicyTagType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Description">
+      <MemberSignature Language="C#" Value="public string Description { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Description" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RetentionPolicyTagType.Description" />
+      <MemberSignature Language="VB.NET" Value="Public Property Description As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Description { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RetentionPolicyTagType.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsArchive">
+      <MemberSignature Language="C#" Value="public bool IsArchive { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsArchive" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RetentionPolicyTagType.IsArchive" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsArchive As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsArchive { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVisible">
+      <MemberSignature Language="C#" Value="public bool IsVisible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsVisible" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RetentionPolicyTagType.IsVisible" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsVisible As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsVisible { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OptedInto">
+      <MemberSignature Language="C#" Value="public bool OptedInto { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool OptedInto" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RetentionPolicyTagType.OptedInto" />
+      <MemberSignature Language="VB.NET" Value="Public Property OptedInto As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool OptedInto { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetentionAction">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.RetentionActionType RetentionAction { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.RetentionActionType RetentionAction" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RetentionPolicyTagType.RetentionAction" />
+      <MemberSignature Language="VB.NET" Value="Public Property RetentionAction As RetentionActionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::RetentionActionType RetentionAction { ExchangeWebServices::RetentionActionType get(); void set(ExchangeWebServices::RetentionActionType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RetentionActionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetentionId">
+      <MemberSignature Language="C#" Value="public string RetentionId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RetentionId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RetentionPolicyTagType.RetentionId" />
+      <MemberSignature Language="VB.NET" Value="Public Property RetentionId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RetentionId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetentionPeriod">
+      <MemberSignature Language="C#" Value="public int RetentionPeriod { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 RetentionPeriod" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RetentionPolicyTagType.RetentionPeriod" />
+      <MemberSignature Language="VB.NET" Value="Public Property RetentionPeriod As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int RetentionPeriod { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ElcFolderType Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.ElcFolderType Type" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RetentionPolicyTagType.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As ElcFolderType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ElcFolderType Type { ExchangeWebServices::ElcFolderType get(); void set(ExchangeWebServices::ElcFolderType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

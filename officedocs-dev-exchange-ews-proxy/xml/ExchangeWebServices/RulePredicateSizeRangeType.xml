@@ -1,0 +1,142 @@
+﻿<Type Name="RulePredicateSizeRangeType" FullName="ExchangeWebServices.RulePredicateSizeRangeType">
+  <TypeSignature Language="C#" Value="public class RulePredicateSizeRangeType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit RulePredicateSizeRangeType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.RulePredicateSizeRangeType" />
+  <TypeSignature Language="VB.NET" Value="Public Class RulePredicateSizeRangeType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RulePredicateSizeRangeType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RulePredicateSizeRangeType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.RulePredicateSizeRangeType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RulePredicateSizeRangeType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaximumSize">
+      <MemberSignature Language="C#" Value="public int MaximumSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaximumSize" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RulePredicateSizeRangeType.MaximumSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaximumSize As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MaximumSize { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaximumSizeSpecified">
+      <MemberSignature Language="C#" Value="public bool MaximumSizeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MaximumSizeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RulePredicateSizeRangeType.MaximumSizeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaximumSizeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MaximumSizeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumSize">
+      <MemberSignature Language="C#" Value="public int MinimumSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MinimumSize" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RulePredicateSizeRangeType.MinimumSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinimumSize As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MinimumSize { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumSizeSpecified">
+      <MemberSignature Language="C#" Value="public bool MinimumSizeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MinimumSizeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RulePredicateSizeRangeType.MinimumSizeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinimumSizeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MinimumSizeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

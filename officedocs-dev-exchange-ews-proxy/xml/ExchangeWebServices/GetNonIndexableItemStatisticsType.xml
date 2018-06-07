@@ -1,0 +1,122 @@
+﻿<Type Name="GetNonIndexableItemStatisticsType" FullName="ExchangeWebServices.GetNonIndexableItemStatisticsType">
+  <TypeSignature Language="C#" Value="public class GetNonIndexableItemStatisticsType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetNonIndexableItemStatisticsType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetNonIndexableItemStatisticsType" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetNonIndexableItemStatisticsType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetNonIndexableItemStatisticsType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetNonIndexableItemStatisticsType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetNonIndexableItemStatisticsType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetNonIndexableItemStatisticsType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailboxes">
+      <MemberSignature Language="C#" Value="public string[] Mailboxes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] Mailboxes" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetNonIndexableItemStatisticsType.Mailboxes" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailboxes As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ Mailboxes { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("LegacyDN", IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchArchiveOnly">
+      <MemberSignature Language="C#" Value="public bool SearchArchiveOnly { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SearchArchiveOnly" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetNonIndexableItemStatisticsType.SearchArchiveOnly" />
+      <MemberSignature Language="VB.NET" Value="Public Property SearchArchiveOnly As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SearchArchiveOnly { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchArchiveOnlySpecified">
+      <MemberSignature Language="C#" Value="public bool SearchArchiveOnlySpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SearchArchiveOnlySpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetNonIndexableItemStatisticsType.SearchArchiveOnlySpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property SearchArchiveOnlySpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SearchArchiveOnlySpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

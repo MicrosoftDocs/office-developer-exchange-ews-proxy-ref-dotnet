@@ -1,0 +1,112 @@
+﻿<Type Name="GetUMCallSummaryType" FullName="ExchangeWebServices.GetUMCallSummaryType">
+  <TypeSignature Language="C#" Value="public class GetUMCallSummaryType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetUMCallSummaryType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetUMCallSummaryType" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetUMCallSummaryType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetUMCallSummaryType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetUMCallSummaryType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetUMCallSummaryType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetUMCallSummaryType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DailPlanGuid">
+      <MemberSignature Language="C#" Value="public string DailPlanGuid { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DailPlanGuid" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetUMCallSummaryType.DailPlanGuid" />
+      <MemberSignature Language="VB.NET" Value="Public Property DailPlanGuid As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DailPlanGuid { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GatewayGuid">
+      <MemberSignature Language="C#" Value="public string GatewayGuid { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string GatewayGuid" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetUMCallSummaryType.GatewayGuid" />
+      <MemberSignature Language="VB.NET" Value="Public Property GatewayGuid As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ GatewayGuid { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupRecordsBy">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.UMCDRGroupByType GroupRecordsBy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.UMCDRGroupByType GroupRecordsBy" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetUMCallSummaryType.GroupRecordsBy" />
+      <MemberSignature Language="VB.NET" Value="Public Property GroupRecordsBy As UMCDRGroupByType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::UMCDRGroupByType GroupRecordsBy { ExchangeWebServices::UMCDRGroupByType get(); void set(ExchangeWebServices::UMCDRGroupByType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UMCDRGroupByType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

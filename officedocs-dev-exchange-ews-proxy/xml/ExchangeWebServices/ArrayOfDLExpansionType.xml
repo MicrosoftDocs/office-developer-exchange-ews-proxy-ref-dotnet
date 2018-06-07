@@ -1,0 +1,327 @@
+﻿<Type Name="ArrayOfDLExpansionType" FullName="ExchangeWebServices.ArrayOfDLExpansionType">
+  <TypeSignature Language="C#" Value="public class ArrayOfDLExpansionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ArrayOfDLExpansionType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ArrayOfDLExpansionType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ArrayOfDLExpansionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ArrayOfDLExpansionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.ArrayOfDLExpansionType" /> class contains an array of mailboxes that are contained in a distribution list.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ArrayOfDLExpansionType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ArrayOfDLExpansionType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ArrayOfDLExpansionType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.ArrayOfDLExpansionType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.ArrayOfDLExpansionType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AbsoluteDenominator">
+      <MemberSignature Language="C#" Value="public int AbsoluteDenominator { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AbsoluteDenominator" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ArrayOfDLExpansionType.AbsoluteDenominator" />
+      <MemberSignature Language="VB.NET" Value="Public Property AbsoluteDenominator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AbsoluteDenominator { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.AbsoluteDenominator" /> property gets the next denominator to use for the next request when you are using fractional page views.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.AbsoluteDenominator" /> property returns an integer that represents the next denominator to use for the next request when you are using fractional page views.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AbsoluteDenominatorSpecified">
+      <MemberSignature Language="C#" Value="public bool AbsoluteDenominatorSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AbsoluteDenominatorSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ArrayOfDLExpansionType.AbsoluteDenominatorSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property AbsoluteDenominatorSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AbsoluteDenominatorSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.AbsoluteDenominatorSpecified" /> property indicates whether the <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.AbsoluteDenominator" /> property is serialized into the SOAP response.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.AbsoluteDenominatorSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.AbsoluteDenominator" /> property is serialized into the SOAP response; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludesLastItemInRange">
+      <MemberSignature Language="C#" Value="public bool IncludesLastItemInRange { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IncludesLastItemInRange" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ArrayOfDLExpansionType.IncludesLastItemInRange" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncludesLastItemInRange As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludesLastItemInRange { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.IncludesLastItemInRange" /> property indicates whether the current results contain the last item in the query so that additional paging is not needed.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.IncludesLastItemInRange" /> property returns <b>true</b> if the current results contain the last item in the query; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludesLastItemInRangeSpecified">
+      <MemberSignature Language="C#" Value="public bool IncludesLastItemInRangeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IncludesLastItemInRangeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ArrayOfDLExpansionType.IncludesLastItemInRangeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncludesLastItemInRangeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludesLastItemInRangeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.IncludesLastItemInRangeSpecified" /> property indicates whether the <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.IncludesLastItemInRange" /> property is serialized into the SOAP message.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.IncludesLastItemInRangeSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.IncludesLastItemInRange" /> property is serialized into the SOAP message; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IndexedPagingOffset">
+      <MemberSignature Language="C#" Value="public int IndexedPagingOffset { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 IndexedPagingOffset" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ArrayOfDLExpansionType.IndexedPagingOffset" />
+      <MemberSignature Language="VB.NET" Value="Public Property IndexedPagingOffset As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int IndexedPagingOffset { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.IndexedPagingOffset" /> property identifies the next index that should be used for the next request when you are using an indexed page view.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.IndexedPagingOffset" /> property returns an integer that identifies the next index that should be used for the next request when you are using an indexed page view.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IndexedPagingOffsetSpecified">
+      <MemberSignature Language="C#" Value="public bool IndexedPagingOffsetSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IndexedPagingOffsetSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ArrayOfDLExpansionType.IndexedPagingOffsetSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IndexedPagingOffsetSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IndexedPagingOffsetSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.IndexedPagingOffsetSpecified" /> property indicates whether the <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.IndexedPagingOffset" /> property is serialized into the SOAP message.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.IndexedPagingOffsetSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.IndexedPagingOffset" /> property is serialized into the SOAP message; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddressType[] Mailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddressType[] Mailbox" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ArrayOfDLExpansionType.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailbox As EmailAddressType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::EmailAddressType ^&gt; ^ Mailbox { cli::array &lt;ExchangeWebServices::EmailAddressType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::EmailAddressType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Mailbox")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddressType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.Mailbox" /> property gets a mail-enabled Active Directory directory service object.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.Mailbox" /> property returns an array of <see cref="T:ExchangeWebServices.EmailAddressType" /> objects.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumeratorOffset">
+      <MemberSignature Language="C#" Value="public int NumeratorOffset { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumeratorOffset" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ArrayOfDLExpansionType.NumeratorOffset" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumeratorOffset As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NumeratorOffset { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.NumeratorOffset" /> property gets the new numerator value to use for the next request when you are using fraction page views.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.NumeratorOffset" /> property returns an integer that represents the new numerator value to use for the next request when you are using fraction page views.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumeratorOffsetSpecified">
+      <MemberSignature Language="C#" Value="public bool NumeratorOffsetSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool NumeratorOffsetSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ArrayOfDLExpansionType.NumeratorOffsetSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumeratorOffsetSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool NumeratorOffsetSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.NumeratorOffsetSpecified" /> property indicates whether the <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.NumeratorOffset" /> property is serialized into the SOAP message.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.NumeratorOffsetSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.NumeratorOffset" /> property is serialized into the SOAP message; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalItemsInView">
+      <MemberSignature Language="C#" Value="public int TotalItemsInView { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TotalItemsInView" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ArrayOfDLExpansionType.TotalItemsInView" />
+      <MemberSignature Language="VB.NET" Value="Public Property TotalItemsInView As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int TotalItemsInView { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.TotalItemsInView" /> property gets the total number of items in the view.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.TotalItemsInView" /> property returns an integer that represents the total number of items in the view.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalItemsInViewSpecified">
+      <MemberSignature Language="C#" Value="public bool TotalItemsInViewSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TotalItemsInViewSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ArrayOfDLExpansionType.TotalItemsInViewSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property TotalItemsInViewSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TotalItemsInViewSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.TotalItemsInViewSpecified" /> property indicates whether the <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.TotalItemsInView" /> property is serialized into the SOAP message.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.TotalItemsInViewSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.ArrayOfDLExpansionType.TotalItemsInView" /> property is serialized into the SOAP message; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

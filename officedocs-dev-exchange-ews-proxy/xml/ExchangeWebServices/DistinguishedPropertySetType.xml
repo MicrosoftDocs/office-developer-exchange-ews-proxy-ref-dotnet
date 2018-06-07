@@ -1,0 +1,221 @@
+﻿<Type Name="DistinguishedPropertySetType" FullName="ExchangeWebServices.DistinguishedPropertySetType">
+  <TypeSignature Language="C#" Value="public enum DistinguishedPropertySetType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed DistinguishedPropertySetType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DistinguishedPropertySetType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DistinguishedPropertySetType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class DistinguishedPropertySetType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.DistinguishedPropertySetType" /> enumeration defines the well-known property set IDs for extended properties.</summary>
+    <remarks>
+      <para>This enumeration is used by the <see cref="P:ExchangeWebServices.PathToExtendedFieldType.DistinguishedPropertySetId" /> property of the <see cref="T:ExchangeWebServices.PathToExtendedFieldType" /> object. </para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Address">
+      <MemberSignature Language="C#" Value="Address" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedPropertySetType Address = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedPropertySetType.Address" />
+      <MemberSignature Language="VB.NET" Value="Address" />
+      <MemberSignature Language="C++ CLI" Value="Address" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedPropertySetType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Identifies the address property set ID by name.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Appointment">
+      <MemberSignature Language="C#" Value="Appointment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedPropertySetType Appointment = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedPropertySetType.Appointment" />
+      <MemberSignature Language="VB.NET" Value="Appointment" />
+      <MemberSignature Language="C++ CLI" Value="Appointment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedPropertySetType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Identifies the appointment property set ID by name.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CalendarAssistant">
+      <MemberSignature Language="C#" Value="CalendarAssistant" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedPropertySetType CalendarAssistant = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedPropertySetType.CalendarAssistant" />
+      <MemberSignature Language="VB.NET" Value="CalendarAssistant" />
+      <MemberSignature Language="C++ CLI" Value="CalendarAssistant" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedPropertySetType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>Identifies the calendar assistant property set ID by name.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Common">
+      <MemberSignature Language="C#" Value="Common" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedPropertySetType Common = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedPropertySetType.Common" />
+      <MemberSignature Language="VB.NET" Value="Common" />
+      <MemberSignature Language="C++ CLI" Value="Common" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedPropertySetType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Identifies the common property set ID by name.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternetHeaders">
+      <MemberSignature Language="C#" Value="InternetHeaders" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedPropertySetType InternetHeaders = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedPropertySetType.InternetHeaders" />
+      <MemberSignature Language="VB.NET" Value="InternetHeaders" />
+      <MemberSignature Language="C++ CLI" Value="InternetHeaders" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedPropertySetType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Identifies the Internet headers property set ID by name.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Meeting">
+      <MemberSignature Language="C#" Value="Meeting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedPropertySetType Meeting = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedPropertySetType.Meeting" />
+      <MemberSignature Language="VB.NET" Value="Meeting" />
+      <MemberSignature Language="C++ CLI" Value="Meeting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedPropertySetType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Identifies the meeting property set ID by name.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PublicStrings">
+      <MemberSignature Language="C#" Value="PublicStrings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedPropertySetType PublicStrings = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedPropertySetType.PublicStrings" />
+      <MemberSignature Language="VB.NET" Value="PublicStrings" />
+      <MemberSignature Language="C++ CLI" Value="PublicStrings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedPropertySetType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Identifies the public strings property set ID by name.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Sharing">
+      <MemberSignature Language="C#" Value="Sharing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedPropertySetType Sharing = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedPropertySetType.Sharing" />
+      <MemberSignature Language="VB.NET" Value="Sharing" />
+      <MemberSignature Language="C++ CLI" Value="Sharing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedPropertySetType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Task">
+      <MemberSignature Language="C#" Value="Task" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedPropertySetType Task = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedPropertySetType.Task" />
+      <MemberSignature Language="VB.NET" Value="Task" />
+      <MemberSignature Language="C++ CLI" Value="Task" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedPropertySetType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>Identifies the task property set ID by name.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UnifiedMessaging">
+      <MemberSignature Language="C#" Value="UnifiedMessaging" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.DistinguishedPropertySetType UnifiedMessaging = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.DistinguishedPropertySetType.UnifiedMessaging" />
+      <MemberSignature Language="VB.NET" Value="UnifiedMessaging" />
+      <MemberSignature Language="C++ CLI" Value="UnifiedMessaging" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DistinguishedPropertySetType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>Identifies the Unified Messaging property set ID by name.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

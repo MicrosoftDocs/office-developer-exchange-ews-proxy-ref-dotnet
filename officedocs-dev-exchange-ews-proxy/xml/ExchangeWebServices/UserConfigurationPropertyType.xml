@@ -1,0 +1,126 @@
+﻿<Type Name="UserConfigurationPropertyType" FullName="ExchangeWebServices.UserConfigurationPropertyType">
+  <TypeSignature Language="C#" Value="public enum UserConfigurationPropertyType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed UserConfigurationPropertyType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.UserConfigurationPropertyType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum UserConfigurationPropertyType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class UserConfigurationPropertyType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="All">
+      <MemberSignature Language="C#" Value="All" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.UserConfigurationPropertyType All = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.UserConfigurationPropertyType.All" />
+      <MemberSignature Language="VB.NET" Value="All" />
+      <MemberSignature Language="C++ CLI" Value="All" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UserConfigurationPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="BinaryData">
+      <MemberSignature Language="C#" Value="BinaryData" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.UserConfigurationPropertyType BinaryData = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.UserConfigurationPropertyType.BinaryData" />
+      <MemberSignature Language="VB.NET" Value="BinaryData" />
+      <MemberSignature Language="C++ CLI" Value="BinaryData" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UserConfigurationPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Dictionary">
+      <MemberSignature Language="C#" Value="Dictionary" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.UserConfigurationPropertyType Dictionary = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.UserConfigurationPropertyType.Dictionary" />
+      <MemberSignature Language="VB.NET" Value="Dictionary" />
+      <MemberSignature Language="C++ CLI" Value="Dictionary" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UserConfigurationPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="Id" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.UserConfigurationPropertyType Id = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.UserConfigurationPropertyType.Id" />
+      <MemberSignature Language="VB.NET" Value="Id" />
+      <MemberSignature Language="C++ CLI" Value="Id" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UserConfigurationPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="XmlData">
+      <MemberSignature Language="C#" Value="XmlData" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.UserConfigurationPropertyType XmlData = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.UserConfigurationPropertyType.XmlData" />
+      <MemberSignature Language="VB.NET" Value="XmlData" />
+      <MemberSignature Language="C++ CLI" Value="XmlData" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UserConfigurationPropertyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

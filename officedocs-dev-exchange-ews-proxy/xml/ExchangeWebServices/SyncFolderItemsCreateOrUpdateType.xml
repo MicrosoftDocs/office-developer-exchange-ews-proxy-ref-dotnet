@@ -1,0 +1,107 @@
+﻿<Type Name="SyncFolderItemsCreateOrUpdateType" FullName="ExchangeWebServices.SyncFolderItemsCreateOrUpdateType">
+  <TypeSignature Language="C#" Value="public class SyncFolderItemsCreateOrUpdateType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SyncFolderItemsCreateOrUpdateType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SyncFolderItemsCreateOrUpdateType" />
+  <TypeSignature Language="VB.NET" Value="Public Class SyncFolderItemsCreateOrUpdateType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SyncFolderItemsCreateOrUpdateType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.SyncFolderItemsCreateOrUpdateType" /> class represents a single item to create or update in the local client store.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SyncFolderItemsCreateOrUpdateType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.SyncFolderItemsCreateOrUpdateType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SyncFolderItemsCreateOrUpdateType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.SyncFolderItemsCreateOrUpdateType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.SyncFolderItemsCreateOrUpdateType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ItemType Item { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ItemType Item" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SyncFolderItemsCreateOrUpdateType.Item" />
+      <MemberSignature Language="VB.NET" Value="Public Property Item As ItemType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ItemType ^ Item { ExchangeWebServices::ItemType ^ get(); void set(ExchangeWebServices::ItemType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("MeetingCancellation", typeof(ExchangeWebServices.MeetingCancellationMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("PostItem", typeof(ExchangeWebServices.PostItemType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Message", typeof(ExchangeWebServices.MessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Task", typeof(ExchangeWebServices.TaskType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("CalendarItem", typeof(ExchangeWebServices.CalendarItemType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Item", typeof(ExchangeWebServices.ItemType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("MeetingResponse", typeof(ExchangeWebServices.MeetingResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("DistributionList", typeof(ExchangeWebServices.DistributionListType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Contact", typeof(ExchangeWebServices.ContactItemType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("MeetingMessage", typeof(ExchangeWebServices.MeetingMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("MeetingRequest", typeof(ExchangeWebServices.MeetingRequestMessageType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.SyncFolderItemsCreateOrUpdateType.Item" /> property gets or sets the item to create or update in the local client store.</summary>
+        <value>The <see cref="P:ExchangeWebServices.SyncFolderItemsCreateOrUpdateType.Item" /> property returns an <see cref="T:ExchangeWebServices.ItemType" /> object that represents the item to create or update in the local client store.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,102 @@
+﻿<Type Name="GetSharingMetadataResponseMessageType" FullName="ExchangeWebServices.GetSharingMetadataResponseMessageType">
+  <TypeSignature Language="C#" Value="public class GetSharingMetadataResponseMessageType : ExchangeWebServices.ResponseMessageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetSharingMetadataResponseMessageType extends ExchangeWebServices.ResponseMessageType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetSharingMetadataResponseMessageType" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetSharingMetadataResponseMessageType&#xA;Inherits ResponseMessageType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetSharingMetadataResponseMessageType : ExchangeWebServices::ResponseMessageType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.ResponseMessageType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.GetSharingMetadataResponseMessageType" /> class contains the status and result of a single GetSharingMetadata operation call.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetSharingMetadataResponseMessageType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetSharingMetadataResponseMessageType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetSharingMetadataResponseMessageType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.GetSharingMetadataResponseMessageType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.GetSharingMetadataResponseMessageType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EncryptedSharedFolderDataCollection">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EncryptedSharedFolderDataType[] EncryptedSharedFolderDataCollection { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EncryptedSharedFolderDataType[] EncryptedSharedFolderDataCollection" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetSharingMetadataResponseMessageType.EncryptedSharedFolderDataCollection" />
+      <MemberSignature Language="VB.NET" Value="Public Property EncryptedSharedFolderDataCollection As EncryptedSharedFolderDataType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::EncryptedSharedFolderDataType ^&gt; ^ EncryptedSharedFolderDataCollection { cli::array &lt;ExchangeWebServices::EncryptedSharedFolderDataType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::EncryptedSharedFolderDataType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("EncryptedSharedFolderData", IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EncryptedSharedFolderDataType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GetSharingMetadataResponseMessageType.EncryptedSharedFolderDataCollection" /> property gets or sets an array of <see cref="T:ExchangeWebServices.EncryptedSharedFolderDataType" /> objects that a client can use to authorize the sharing of its calendar or contact data with other clients.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.GetSharingMetadataResponseMessageType.EncryptedSharedFolderDataCollection" /> property is an  array of <see cref="T:ExchangeWebServices.EncryptedSharedFolderDataType" /> objects.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidRecipients">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.InvalidRecipientType[] InvalidRecipients { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.InvalidRecipientType[] InvalidRecipients" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetSharingMetadataResponseMessageType.InvalidRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public Property InvalidRecipients As InvalidRecipientType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::InvalidRecipientType ^&gt; ^ InvalidRecipients { cli::array &lt;ExchangeWebServices::InvalidRecipientType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::InvalidRecipientType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("InvalidRecipient", IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.InvalidRecipientType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GetSharingMetadataResponseMessageType.InvalidRecipients" /> property gets the invalid recipients of the sharing request.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.GetSharingMetadataResponseMessageType.InvalidRecipients" /> is an array of <see cref="T:ExchangeWebServices.InvalidRecipientType" /> objects.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

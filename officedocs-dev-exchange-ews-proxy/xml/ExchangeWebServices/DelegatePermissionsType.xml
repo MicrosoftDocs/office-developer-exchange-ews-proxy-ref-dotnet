@@ -1,0 +1,322 @@
+﻿<Type Name="DelegatePermissionsType" FullName="ExchangeWebServices.DelegatePermissionsType">
+  <TypeSignature Language="C#" Value="public class DelegatePermissionsType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit DelegatePermissionsType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DelegatePermissionsType" />
+  <TypeSignature Language="VB.NET" Value="Public Class DelegatePermissionsType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DelegatePermissionsType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.DelegatePermissionsType" /> class contains the delegate permission-level settings for a user. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DelegatePermissionsType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.DelegatePermissionsType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DelegatePermissionsType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.DelegatePermissionsType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.DelegatePermissionsType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CalendarFolderPermissionLevel">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.DelegateFolderPermissionLevelType CalendarFolderPermissionLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.DelegateFolderPermissionLevelType CalendarFolderPermissionLevel" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DelegatePermissionsType.CalendarFolderPermissionLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property CalendarFolderPermissionLevel As DelegateFolderPermissionLevelType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::DelegateFolderPermissionLevelType CalendarFolderPermissionLevel { ExchangeWebServices::DelegateFolderPermissionLevelType get(); void set(ExchangeWebServices::DelegateFolderPermissionLevelType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DelegateFolderPermissionLevelType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.DelegatePermissionsType.CalendarFolderPermissionLevel" /> property gets or sets the permissions for the default Calendar folder. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</summary>
+        <value>The <see cref="P:ExchangeWebServices.DelegatePermissionsType.CalendarFolderPermissionLevel" /> property returns a <see cref="T:ExchangeWebServices.DelegateFolderPermissionLevelType" /> enumeration value that specifies the permission level that a delegate user has on a folder in another user's mailbox.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CalendarFolderPermissionLevelSpecified">
+      <MemberSignature Language="C#" Value="public bool CalendarFolderPermissionLevelSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CalendarFolderPermissionLevelSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DelegatePermissionsType.CalendarFolderPermissionLevelSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property CalendarFolderPermissionLevelSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CalendarFolderPermissionLevelSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.DelegatePermissionsType" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.DelegatePermissionsType.CalendarFolderPermissionLevel" /> property is serialized into the SOAP message. This property is required if the <see cref="P:ExchangeWebServices.DelegatePermissionsType.CalendarFolderPermissionLevel" /> property is specified.</summary>
+        <value>The <see cref="T:ExchangeWebServices.DelegatePermissionsType" /> property returns <b>true</b> if <see cref="P:ExchangeWebServices.DelegatePermissionsType.CalendarFolderPermissionLevel" /> property is serialized into the SOAP message; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactsFolderPermissionLevel">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.DelegateFolderPermissionLevelType ContactsFolderPermissionLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.DelegateFolderPermissionLevelType ContactsFolderPermissionLevel" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DelegatePermissionsType.ContactsFolderPermissionLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContactsFolderPermissionLevel As DelegateFolderPermissionLevelType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::DelegateFolderPermissionLevelType ContactsFolderPermissionLevel { ExchangeWebServices::DelegateFolderPermissionLevelType get(); void set(ExchangeWebServices::DelegateFolderPermissionLevelType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DelegateFolderPermissionLevelType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.DelegatePermissionsType.ContactsFolderPermissionLevel" /> property gets or sets the permissions for the default Contacts folder. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</summary>
+        <value>The <see cref="P:ExchangeWebServices.DelegatePermissionsType.ContactsFolderPermissionLevel" /> property returns a <see cref="T:ExchangeWebServices.DelegateFolderPermissionLevelType" /> enumeration value that specifies the permission level that a delegate user has on a folder in another user's mailbox.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactsFolderPermissionLevelSpecified">
+      <MemberSignature Language="C#" Value="public bool ContactsFolderPermissionLevelSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ContactsFolderPermissionLevelSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DelegatePermissionsType.ContactsFolderPermissionLevelSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContactsFolderPermissionLevelSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ContactsFolderPermissionLevelSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.DelegatePermissionsType.ContactsFolderPermissionLevelSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.DelegatePermissionsType.ContactsFolderPermissionLevel" /> property is serialized into the SOAP message. This property is required if the <see cref="P:ExchangeWebServices.DelegatePermissionsType.ContactsFolderPermissionLevel" /> property is specified.</summary>
+        <value>The <see cref="T:ExchangeWebServices.DelegatePermissionsType" /> property returns <b>true</b> if <see cref="P:ExchangeWebServices.DelegatePermissionsType.ContactsFolderPermissionLevel" /> property is serialized into the SOAP message; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InboxFolderPermissionLevel">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.DelegateFolderPermissionLevelType InboxFolderPermissionLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.DelegateFolderPermissionLevelType InboxFolderPermissionLevel" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DelegatePermissionsType.InboxFolderPermissionLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property InboxFolderPermissionLevel As DelegateFolderPermissionLevelType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::DelegateFolderPermissionLevelType InboxFolderPermissionLevel { ExchangeWebServices::DelegateFolderPermissionLevelType get(); void set(ExchangeWebServices::DelegateFolderPermissionLevelType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DelegateFolderPermissionLevelType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.DelegatePermissionsType.InboxFolderPermissionLevel" /> property gets or sets the permissions for the default Inbox folder. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</summary>
+        <value>The <see cref="P:ExchangeWebServices.DelegatePermissionsType.InboxFolderPermissionLevel" /> property returns a <see cref="T:ExchangeWebServices.DelegateFolderPermissionLevelType" /> enumeration value that specifies the permission level that a delegate user has on a folder in another user's mailbox.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InboxFolderPermissionLevelSpecified">
+      <MemberSignature Language="C#" Value="public bool InboxFolderPermissionLevelSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool InboxFolderPermissionLevelSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DelegatePermissionsType.InboxFolderPermissionLevelSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property InboxFolderPermissionLevelSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool InboxFolderPermissionLevelSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.DelegatePermissionsType" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.DelegatePermissionsType.InboxFolderPermissionLevel" /> property is serialized into the SOAP message. This property is required if the <see cref="P:ExchangeWebServices.DelegatePermissionsType.InboxFolderPermissionLevel" /> property is specified.</summary>
+        <value>The <see cref="T:ExchangeWebServices.DelegatePermissionsType" /> property returns <b>true</b> if <see cref="P:ExchangeWebServices.DelegatePermissionsType.InboxFolderPermissionLevel" /> property is serialized into the SOAP message; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JournalFolderPermissionLevel">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.DelegateFolderPermissionLevelType JournalFolderPermissionLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.DelegateFolderPermissionLevelType JournalFolderPermissionLevel" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DelegatePermissionsType.JournalFolderPermissionLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property JournalFolderPermissionLevel As DelegateFolderPermissionLevelType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::DelegateFolderPermissionLevelType JournalFolderPermissionLevel { ExchangeWebServices::DelegateFolderPermissionLevelType get(); void set(ExchangeWebServices::DelegateFolderPermissionLevelType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DelegateFolderPermissionLevelType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.DelegatePermissionsType.JournalFolderPermissionLevel" /> property gets or sets the permissions for the default Journal folder. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</summary>
+        <value>The <see cref="P:ExchangeWebServices.DelegatePermissionsType.JournalFolderPermissionLevel" /> property returns a <see cref="T:ExchangeWebServices.DelegateFolderPermissionLevelType" /> enumeration value that specifies the permission level that a delegate user has on a folder in another user's mailbox.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JournalFolderPermissionLevelSpecified">
+      <MemberSignature Language="C#" Value="public bool JournalFolderPermissionLevelSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool JournalFolderPermissionLevelSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DelegatePermissionsType.JournalFolderPermissionLevelSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property JournalFolderPermissionLevelSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool JournalFolderPermissionLevelSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.DelegatePermissionsType" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.DelegatePermissionsType.JournalFolderPermissionLevel" /> property is serialized into the SOAP message. This property is required if the <see cref="P:ExchangeWebServices.DelegatePermissionsType.JournalFolderPermissionLevel" /> property is specified.</summary>
+        <value>The <see cref="T:ExchangeWebServices.DelegatePermissionsType" /> property returns <b>true</b> if <see cref="P:ExchangeWebServices.DelegatePermissionsType.JournalFolderPermissionLevel" /> property is serialized into the SOAP message; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NotesFolderPermissionLevel">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.DelegateFolderPermissionLevelType NotesFolderPermissionLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.DelegateFolderPermissionLevelType NotesFolderPermissionLevel" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DelegatePermissionsType.NotesFolderPermissionLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property NotesFolderPermissionLevel As DelegateFolderPermissionLevelType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::DelegateFolderPermissionLevelType NotesFolderPermissionLevel { ExchangeWebServices::DelegateFolderPermissionLevelType get(); void set(ExchangeWebServices::DelegateFolderPermissionLevelType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DelegateFolderPermissionLevelType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.DelegatePermissionsType.NotesFolderPermissionLevel" /> property gets or sets the permissions for the default Contacts folder. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</summary>
+        <value>The <see cref="P:ExchangeWebServices.DelegatePermissionsType.NotesFolderPermissionLevel" /> property returns a <see cref="T:ExchangeWebServices.DelegateFolderPermissionLevelType" /> enumeration value that specifies the permission level that a delegate user has on a folder in another user's mailbox.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NotesFolderPermissionLevelSpecified">
+      <MemberSignature Language="C#" Value="public bool NotesFolderPermissionLevelSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool NotesFolderPermissionLevelSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DelegatePermissionsType.NotesFolderPermissionLevelSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property NotesFolderPermissionLevelSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool NotesFolderPermissionLevelSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.DelegatePermissionsType" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.DelegatePermissionsType.NotesFolderPermissionLevel" /> property is serialized into the SOAP message. This property is required if the <see cref="P:ExchangeWebServices.DelegatePermissionsType.NotesFolderPermissionLevel" /> property is specified.</summary>
+        <value>The <see cref="T:ExchangeWebServices.DelegatePermissionsType" /> property returns <b>true</b> if <see cref="P:ExchangeWebServices.DelegatePermissionsType.NotesFolderPermissionLevel" /> property is serialized into the SOAP message; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TasksFolderPermissionLevel">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.DelegateFolderPermissionLevelType TasksFolderPermissionLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.DelegateFolderPermissionLevelType TasksFolderPermissionLevel" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DelegatePermissionsType.TasksFolderPermissionLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property TasksFolderPermissionLevel As DelegateFolderPermissionLevelType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::DelegateFolderPermissionLevelType TasksFolderPermissionLevel { ExchangeWebServices::DelegateFolderPermissionLevelType get(); void set(ExchangeWebServices::DelegateFolderPermissionLevelType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DelegateFolderPermissionLevelType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.DelegatePermissionsType.TasksFolderPermissionLevel" /> property gets or sets the permissions for the default Contacts folder. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</summary>
+        <value>The <see cref="P:ExchangeWebServices.DelegatePermissionsType.TasksFolderPermissionLevel" /> property returns a <see cref="T:ExchangeWebServices.DelegateFolderPermissionLevelType" /> enumeration value that specifies the permission level that a delegate user has on a folder in another user's mailbox.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TasksFolderPermissionLevelSpecified">
+      <MemberSignature Language="C#" Value="public bool TasksFolderPermissionLevelSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TasksFolderPermissionLevelSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DelegatePermissionsType.TasksFolderPermissionLevelSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property TasksFolderPermissionLevelSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TasksFolderPermissionLevelSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.DelegatePermissionsType" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.DelegatePermissionsType.TasksFolderPermissionLevel" /> property is serialized into the SOAP message. This property is required if the <see cref="P:ExchangeWebServices.DelegatePermissionsType.TasksFolderPermissionLevel" /> property is specified.</summary>
+        <value>The <see cref="T:ExchangeWebServices.DelegatePermissionsType" /> property returns <b>true</b> if <see cref="P:ExchangeWebServices.DelegatePermissionsType.TasksFolderPermissionLevel" /> property is serialized into the SOAP message; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,155 @@
+﻿<Type Name="StreamingSubscriptionRequestType" FullName="ExchangeWebServices.StreamingSubscriptionRequestType">
+  <TypeSignature Language="C#" Value="public class StreamingSubscriptionRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit StreamingSubscriptionRequestType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.StreamingSubscriptionRequestType" />
+  <TypeSignature Language="VB.NET" Value="Public Class StreamingSubscriptionRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class StreamingSubscriptionRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public StreamingSubscriptionRequestType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.StreamingSubscriptionRequestType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; StreamingSubscriptionRequestType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EventTypes">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.NotificationEventTypeType[] EventTypes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.NotificationEventTypeType[] EventTypes" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.StreamingSubscriptionRequestType.EventTypes" />
+      <MemberSignature Language="VB.NET" Value="Public Property EventTypes As NotificationEventTypeType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::NotificationEventTypeType&gt; ^ EventTypes { cli::array &lt;ExchangeWebServices::NotificationEventTypeType&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::NotificationEventTypeType&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("EventType", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.NotificationEventTypeType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderIds">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BaseFolderIdType[] FolderIds { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BaseFolderIdType[] FolderIds" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.StreamingSubscriptionRequestType.FolderIds" />
+      <MemberSignature Language="VB.NET" Value="Public Property FolderIds As BaseFolderIdType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ FolderIds { cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("DistinguishedFolderId", typeof(ExchangeWebServices.DistinguishedFolderIdType), IsNullable=false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("FolderId", typeof(ExchangeWebServices.FolderIdType), IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BaseFolderIdType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubscribeToAllFolders">
+      <MemberSignature Language="C#" Value="public bool SubscribeToAllFolders { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SubscribeToAllFolders" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.StreamingSubscriptionRequestType.SubscribeToAllFolders" />
+      <MemberSignature Language="VB.NET" Value="Public Property SubscribeToAllFolders As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SubscribeToAllFolders { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubscribeToAllFoldersSpecified">
+      <MemberSignature Language="C#" Value="public bool SubscribeToAllFoldersSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SubscribeToAllFoldersSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.StreamingSubscriptionRequestType.SubscribeToAllFoldersSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property SubscribeToAllFoldersSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SubscribeToAllFoldersSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,72 @@
+﻿<Type Name="DelegateUserResponseMessageType" FullName="ExchangeWebServices.DelegateUserResponseMessageType">
+  <TypeSignature Language="C#" Value="public class DelegateUserResponseMessageType : ExchangeWebServices.ResponseMessageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit DelegateUserResponseMessageType extends ExchangeWebServices.ResponseMessageType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DelegateUserResponseMessageType" />
+  <TypeSignature Language="VB.NET" Value="Public Class DelegateUserResponseMessageType&#xA;Inherits ResponseMessageType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DelegateUserResponseMessageType : ExchangeWebServices::ResponseMessageType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.ResponseMessageType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.DelegateUserResponseMessageType" /> class contains the response message for a single delegate user. This class was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DelegateUserResponseMessageType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.DelegateUserResponseMessageType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DelegateUserResponseMessageType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.DelegateUserResponseMessageType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.DelegateUserResponseMessageType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DelegateUser">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.DelegateUserType DelegateUser { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.DelegateUserType DelegateUser" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.DelegateUserResponseMessageType.DelegateUser" />
+      <MemberSignature Language="VB.NET" Value="Public Property DelegateUser As DelegateUserType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::DelegateUserType ^ DelegateUser { ExchangeWebServices::DelegateUserType ^ get(); void set(ExchangeWebServices::DelegateUserType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DelegateUserType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.DelegateUserResponseMessageType.DelegateUser" /> property gets or sets the single delegate that is returned by a delegate management operation.</summary>
+        <value>The <see cref="P:ExchangeWebServices.DelegateUserResponseMessageType.DelegateUser" /> property returns a DelegateUserType object that contains information about the single delegate that is returned by a delegate management operation.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

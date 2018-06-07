@@ -1,0 +1,126 @@
+﻿<Type Name="ContainmentModeType" FullName="ExchangeWebServices.ContainmentModeType">
+  <TypeSignature Language="C#" Value="public enum ContainmentModeType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed ContainmentModeType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ContainmentModeType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ContainmentModeType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ContainmentModeType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.ContainmentModeType" /> enumeration identifies the boundaries of a search.</summary>
+    <remarks>
+      <para>This enumeration is used by the <see cref="P:ExchangeWebServices.ContainsExpressionType.ContainmentMode" /> property of the <see cref="T:ExchangeWebServices.ContainsExpressionType" /> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ExactPhrase">
+      <MemberSignature Language="C#" Value="ExactPhrase" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ContainmentModeType ExactPhrase = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ContainmentModeType.ExactPhrase" />
+      <MemberSignature Language="VB.NET" Value="ExactPhrase" />
+      <MemberSignature Language="C++ CLI" Value="ExactPhrase" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ContainmentModeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Specifies that the comparison is between the exact phrase in the property and the constant. If the phrase and the supplied constant are the same, the expression resolves to <b>true</b>.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FullString">
+      <MemberSignature Language="C#" Value="FullString" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ContainmentModeType FullString = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ContainmentModeType.FullString" />
+      <MemberSignature Language="VB.NET" Value="FullString" />
+      <MemberSignature Language="C++ CLI" Value="FullString" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ContainmentModeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Specifies that the comparison is between the full string value of the property and the constant. If the property value and the supplied constant are the same, the expression resolves to <b>true</b>.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Prefixed">
+      <MemberSignature Language="C#" Value="Prefixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ContainmentModeType Prefixed = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ContainmentModeType.Prefixed" />
+      <MemberSignature Language="VB.NET" Value="Prefixed" />
+      <MemberSignature Language="C++ CLI" Value="Prefixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ContainmentModeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Specifies that the comparison is between the prefix of the property and the constant. If the prefix of the property value matches the value that is provided in the constant, the expression resolves to <b>true</b>.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PrefixOnWords">
+      <MemberSignature Language="C#" Value="PrefixOnWords" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ContainmentModeType PrefixOnWords = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ContainmentModeType.PrefixOnWords" />
+      <MemberSignature Language="VB.NET" Value="PrefixOnWords" />
+      <MemberSignature Language="C++ CLI" Value="PrefixOnWords" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ContainmentModeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Specifies that the comparison is between a prefix on any individual word in the property value and the constant. If any of the words are prefixed with a value that matches the value that is provided in the constant, the expression resolves to <b>true</b>.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Substring">
+      <MemberSignature Language="C#" Value="Substring" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ContainmentModeType Substring = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ContainmentModeType.Substring" />
+      <MemberSignature Language="VB.NET" Value="Substring" />
+      <MemberSignature Language="C++ CLI" Value="Substring" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ContainmentModeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Specifies that the comparison is between a substring of the property value and the constant. If the substring exists anywhere in the property value, the expression resolves to <b>true</b>.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

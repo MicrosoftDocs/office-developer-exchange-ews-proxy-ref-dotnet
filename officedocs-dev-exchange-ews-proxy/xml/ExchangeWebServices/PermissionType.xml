@@ -1,0 +1,117 @@
+﻿<Type Name="PermissionType" FullName="ExchangeWebServices.PermissionType">
+  <TypeSignature Language="C#" Value="public class PermissionType : ExchangeWebServices.BasePermissionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit PermissionType extends ExchangeWebServices.BasePermissionType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.PermissionType" />
+  <TypeSignature Language="VB.NET" Value="Public Class PermissionType&#xA;Inherits BasePermissionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PermissionType : ExchangeWebServices::BasePermissionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BasePermissionType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.PermissionType" /> class defines the access that a user has to a folder. This class was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PermissionType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.PermissionType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PermissionType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.PermissionType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.PermissionType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PermissionLevel">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PermissionLevelType PermissionLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.PermissionLevelType PermissionLevel" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PermissionType.PermissionLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property PermissionLevel As PermissionLevelType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::PermissionLevelType PermissionLevel { ExchangeWebServices::PermissionLevelType get(); void set(ExchangeWebServices::PermissionLevelType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PermissionLevelType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.PermissionType.PermissionLevel" /> property gets or sets the combination of permissions that a user has on a folder. This property was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</summary>
+        <value>The <see cref="P:ExchangeWebServices.PermissionType.PermissionLevel" /> property returns one of the <see cref="T:ExchangeWebServices.PermissionLevelType" /> enumeration values that indicate the permissions that a user has on a folder.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadItems">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PermissionReadAccessType ReadItems { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.PermissionReadAccessType ReadItems" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PermissionType.ReadItems" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReadItems As PermissionReadAccessType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::PermissionReadAccessType ReadItems { ExchangeWebServices::PermissionReadAccessType get(); void set(ExchangeWebServices::PermissionReadAccessType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PermissionReadAccessType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.PermissionType.ReadItems" /> property gets or sets a value that indicates whether a user has permission to read items in a folder.</summary>
+        <value>The <see cref="P:ExchangeWebServices.PermissionType.ReadItems" /> property returns one of the <see cref="T:ExchangeWebServices.PermissionReadAccessType" /> enumeration values that indicate whether the user has permission to read items in a folder.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadItemsSpecified">
+      <MemberSignature Language="C#" Value="public bool ReadItemsSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReadItemsSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PermissionType.ReadItemsSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReadItemsSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReadItemsSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.PermissionType.ReadItemsSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.PermissionType.ReadItems" /> property is serialized into the SOAP message. This property is required if the <see cref="P:ExchangeWebServices.PermissionType.ReadItems" /> property is specified.</summary>
+        <value>The <see cref="P:ExchangeWebServices.PermissionType.ReadItemsSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.PermissionType.ReadItems" /> property is serialized into the SOAP message; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

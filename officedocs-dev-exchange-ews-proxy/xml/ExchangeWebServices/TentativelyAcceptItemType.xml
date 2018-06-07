@@ -1,0 +1,55 @@
+﻿<Type Name="TentativelyAcceptItemType" FullName="ExchangeWebServices.TentativelyAcceptItemType">
+  <TypeSignature Language="C#" Value="public class TentativelyAcceptItemType : ExchangeWebServices.WellKnownResponseObjectType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit TentativelyAcceptItemType extends ExchangeWebServices.WellKnownResponseObjectType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.TentativelyAcceptItemType" />
+  <TypeSignature Language="VB.NET" Value="Public Class TentativelyAcceptItemType&#xA;Inherits WellKnownResponseObjectType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TentativelyAcceptItemType : ExchangeWebServices::WellKnownResponseObjectType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.WellKnownResponseObjectType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.TentativelyAcceptItemType" /> class represents a tentative reply to a meeting request.</summary>
+    <remarks>
+      <para>The <see cref="T:ExchangeWebServices.TentativelyAcceptItemType" /> class inherits many members from many base classes. The only property that has to be set on a <see cref="T:ExchangeWebServices.TentativelyAcceptItemType" /> instance is the <see cref="P:ExchangeWebServices.ResponseObjectCoreType.ReferenceItemId" /> property.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TentativelyAcceptItemType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.TentativelyAcceptItemType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TentativelyAcceptItemType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.TentativelyAcceptItemType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.TentativelyAcceptItemType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

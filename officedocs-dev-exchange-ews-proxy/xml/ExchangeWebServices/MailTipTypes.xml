@@ -1,0 +1,240 @@
+﻿<Type Name="MailTipTypes" FullName="ExchangeWebServices.MailTipTypes">
+  <TypeSignature Language="C#" Value="public enum MailTipTypes" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed MailTipTypes extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.MailTipTypes" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MailTipTypes" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MailTipTypes" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="All">
+      <MemberSignature Language="C#" Value="All" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MailTipTypes All = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MailTipTypes.All" />
+      <MemberSignature Language="VB.NET" Value="All" />
+      <MemberSignature Language="C++ CLI" Value="All" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MailTipTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="CustomMailTip">
+      <MemberSignature Language="C#" Value="CustomMailTip" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MailTipTypes CustomMailTip = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MailTipTypes.CustomMailTip" />
+      <MemberSignature Language="VB.NET" Value="CustomMailTip" />
+      <MemberSignature Language="C++ CLI" Value="CustomMailTip" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MailTipTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="DeliveryRestriction">
+      <MemberSignature Language="C#" Value="DeliveryRestriction" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MailTipTypes DeliveryRestriction = int32(128)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MailTipTypes.DeliveryRestriction" />
+      <MemberSignature Language="VB.NET" Value="DeliveryRestriction" />
+      <MemberSignature Language="C++ CLI" Value="DeliveryRestriction" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MailTipTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>128</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalMemberCount">
+      <MemberSignature Language="C#" Value="ExternalMemberCount" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MailTipTypes ExternalMemberCount = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MailTipTypes.ExternalMemberCount" />
+      <MemberSignature Language="VB.NET" Value="ExternalMemberCount" />
+      <MemberSignature Language="C++ CLI" Value="ExternalMemberCount" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MailTipTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidRecipient">
+      <MemberSignature Language="C#" Value="InvalidRecipient" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MailTipTypes InvalidRecipient = int32(512)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MailTipTypes.InvalidRecipient" />
+      <MemberSignature Language="VB.NET" Value="InvalidRecipient" />
+      <MemberSignature Language="C++ CLI" Value="InvalidRecipient" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MailTipTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>512</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MailboxFullStatus">
+      <MemberSignature Language="C#" Value="MailboxFullStatus" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MailTipTypes MailboxFullStatus = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MailTipTypes.MailboxFullStatus" />
+      <MemberSignature Language="VB.NET" Value="MailboxFullStatus" />
+      <MemberSignature Language="C++ CLI" Value="MailboxFullStatus" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MailTipTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MaxMessageSize">
+      <MemberSignature Language="C#" Value="MaxMessageSize" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MailTipTypes MaxMessageSize = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MailTipTypes.MaxMessageSize" />
+      <MemberSignature Language="VB.NET" Value="MaxMessageSize" />
+      <MemberSignature Language="C++ CLI" Value="MaxMessageSize" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MailTipTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ModerationStatus">
+      <MemberSignature Language="C#" Value="ModerationStatus" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MailTipTypes ModerationStatus = int32(256)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MailTipTypes.ModerationStatus" />
+      <MemberSignature Language="VB.NET" Value="ModerationStatus" />
+      <MemberSignature Language="C++ CLI" Value="ModerationStatus" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MailTipTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>256</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="OutOfOfficeMessage">
+      <MemberSignature Language="C#" Value="OutOfOfficeMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MailTipTypes OutOfOfficeMessage = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MailTipTypes.OutOfOfficeMessage" />
+      <MemberSignature Language="VB.NET" Value="OutOfOfficeMessage" />
+      <MemberSignature Language="C++ CLI" Value="OutOfOfficeMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MailTipTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Scope">
+      <MemberSignature Language="C#" Value="Scope" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MailTipTypes Scope = int32(1024)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MailTipTypes.Scope" />
+      <MemberSignature Language="VB.NET" Value="Scope" />
+      <MemberSignature Language="C++ CLI" Value="Scope" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MailTipTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>1024</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="TotalMemberCount">
+      <MemberSignature Language="C#" Value="TotalMemberCount" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MailTipTypes TotalMemberCount = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MailTipTypes.TotalMemberCount" />
+      <MemberSignature Language="VB.NET" Value="TotalMemberCount" />
+      <MemberSignature Language="C++ CLI" Value="TotalMemberCount" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MailTipTypes</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

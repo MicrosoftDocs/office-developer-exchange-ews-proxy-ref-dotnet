@@ -1,0 +1,92 @@
+﻿<Type Name="GetUserConfigurationType" FullName="ExchangeWebServices.GetUserConfigurationType">
+  <TypeSignature Language="C#" Value="public class GetUserConfigurationType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetUserConfigurationType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetUserConfigurationType" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetUserConfigurationType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetUserConfigurationType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetUserConfigurationType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetUserConfigurationType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetUserConfigurationType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserConfigurationName">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.UserConfigurationNameType UserConfigurationName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.UserConfigurationNameType UserConfigurationName" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetUserConfigurationType.UserConfigurationName" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserConfigurationName As UserConfigurationNameType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::UserConfigurationNameType ^ UserConfigurationName { ExchangeWebServices::UserConfigurationNameType ^ get(); void set(ExchangeWebServices::UserConfigurationNameType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UserConfigurationNameType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:ExchangeWebServices.UserConfigurationNameType" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserConfigurationProperties">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.UserConfigurationPropertyType UserConfigurationProperties { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.UserConfigurationPropertyType UserConfigurationProperties" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetUserConfigurationType.UserConfigurationProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserConfigurationProperties As UserConfigurationPropertyType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::UserConfigurationPropertyType UserConfigurationProperties { ExchangeWebServices::UserConfigurationPropertyType get(); void set(ExchangeWebServices::UserConfigurationPropertyType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UserConfigurationPropertyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:ExchangeWebServices.UserConfigurationPropertyType" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

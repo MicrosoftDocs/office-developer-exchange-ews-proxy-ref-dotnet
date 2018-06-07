@@ -1,0 +1,176 @@
+﻿<Type Name="FreeBusyViewOptionsType" FullName="ExchangeWebServices.FreeBusyViewOptionsType">
+  <TypeSignature Language="C#" Value="public class FreeBusyViewOptionsType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit FreeBusyViewOptionsType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.FreeBusyViewOptionsType" />
+  <TypeSignature Language="VB.NET" Value="Public Class FreeBusyViewOptionsType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FreeBusyViewOptionsType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.FreeBusyViewOptionsType" /> class specifies the type of free/busy information that is returned in response to an availability query.</summary>
+    <remarks>
+      <para>A <see cref="T:ExchangeWebServices.FreeBusyViewOptionsType" /> object is returned by the <see cref="P:ExchangeWebServices.GetUserAvailabilityRequestType.FreeBusyViewOptions" /> property of a <see cref="T:ExchangeWebServices.GetUserAvailabilityRequestType" /> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FreeBusyViewOptionsType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.FreeBusyViewOptionsType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FreeBusyViewOptionsType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.FreeBusyViewOptionsType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.FreeBusyViewOptionsType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MergedFreeBusyIntervalInMinutes">
+      <MemberSignature Language="C#" Value="public int MergedFreeBusyIntervalInMinutes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MergedFreeBusyIntervalInMinutes" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FreeBusyViewOptionsType.MergedFreeBusyIntervalInMinutes" />
+      <MemberSignature Language="VB.NET" Value="Public Property MergedFreeBusyIntervalInMinutes As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MergedFreeBusyIntervalInMinutes { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.MergedFreeBusyIntervalInMinutes" /> property gets or sets the time difference between two successive slots in the <see cref="F:ExchangeWebServices.FreeBusyViewType.FreeBusyMerged" /> view. This property is optional. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.MergedFreeBusyIntervalInMinutes" /> property returns an integer that represents a time difference in minutes.</value>
+        <remarks>
+          <para>The default value for this property is 30 minutes. Six minutes is the minimum interval and one day (1440 minutes) is the maximum interval value for this property. This value is used only if the <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.RequestedView" /> property is set to <see cref="F:ExchangeWebServices.FreeBusyViewType.MergedOnly" />, <see cref="F:ExchangeWebServices.FreeBusyViewType.FreeBusyMerged" />, or <see cref="F:ExchangeWebServices.FreeBusyViewType.DetailedMerged" />. The stream that contains the intervals that are defined by this property is returned in the <see cref="P:ExchangeWebServices.FreeBusyView.MergedFreeBusy" /> property.</para>
+          <para>You must set the <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.MergedFreeBusyIntervalInMinutesSpecified" /> property to <b>true</b> so that the <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.MergedFreeBusyIntervalInMinutes" /> property is serialized into the Simple Object Access Protocol (SOAP) request.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MergedFreeBusyIntervalInMinutesSpecified">
+      <MemberSignature Language="C#" Value="public bool MergedFreeBusyIntervalInMinutesSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MergedFreeBusyIntervalInMinutesSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FreeBusyViewOptionsType.MergedFreeBusyIntervalInMinutesSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property MergedFreeBusyIntervalInMinutesSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MergedFreeBusyIntervalInMinutesSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.MergedFreeBusyIntervalInMinutesSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.MergedFreeBusyIntervalInMinutes" /> property is serialized into the Simple Object Access Protocol (SOAP) request. This property is required if the <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.MergedFreeBusyIntervalInMinutes" /> property is set. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.MergedFreeBusyIntervalInMinutesSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.MergedFreeBusyIntervalInMinutes" /> property is serialized into the Simple Object Access Protocol (SOAP) request; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestedView">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.FreeBusyViewType RequestedView { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.FreeBusyViewType RequestedView" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FreeBusyViewOptionsType.RequestedView" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestedView As FreeBusyViewType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::FreeBusyViewType RequestedView { ExchangeWebServices::FreeBusyViewType get(); void set(ExchangeWebServices::FreeBusyViewType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FreeBusyViewType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.RequestedView" /> property gets or sets the type of calendar information that a client requests. This property is optional. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.RequestedView" /> property returns a <see cref="T:ExchangeWebServices.FreeBusyViewType" /> enumeration value.</value>
+        <remarks>
+          <para>You must set the <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.RequestedViewSpecified" /> property to <b>true</b> so that the <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.RequestedView" /> property is serialized into the Simple Object Access Protocol (SOAP) request.</para>
+          <para>If this property is not set or if the <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.RequestedViewSpecified" /> property is not set, the default enumeration value of <see cref="F:ExchangeWebServices.FreeBusyViewType.FreeBusy" /> is used for the view.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestedViewSpecified">
+      <MemberSignature Language="C#" Value="public bool RequestedViewSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool RequestedViewSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FreeBusyViewOptionsType.RequestedViewSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestedViewSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool RequestedViewSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.RequestedViewSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.RequestedView" /> property is serialized into the Simple Object Access Protocol (SOAP) request. This property is required if the <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.RequestedView" /> property is set. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.RequestedViewSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.RequestedView" /> property is serialized into the Simple Object Access Protocol (SOAP) request; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeWindow">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.Duration TimeWindow { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.Duration TimeWindow" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FreeBusyViewOptionsType.TimeWindow" />
+      <MemberSignature Language="VB.NET" Value="Public Property TimeWindow As Duration" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::Duration ^ TimeWindow { ExchangeWebServices::Duration ^ get(); void set(ExchangeWebServices::Duration ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.Duration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.TimeWindow" /> property gets or sets the time span that is queried for the user availability information.</summary>
+        <value>The <see cref="P:ExchangeWebServices.FreeBusyViewOptionsType.TimeWindow" /> property returns a <see cref="T:ExchangeWebServices.Duration" /> object.</value>
+        <remarks>
+          <para>The maximum value for this time period is 42 days. This maximum value can be modified. Any requests for user availability information beyond the maximum value will return an error. If any appointments are partially in the time span that is defined by the <see cref="P:ExchangeWebServices.Duration.StartTime" /> and <see cref="P:ExchangeWebServices.Duration.EndTime" /> properties of a <see cref="T:ExchangeWebServices.Duration" /> object, that appointment is included in its entirety.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

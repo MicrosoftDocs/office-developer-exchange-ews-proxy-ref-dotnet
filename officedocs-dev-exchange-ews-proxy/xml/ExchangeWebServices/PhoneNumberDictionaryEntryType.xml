@@ -1,0 +1,102 @@
+﻿<Type Name="PhoneNumberDictionaryEntryType" FullName="ExchangeWebServices.PhoneNumberDictionaryEntryType">
+  <TypeSignature Language="C#" Value="public class PhoneNumberDictionaryEntryType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit PhoneNumberDictionaryEntryType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.PhoneNumberDictionaryEntryType" />
+  <TypeSignature Language="VB.NET" Value="Public Class PhoneNumberDictionaryEntryType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PhoneNumberDictionaryEntryType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.PhoneNumberDictionaryEntryType" /> class contains a telephone number for a contact.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PhoneNumberDictionaryEntryType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.PhoneNumberDictionaryEntryType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PhoneNumberDictionaryEntryType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.PhoneNumberDictionaryEntryType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.PhoneNumberDictionaryEntryType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Key">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PhoneNumberKeyType Key { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.PhoneNumberKeyType Key" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PhoneNumberDictionaryEntryType.Key" />
+      <MemberSignature Language="VB.NET" Value="Public Property Key As PhoneNumberKeyType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::PhoneNumberKeyType Key { ExchangeWebServices::PhoneNumberKeyType get(); void set(ExchangeWebServices::PhoneNumberKeyType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneNumberKeyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.PhoneNumberDictionaryEntryType.Key" /> property gets or sets the type for the telephone number.</summary>
+        <value>The <see cref="P:ExchangeWebServices.PhoneNumberDictionaryEntryType.Key" /> property returns one of the <see cref="T:ExchangeWebServices.PhoneNumberKeyType" /> enumeration values that indicate the type for the telephone number.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public string Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Value" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PhoneNumberDictionaryEntryType.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Value { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlText</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.PhoneNumberDictionaryEntryType.Value" /> property gets or sets the telephone number.</summary>
+        <value>The <see cref="P:ExchangeWebServices.PhoneNumberDictionaryEntryType.Value" /> property returns a string that contains the telephone number.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,146 @@
+﻿<Type Name="MailboxData" FullName="ExchangeWebServices.MailboxData">
+  <TypeSignature Language="C#" Value="public class MailboxData" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit MailboxData extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.MailboxData" />
+  <TypeSignature Language="VB.NET" Value="Public Class MailboxData" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MailboxData" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.MailboxData" /> class represents an individual mailbox user and options for the type of data to be returned about the mailbox user.</summary>
+    <remarks>
+      <para>This class is used by the <see cref="P:ExchangeWebServices.GetUserAvailabilityRequestType.MailboxDataArray" /> property of the <see cref="T:ExchangeWebServices.GetUserAvailabilityRequestType" /> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MailboxData ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.MailboxData.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MailboxData();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.MailboxData" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.MailboxData" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttendeeType">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.MeetingAttendeeType AttendeeType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.MeetingAttendeeType AttendeeType" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailboxData.AttendeeType" />
+      <MemberSignature Language="VB.NET" Value="Public Property AttendeeType As MeetingAttendeeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::MeetingAttendeeType AttendeeType { ExchangeWebServices::MeetingAttendeeType get(); void set(ExchangeWebServices::MeetingAttendeeType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MeetingAttendeeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.MailboxData.AttendeeType" /> property gets or sets a value that identifies the type of attendee that is identified by the <see cref="P:ExchangeWebServices.MailboxData.Email" /> property. This property is required per the schema. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.MailboxData.AttendeeType" /> property returns a <see cref="T:ExchangeWebServices.MeetingAttendeeType" /> enumeration value.</value>
+        <remarks>
+          <para>If this property is not set when you are using a proxy that is created by Microsoft Visual Studio 2005, the default value of <see cref="F:ExchangeWebServices.MeetingAttendeeType.Organizer" /> will be used.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Email">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddress Email { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddress Email" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailboxData.Email" />
+      <MemberSignature Language="VB.NET" Value="Public Property Email As EmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::EmailAddress ^ Email { ExchangeWebServices::EmailAddress ^ get(); void set(ExchangeWebServices::EmailAddress ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddress</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.MailboxData.Email" /> property gets or sets the mailbox user for a GetUserAvailability query.</summary>
+        <value>The <see cref="P:ExchangeWebServices.MailboxData.Email" /> property returns an <see cref="T:ExchangeWebServices.EmailAddress" /> object.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExcludeConflicts">
+      <MemberSignature Language="C#" Value="public bool ExcludeConflicts { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ExcludeConflicts" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailboxData.ExcludeConflicts" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExcludeConflicts As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ExcludeConflicts { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.MailboxData.ExcludeConflicts" /> property gets or sets a value that specifies whether to return suggested times for calendar times that conflict among the attendees. This property is optional. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.MailboxData.ExcludeConflicts" /> property returns <b>true</b> if conflicting calendar times are ignored for suggested meeting times; otherwise, the property returns <b>false</b>.</value>
+        <remarks>
+          <para>You must set the <see cref="P:ExchangeWebServices.MailboxData.ExcludeConflictsSpecified" /> property to <b>true</b> so that the <see cref="P:ExchangeWebServices.MailboxData.ExcludeConflicts" /> property is serialized into the Simple Object Access Protocol (SOAP) request.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExcludeConflictsSpecified">
+      <MemberSignature Language="C#" Value="public bool ExcludeConflictsSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ExcludeConflictsSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailboxData.ExcludeConflictsSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExcludeConflictsSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ExcludeConflictsSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.MailboxData.ExcludeConflictsSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.MailboxData.ExcludeConflicts" /> property is serialized into the Simple Object Access Protocol (SOAP) request. This property is required if the <see cref="P:ExchangeWebServices.MailboxData.ExcludeConflicts" /> property is set. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.MailboxData.ExcludeConflictsSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.MailboxData.ExcludeConflicts" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

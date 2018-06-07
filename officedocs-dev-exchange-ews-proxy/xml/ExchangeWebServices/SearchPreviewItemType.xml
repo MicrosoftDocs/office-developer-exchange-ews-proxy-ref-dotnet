@@ -1,0 +1,662 @@
+﻿<Type Name="SearchPreviewItemType" FullName="ExchangeWebServices.SearchPreviewItemType">
+  <TypeSignature Language="C#" Value="public class SearchPreviewItemType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SearchPreviewItemType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SearchPreviewItemType" />
+  <TypeSignature Language="VB.NET" Value="Public Class SearchPreviewItemType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SearchPreviewItemType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchPreviewItemType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.SearchPreviewItemType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchPreviewItemType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BccRecipients">
+      <MemberSignature Language="C#" Value="public string[] BccRecipients { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] BccRecipients" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchPreviewItemType.BccRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public Property BccRecipients As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ BccRecipients { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("SmtpAddress", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CcRecipients">
+      <MemberSignature Language="C#" Value="public string[] CcRecipients { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] CcRecipients" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchPreviewItemType.CcRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public Property CcRecipients As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ CcRecipients { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("SmtpAddress", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreatedTime">
+      <MemberSignature Language="C#" Value="public DateTime CreatedTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime CreatedTime" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchPreviewItemType.CreatedTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property CreatedTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime CreatedTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreatedTimeSpecified">
+      <MemberSignature Language="C#" Value="public bool CreatedTimeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CreatedTimeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchPreviewItemType.CreatedTimeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property CreatedTimeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CreatedTimeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedProperties">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.NonEmptyArrayOfExtendedPropertyType ExtendedProperties { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.NonEmptyArrayOfExtendedPropertyType ExtendedProperties" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchPreviewItemType.ExtendedProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExtendedProperties As NonEmptyArrayOfExtendedPropertyType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::NonEmptyArrayOfExtendedPropertyType ^ ExtendedProperties { ExchangeWebServices::NonEmptyArrayOfExtendedPropertyType ^ get(); void set(ExchangeWebServices::NonEmptyArrayOfExtendedPropertyType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.NonEmptyArrayOfExtendedPropertyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasAttachment">
+      <MemberSignature Language="C#" Value="public bool HasAttachment { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasAttachment" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchPreviewItemType.HasAttachment" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasAttachment As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasAttachment { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasAttachmentSpecified">
+      <MemberSignature Language="C#" Value="public bool HasAttachmentSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasAttachmentSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchPreviewItemType.HasAttachmentSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasAttachmentSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasAttachmentSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ItemIdType Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ItemIdType Id" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchPreviewItemType.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As ItemIdType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ItemIdType ^ Id { ExchangeWebServices::ItemIdType ^ get(); void set(ExchangeWebServices::ItemIdType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemIdType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Importance">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ImportanceChoicesType Importance { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.ImportanceChoicesType Importance" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchPreviewItemType.Importance" />
+      <MemberSignature Language="VB.NET" Value="Public Property Importance As ImportanceChoicesType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ImportanceChoicesType Importance { ExchangeWebServices::ImportanceChoicesType get(); void set(ExchangeWebServices::ImportanceChoicesType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ImportanceChoicesType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImportanceSpecified">
+      <MemberSignature Language="C#" Value="public bool ImportanceSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ImportanceSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchPreviewItemType.ImportanceSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ImportanceSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ImportanceSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemClass">
+      <MemberSignature Language="C#" Value="public string ItemClass { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ItemClass" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchPreviewItemType.ItemClass" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemClass As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ItemClass { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PreviewItemMailboxType Mailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.PreviewItemMailboxType Mailbox" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchPreviewItemType.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailbox As PreviewItemMailboxType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::PreviewItemMailboxType ^ Mailbox { ExchangeWebServices::PreviewItemMailboxType ^ get(); void set(ExchangeWebServices::PreviewItemMailboxType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PreviewItemMailboxType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OwaLink">
+      <MemberSignature Language="C#" Value="public string OwaLink { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OwaLink" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchPreviewItemType.OwaLink" />
+      <MemberSignature Language="VB.NET" Value="Public Property OwaLink As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ OwaLink { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentId">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ItemIdType ParentId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ItemIdType ParentId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchPreviewItemType.ParentId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ParentId As ItemIdType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ItemIdType ^ ParentId { ExchangeWebServices::ItemIdType ^ get(); void set(ExchangeWebServices::ItemIdType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemIdType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Preview">
+      <MemberSignature Language="C#" Value="public string Preview { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Preview" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchPreviewItemType.Preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property Preview As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Preview { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Read">
+      <MemberSignature Language="C#" Value="public bool Read { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Read" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchPreviewItemType.Read" />
+      <MemberSignature Language="VB.NET" Value="Public Property Read As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Read { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadSpecified">
+      <MemberSignature Language="C#" Value="public bool ReadSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReadSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchPreviewItemType.ReadSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReadSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReadSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceivedTime">
+      <MemberSignature Language="C#" Value="public DateTime ReceivedTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime ReceivedTime" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchPreviewItemType.ReceivedTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReceivedTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime ReceivedTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceivedTimeSpecified">
+      <MemberSignature Language="C#" Value="public bool ReceivedTimeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReceivedTimeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchPreviewItemType.ReceivedTimeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReceivedTimeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReceivedTimeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sender">
+      <MemberSignature Language="C#" Value="public string Sender { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Sender" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchPreviewItemType.Sender" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sender As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Sender { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SentTime">
+      <MemberSignature Language="C#" Value="public DateTime SentTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime SentTime" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchPreviewItemType.SentTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property SentTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime SentTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SentTimeSpecified">
+      <MemberSignature Language="C#" Value="public bool SentTimeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SentTimeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchPreviewItemType.SentTimeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property SentTimeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SentTimeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public long Size { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 Size" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchPreviewItemType.Size" />
+      <MemberSignature Language="VB.NET" Value="Public Property Size As Long" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property long Size { long get(); void set(long value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SizeSpecified">
+      <MemberSignature Language="C#" Value="public bool SizeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SizeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchPreviewItemType.SizeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property SizeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SizeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SortValue">
+      <MemberSignature Language="C#" Value="public string SortValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SortValue" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchPreviewItemType.SortValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property SortValue As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SortValue { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subject">
+      <MemberSignature Language="C#" Value="public string Subject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Subject" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchPreviewItemType.Subject" />
+      <MemberSignature Language="VB.NET" Value="Public Property Subject As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subject { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToRecipients">
+      <MemberSignature Language="C#" Value="public string[] ToRecipients { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] ToRecipients" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchPreviewItemType.ToRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public Property ToRecipients As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ ToRecipients { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("SmtpAddress", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UniqueHash">
+      <MemberSignature Language="C#" Value="public string UniqueHash { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UniqueHash" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchPreviewItemType.UniqueHash" />
+      <MemberSignature Language="VB.NET" Value="Public Property UniqueHash As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ UniqueHash { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

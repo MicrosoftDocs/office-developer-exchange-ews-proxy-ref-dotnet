@@ -1,0 +1,32 @@
+﻿<Type Name="SubscribeCompletedEventHandler" FullName="ExchangeWebServices.SubscribeCompletedEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void SubscribeCompletedEventHandler(object sender, SubscribeCompletedEventArgs e);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SubscribeCompletedEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SubscribeCompletedEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub SubscribeCompletedEventHandler(sender As Object, e As SubscribeCompletedEventArgs)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void SubscribeCompletedEventHandler(System::Object ^ sender, SubscribeCompletedEventArgs ^ e);" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="sender" Type="System.Object" />
+    <Parameter Name="e" Type="ExchangeWebServices.SubscribeCompletedEventArgs" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="sender">To be added.</param>
+    <param name="e">To be added.</param>
+    <summary>The <see cref="T:ExchangeWebServices.SubscribeCompletedEventHandler" /> is the delegate type that defines the event handler that is called when the corresponding asynchronous operation is complete.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

@@ -1,0 +1,57 @@
+﻿<Type Name="CancelCalendarItemType" FullName="ExchangeWebServices.CancelCalendarItemType">
+  <TypeSignature Language="C#" Value="public class CancelCalendarItemType : ExchangeWebServices.SmartResponseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit CancelCalendarItemType extends ExchangeWebServices.SmartResponseType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CancelCalendarItemType" />
+  <TypeSignature Language="VB.NET" Value="Public Class CancelCalendarItemType&#xA;Inherits SmartResponseType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CancelCalendarItemType : ExchangeWebServices::SmartResponseType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.SmartResponseType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.CancelCalendarItemType" /> class represents a cancel response object that is used to cancel a meeting.</summary>
+    <remarks>
+      <para>
+        <see cref="T:ExchangeWebServices.CancelCalendarItemType" /> is used in a CreateItem request to cancel a referenced meeting. Use the <see cref="P:ExchangeWebServices.ResponseObjectCoreType.ReferenceItemId" /> property to identify the meeting to cancel. The <see cref="T:ExchangeWebServices.CancelCalendarItemType" /> class is only applicable to the organizer's calendar item.</para>
+      <para>The <see cref="T:ExchangeWebServices.CancelCalendarItemType" /><see cref="P:ExchangeWebServices.ItemType.Body" /> property has no effect on canceling a meeting. Use the <see cref="P:ExchangeWebServices.SmartResponseType.NewBodyContent" /> property to set the message body for a calendar item cancellation.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CancelCalendarItemType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.CancelCalendarItemType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CancelCalendarItemType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.CancelCalendarItemType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.CancelCalendarItemType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

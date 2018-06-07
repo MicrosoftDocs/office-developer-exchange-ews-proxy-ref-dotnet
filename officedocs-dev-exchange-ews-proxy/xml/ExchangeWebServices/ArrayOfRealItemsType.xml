@@ -1,0 +1,111 @@
+﻿<Type Name="ArrayOfRealItemsType" FullName="ExchangeWebServices.ArrayOfRealItemsType">
+  <TypeSignature Language="C#" Value="public class ArrayOfRealItemsType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ArrayOfRealItemsType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ArrayOfRealItemsType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ArrayOfRealItemsType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ArrayOfRealItemsType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.ArrayOfRealItemsType" /> class contains an array of items.</summary>
+    <remarks>
+      <para>
+        <see cref="T:ExchangeWebServices.MessageType" /> objects represent e-mail messages and all other items that are not strongly typed by the Exchange Web Services (EWS) schema. Items such as IPM.Sharing and IPM.InfoPath are returned as <see cref="T:ExchangeWebServices.MessageType" /> objects. Versions of Exchange starting with Exchange Server 2010 do not return the base <see cref="T:ExchangeWebServices.ItemType" /> object in responses.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ArrayOfRealItemsType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ArrayOfRealItemsType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ArrayOfRealItemsType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="M:ExchangeWebServices.ArrayOfRealItemsType.#ctor" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.ArrayOfRealItemsType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Items">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ItemType[] Items { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ItemType[] Items" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ArrayOfRealItemsType.Items" />
+      <MemberSignature Language="VB.NET" Value="Public Property Items As ItemType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::ItemType ^&gt; ^ Items { cli::array &lt;ExchangeWebServices::ItemType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::ItemType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Message", typeof(ExchangeWebServices.MessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("PostItem", typeof(ExchangeWebServices.PostItemType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("DistributionList", typeof(ExchangeWebServices.DistributionListType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("MeetingCancellation", typeof(ExchangeWebServices.MeetingCancellationMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Item", typeof(ExchangeWebServices.ItemType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("MeetingRequest", typeof(ExchangeWebServices.MeetingRequestMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("MeetingResponse", typeof(ExchangeWebServices.MeetingResponseMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("CalendarItem", typeof(ExchangeWebServices.CalendarItemType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Contact", typeof(ExchangeWebServices.ContactItemType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("MeetingMessage", typeof(ExchangeWebServices.MeetingMessageType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Task", typeof(ExchangeWebServices.TaskType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ArrayOfRealItemsType.Items" /> property gets or sets an array of items.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ArrayOfRealItemsType.Items" /> property returns an array that contains elements of the type <see cref="T:ExchangeWebServices.ItemType" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

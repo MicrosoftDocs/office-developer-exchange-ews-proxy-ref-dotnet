@@ -1,0 +1,32 @@
+﻿<Type Name="MoveFolderCompletedEventHandler" FullName="ExchangeWebServices.MoveFolderCompletedEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void MoveFolderCompletedEventHandler(object sender, MoveFolderCompletedEventArgs e);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MoveFolderCompletedEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.MoveFolderCompletedEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub MoveFolderCompletedEventHandler(sender As Object, e As MoveFolderCompletedEventArgs)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void MoveFolderCompletedEventHandler(System::Object ^ sender, MoveFolderCompletedEventArgs ^ e);" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="sender" Type="System.Object" />
+    <Parameter Name="e" Type="ExchangeWebServices.MoveFolderCompletedEventArgs" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="sender">To be added.</param>
+    <param name="e">To be added.</param>
+    <summary>The <see cref="T:ExchangeWebServices.MoveFolderCompletedEventHandler" /> is the delegate type that defines the event handler that is called when the corresponding asynchronous operation is complete.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

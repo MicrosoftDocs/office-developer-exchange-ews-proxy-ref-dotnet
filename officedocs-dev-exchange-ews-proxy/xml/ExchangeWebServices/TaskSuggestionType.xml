@@ -1,0 +1,97 @@
+﻿<Type Name="TaskSuggestionType" FullName="ExchangeWebServices.TaskSuggestionType">
+  <TypeSignature Language="C#" Value="public class TaskSuggestionType : ExchangeWebServices.EntityType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit TaskSuggestionType extends ExchangeWebServices.EntityType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.TaskSuggestionType" />
+  <TypeSignature Language="VB.NET" Value="Public Class TaskSuggestionType&#xA;Inherits EntityType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TaskSuggestionType : ExchangeWebServices::EntityType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.EntityType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TaskSuggestionType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.TaskSuggestionType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TaskSuggestionType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Assignees">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailUserType[] Assignees { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailUserType[] Assignees" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskSuggestionType.Assignees" />
+      <MemberSignature Language="VB.NET" Value="Public Property Assignees As EmailUserType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::EmailUserType ^&gt; ^ Assignees { cli::array &lt;ExchangeWebServices::EmailUserType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::EmailUserType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("EmailUser", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailUserType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskString">
+      <MemberSignature Language="C#" Value="public string TaskString { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TaskString" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.TaskSuggestionType.TaskString" />
+      <MemberSignature Language="VB.NET" Value="Public Property TaskString As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TaskString { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

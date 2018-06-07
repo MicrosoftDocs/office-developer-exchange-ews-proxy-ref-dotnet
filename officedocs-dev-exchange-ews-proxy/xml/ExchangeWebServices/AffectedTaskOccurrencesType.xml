@@ -1,0 +1,70 @@
+﻿<Type Name="AffectedTaskOccurrencesType" FullName="ExchangeWebServices.AffectedTaskOccurrencesType">
+  <TypeSignature Language="C#" Value="public enum AffectedTaskOccurrencesType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed AffectedTaskOccurrencesType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.AffectedTaskOccurrencesType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum AffectedTaskOccurrencesType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class AffectedTaskOccurrencesType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.AffectedTaskOccurrencesType" /> enumeration indicates whether an occurrence of a task or a master task is deleted.</summary>
+    <remarks>
+      <para>This enumeration is used by the <see cref="P:ExchangeWebServices.DeleteItemType.AffectedTaskOccurrences" /> property of the <see cref="T:ExchangeWebServices.DeleteItemType" /> object. </para>
+      <para>You must set the <see cref="P:ExchangeWebServices.DeleteItemType.AffectedTaskOccurrencesSpecified" /> property to <b>true</b> so that the enumeration value that is specified by the <see cref="P:ExchangeWebServices.DeleteItemType.AffectedTaskOccurrences" /> property is serialized into the Simple Object Access Protocol (SOAP) request.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllOccurrences">
+      <MemberSignature Language="C#" Value="AllOccurrences" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.AffectedTaskOccurrencesType AllOccurrences = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.AffectedTaskOccurrencesType.AllOccurrences" />
+      <MemberSignature Language="VB.NET" Value="AllOccurrences" />
+      <MemberSignature Language="C++ CLI" Value="AllOccurrences" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.AffectedTaskOccurrencesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Specifies that a DeleteItem request deletes the master task, and therefore all recurring tasks that are associated with the master task.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SpecifiedOccurrenceOnly">
+      <MemberSignature Language="C#" Value="SpecifiedOccurrenceOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.AffectedTaskOccurrencesType SpecifiedOccurrenceOnly = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.AffectedTaskOccurrencesType.SpecifiedOccurrenceOnly" />
+      <MemberSignature Language="VB.NET" Value="SpecifiedOccurrenceOnly" />
+      <MemberSignature Language="C++ CLI" Value="SpecifiedOccurrenceOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.AffectedTaskOccurrencesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Specifies that a DeleteItem request deletes only the current occurrence of a task.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

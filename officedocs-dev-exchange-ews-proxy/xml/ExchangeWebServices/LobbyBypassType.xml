@@ -1,0 +1,66 @@
+﻿<Type Name="LobbyBypassType" FullName="ExchangeWebServices.LobbyBypassType">
+  <TypeSignature Language="C#" Value="public enum LobbyBypassType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed LobbyBypassType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.LobbyBypassType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum LobbyBypassType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class LobbyBypassType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Disabled">
+      <MemberSignature Language="C#" Value="Disabled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.LobbyBypassType Disabled = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.LobbyBypassType.Disabled" />
+      <MemberSignature Language="VB.NET" Value="Disabled" />
+      <MemberSignature Language="C++ CLI" Value="Disabled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.LobbyBypassType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="EnabledForGatewayParticipants">
+      <MemberSignature Language="C#" Value="EnabledForGatewayParticipants" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.LobbyBypassType EnabledForGatewayParticipants = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.LobbyBypassType.EnabledForGatewayParticipants" />
+      <MemberSignature Language="VB.NET" Value="EnabledForGatewayParticipants" />
+      <MemberSignature Language="C++ CLI" Value="EnabledForGatewayParticipants" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.LobbyBypassType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

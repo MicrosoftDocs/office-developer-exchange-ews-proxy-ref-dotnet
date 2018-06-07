@@ -1,0 +1,513 @@
+﻿<Type Name="ResponseMessageType" FullName="ExchangeWebServices.ResponseMessageType">
+  <TypeSignature Language="C#" Value="public class ResponseMessageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ResponseMessageType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ResponseMessageType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ResponseMessageType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ResponseMessageType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.FindConversationResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetUMSubscriberCallAnsweringDataResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetClientIntentResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetUMPinResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.SaveUMPinResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ValidateUMPinResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ResetUMMailboxResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.InitUMMailboxResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetUMCallSummaryResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetUMCallDataRecordsResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.CreateUMCallDataRecordResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.CompleteFindInGALSpeechRecognitionResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.StartFindInGALSpeechRecognitionResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetUserPhotoResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetUserRetentionPolicyTagsResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.SetImListMigrationCompletedResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.SetImGroupResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.RemoveImGroupResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.RemoveDistributionGroupFromImListResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.RemoveContactFromImListResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetImItemsResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetImItemListResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.AddDistributionGroupToImListResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.AddImGroupResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.RemoveImContactFromGroupResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.AddImContactToGroupResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.AddNewTelUriContactToGroupResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.AddNewImContactToGroupResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.DisableAppResponseType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.UninstallAppResponseType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.InstallAppResponseType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.MarkAsJunkResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetAppMarketplaceUrlResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetAppManifestsResponseType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ClientExtensionResponseType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetConversationItemsResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetNonIndexableItemDetailsResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetNonIndexableItemStatisticsResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.SetHoldOnMailboxesResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetHoldOnMailboxesResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetDiscoverySearchConfigurationResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.SearchMailboxesResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetSearchableMailboxesResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.FindMailboxStatisticsByKeywordsResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.UpdateInboxRulesResponseType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetInboxRulesResponseType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetMessageTrackingReportResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.FindMessageTrackingReportResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ServiceConfigurationResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetServiceConfigurationResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.PerformReminderActionResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetRemindersResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetRoomsResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetRoomListsResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.UnpinTeamMailboxResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.SetTeamMailboxResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetUserConfigurationResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetSharingFolderResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.RefreshSharingFolderResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetSharingMetadataResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.BaseDelegateResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.UpdateDelegateResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.RemoveDelegateResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.AddDelegateResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetDelegateResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.DelegateUserResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ConvertIdResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.SyncFolderItemsResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.SyncFolderHierarchyResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.SendNotificationResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetStreamingEventsResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetEventsResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.SubscribeResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetServerTimeZonesResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ExpandDLResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetUMPromptResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetUMPromptNamesResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.CreateUMPromptResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.DeleteUMPromptsResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.DisconnectPhoneCallResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetPhoneCallInformationResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.PlayOnPhoneResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.MailTipsResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetMailTipsResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetPasswordExpirationDateResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ResolveNamesResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetClientAccessTokenResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.FindItemResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.GetPersonaResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.FindPeopleResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.DeleteAttachmentResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.AttachmentInfoResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ItemInfoResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.UpdateItemInRecoverableItemsResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.UpdateItemResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.FindFolderResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.FolderInfoResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ExportItemsResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.UploadItemsResponseMessageType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.ResponseMessageType" /> class provides descriptive information about the response status for a single entity in a request.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ResponseMessageType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ResponseMessageType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ResponseMessageType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.ResponseMessageType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.ResponseMessageType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DescriptiveLinkKey">
+      <MemberSignature Language="C#" Value="public int DescriptiveLinkKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 DescriptiveLinkKey" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ResponseMessageType.DescriptiveLinkKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property DescriptiveLinkKey As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int DescriptiveLinkKey { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ResponseMessageType.DescriptiveLinkKey" /> property is currently unused and is reserved for future use.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ResponseMessageType.DescriptiveLinkKey" /> property returns 0.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DescriptiveLinkKeySpecified">
+      <MemberSignature Language="C#" Value="public bool DescriptiveLinkKeySpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DescriptiveLinkKeySpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ResponseMessageType.DescriptiveLinkKeySpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property DescriptiveLinkKeySpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DescriptiveLinkKeySpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ResponseMessageType.DescriptiveLinkKeySpecified" /> property is currently unused and is reserved for future use.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ResponseMessageType.DescriptiveLinkKeySpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.ResponseMessageType.DescriptiveLinkKey" /> property has a value; otherwise, the property returns <b>false</b>.</value>
+        <remarks>
+          <para>The <see cref="P:ExchangeWebServices.ResponseMessageType.DescriptiveLinkKey" /> property is currently unused and is reserved for future use.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MessageText">
+      <MemberSignature Language="C#" Value="public string MessageText { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MessageText" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ResponseMessageType.MessageText" />
+      <MemberSignature Language="VB.NET" Value="Public Property MessageText As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MessageText { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ResponseMessageType.MessageText" /> property gets a text description of the status of a response.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ResponseMessageType.MessageText" /> property returns a string that includes a text description of the response status.</value>
+        <remarks>
+          <para>The <see cref="P:ExchangeWebServices.ResponseMessageType.MessageText" /> property is not required and is not included in all responses. This property is included when error messages are returned. </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MessageXml">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ResponseMessageTypeMessageXml MessageXml { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ResponseMessageTypeMessageXml MessageXml" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ResponseMessageType.MessageXml" />
+      <MemberSignature Language="VB.NET" Value="Public Property MessageXml As ResponseMessageTypeMessageXml" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ResponseMessageTypeMessageXml ^ MessageXml { ExchangeWebServices::ResponseMessageTypeMessageXml ^ get(); void set(ExchangeWebServices::ResponseMessageTypeMessageXml ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResponseMessageTypeMessageXml</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ResponseMessageType.MessageXml" /> property gets additional error response information.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ResponseMessageType.MessageXml" /> property returns a <see cref="T:ExchangeWebServices.ResponseMessageTypeMessageXml" /> object.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResponseClass">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ResponseClassType ResponseClass { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.ResponseClassType ResponseClass" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ResponseMessageType.ResponseClass" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResponseClass As ResponseClassType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ResponseClassType ResponseClass { ExchangeWebServices::ResponseClassType get(); void set(ExchangeWebServices::ResponseClassType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResponseClassType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ResponseMessageType.ResponseClass" /> property gets the response status.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ResponseMessageType.ResponseClass" /> property returns a <see cref="T:ExchangeWebServices.ResponseClassType" /> object.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResponseCode">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ResponseCodeType ResponseCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.ResponseCodeType ResponseCode" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ResponseMessageType.ResponseCode" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResponseCode As ResponseCodeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ResponseCodeType ResponseCode { ExchangeWebServices::ResponseCodeType get(); void set(ExchangeWebServices::ResponseCodeType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResponseCodeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ResponseMessageType.ResponseCode" /> property gets the error code that identifies the specific error that the request encountered.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ResponseMessageType.ResponseCode" /> property returns a <see cref="T:ExchangeWebServices.ResponseCodeType" /> object.</value>
+        <remarks>
+          <para>The <see cref="P:ExchangeWebServices.ResponseMessageType.ResponseCode" /> property will be null unless the <see cref="P:ExchangeWebServices.ResponseMessageType.ResponseCodeSpecified" /> property is set to <b>true</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResponseCodeSpecified">
+      <MemberSignature Language="C#" Value="public bool ResponseCodeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ResponseCodeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ResponseMessageType.ResponseCodeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResponseCodeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ResponseCodeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ResponseMessageType.ResponseCodeSpecified" /> property gets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.ResponseMessageType.ResponseCode" /> property is serialized into the SOAP response.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ResponseMessageType.ResponseCodeSpecified" /> property returns a value of <b>true</b> if the <see cref="P:ExchangeWebServices.ResponseMessageType.ResponseCode" /> property is serialized into the SOAP response; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

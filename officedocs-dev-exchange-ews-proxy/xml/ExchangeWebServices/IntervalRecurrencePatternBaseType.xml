@@ -1,0 +1,99 @@
+﻿<Type Name="IntervalRecurrencePatternBaseType" FullName="ExchangeWebServices.IntervalRecurrencePatternBaseType">
+  <TypeSignature Language="C#" Value="public abstract class IntervalRecurrencePatternBaseType : ExchangeWebServices.RecurrencePatternBaseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract serializable beforefieldinit IntervalRecurrencePatternBaseType extends ExchangeWebServices.RecurrencePatternBaseType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.IntervalRecurrencePatternBaseType" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class IntervalRecurrencePatternBaseType&#xA;Inherits RecurrencePatternBaseType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class IntervalRecurrencePatternBaseType abstract : ExchangeWebServices::RecurrencePatternBaseType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.RecurrencePatternBaseType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.MonthlyRegeneratingPatternType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.DailyRecurrencePatternType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.WeeklyRecurrencePatternType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.AbsoluteMonthlyRecurrencePatternType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.RelativeMonthlyRecurrencePatternType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.RegeneratingPatternBaseType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.YearlyRegeneratingPatternType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.WeeklyRegeneratingPatternType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.DailyRegeneratingPatternType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.IntervalRecurrencePatternBaseType" /> class is an abstract base class for all recurrence pattern classes.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected IntervalRecurrencePatternBaseType ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.IntervalRecurrencePatternBaseType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; IntervalRecurrencePatternBaseType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.IntervalRecurrencePatternBaseType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.IntervalRecurrencePatternBaseType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Interval">
+      <MemberSignature Language="C#" Value="public int Interval { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Interval" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.IntervalRecurrencePatternBaseType.Interval" />
+      <MemberSignature Language="VB.NET" Value="Public Property Interval As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Interval { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.IntervalRecurrencePatternBaseType.Interval" /> property defines the interval between two consecutive recurring items.</summary>
+        <value>The <see cref="P:ExchangeWebServices.IntervalRecurrencePatternBaseType.Interval" /> property returns the interval between two consectuive recurring items in minutes.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

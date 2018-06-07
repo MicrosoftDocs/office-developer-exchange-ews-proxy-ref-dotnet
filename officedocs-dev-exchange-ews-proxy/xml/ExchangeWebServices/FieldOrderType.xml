@@ -1,0 +1,108 @@
+﻿<Type Name="FieldOrderType" FullName="ExchangeWebServices.FieldOrderType">
+  <TypeSignature Language="C#" Value="public class FieldOrderType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit FieldOrderType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.FieldOrderType" />
+  <TypeSignature Language="VB.NET" Value="Public Class FieldOrderType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FieldOrderType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.FieldOrderType" /> class represents a single field by which to sort results and indicates the direction for the sort in a FindItem request.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FieldOrderType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.FieldOrderType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FieldOrderType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.FieldOrderType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.FieldOrderType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BasePathToElementType Item { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BasePathToElementType Item" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FieldOrderType.Item" />
+      <MemberSignature Language="VB.NET" Value="Public Property Item As BasePathToElementType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::BasePathToElementType ^ Item { ExchangeWebServices::BasePathToElementType ^ get(); void set(ExchangeWebServices::BasePathToElementType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("IndexedFieldURI", typeof(ExchangeWebServices.PathToIndexedFieldType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ExtendedFieldURI", typeof(ExchangeWebServices.PathToExtendedFieldType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("FieldURI", typeof(ExchangeWebServices.PathToUnindexedFieldType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BasePathToElementType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.FieldOrderType.Item" /> property gets or sets the field by which to sort results.</summary>
+        <value>The <see cref="P:ExchangeWebServices.FieldOrderType.Item" /> property returns a <see cref="T:ExchangeWebServices.BasePathToElementType" /> object.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Order">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SortDirectionType Order { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.SortDirectionType Order" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FieldOrderType.Order" />
+      <MemberSignature Language="VB.NET" Value="Public Property Order As SortDirectionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SortDirectionType Order { ExchangeWebServices::SortDirectionType get(); void set(ExchangeWebServices::SortDirectionType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SortDirectionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.FieldOrderType.Order" /> property gets or sets the sort order direction.</summary>
+        <value>The <see cref="P:ExchangeWebServices.FieldOrderType.Order" /> property returns a <see cref="T:ExchangeWebServices.SortDirectionType" /> enumeration.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

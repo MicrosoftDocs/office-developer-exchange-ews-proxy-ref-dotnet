@@ -1,0 +1,52 @@
+﻿<Type Name="IsEqualToType" FullName="ExchangeWebServices.IsEqualToType">
+  <TypeSignature Language="C#" Value="public class IsEqualToType : ExchangeWebServices.TwoOperandExpressionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit IsEqualToType extends ExchangeWebServices.TwoOperandExpressionType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.IsEqualToType" />
+  <TypeSignature Language="VB.NET" Value="Public Class IsEqualToType&#xA;Inherits TwoOperandExpressionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class IsEqualToType : ExchangeWebServices::TwoOperandExpressionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.TwoOperandExpressionType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.IsEqualToType" /> class represents a search expression that compares a property with either a constant value or another property and evaluates to <b>true</b> if they are equal.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IsEqualToType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.IsEqualToType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IsEqualToType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.IsEqualToType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.IsEqualToType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

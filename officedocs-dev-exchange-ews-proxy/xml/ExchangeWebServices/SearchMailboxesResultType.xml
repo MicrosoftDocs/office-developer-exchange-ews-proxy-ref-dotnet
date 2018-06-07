@@ -1,0 +1,302 @@
+﻿<Type Name="SearchMailboxesResultType" FullName="ExchangeWebServices.SearchMailboxesResultType">
+  <TypeSignature Language="C#" Value="public class SearchMailboxesResultType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SearchMailboxesResultType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SearchMailboxesResultType" />
+  <TypeSignature Language="VB.NET" Value="Public Class SearchMailboxesResultType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SearchMailboxesResultType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchMailboxesResultType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.SearchMailboxesResultType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchMailboxesResultType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FailedMailboxes">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.FailedSearchMailboxType[] FailedMailboxes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.FailedSearchMailboxType[] FailedMailboxes" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchMailboxesResultType.FailedMailboxes" />
+      <MemberSignature Language="VB.NET" Value="Public Property FailedMailboxes As FailedSearchMailboxType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::FailedSearchMailboxType ^&gt; ^ FailedMailboxes { cli::array &lt;ExchangeWebServices::FailedSearchMailboxType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::FailedSearchMailboxType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("FailedMailbox", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FailedSearchMailboxType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemCount">
+      <MemberSignature Language="C#" Value="public long ItemCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 ItemCount" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchMailboxesResultType.ItemCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemCount As Long" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property long ItemCount { long get(); void set(long value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Items">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SearchPreviewItemType[] Items { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.SearchPreviewItemType[] Items" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchMailboxesResultType.Items" />
+      <MemberSignature Language="VB.NET" Value="Public Property Items As SearchPreviewItemType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::SearchPreviewItemType ^&gt; ^ Items { cli::array &lt;ExchangeWebServices::SearchPreviewItemType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::SearchPreviewItemType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("SearchPreviewItem", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SearchPreviewItemType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeywordStats">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.KeywordStatisticsSearchResultType[] KeywordStats { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.KeywordStatisticsSearchResultType[] KeywordStats" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchMailboxesResultType.KeywordStats" />
+      <MemberSignature Language="VB.NET" Value="Public Property KeywordStats As KeywordStatisticsSearchResultType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::KeywordStatisticsSearchResultType ^&gt; ^ KeywordStats { cli::array &lt;ExchangeWebServices::KeywordStatisticsSearchResultType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::KeywordStatisticsSearchResultType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("KeywordStat", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.KeywordStatisticsSearchResultType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailboxStats">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.MailboxStatisticsItemType[] MailboxStats { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.MailboxStatisticsItemType[] MailboxStats" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchMailboxesResultType.MailboxStats" />
+      <MemberSignature Language="VB.NET" Value="Public Property MailboxStats As MailboxStatisticsItemType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::MailboxStatisticsItemType ^&gt; ^ MailboxStats { cli::array &lt;ExchangeWebServices::MailboxStatisticsItemType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::MailboxStatisticsItemType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("MailboxStat", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MailboxStatisticsItemType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageItemCount">
+      <MemberSignature Language="C#" Value="public int PageItemCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 PageItemCount" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchMailboxesResultType.PageItemCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property PageItemCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PageItemCount { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageItemSize">
+      <MemberSignature Language="C#" Value="public long PageItemSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 PageItemSize" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchMailboxesResultType.PageItemSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property PageItemSize As Long" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property long PageItemSize { long get(); void set(long value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Refiners">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SearchRefinerItemType[] Refiners { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.SearchRefinerItemType[] Refiners" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchMailboxesResultType.Refiners" />
+      <MemberSignature Language="VB.NET" Value="Public Property Refiners As SearchRefinerItemType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::SearchRefinerItemType ^&gt; ^ Refiners { cli::array &lt;ExchangeWebServices::SearchRefinerItemType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::SearchRefinerItemType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Refiner", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SearchRefinerItemType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResultType">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SearchResultType ResultType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.SearchResultType ResultType" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchMailboxesResultType.ResultType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResultType As SearchResultType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SearchResultType ResultType { ExchangeWebServices::SearchResultType get(); void set(ExchangeWebServices::SearchResultType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SearchResultType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchQueries">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.MailboxQueryType[] SearchQueries { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.MailboxQueryType[] SearchQueries" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchMailboxesResultType.SearchQueries" />
+      <MemberSignature Language="VB.NET" Value="Public Property SearchQueries As MailboxQueryType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::MailboxQueryType ^&gt; ^ SearchQueries { cli::array &lt;ExchangeWebServices::MailboxQueryType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::MailboxQueryType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("MailboxQuery", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MailboxQueryType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public long Size { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 Size" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SearchMailboxesResultType.Size" />
+      <MemberSignature Language="VB.NET" Value="Public Property Size As Long" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property long Size { long get(); void set(long value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

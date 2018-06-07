@@ -1,0 +1,117 @@
+﻿<Type Name="CalendarPermissionType" FullName="ExchangeWebServices.CalendarPermissionType">
+  <TypeSignature Language="C#" Value="public class CalendarPermissionType : ExchangeWebServices.BasePermissionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit CalendarPermissionType extends ExchangeWebServices.BasePermissionType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CalendarPermissionType" />
+  <TypeSignature Language="VB.NET" Value="Public Class CalendarPermissionType&#xA;Inherits BasePermissionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CalendarPermissionType : ExchangeWebServices::BasePermissionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BasePermissionType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.CalendarPermissionType" /> class defines the access that a user has to a calendar folder. This class was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CalendarPermissionType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.CalendarPermissionType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CalendarPermissionType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.CalendarPermissionType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.CalendarPermissionType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CalendarPermissionLevel">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.CalendarPermissionLevelType CalendarPermissionLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.CalendarPermissionLevelType CalendarPermissionLevel" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarPermissionType.CalendarPermissionLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property CalendarPermissionLevel As CalendarPermissionLevelType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::CalendarPermissionLevelType CalendarPermissionLevel { ExchangeWebServices::CalendarPermissionLevelType get(); void set(ExchangeWebServices::CalendarPermissionLevelType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarPermissionLevelType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.CalendarPermissionType.CalendarPermissionLevel" /> property gets or sets the permission level that a user has on a calendar folder.</summary>
+        <value>The <see cref="P:ExchangeWebServices.CalendarPermissionType.CalendarPermissionLevel" /> property returns one of the <see cref="T:ExchangeWebServices.CalendarPermissionLevelType" /> enumeration values that indicate the user's permissions on the calendar folder.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadItems">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.CalendarPermissionReadAccessType ReadItems { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.CalendarPermissionReadAccessType ReadItems" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarPermissionType.ReadItems" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReadItems As CalendarPermissionReadAccessType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::CalendarPermissionReadAccessType ReadItems { ExchangeWebServices::CalendarPermissionReadAccessType get(); void set(ExchangeWebServices::CalendarPermissionReadAccessType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.CalendarPermissionReadAccessType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.CalendarPermissionType.ReadItems" /> property gets or sets a value that indicates whether a user can read items in a calendar folder.</summary>
+        <value>The <see cref="P:ExchangeWebServices.CalendarPermissionType.ReadItems" /> property returns one of the <see cref="T:ExchangeWebServices.CalendarPermissionReadAccessType" /> enumeration values that indicate the user's read permissions on a calendar folder.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadItemsSpecified">
+      <MemberSignature Language="C#" Value="public bool ReadItemsSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReadItemsSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarPermissionType.ReadItemsSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReadItemsSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReadItemsSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.CalendarPermissionType.ReadItemsSpecified" /> property gets or sets a Boolean value that indicates whether the <see cref="P:ExchangeWebServices.CalendarPermissionType.ReadItems" /> property is serialized into the SOAP message. This property is required if the <see cref="P:ExchangeWebServices.CalendarPermissionType.ReadItems" /> property is specified.</summary>
+        <value>The <see cref="P:ExchangeWebServices.CalendarPermissionType.ReadItemsSpecified" /> property returns <b>true</b> if the <see cref="P:ExchangeWebServices.CalendarPermissionType.ReadItems" /> property is serialized in the SOAP message; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

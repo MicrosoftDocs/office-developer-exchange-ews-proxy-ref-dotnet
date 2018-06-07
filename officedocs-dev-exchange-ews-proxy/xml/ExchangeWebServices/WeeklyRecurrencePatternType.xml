@@ -1,0 +1,99 @@
+﻿<Type Name="WeeklyRecurrencePatternType" FullName="ExchangeWebServices.WeeklyRecurrencePatternType">
+  <TypeSignature Language="C#" Value="public class WeeklyRecurrencePatternType : ExchangeWebServices.IntervalRecurrencePatternBaseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit WeeklyRecurrencePatternType extends ExchangeWebServices.IntervalRecurrencePatternBaseType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.WeeklyRecurrencePatternType" />
+  <TypeSignature Language="VB.NET" Value="Public Class WeeklyRecurrencePatternType&#xA;Inherits IntervalRecurrencePatternBaseType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WeeklyRecurrencePatternType : ExchangeWebServices::IntervalRecurrencePatternBaseType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.IntervalRecurrencePatternBaseType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.WeeklyRecurrencePatternType" /> class describes the frequency, in weeks, in which an item recurs, and the days on which the item recurs.</summary>
+    <remarks>
+      <para>The time zone offset information is lost if the start and end dates of the recurring master item do not have a date that is equal to the first occurrence of a weekly recurrence pattern.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WeeklyRecurrencePatternType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.WeeklyRecurrencePatternType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; WeeklyRecurrencePatternType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.WeeklyRecurrencePatternType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.WeeklyRecurrencePatternType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DaysOfWeek">
+      <MemberSignature Language="C#" Value="public string DaysOfWeek { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DaysOfWeek" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.WeeklyRecurrencePatternType.DaysOfWeek" />
+      <MemberSignature Language="VB.NET" Value="Public Property DaysOfWeek As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DaysOfWeek { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.WeeklyRecurrencePatternType.DaysOfWeek" /> property gets or sets the days of the week that are in the weekly recurrence pattern.</summary>
+        <value>The <see cref="P:ExchangeWebServices.WeeklyRecurrencePatternType.DaysOfWeek" /> property returns a string that contains the days of the week in the weekly recurrence pattern.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstDayOfWeek">
+      <MemberSignature Language="C#" Value="public string FirstDayOfWeek { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FirstDayOfWeek" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.WeeklyRecurrencePatternType.FirstDayOfWeek" />
+      <MemberSignature Language="VB.NET" Value="Public Property FirstDayOfWeek As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FirstDayOfWeek { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.String" />.</value>
+        <remarks>
+          <para>
+            <b>Note</b>: This member applies to versions of Exchange starting with Exchange Server 2010 Service Pack 1 (SP1), including Exchange Online.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

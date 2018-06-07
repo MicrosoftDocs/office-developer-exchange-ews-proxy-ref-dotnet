@@ -1,0 +1,145 @@
+﻿<Type Name="BasePagingType" FullName="ExchangeWebServices.BasePagingType">
+  <TypeSignature Language="C#" Value="public abstract class BasePagingType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract serializable beforefieldinit BasePagingType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.BasePagingType" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class BasePagingType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class BasePagingType abstract" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.ContactsViewType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.FractionalPageViewType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.CalendarViewType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.SeekToConditionPageViewType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.IndexedPageViewType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.BasePagingType" /> class is the base class for derived classes that represent paged views.</summary>
+    <remarks>
+      <para>The following classes derive from the <see cref="T:ExchangeWebServices.BasePagingType" /> class:</para>
+      <list type="bullet">
+        <item>
+          <description>
+            <see cref="T:ExchangeWebServices.IndexedPageViewType" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:ExchangeWebServices.FractionalPageViewType" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:ExchangeWebServices.CalendarViewType" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:ExchangeWebServices.ContactsViewType" />
+          </description>
+        </item>
+      </list>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected BasePagingType ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.BasePagingType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; BasePagingType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.BasePagingType" /> class is abstract and cannot be instantiated.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxEntriesReturned">
+      <MemberSignature Language="C#" Value="public int MaxEntriesReturned { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaxEntriesReturned" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BasePagingType.MaxEntriesReturned" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxEntriesReturned As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MaxEntriesReturned { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.BasePagingType.MaxEntriesReturned" /> property gets or sets the maximum number of results to return in a FindItem response.</summary>
+        <value>The <see cref="P:ExchangeWebServices.BasePagingType.MaxEntriesReturned" /> property returns the maximum number of results from a FindItem operation.</value>
+        <remarks>
+          <para>You must set the <see cref="P:ExchangeWebServices.BasePagingType.MaxEntriesReturnedSpecified" /> property to <b>true</b> so that the <see cref="P:ExchangeWebServices.BasePagingType.MaxEntriesReturned" /> property is serialized into the SOAP request.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxEntriesReturnedSpecified">
+      <MemberSignature Language="C#" Value="public bool MaxEntriesReturnedSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MaxEntriesReturnedSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.BasePagingType.MaxEntriesReturnedSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxEntriesReturnedSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MaxEntriesReturnedSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.BasePagingType.MaxEntriesReturnedSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.BasePagingType.MaxEntriesReturned" /> property is serialized into the SOAP request.</summary>
+        <value>The <see cref="P:ExchangeWebServices.BasePagingType.MaxEntriesReturnedSpecified" /> property returns a value of <b>true</b> if the <see cref="P:ExchangeWebServices.BasePagingType.MaxEntriesReturned" /> property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

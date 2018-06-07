@@ -1,0 +1,77 @@
+﻿<Type Name="RecurringMasterItemIdRangesType" FullName="ExchangeWebServices.RecurringMasterItemIdRangesType">
+  <TypeSignature Language="C#" Value="public class RecurringMasterItemIdRangesType : ExchangeWebServices.ItemIdType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit RecurringMasterItemIdRangesType extends ExchangeWebServices.ItemIdType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.RecurringMasterItemIdRangesType" />
+  <TypeSignature Language="VB.NET" Value="Public Class RecurringMasterItemIdRangesType&#xA;Inherits ItemIdType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RecurringMasterItemIdRangesType : ExchangeWebServices::ItemIdType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.ItemIdType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RecurringMasterItemIdRangesType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.RecurringMasterItemIdRangesType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RecurringMasterItemIdRangesType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Ranges">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.OccurrencesRangeType[] Ranges { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.OccurrencesRangeType[] Ranges" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.RecurringMasterItemIdRangesType.Ranges" />
+      <MemberSignature Language="VB.NET" Value="Public Property Ranges As OccurrencesRangeType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::OccurrencesRangeType ^&gt; ^ Ranges { cli::array &lt;ExchangeWebServices::OccurrencesRangeType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::OccurrencesRangeType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Range", IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.OccurrencesRangeType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

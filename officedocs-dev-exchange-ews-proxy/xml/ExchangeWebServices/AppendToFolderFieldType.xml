@@ -1,0 +1,89 @@
+﻿<Type Name="AppendToFolderFieldType" FullName="ExchangeWebServices.AppendToFolderFieldType">
+  <TypeSignature Language="C#" Value="public class AppendToFolderFieldType : ExchangeWebServices.FolderChangeDescriptionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit AppendToFolderFieldType extends ExchangeWebServices.FolderChangeDescriptionType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.AppendToFolderFieldType" />
+  <TypeSignature Language="VB.NET" Value="Public Class AppendToFolderFieldType&#xA;Inherits FolderChangeDescriptionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AppendToFolderFieldType : ExchangeWebServices::FolderChangeDescriptionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.FolderChangeDescriptionType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.AppendToFolderFieldType" /> class is not implemented. Any request that uses this class will always return an error response.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AppendToFolderFieldType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.AppendToFolderFieldType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AppendToFolderFieldType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.AppendToFolderFieldType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.AppendToFolderFieldType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item1">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BaseFolderType Item1 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BaseFolderType Item1" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AppendToFolderFieldType.Item1" />
+      <MemberSignature Language="VB.NET" Value="Public Property Item1 As BaseFolderType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::BaseFolderType ^ Item1 { ExchangeWebServices::BaseFolderType ^ get(); void set(ExchangeWebServices::BaseFolderType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("CalendarFolder", typeof(ExchangeWebServices.CalendarFolderType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("SearchFolder", typeof(ExchangeWebServices.SearchFolderType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("TasksFolder", typeof(ExchangeWebServices.TasksFolderType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ContactsFolder", typeof(ExchangeWebServices.ContactsFolderType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Folder", typeof(ExchangeWebServices.FolderType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BaseFolderType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

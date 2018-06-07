@@ -1,0 +1,69 @@
+﻿<Type Name="PermissionReadAccessType" FullName="ExchangeWebServices.PermissionReadAccessType">
+  <TypeSignature Language="C#" Value="public enum PermissionReadAccessType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed PermissionReadAccessType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.PermissionReadAccessType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PermissionReadAccessType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class PermissionReadAccessType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.PermissionReadAccessType" /> enumeration specifies whether a user has permission to read items in a folder. </summary>
+    <remarks>
+      <para>This enumeration is used by the ReadItems (PermissionType) property of the <see cref="T:ExchangeWebServices.PermissionType" /> object and by the SharingEffectiveRights (PermissionReadAccessType) property of the <see cref="T:ExchangeWebServices.ContactsFolderType" />.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FullDetails">
+      <MemberSignature Language="C#" Value="FullDetails" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.PermissionReadAccessType FullDetails = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.PermissionReadAccessType.FullDetails" />
+      <MemberSignature Language="VB.NET" Value="FullDetails" />
+      <MemberSignature Language="C++ CLI" Value="FullDetails" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PermissionReadAccessType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The user has permission to read all items in the folder.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.PermissionReadAccessType None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.PermissionReadAccessType.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PermissionReadAccessType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The user does not have permission to read items in the folder.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

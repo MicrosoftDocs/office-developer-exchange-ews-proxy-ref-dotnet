@@ -1,0 +1,83 @@
+﻿<Type Name="BodyTypeType" FullName="ExchangeWebServices.BodyTypeType">
+  <TypeSignature Language="C#" Value="public enum BodyTypeType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed BodyTypeType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.BodyTypeType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum BodyTypeType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class BodyTypeType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.BodyTypeType" /> enumeration specifies the item body type.</summary>
+    <remarks>
+      <para>This enumeration is used to either designate the body type during a request or to determine what type of body is returned in a response.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>The following example shows you how the <see cref="T:ExchangeWebServices.BodyTypeType" /> enumeration is used to designate an HTML body type for a message.</para>
+      <code>// Compose e-mail message.
+message.Subject = "High Priority Projects for Q3";
+message.Body = new BodyType();
+message.Body.BodyType1 = BodyTypeType.HTML;
+message.Body.Value = "&amp;lt;html&amp;gt;&amp;lt;body style='font-family: Arial'&amp;gt;&amp;lt;ul&amp;gt;" +
+"&amp;lt;li&amp;gt;Create budget for next fiscal year.&amp;amp;nbsp;&amp;lt;/li&amp;gt;" + 
+"&amp;lt;li&amp;gt;Hiring updates.&amp;amp;nbsp;&amp;lt;/li&amp;gt;" + 
+"&amp;lt;li&amp;gt;Design plan for new facilities.&amp;lt;/li&amp;gt;" + 
+"&amp;lt;li&amp;gt;Identify new opportunities for operational efficiency.&amp;amp;nbsp;&amp;lt;/li&amp;gt;" +
+"&amp;lt;/ul&amp;gt;&amp;lt;p&amp;gt;Please provide feedback before the meeting.&amp;amp;nbsp;&amp;lt;/p&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;";</code>
+      <para>The <see cref="T:ExchangeWebServices.BodyTypeType" /> enumeration is the type that is used to set the <see cref="P:ExchangeWebServices.BodyType.BodyType1" /> property on a <see cref="T:ExchangeWebServices.BodyType" /> object.</para>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName="HTML">
+      <MemberSignature Language="C#" Value="HTML" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.BodyTypeType HTML = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.BodyTypeType.HTML" />
+      <MemberSignature Language="VB.NET" Value="HTML" />
+      <MemberSignature Language="C++ CLI" Value="HTML" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BodyTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Identifies the item body as HTML content.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Text">
+      <MemberSignature Language="C#" Value="Text" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.BodyTypeType Text = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.BodyTypeType.Text" />
+      <MemberSignature Language="VB.NET" Value="Text" />
+      <MemberSignature Language="C++ CLI" Value="Text" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BodyTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Identifies the item body as plain text content.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

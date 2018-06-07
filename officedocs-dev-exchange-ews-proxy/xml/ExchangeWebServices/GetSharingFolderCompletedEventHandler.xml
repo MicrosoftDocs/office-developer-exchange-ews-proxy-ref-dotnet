@@ -1,0 +1,32 @@
+﻿<Type Name="GetSharingFolderCompletedEventHandler" FullName="ExchangeWebServices.GetSharingFolderCompletedEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void GetSharingFolderCompletedEventHandler(object sender, GetSharingFolderCompletedEventArgs e);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed GetSharingFolderCompletedEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetSharingFolderCompletedEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub GetSharingFolderCompletedEventHandler(sender As Object, e As GetSharingFolderCompletedEventArgs)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void GetSharingFolderCompletedEventHandler(System::Object ^ sender, GetSharingFolderCompletedEventArgs ^ e);" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="sender" Type="System.Object" />
+    <Parameter Name="e" Type="ExchangeWebServices.GetSharingFolderCompletedEventArgs" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="sender">To be added.</param>
+    <param name="e">To be added.</param>
+    <summary>The <see cref="T:ExchangeWebServices.GetSharingFolderCompletedEventHandler" /> is the delegate type that defines the event handler that is called when the corresponding asynchronous operation is complete.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

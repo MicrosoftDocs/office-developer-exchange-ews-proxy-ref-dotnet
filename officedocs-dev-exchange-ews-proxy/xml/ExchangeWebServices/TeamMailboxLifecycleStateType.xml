@@ -1,0 +1,104 @@
+﻿<Type Name="TeamMailboxLifecycleStateType" FullName="ExchangeWebServices.TeamMailboxLifecycleStateType">
+  <TypeSignature Language="C#" Value="public enum TeamMailboxLifecycleStateType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed TeamMailboxLifecycleStateType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.TeamMailboxLifecycleStateType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum TeamMailboxLifecycleStateType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class TeamMailboxLifecycleStateType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Active">
+      <MemberSignature Language="C#" Value="Active" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TeamMailboxLifecycleStateType Active = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TeamMailboxLifecycleStateType.Active" />
+      <MemberSignature Language="VB.NET" Value="Active" />
+      <MemberSignature Language="C++ CLI" Value="Active" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TeamMailboxLifecycleStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Closed">
+      <MemberSignature Language="C#" Value="Closed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TeamMailboxLifecycleStateType Closed = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TeamMailboxLifecycleStateType.Closed" />
+      <MemberSignature Language="VB.NET" Value="Closed" />
+      <MemberSignature Language="C++ CLI" Value="Closed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TeamMailboxLifecycleStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="PendingDelete">
+      <MemberSignature Language="C#" Value="PendingDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TeamMailboxLifecycleStateType PendingDelete = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TeamMailboxLifecycleStateType.PendingDelete" />
+      <MemberSignature Language="VB.NET" Value="PendingDelete" />
+      <MemberSignature Language="C++ CLI" Value="PendingDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TeamMailboxLifecycleStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Unlinked">
+      <MemberSignature Language="C#" Value="Unlinked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.TeamMailboxLifecycleStateType Unlinked = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.TeamMailboxLifecycleStateType.Unlinked" />
+      <MemberSignature Language="VB.NET" Value="Unlinked" />
+      <MemberSignature Language="C++ CLI" Value="Unlinked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TeamMailboxLifecycleStateType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

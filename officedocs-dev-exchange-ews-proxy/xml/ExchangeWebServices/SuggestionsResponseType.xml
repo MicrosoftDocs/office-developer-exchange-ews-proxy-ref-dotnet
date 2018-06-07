@@ -1,0 +1,100 @@
+﻿<Type Name="SuggestionsResponseType" FullName="ExchangeWebServices.SuggestionsResponseType">
+  <TypeSignature Language="C#" Value="public class SuggestionsResponseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SuggestionsResponseType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SuggestionsResponseType" />
+  <TypeSignature Language="VB.NET" Value="Public Class SuggestionsResponseType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SuggestionsResponseType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.SuggestionsResponseType" /> class contains response status information and suggestion data for requested meeting suggestions.</summary>
+    <remarks>
+      <para>A <see cref="T:ExchangeWebServices.SuggestionsResponseType" /> object will only be returned by the GetUserAvailability operation if the <see cref="P:ExchangeWebServices.GetUserAvailabilityRequestType.SuggestionsViewOptions" /> property is set in the <see cref="T:ExchangeWebServices.GetUserAvailabilityRequestType" /> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SuggestionsResponseType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.SuggestionsResponseType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SuggestionsResponseType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.SuggestionsResponseType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.SuggestionsResponseType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResponseMessage">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ResponseMessageType ResponseMessage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ResponseMessageType ResponseMessage" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SuggestionsResponseType.ResponseMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResponseMessage As ResponseMessageType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ResponseMessageType ^ ResponseMessage { ExchangeWebServices::ResponseMessageType ^ get(); void set(ExchangeWebServices::ResponseMessageType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ResponseMessageType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.SuggestionsResponseType.ResponseMessage" /> property gets or sets descriptive information about the response status.</summary>
+        <value>The <see cref="P:ExchangeWebServices.SuggestionsResponseType.ResponseMessage" /> property returns a <see cref="T:ExchangeWebServices.ResponseMessageType" /> object that contains descriptive information about the response status.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuggestionDayResultArray">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SuggestionDayResult[] SuggestionDayResultArray { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.SuggestionDayResult[] SuggestionDayResultArray" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SuggestionsResponseType.SuggestionDayResultArray" />
+      <MemberSignature Language="VB.NET" Value="Public Property SuggestionDayResultArray As SuggestionDayResult()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::SuggestionDayResult ^&gt; ^ SuggestionDayResultArray { cli::array &lt;ExchangeWebServices::SuggestionDayResult ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::SuggestionDayResult ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem(IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SuggestionDayResult[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.SuggestionsResponseType.SuggestionDayResultArray" /> property returns a collection of meeting time suggestions organized by day.</summary>
+        <value>The <see cref="P:ExchangeWebServices.SuggestionsResponseType.SuggestionDayResultArray" /> property returns an array of <see cref="T:ExchangeWebServices.SuggestionDayResult" /> objects that contain meeting time suggestions.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

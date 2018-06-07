@@ -1,0 +1,157 @@
+﻿<Type Name="PhoneCallInformationType" FullName="ExchangeWebServices.PhoneCallInformationType">
+  <TypeSignature Language="C#" Value="public class PhoneCallInformationType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit PhoneCallInformationType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.PhoneCallInformationType" />
+  <TypeSignature Language="VB.NET" Value="Public Class PhoneCallInformationType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PhoneCallInformationType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PhoneCallInformationType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.PhoneCallInformationType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PhoneCallInformationType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectionFailureCause">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ConnectionFailureCauseType ConnectionFailureCause { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.ConnectionFailureCauseType ConnectionFailureCause" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PhoneCallInformationType.ConnectionFailureCause" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConnectionFailureCause As ConnectionFailureCauseType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ConnectionFailureCauseType ConnectionFailureCause { ExchangeWebServices::ConnectionFailureCauseType get(); void set(ExchangeWebServices::ConnectionFailureCauseType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ConnectionFailureCauseType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:ExchangeWebServices.ConnectionFailureCauseType" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneCallState">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.PhoneCallStateType PhoneCallState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.PhoneCallStateType PhoneCallState" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PhoneCallInformationType.PhoneCallState" />
+      <MemberSignature Language="VB.NET" Value="Public Property PhoneCallState As PhoneCallStateType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::PhoneCallStateType PhoneCallState { ExchangeWebServices::PhoneCallStateType get(); void set(ExchangeWebServices::PhoneCallStateType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.PhoneCallStateType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:ExchangeWebServices.PhoneCallStateType" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SIPResponseCode">
+      <MemberSignature Language="C#" Value="public int SIPResponseCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SIPResponseCode" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PhoneCallInformationType.SIPResponseCode" />
+      <MemberSignature Language="VB.NET" Value="Public Property SIPResponseCode As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SIPResponseCode { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.Int32" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SIPResponseCodeSpecified">
+      <MemberSignature Language="C#" Value="public bool SIPResponseCodeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SIPResponseCodeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PhoneCallInformationType.SIPResponseCodeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property SIPResponseCodeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SIPResponseCodeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.Boolean" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SIPResponseText">
+      <MemberSignature Language="C#" Value="public string SIPResponseText { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SIPResponseText" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.PhoneCallInformationType.SIPResponseText" />
+      <MemberSignature Language="VB.NET" Value="Public Property SIPResponseText As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SIPResponseText { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.String" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

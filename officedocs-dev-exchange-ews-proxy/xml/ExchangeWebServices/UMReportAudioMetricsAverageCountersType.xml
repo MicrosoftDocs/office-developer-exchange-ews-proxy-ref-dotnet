@@ -1,0 +1,192 @@
+﻿<Type Name="UMReportAudioMetricsAverageCountersType" FullName="ExchangeWebServices.UMReportAudioMetricsAverageCountersType">
+  <TypeSignature Language="C#" Value="public class UMReportAudioMetricsAverageCountersType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit UMReportAudioMetricsAverageCountersType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.UMReportAudioMetricsAverageCountersType" />
+  <TypeSignature Language="VB.NET" Value="Public Class UMReportAudioMetricsAverageCountersType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UMReportAudioMetricsAverageCountersType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UMReportAudioMetricsAverageCountersType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.UMReportAudioMetricsAverageCountersType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; UMReportAudioMetricsAverageCountersType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BurstLossDuration">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.AudioMetricsAverageType BurstLossDuration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.AudioMetricsAverageType BurstLossDuration" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UMReportAudioMetricsAverageCountersType.BurstLossDuration" />
+      <MemberSignature Language="VB.NET" Value="Public Property BurstLossDuration As AudioMetricsAverageType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::AudioMetricsAverageType ^ BurstLossDuration { ExchangeWebServices::AudioMetricsAverageType ^ get(); void set(ExchangeWebServices::AudioMetricsAverageType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.AudioMetricsAverageType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Jitter">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.AudioMetricsAverageType Jitter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.AudioMetricsAverageType Jitter" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UMReportAudioMetricsAverageCountersType.Jitter" />
+      <MemberSignature Language="VB.NET" Value="Public Property Jitter As AudioMetricsAverageType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::AudioMetricsAverageType ^ Jitter { ExchangeWebServices::AudioMetricsAverageType ^ get(); void set(ExchangeWebServices::AudioMetricsAverageType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.AudioMetricsAverageType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NMOS">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.AudioMetricsAverageType NMOS { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.AudioMetricsAverageType NMOS" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UMReportAudioMetricsAverageCountersType.NMOS" />
+      <MemberSignature Language="VB.NET" Value="Public Property NMOS As AudioMetricsAverageType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::AudioMetricsAverageType ^ NMOS { ExchangeWebServices::AudioMetricsAverageType ^ get(); void set(ExchangeWebServices::AudioMetricsAverageType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.AudioMetricsAverageType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NMOSDegradation">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.AudioMetricsAverageType NMOSDegradation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.AudioMetricsAverageType NMOSDegradation" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UMReportAudioMetricsAverageCountersType.NMOSDegradation" />
+      <MemberSignature Language="VB.NET" Value="Public Property NMOSDegradation As AudioMetricsAverageType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::AudioMetricsAverageType ^ NMOSDegradation { ExchangeWebServices::AudioMetricsAverageType ^ get(); void set(ExchangeWebServices::AudioMetricsAverageType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.AudioMetricsAverageType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PercentPacketLoss">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.AudioMetricsAverageType PercentPacketLoss { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.AudioMetricsAverageType PercentPacketLoss" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UMReportAudioMetricsAverageCountersType.PercentPacketLoss" />
+      <MemberSignature Language="VB.NET" Value="Public Property PercentPacketLoss As AudioMetricsAverageType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::AudioMetricsAverageType ^ PercentPacketLoss { ExchangeWebServices::AudioMetricsAverageType ^ get(); void set(ExchangeWebServices::AudioMetricsAverageType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.AudioMetricsAverageType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RoundTrip">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.AudioMetricsAverageType RoundTrip { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.AudioMetricsAverageType RoundTrip" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UMReportAudioMetricsAverageCountersType.RoundTrip" />
+      <MemberSignature Language="VB.NET" Value="Public Property RoundTrip As AudioMetricsAverageType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::AudioMetricsAverageType ^ RoundTrip { ExchangeWebServices::AudioMetricsAverageType ^ get(); void set(ExchangeWebServices::AudioMetricsAverageType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.AudioMetricsAverageType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalAudioQualityCallsSampled">
+      <MemberSignature Language="C#" Value="public long TotalAudioQualityCallsSampled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 TotalAudioQualityCallsSampled" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UMReportAudioMetricsAverageCountersType.TotalAudioQualityCallsSampled" />
+      <MemberSignature Language="VB.NET" Value="Public Property TotalAudioQualityCallsSampled As Long" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property long TotalAudioQualityCallsSampled { long get(); void set(long value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

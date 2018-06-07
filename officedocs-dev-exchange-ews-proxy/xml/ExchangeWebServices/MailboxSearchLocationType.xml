@@ -1,0 +1,85 @@
+﻿<Type Name="MailboxSearchLocationType" FullName="ExchangeWebServices.MailboxSearchLocationType">
+  <TypeSignature Language="C#" Value="public enum MailboxSearchLocationType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed MailboxSearchLocationType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.MailboxSearchLocationType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MailboxSearchLocationType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MailboxSearchLocationType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="All">
+      <MemberSignature Language="C#" Value="All" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MailboxSearchLocationType All = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MailboxSearchLocationType.All" />
+      <MemberSignature Language="VB.NET" Value="All" />
+      <MemberSignature Language="C++ CLI" Value="All" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MailboxSearchLocationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="ArchiveOnly">
+      <MemberSignature Language="C#" Value="ArchiveOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MailboxSearchLocationType ArchiveOnly = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MailboxSearchLocationType.ArchiveOnly" />
+      <MemberSignature Language="VB.NET" Value="ArchiveOnly" />
+      <MemberSignature Language="C++ CLI" Value="ArchiveOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MailboxSearchLocationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="PrimaryOnly">
+      <MemberSignature Language="C#" Value="PrimaryOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MailboxSearchLocationType PrimaryOnly = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MailboxSearchLocationType.PrimaryOnly" />
+      <MemberSignature Language="VB.NET" Value="PrimaryOnly" />
+      <MemberSignature Language="C++ CLI" Value="PrimaryOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MailboxSearchLocationType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

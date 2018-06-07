@@ -1,0 +1,61 @@
+﻿<Type Name="ItemChangeDescriptionType" FullName="ExchangeWebServices.ItemChangeDescriptionType">
+  <TypeSignature Language="C#" Value="public class ItemChangeDescriptionType : ExchangeWebServices.ChangeDescriptionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ItemChangeDescriptionType extends ExchangeWebServices.ChangeDescriptionType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ItemChangeDescriptionType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ItemChangeDescriptionType&#xA;Inherits ChangeDescriptionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ItemChangeDescriptionType : ExchangeWebServices::ChangeDescriptionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.ChangeDescriptionType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.AppendToItemFieldType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.SetItemFieldType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.DeleteItemFieldType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.ItemChangeDescriptionType" /> class contains data that describes changes that are applied by using the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.UpdateItem(ExchangeWebServices.UpdateItemType)" /> method.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ItemChangeDescriptionType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ItemChangeDescriptionType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ItemChangeDescriptionType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="M:ExchangeWebServices.ItemChangeDescriptionType.#ctor" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.ItemChangeDescriptionType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

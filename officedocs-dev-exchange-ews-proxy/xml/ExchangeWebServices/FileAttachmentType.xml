@@ -1,0 +1,125 @@
+﻿<Type Name="FileAttachmentType" FullName="ExchangeWebServices.FileAttachmentType">
+  <TypeSignature Language="C#" Value="public class FileAttachmentType : ExchangeWebServices.AttachmentType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit FileAttachmentType extends ExchangeWebServices.AttachmentType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.FileAttachmentType" />
+  <TypeSignature Language="VB.NET" Value="Public Class FileAttachmentType&#xA;Inherits AttachmentType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FileAttachmentType : ExchangeWebServices::AttachmentType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.AttachmentType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.FileAttachmentType" /> class represents a file that is attached to an item in the Exchange store.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FileAttachmentType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.FileAttachmentType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FileAttachmentType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.FileAttachmentType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.FileAttachmentType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Content">
+      <MemberSignature Language="C#" Value="public byte[] Content { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] Content" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FileAttachmentType.Content" />
+      <MemberSignature Language="VB.NET" Value="Public Property Content As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ Content { cli::array &lt;System::Byte&gt; ^ get(); void set(cli::array &lt;System::Byte&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement(DataType="base64Binary")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.FileAttachmentType.Content" /> property gets or sets the Base64-encoded contents of the file attachment.</summary>
+        <value>The <see cref="P:ExchangeWebServices.FileAttachmentType.Content" /> property returns an array of bytes that contain the Base64-encoded contents of the file attachment.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsContactPhoto">
+      <MemberSignature Language="C#" Value="public bool IsContactPhoto { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsContactPhoto" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FileAttachmentType.IsContactPhoto" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsContactPhoto As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsContactPhoto { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.FileAttachmentType.IsContactPhoto" /> property gets or sets a Boolean value that specifies whether the attachment is a contact photo.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.FileAttachmentType.IsContactPhoto" /> property is a <see cref="T:System.Boolean" /> object.</value>
+        <remarks>
+          <para>You must set the <see cref="P:ExchangeWebServices.FileAttachmentType.IsContactPhotoSpecified" /> property to <b>true</b> so that that the   <see cref="P:ExchangeWebServices.FileAttachmentType.IsContactPhoto" /> property is serialized into the Simple Object Access Protocol (SOAP) request. </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsContactPhotoSpecified">
+      <MemberSignature Language="C#" Value="public bool IsContactPhotoSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsContactPhotoSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FileAttachmentType.IsContactPhotoSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsContactPhotoSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsContactPhotoSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.FileAttachmentType.IsContactPhotoSpecified" /> property gets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.FileAttachmentType.IsContactPhoto" /> property is serialized into the SOAP request. This property is read-only.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.FileAttachmentType.IsContactPhotoSpecified" /> property is <b>true</b> if the <see cref="P:ExchangeWebServices.FileAttachmentType.IsContactPhoto" /> property is serialized into the SOAP request; otherwise, the value is <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

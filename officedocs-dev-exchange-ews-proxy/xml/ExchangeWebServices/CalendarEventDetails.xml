@@ -1,0 +1,222 @@
+﻿<Type Name="CalendarEventDetails" FullName="ExchangeWebServices.CalendarEventDetails">
+  <TypeSignature Language="C#" Value="public class CalendarEventDetails" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit CalendarEventDetails extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CalendarEventDetails" />
+  <TypeSignature Language="VB.NET" Value="Public Class CalendarEventDetails" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CalendarEventDetails" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.CalendarEventDetails" /> class provides additional information about a calendar event.</summary>
+    <remarks>
+      <para>The <see cref="M:ExchangeWebServices.ExchangeServiceBinding.GetUserAvailability(ExchangeWebServices.GetUserAvailabilityRequestType)" /> method does not return detailed caller information unless the caller has read access on the target user's calendar. You can set access permissions on the calendar by using the Exchange Management Shell.</para>
+      <para>If the <see cref="P:ExchangeWebServices.CalendarEventDetails.IsPrivate" /> property is <b>true</b>, no other <see cref="T:ExchangeWebServices.CalendarEventDetails" /> class properties are set.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CalendarEventDetails ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.CalendarEventDetails.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CalendarEventDetails();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.CalendarEventDetails" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.CalendarEventDetails" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ID">
+      <MemberSignature Language="C#" Value="public string ID { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ID" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarEventDetails.ID" />
+      <MemberSignature Language="VB.NET" Value="Public Property ID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ID { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.CalendarEventDetails.ID" /> property gets or sets the entry ID of the calendar item.</summary>
+        <value>The <see cref="P:ExchangeWebServices.CalendarEventDetails.ID" /> property returns a string that contains the entry ID of the calendar item.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsException">
+      <MemberSignature Language="C#" Value="public bool IsException { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsException" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarEventDetails.IsException" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsException As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsException { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.CalendarEventDetails.IsException" /> property gets or sets a Boolean value that indicates whether an instance of a recurring calendar item is changed from the original.</summary>
+        <value>The <see cref="P:ExchangeWebServices.CalendarEventDetails.IsException" /> property returns <b>true</b> if the calendar item is changed from the original; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMeeting">
+      <MemberSignature Language="C#" Value="public bool IsMeeting { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMeeting" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarEventDetails.IsMeeting" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsMeeting As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMeeting { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.CalendarEventDetails.IsMeeting" /> property gets or sets a Boolean value that indicates whether the calendar event is a meeting or an appointment.</summary>
+        <value>The <see cref="P:ExchangeWebServices.CalendarEventDetails.IsMeeting" /> property returns <b>true</b> if the calendar event is a meeting. If the calendar item is an appointment, the property returns <b>false</b>.</value>
+        <remarks>
+          <para>A meeting is a calendar item that includes attendees. An appointment is a calendar item that does not include attendees.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPrivate">
+      <MemberSignature Language="C#" Value="public bool IsPrivate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsPrivate" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarEventDetails.IsPrivate" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsPrivate As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPrivate { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.CalendarEventDetails.IsPrivate" /> property gets or sets a Boolean value that indicates whether the calendar item is private.</summary>
+        <value>The <see cref="P:ExchangeWebServices.CalendarEventDetails.IsPrivate" /> property returns <b>true</b> if the calendar item is private; otherwise, the property returns <b>false</b>.</value>
+        <remarks>
+          <para>If the <see cref="P:ExchangeWebServices.CalendarEventDetails.IsPrivate" /> property is set to <b>true</b>, no other properties in the <see cref="T:ExchangeWebServices.CalendarEventDetails" /> instance are set.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRecurring">
+      <MemberSignature Language="C#" Value="public bool IsRecurring { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsRecurring" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarEventDetails.IsRecurring" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsRecurring As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsRecurring { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.CalendarEventDetails.IsRecurring" /> property gets or sets a Boolean value that indicates whether the calendar item recurs.</summary>
+        <value>The <see cref="P:ExchangeWebServices.CalendarEventDetails.IsRecurring" /> property returns <b>true</b> if the calendar item is set to recur; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsReminderSet">
+      <MemberSignature Language="C#" Value="public bool IsReminderSet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsReminderSet" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarEventDetails.IsReminderSet" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsReminderSet As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReminderSet { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.CalendarEventDetails.IsReminderSet" /> property gets or sets a Boolean value that indicates whether a reminder is set for the calendar event.</summary>
+        <value>The <see cref="P:ExchangeWebServices.CalendarEventDetails.IsReminderSet" /> property returns <b>true</b> if a reminder is set for the calendar event; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Location">
+      <MemberSignature Language="C#" Value="public string Location { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Location" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarEventDetails.Location" />
+      <MemberSignature Language="VB.NET" Value="Public Property Location As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Location { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.CalendarEventDetails.Location" /> property gets or sets the location of the calendar item.</summary>
+        <value>The <see cref="P:ExchangeWebServices.CalendarEventDetails.Location" /> property returns a string that contains the location field of the calendar item.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subject">
+      <MemberSignature Language="C#" Value="public string Subject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Subject" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.CalendarEventDetails.Subject" />
+      <MemberSignature Language="VB.NET" Value="Public Property Subject As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subject { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.CalendarEventDetails.Subject" /> property gets or sets the subject of the calendar item.</summary>
+        <value>The <see cref="P:ExchangeWebServices.CalendarEventDetails.Subject" /> property returns a string that contains the subject field of the calendar item.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

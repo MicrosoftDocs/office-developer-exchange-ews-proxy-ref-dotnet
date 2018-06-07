@@ -1,0 +1,92 @@
+﻿<Type Name="MailboxStatisticsSearchResultType" FullName="ExchangeWebServices.MailboxStatisticsSearchResultType">
+  <TypeSignature Language="C#" Value="public class MailboxStatisticsSearchResultType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit MailboxStatisticsSearchResultType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.MailboxStatisticsSearchResultType" />
+  <TypeSignature Language="VB.NET" Value="Public Class MailboxStatisticsSearchResultType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MailboxStatisticsSearchResultType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MailboxStatisticsSearchResultType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.MailboxStatisticsSearchResultType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MailboxStatisticsSearchResultType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeywordStatisticsSearchResult">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.KeywordStatisticsSearchResultType KeywordStatisticsSearchResult { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.KeywordStatisticsSearchResultType KeywordStatisticsSearchResult" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailboxStatisticsSearchResultType.KeywordStatisticsSearchResult" />
+      <MemberSignature Language="VB.NET" Value="Public Property KeywordStatisticsSearchResult As KeywordStatisticsSearchResultType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::KeywordStatisticsSearchResultType ^ KeywordStatisticsSearchResult { ExchangeWebServices::KeywordStatisticsSearchResultType ^ get(); void set(ExchangeWebServices::KeywordStatisticsSearchResultType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.KeywordStatisticsSearchResultType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserMailbox">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.UserMailboxType UserMailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.UserMailboxType UserMailbox" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailboxStatisticsSearchResultType.UserMailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserMailbox As UserMailboxType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::UserMailboxType ^ UserMailbox { ExchangeWebServices::UserMailboxType ^ get(); void set(ExchangeWebServices::UserMailboxType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.UserMailboxType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

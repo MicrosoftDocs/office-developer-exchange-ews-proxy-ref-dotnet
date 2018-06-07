@@ -1,0 +1,123 @@
+﻿<Type Name="InvalidRecipientResponseCodeType" FullName="ExchangeWebServices.InvalidRecipientResponseCodeType">
+  <TypeSignature Language="C#" Value="public enum InvalidRecipientResponseCodeType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed InvalidRecipientResponseCodeType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.InvalidRecipientResponseCodeType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum InvalidRecipientResponseCodeType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class InvalidRecipientResponseCodeType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.InvalidRecipientResponseCodeType" /> enumeration provides information about why the recipient is invalid.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CannotObtainTokenFromSTS">
+      <MemberSignature Language="C#" Value="CannotObtainTokenFromSTS" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.InvalidRecipientResponseCodeType CannotObtainTokenFromSTS = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.InvalidRecipientResponseCodeType.CannotObtainTokenFromSTS" />
+      <MemberSignature Language="VB.NET" Value="CannotObtainTokenFromSTS" />
+      <MemberSignature Language="C++ CLI" Value="CannotObtainTokenFromSTS" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.InvalidRecipientResponseCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Indicates that there was a problem obtaining a security token from the token server.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OtherError">
+      <MemberSignature Language="C#" Value="OtherError" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.InvalidRecipientResponseCodeType OtherError = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.InvalidRecipientResponseCodeType.OtherError" />
+      <MemberSignature Language="VB.NET" Value="OtherError" />
+      <MemberSignature Language="C++ CLI" Value="OtherError" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.InvalidRecipientResponseCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="RecipientOrganizationFederatedWithUnknownTokenIssuer">
+      <MemberSignature Language="C#" Value="RecipientOrganizationFederatedWithUnknownTokenIssuer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.InvalidRecipientResponseCodeType RecipientOrganizationFederatedWithUnknownTokenIssuer = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.InvalidRecipientResponseCodeType.RecipientOrganizationFederatedWithUnknownTokenIssuer" />
+      <MemberSignature Language="VB.NET" Value="RecipientOrganizationFederatedWithUnknownTokenIssuer" />
+      <MemberSignature Language="C++ CLI" Value="RecipientOrganizationFederatedWithUnknownTokenIssuer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.InvalidRecipientResponseCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="RecipientOrganizationNotFederated">
+      <MemberSignature Language="C#" Value="RecipientOrganizationNotFederated" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.InvalidRecipientResponseCodeType RecipientOrganizationNotFederated = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.InvalidRecipientResponseCodeType.RecipientOrganizationNotFederated" />
+      <MemberSignature Language="VB.NET" Value="RecipientOrganizationNotFederated" />
+      <MemberSignature Language="C++ CLI" Value="RecipientOrganizationNotFederated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.InvalidRecipientResponseCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Indicates that a sharing relationship is not available with the organization specified in the recipient's SMTP e-mail address.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SystemPolicyBlocksSharingWithThisRecipient">
+      <MemberSignature Language="C#" Value="SystemPolicyBlocksSharingWithThisRecipient" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.InvalidRecipientResponseCodeType SystemPolicyBlocksSharingWithThisRecipient = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.InvalidRecipientResponseCodeType.SystemPolicyBlocksSharingWithThisRecipient" />
+      <MemberSignature Language="VB.NET" Value="SystemPolicyBlocksSharingWithThisRecipient" />
+      <MemberSignature Language="C++ CLI" Value="SystemPolicyBlocksSharingWithThisRecipient" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.InvalidRecipientResponseCodeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Indicates that the system administrator has set a system policy that blocks sharing with the specified recipient.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,259 @@
+﻿<Type Name="MonthNamesType" FullName="ExchangeWebServices.MonthNamesType">
+  <TypeSignature Language="C#" Value="public enum MonthNamesType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed MonthNamesType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.MonthNamesType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MonthNamesType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MonthNamesType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.MonthNamesType" /> enumeration describes the month in which a yearly recurring item occurs.</summary>
+    <remarks>
+      <para>This enumeration is used by the <see cref="P:ExchangeWebServices.RelativeYearlyRecurrencePatternType.Month" /> property of the <see cref="T:ExchangeWebServices.RelativeYearlyRecurrencePatternType" /> object and the <see cref="P:ExchangeWebServices.AbsoluteYearlyRecurrencePatternType.Month" /> property of the <see cref="T:ExchangeWebServices.AbsoluteYearlyRecurrencePatternType" /> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="April">
+      <MemberSignature Language="C#" Value="April" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MonthNamesType April = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MonthNamesType.April" />
+      <MemberSignature Language="VB.NET" Value="April" />
+      <MemberSignature Language="C++ CLI" Value="April" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MonthNamesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Indicates that the item recurs every April.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="August">
+      <MemberSignature Language="C#" Value="August" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MonthNamesType August = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MonthNamesType.August" />
+      <MemberSignature Language="VB.NET" Value="August" />
+      <MemberSignature Language="C++ CLI" Value="August" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MonthNamesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>Indicates that the item recurs every August.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="December">
+      <MemberSignature Language="C#" Value="December" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MonthNamesType December = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MonthNamesType.December" />
+      <MemberSignature Language="VB.NET" Value="December" />
+      <MemberSignature Language="C++ CLI" Value="December" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MonthNamesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>Indicates that the item recurs every December.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="February">
+      <MemberSignature Language="C#" Value="February" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MonthNamesType February = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MonthNamesType.February" />
+      <MemberSignature Language="VB.NET" Value="February" />
+      <MemberSignature Language="C++ CLI" Value="February" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MonthNamesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Indicates that the item recurs every February.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="January">
+      <MemberSignature Language="C#" Value="January" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MonthNamesType January = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MonthNamesType.January" />
+      <MemberSignature Language="VB.NET" Value="January" />
+      <MemberSignature Language="C++ CLI" Value="January" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MonthNamesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Indicates that the item recurs every January.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="July">
+      <MemberSignature Language="C#" Value="July" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MonthNamesType July = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MonthNamesType.July" />
+      <MemberSignature Language="VB.NET" Value="July" />
+      <MemberSignature Language="C++ CLI" Value="July" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MonthNamesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>Indicates that the item recurs every July.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="June">
+      <MemberSignature Language="C#" Value="June" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MonthNamesType June = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MonthNamesType.June" />
+      <MemberSignature Language="VB.NET" Value="June" />
+      <MemberSignature Language="C++ CLI" Value="June" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MonthNamesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Indicates that the item recurs every June.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="March">
+      <MemberSignature Language="C#" Value="March" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MonthNamesType March = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MonthNamesType.March" />
+      <MemberSignature Language="VB.NET" Value="March" />
+      <MemberSignature Language="C++ CLI" Value="March" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MonthNamesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Indicates that the item recurs every March.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="May">
+      <MemberSignature Language="C#" Value="May" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MonthNamesType May = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MonthNamesType.May" />
+      <MemberSignature Language="VB.NET" Value="May" />
+      <MemberSignature Language="C++ CLI" Value="May" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MonthNamesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Indicates that the item recurs every May.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="November">
+      <MemberSignature Language="C#" Value="November" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MonthNamesType November = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MonthNamesType.November" />
+      <MemberSignature Language="VB.NET" Value="November" />
+      <MemberSignature Language="C++ CLI" Value="November" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MonthNamesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>Indicates that the item recurs every November.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="October">
+      <MemberSignature Language="C#" Value="October" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MonthNamesType October = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MonthNamesType.October" />
+      <MemberSignature Language="VB.NET" Value="October" />
+      <MemberSignature Language="C++ CLI" Value="October" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MonthNamesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>Indicates that the item recurs every October.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="September">
+      <MemberSignature Language="C#" Value="September" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.MonthNamesType September = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.MonthNamesType.September" />
+      <MemberSignature Language="VB.NET" Value="September" />
+      <MemberSignature Language="C++ CLI" Value="September" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MonthNamesType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>Indicates that the item recurs every September.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

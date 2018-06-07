@@ -1,0 +1,256 @@
+﻿<Type Name="SearchItemKindType" FullName="ExchangeWebServices.SearchItemKindType">
+  <TypeSignature Language="C#" Value="public enum SearchItemKindType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed SearchItemKindType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SearchItemKindType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SearchItemKindType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SearchItemKindType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Contacts">
+      <MemberSignature Language="C#" Value="Contacts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SearchItemKindType Contacts = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SearchItemKindType.Contacts" />
+      <MemberSignature Language="VB.NET" Value="Contacts" />
+      <MemberSignature Language="C++ CLI" Value="Contacts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SearchItemKindType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Docs">
+      <MemberSignature Language="C#" Value="Docs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SearchItemKindType Docs = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SearchItemKindType.Docs" />
+      <MemberSignature Language="VB.NET" Value="Docs" />
+      <MemberSignature Language="C++ CLI" Value="Docs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SearchItemKindType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Email">
+      <MemberSignature Language="C#" Value="Email" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SearchItemKindType Email = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SearchItemKindType.Email" />
+      <MemberSignature Language="VB.NET" Value="Email" />
+      <MemberSignature Language="C++ CLI" Value="Email" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SearchItemKindType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Faxes">
+      <MemberSignature Language="C#" Value="Faxes" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SearchItemKindType Faxes = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SearchItemKindType.Faxes" />
+      <MemberSignature Language="VB.NET" Value="Faxes" />
+      <MemberSignature Language="C++ CLI" Value="Faxes" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SearchItemKindType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Im">
+      <MemberSignature Language="C#" Value="Im" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SearchItemKindType Im = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SearchItemKindType.Im" />
+      <MemberSignature Language="VB.NET" Value="Im" />
+      <MemberSignature Language="C++ CLI" Value="Im" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SearchItemKindType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Journals">
+      <MemberSignature Language="C#" Value="Journals" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SearchItemKindType Journals = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SearchItemKindType.Journals" />
+      <MemberSignature Language="VB.NET" Value="Journals" />
+      <MemberSignature Language="C++ CLI" Value="Journals" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SearchItemKindType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Meetings">
+      <MemberSignature Language="C#" Value="Meetings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SearchItemKindType Meetings = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SearchItemKindType.Meetings" />
+      <MemberSignature Language="VB.NET" Value="Meetings" />
+      <MemberSignature Language="C++ CLI" Value="Meetings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SearchItemKindType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Notes">
+      <MemberSignature Language="C#" Value="Notes" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SearchItemKindType Notes = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SearchItemKindType.Notes" />
+      <MemberSignature Language="VB.NET" Value="Notes" />
+      <MemberSignature Language="C++ CLI" Value="Notes" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SearchItemKindType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Posts">
+      <MemberSignature Language="C#" Value="Posts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SearchItemKindType Posts = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SearchItemKindType.Posts" />
+      <MemberSignature Language="VB.NET" Value="Posts" />
+      <MemberSignature Language="C++ CLI" Value="Posts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SearchItemKindType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Rssfeeds">
+      <MemberSignature Language="C#" Value="Rssfeeds" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SearchItemKindType Rssfeeds = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SearchItemKindType.Rssfeeds" />
+      <MemberSignature Language="VB.NET" Value="Rssfeeds" />
+      <MemberSignature Language="C++ CLI" Value="Rssfeeds" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SearchItemKindType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Tasks">
+      <MemberSignature Language="C#" Value="Tasks" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SearchItemKindType Tasks = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SearchItemKindType.Tasks" />
+      <MemberSignature Language="VB.NET" Value="Tasks" />
+      <MemberSignature Language="C++ CLI" Value="Tasks" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SearchItemKindType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Voicemail">
+      <MemberSignature Language="C#" Value="Voicemail" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SearchItemKindType Voicemail = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SearchItemKindType.Voicemail" />
+      <MemberSignature Language="VB.NET" Value="Voicemail" />
+      <MemberSignature Language="C++ CLI" Value="Voicemail" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SearchItemKindType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

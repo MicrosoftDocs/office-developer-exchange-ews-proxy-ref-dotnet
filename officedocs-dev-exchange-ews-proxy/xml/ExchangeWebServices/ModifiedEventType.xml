@@ -1,0 +1,97 @@
+﻿<Type Name="ModifiedEventType" FullName="ExchangeWebServices.ModifiedEventType">
+  <TypeSignature Language="C#" Value="public class ModifiedEventType : ExchangeWebServices.BaseObjectChangedEventType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ModifiedEventType extends ExchangeWebServices.BaseObjectChangedEventType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ModifiedEventType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ModifiedEventType&#xA;Inherits BaseObjectChangedEventType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ModifiedEventType : ExchangeWebServices::BaseObjectChangedEventType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseObjectChangedEventType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.ModifiedEventType" /> class represents an event in which an item or folder is modified.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ModifiedEventType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ModifiedEventType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ModifiedEventType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.ModifiedEventType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.ModifiedEventType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnreadCount">
+      <MemberSignature Language="C#" Value="public int UnreadCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 UnreadCount" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ModifiedEventType.UnreadCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property UnreadCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int UnreadCount { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ModifiedEventType.UnreadCount" /> property gets or sets the count of unread items within a given folder.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnreadCountSpecified">
+      <MemberSignature Language="C#" Value="public bool UnreadCountSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool UnreadCountSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ModifiedEventType.UnreadCountSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property UnreadCountSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool UnreadCountSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ModifiedEventType.UnreadCountSpecified" /> property gets a Boolean value that specifies whether the <a href="ms-help://MS.ExchangeServerMSDN.v1.en/EWSMRef/html/13c14712-f0d4-48d0-be82-ee7e56a9dd53.htm">UnreadCount</a></summary>
+        <value>The <see cref="P:ExchangeWebServices.ModifiedEventType.UnreadCountSpecified" /> property returns a value of <b>true</b> if the UnreadCount property is serialized into the SOAP request; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

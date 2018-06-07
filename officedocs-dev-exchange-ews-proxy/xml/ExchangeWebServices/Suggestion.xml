@@ -1,0 +1,146 @@
+﻿<Type Name="Suggestion" FullName="ExchangeWebServices.Suggestion">
+  <TypeSignature Language="C#" Value="public class Suggestion" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit Suggestion extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.Suggestion" />
+  <TypeSignature Language="VB.NET" Value="Public Class Suggestion" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Suggestion" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.Suggestion" /> class represents a single meeting suggestion.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Suggestion ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.Suggestion.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Suggestion();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.Suggestion" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.Suggestion" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttendeeConflictDataArray">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.AttendeeConflictData[] AttendeeConflictDataArray { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.AttendeeConflictData[] AttendeeConflictDataArray" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.Suggestion.AttendeeConflictDataArray" />
+      <MemberSignature Language="VB.NET" Value="Public Property AttendeeConflictDataArray As AttendeeConflictData()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::AttendeeConflictData ^&gt; ^ AttendeeConflictDataArray { cli::array &lt;ExchangeWebServices::AttendeeConflictData ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::AttendeeConflictData ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem(typeof(ExchangeWebServices.GroupAttendeeConflictData))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem(typeof(ExchangeWebServices.IndividualAttendeeConflictData))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem(typeof(ExchangeWebServices.TooBigGroupAttendeeConflictData))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem(typeof(ExchangeWebServices.UnknownAttendeeConflictData))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.AttendeeConflictData[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.Suggestion.AttendeeConflictDataArray" /> property gets or sets information that describes conflicts between users and resources and the suggested meeting time.</summary>
+        <value>The <see cref="P:ExchangeWebServices.Suggestion.AttendeeConflictDataArray" /> property returns an array of <see cref="T:ExchangeWebServices.AttendeeConflictData" /> objects that describe conflicts between users and resources and the suggested meeting time.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsWorkTime">
+      <MemberSignature Language="C#" Value="public bool IsWorkTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsWorkTime" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.Suggestion.IsWorkTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsWorkTime As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsWorkTime { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.Suggestion.IsWorkTime" /> property gets or sets a Boolean value that indicates whether the suggested meeting time occurs during scheduled work hours.</summary>
+        <value>The <see cref="P:ExchangeWebServices.Suggestion.IsWorkTime" /> property returns <b>true</b> if the suggested meeting time occurs during scheduled work hours; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingTime">
+      <MemberSignature Language="C#" Value="public DateTime MeetingTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime MeetingTime" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.Suggestion.MeetingTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property MeetingTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime MeetingTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.Suggestion.MeetingTime" /> property gets or sets the suggested meeting time.</summary>
+        <value>The <see cref="P:ExchangeWebServices.Suggestion.MeetingTime" /> property returns the suggested meeting time.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuggestionQuality">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SuggestionQuality SuggestionQuality { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.SuggestionQuality SuggestionQuality" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.Suggestion.SuggestionQuality" />
+      <MemberSignature Language="VB.NET" Value="Public Property SuggestionQuality As SuggestionQuality" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SuggestionQuality SuggestionQuality { ExchangeWebServices::SuggestionQuality get(); void set(ExchangeWebServices::SuggestionQuality value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SuggestionQuality</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.Suggestion.SuggestionQuality" /> property gets or sets a value that indicates the quality of the meeting suggestion.</summary>
+        <value>The <see cref="P:ExchangeWebServices.Suggestion.SuggestionQuality" /> property returns a <see cref="T:ExchangeWebServices.SuggestionQuality" /> enumeration value that indicates the quality of the meeting suggestion.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

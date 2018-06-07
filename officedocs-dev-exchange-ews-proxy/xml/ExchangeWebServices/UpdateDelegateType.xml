@@ -1,0 +1,199 @@
+﻿<Type Name="UpdateDelegateType" FullName="ExchangeWebServices.UpdateDelegateType">
+  <TypeSignature Language="C#" Value="public class UpdateDelegateType : ExchangeWebServices.BaseDelegateType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit UpdateDelegateType extends ExchangeWebServices.BaseDelegateType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.UpdateDelegateType" />
+  <TypeSignature Language="VB.NET" Value="Public Class UpdateDelegateType&#xA;Inherits BaseDelegateType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UpdateDelegateType : ExchangeWebServices::BaseDelegateType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseDelegateType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.UpdateDelegateType" /> class represents a request to update delegate settings on a mailbox.</summary>
+    <remarks>To be added.</remarks>
+    <example>
+      <para>The following example shows you how to update delegate permissions on user1's account. User2 is granted the None permission level for the Calendar folder and is granted permission to view private items. User3 is granted Reviewer permissions for the Journal folder. Meeting requests are sent to the delegates and information about the request is sent to user1.</para>
+      <code>static void UpdateDelegate()
+{
+    // Set the version, credentials, and the Client Access server on ExchangeServiceBinding.
+    ExchangeServiceBinding esb = new ExchangeServiceBinding();
+    esb.RequestServerVersionValue = new RequestServerVersion();
+    esb.RequestServerVersionValue.Version = ExchangeVersionType.Exchange2007_SP1;
+    esb.Credentials = new NetworkCredential("username", "password", "domain");
+    esb.Url = "https://FQDN/ews/exchange.asmx";
+
+    // Create the request.
+    UpdateDelegateType request = new UpdateDelegateType();
+
+    // Identify the mailbox for which delegate settings will be updated.
+    request.Mailbox = new EmailAddressType();
+    request.Mailbox.EmailAddress = "user1@example.com";
+
+    // Update delegate user permissions for user2.
+    request.DelegateUsers = new DelegateUserType[3] { new DelegateUserType(), new DelegateUserType(), new DelegateUserType() };
+    request.DelegateUsers[0].UserId = new UserIdType();
+    request.DelegateUsers[0].UserId.PrimarySmtpAddress = "user2@example.com";
+    request.DelegateUsers[0].DelegatePermissions = new DelegatePermissionsType();
+    request.DelegateUsers[0].DelegatePermissions.CalendarFolderPermissionLevel = DelegateFolderPermissionLevelType.None;
+    request.DelegateUsers[0].DelegatePermissions.CalendarFolderPermissionLevelSpecified = true;
+    request.DelegateUsers[0].ViewPrivateItems = true;
+    request.DelegateUsers[0].ViewPrivateItemsSpecified = true;
+
+    // Update delegate user permissions.
+    request.DelegateUsers[1].UserId = new UserIdType();
+    request.DelegateUsers[1].UserId.PrimarySmtpAddress = "user3@example.com";
+    request.DelegateUsers[1].DelegatePermissions = new DelegatePermissionsType();
+    request.DelegateUsers[1].DelegatePermissions.JournalFolderPermissionLevel = DelegateFolderPermissionLevelType.Reviewer;
+    request.DelegateUsers[1].DelegatePermissions.JournalFolderPermissionLevelSpecified = true;
+
+    // Identify how meeting requests are handled.
+    request.DeliverMeetingRequests = new DeliverMeetingRequestsType();
+    request.DeliverMeetingRequests = DeliverMeetingRequestsType.DelegatesAndSendInformationToMe;
+    request.DeliverMeetingRequestsSpecified = true;
+
+    try
+    {
+        // Send the UpdateDelegate request and get the response.
+        UpdateDelegateResponseMessageType response = esb.UpdateDelegate(request);
+        DelegateUserResponseMessageType[] durmt = new DelegateUserResponseMessageType[] { };
+        durmt = response.ResponseMessages;
+
+        // Check each response message.
+        foreach (DelegateUserResponseMessageType resp in durmt)
+        {
+            if (resp.ResponseClass == ResponseClassType.Success)
+            {
+                Console.WriteLine("Delegate user updated: " + resp.DelegateUser.UserId.DisplayName);
+            }
+            else if (resp.ResponseClass == ResponseClassType.Error)
+            {
+                Console.WriteLine("Error: " + resp.MessageText);
+            }
+            else
+                Console.WriteLine("Warning: " + resp.MessageText);
+        }
+        Console.ReadLine();
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine(e.Message);
+        Console.ReadLine();
+    }
+}</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UpdateDelegateType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.UpdateDelegateType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; UpdateDelegateType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.UpdateDelegateType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.UpdateDelegateType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DelegateUsers">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.DelegateUserType[] DelegateUsers { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.DelegateUserType[] DelegateUsers" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UpdateDelegateType.DelegateUsers" />
+      <MemberSignature Language="VB.NET" Value="Public Property DelegateUsers As DelegateUserType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::DelegateUserType ^&gt; ^ DelegateUsers { cli::array &lt;ExchangeWebServices::DelegateUserType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::DelegateUserType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("DelegateUser", IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DelegateUserType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.UpdateDelegateType.DelegateUsers" /> property gets or sets a <see cref="T:ExchangeWebServices.DelegateUserType" /> array that represents the identities of delegates to update in a mailbox. This property is optional.</summary>
+        <value>The <b>DelgateUsers</b> property returns an array of <see cref="T:ExchangeWebServices.DelegateUserType" /> that represent the identities of delegates to update in a mailbox.</value>
+        <remarks>
+          <para>If a delegate permission setting that is included in the SOAP request already exists in the specified mailbox, the setting in the mailbox will be updated with the value as specified in the request. If a delegate permission setting that is included in the SOAP request does not yet exist in the specified mailbox, the setting will be added to the mailbox. Any delegate permission settings that exist in the specified mailbox but are not included in the SOAP request will remain unchanged in the mailbox.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeliverMeetingRequests">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.DeliverMeetingRequestsType DeliverMeetingRequests { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.DeliverMeetingRequestsType DeliverMeetingRequests" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UpdateDelegateType.DeliverMeetingRequests" />
+      <MemberSignature Language="VB.NET" Value="Public Property DeliverMeetingRequests As DeliverMeetingRequestsType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::DeliverMeetingRequestsType DeliverMeetingRequests { ExchangeWebServices::DeliverMeetingRequestsType get(); void set(ExchangeWebServices::DeliverMeetingRequestsType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.DeliverMeetingRequestsType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.UpdateDelegateType.DeliverMeetingRequests" /> property gets or sets a <see cref="T:ExchangeWebServices.DeliverMeetingRequestsType" /> object that represents how meeting requests are handled between the delegate and the principal.</summary>
+        <value>The <see cref="P:ExchangeWebServices.UpdateDelegateType.DeliverMeetingRequests" /> property returns a <see cref="T:ExchangeWebServices.DeliverMeetingRequestsType" /> object that represents how meeting requests are handled between the delegate and the principal.</value>
+        <remarks>
+          <para>The <see cref="P:ExchangeWebServices.UpdateDelegateType.DeliverMeetingRequests" /> property affects all delegates in a principal's mailbox.</para>
+          <para>You must set the <see cref="P:ExchangeWebServices.UpdateDelegateType.DeliverMeetingRequestsSpecified" /> property to <b>true</b> so that <b>DeliverMeetingRequests</b> is serialized into the SOAPrequest.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeliverMeetingRequestsSpecified">
+      <MemberSignature Language="C#" Value="public bool DeliverMeetingRequestsSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DeliverMeetingRequestsSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.UpdateDelegateType.DeliverMeetingRequestsSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property DeliverMeetingRequestsSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DeliverMeetingRequestsSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <b>DeliverMeetingRequestsSpecified</b> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.UpdateDelegateType.DeliverMeetingRequests" /> property is serialized into the Simple Object Access Protocol (SOAP) request.</summary>
+        <value>The <b>DeliverMeetingRequestsSpecified</b> property returns a Boolean <b>true</b> if <see cref="P:ExchangeWebServices.UpdateDelegateType.DeliverMeetingRequests" /> is serialized into the Simple Object Access Protocol (SOAP) request; otherwise, the property returns <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

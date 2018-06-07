@@ -1,0 +1,52 @@
+﻿<Type Name="SuppressReadReceiptType" FullName="ExchangeWebServices.SuppressReadReceiptType">
+  <TypeSignature Language="C#" Value="public class SuppressReadReceiptType : ExchangeWebServices.ReferenceItemResponseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SuppressReadReceiptType extends ExchangeWebServices.ReferenceItemResponseType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SuppressReadReceiptType" />
+  <TypeSignature Language="VB.NET" Value="Public Class SuppressReadReceiptType&#xA;Inherits ReferenceItemResponseType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SuppressReadReceiptType : ExchangeWebServices::ReferenceItemResponseType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.ReferenceItemResponseType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.SuppressReadReceiptType" /> class is used to suppress read receipts.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SuppressReadReceiptType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.SuppressReadReceiptType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SuppressReadReceiptType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.SuppressReadReceiptType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.SuppressReadReceiptType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

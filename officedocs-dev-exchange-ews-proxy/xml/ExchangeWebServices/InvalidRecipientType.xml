@@ -1,0 +1,112 @@
+﻿<Type Name="InvalidRecipientType" FullName="ExchangeWebServices.InvalidRecipientType">
+  <TypeSignature Language="C#" Value="public class InvalidRecipientType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit InvalidRecipientType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.InvalidRecipientType" />
+  <TypeSignature Language="VB.NET" Value="Public Class InvalidRecipientType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class InvalidRecipientType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.InvalidRecipientType" /> class represents an invalid recipient of a sharing invitation.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public InvalidRecipientType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.InvalidRecipientType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; InvalidRecipientType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.InvalidRecipientType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.InvalidRecipientType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MessageText">
+      <MemberSignature Language="C#" Value="public string MessageText { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MessageText" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.InvalidRecipientType.MessageText" />
+      <MemberSignature Language="VB.NET" Value="Public Property MessageText As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MessageText { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.InvalidRecipientType.MessageText" /> property gets a text description of the status of a response.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.InvalidRecipientType.MessageText" /> property is a string that includes a text description of the response status.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResponseCode">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.InvalidRecipientResponseCodeType ResponseCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.InvalidRecipientResponseCodeType ResponseCode" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.InvalidRecipientType.ResponseCode" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResponseCode As InvalidRecipientResponseCodeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::InvalidRecipientResponseCodeType ResponseCode { ExchangeWebServices::InvalidRecipientResponseCodeType get(); void set(ExchangeWebServices::InvalidRecipientResponseCodeType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.InvalidRecipientResponseCodeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.InvalidRecipientType.ResponseCode" /> property gets  the error code that identifies the specific error that the request encountered.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.InvalidRecipientType.ResponseCode" /> property is one of the <see cref="T:ExchangeWebServices.InvalidRecipientResponseCodeType" /> enumeration values.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmtpAddress">
+      <MemberSignature Language="C#" Value="public string SmtpAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SmtpAddress" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.InvalidRecipientType.SmtpAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property SmtpAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SmtpAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.InvalidRecipientType.SmtpAddress" /> property gets the SMTP address of the invalid recipient.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.InvalidRecipientType.SmtpAddress" /> property is a string that contains the SMTP address of the invalid recipient.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

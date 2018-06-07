@@ -1,0 +1,75 @@
+﻿<Type Name="ResolveNamesResponseMessageType" FullName="ExchangeWebServices.ResolveNamesResponseMessageType">
+  <TypeSignature Language="C#" Value="public class ResolveNamesResponseMessageType : ExchangeWebServices.ResponseMessageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ResolveNamesResponseMessageType extends ExchangeWebServices.ResponseMessageType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ResolveNamesResponseMessageType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ResolveNamesResponseMessageType&#xA;Inherits ResponseMessageType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ResolveNamesResponseMessageType : ExchangeWebServices::ResponseMessageType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.ResponseMessageType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.ResolveNamesResponseMessageType" /> class contains the status and result of a ResolveNames request.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ResolveNamesResponseMessageType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ResolveNamesResponseMessageType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ResolveNamesResponseMessageType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.ResolveNamesResponseMessageType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.ResolveNamesResponseMessageType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResolutionSet">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ArrayOfResolutionType ResolutionSet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ArrayOfResolutionType ResolutionSet" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ResolveNamesResponseMessageType.ResolutionSet" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResolutionSet As ArrayOfResolutionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ArrayOfResolutionType ^ ResolutionSet { ExchangeWebServices::ArrayOfResolutionType ^ get(); void set(ExchangeWebServices::ArrayOfResolutionType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ArrayOfResolutionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ResolveNamesResponseMessageType.ResolutionSet" /> property gets or sets an array of resolutions for an ambiguous name.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A <see cref="P:ExchangeWebServices.ResolveNamesResponseMessageType.ResolutionSet" /> property can contain a maximum of 100 resolved entities.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

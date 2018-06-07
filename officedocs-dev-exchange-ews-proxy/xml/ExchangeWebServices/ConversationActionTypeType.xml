@@ -1,0 +1,199 @@
+﻿<Type Name="ConversationActionTypeType" FullName="ExchangeWebServices.ConversationActionTypeType">
+  <TypeSignature Language="C#" Value="public enum ConversationActionTypeType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed ConversationActionTypeType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ConversationActionTypeType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ConversationActionTypeType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ConversationActionTypeType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AlwaysCategorize">
+      <MemberSignature Language="C#" Value="AlwaysCategorize" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ConversationActionTypeType AlwaysCategorize = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ConversationActionTypeType.AlwaysCategorize" />
+      <MemberSignature Language="VB.NET" Value="AlwaysCategorize" />
+      <MemberSignature Language="C++ CLI" Value="AlwaysCategorize" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ConversationActionTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="AlwaysDelete">
+      <MemberSignature Language="C#" Value="AlwaysDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ConversationActionTypeType AlwaysDelete = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ConversationActionTypeType.AlwaysDelete" />
+      <MemberSignature Language="VB.NET" Value="AlwaysDelete" />
+      <MemberSignature Language="C++ CLI" Value="AlwaysDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ConversationActionTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="AlwaysMove">
+      <MemberSignature Language="C#" Value="AlwaysMove" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ConversationActionTypeType AlwaysMove = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ConversationActionTypeType.AlwaysMove" />
+      <MemberSignature Language="VB.NET" Value="AlwaysMove" />
+      <MemberSignature Language="C++ CLI" Value="AlwaysMove" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ConversationActionTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="Copy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ConversationActionTypeType Copy = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ConversationActionTypeType.Copy" />
+      <MemberSignature Language="VB.NET" Value="Copy" />
+      <MemberSignature Language="C++ CLI" Value="Copy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ConversationActionTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="Delete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ConversationActionTypeType Delete = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ConversationActionTypeType.Delete" />
+      <MemberSignature Language="VB.NET" Value="Delete" />
+      <MemberSignature Language="C++ CLI" Value="Delete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ConversationActionTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Flag">
+      <MemberSignature Language="C#" Value="Flag" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ConversationActionTypeType Flag = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ConversationActionTypeType.Flag" />
+      <MemberSignature Language="VB.NET" Value="Flag" />
+      <MemberSignature Language="C++ CLI" Value="Flag" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ConversationActionTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Move">
+      <MemberSignature Language="C#" Value="Move" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ConversationActionTypeType Move = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ConversationActionTypeType.Move" />
+      <MemberSignature Language="VB.NET" Value="Move" />
+      <MemberSignature Language="C++ CLI" Value="Move" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ConversationActionTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="SetReadState">
+      <MemberSignature Language="C#" Value="SetReadState" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ConversationActionTypeType SetReadState = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ConversationActionTypeType.SetReadState" />
+      <MemberSignature Language="VB.NET" Value="SetReadState" />
+      <MemberSignature Language="C++ CLI" Value="SetReadState" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ConversationActionTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="SetRetentionPolicy">
+      <MemberSignature Language="C#" Value="SetRetentionPolicy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ConversationActionTypeType SetRetentionPolicy = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ConversationActionTypeType.SetRetentionPolicy" />
+      <MemberSignature Language="VB.NET" Value="SetRetentionPolicy" />
+      <MemberSignature Language="C++ CLI" Value="SetRetentionPolicy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ConversationActionTypeType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

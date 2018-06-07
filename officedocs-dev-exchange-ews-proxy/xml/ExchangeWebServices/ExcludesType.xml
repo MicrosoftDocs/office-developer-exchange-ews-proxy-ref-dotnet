@@ -1,0 +1,109 @@
+﻿<Type Name="ExcludesType" FullName="ExchangeWebServices.ExcludesType">
+  <TypeSignature Language="C#" Value="public class ExcludesType : ExchangeWebServices.SearchExpressionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ExcludesType extends ExchangeWebServices.SearchExpressionType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ExcludesType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ExcludesType&#xA;Inherits SearchExpressionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ExcludesType : ExchangeWebServices::SearchExpressionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.SearchExpressionType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.ExcludesType" /> class performs a bitwise mask of the specified property and a supplied value.</summary>
+    <remarks>
+      <para>The <see cref="T:ExchangeWebServices.ExcludesType" /> restriction can only be applied to a property that has an integer value. If the property type is anything other than an integer, an error code of <see cref="F:ExchangeWebServices.ResponseCodeType.ErrorUnsupportedPathForQuery" /> is returned in the response.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExcludesType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ExcludesType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ExcludesType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.ExcludesType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.ExcludesType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bitmask">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ExcludesValueType Bitmask { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ExcludesValueType Bitmask" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ExcludesType.Bitmask" />
+      <MemberSignature Language="VB.NET" Value="Public Property Bitmask As ExcludesValueType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ExcludesValueType ^ Bitmask { ExchangeWebServices::ExcludesValueType ^ get(); void set(ExchangeWebServices::ExcludesValueType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ExcludesValueType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ExcludesType.Bitmask" /> property gets or sets a hexadecimal or decimal mask that is to be used during an Excludes restriction operation.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ExcludesType.Bitmask" /> property returns an <see cref="T:ExchangeWebServices.ExcludesValueType" /> object that represents a bitmask.</value>
+        <remarks>
+          <para>If the bitmask represents a hexadecimal number, it must be prefixed by 0x or 0X. Otherwise, it will be considered a decimal number.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BasePathToElementType Item { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BasePathToElementType Item" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ExcludesType.Item" />
+      <MemberSignature Language="VB.NET" Value="Public Property Item As BasePathToElementType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::BasePathToElementType ^ Item { ExchangeWebServices::BasePathToElementType ^ get(); void set(ExchangeWebServices::BasePathToElementType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("IndexedFieldURI", typeof(ExchangeWebServices.PathToIndexedFieldType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ExtendedFieldURI", typeof(ExchangeWebServices.PathToExtendedFieldType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("FieldURI", typeof(ExchangeWebServices.PathToUnindexedFieldType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BasePathToElementType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ExcludesType.Item" /> property gets or sets the property path that is compared to the <see cref="P:ExchangeWebServices.ExcludesType.Bitmask" />.</summary>
+        <value>The <see cref="P:ExchangeWebServices.ExcludesType.Item" /> property returns a <see cref="T:ExchangeWebServices.BasePathToElementType" /> object that represents either a <see cref="T:ExchangeWebServices.PathToUnindexedFieldType" />, <see cref="T:ExchangeWebServices.PathToIndexedFieldType" />, or <see cref="T:ExchangeWebServices.PathToExtendedFieldType" /> object.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

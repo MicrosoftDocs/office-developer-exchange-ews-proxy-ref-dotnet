@@ -1,0 +1,120 @@
+﻿<Type Name="ItemChangeType" FullName="ExchangeWebServices.ItemChangeType">
+  <TypeSignature Language="C#" Value="public class ItemChangeType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ItemChangeType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ItemChangeType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ItemChangeType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ItemChangeType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.ItemChangeType" /> class contains an item identifier and the updates to apply to the item.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ItemChangeType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ItemChangeType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ItemChangeType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.ItemChangeType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.ItemChangeType" /> class. </summary>
+        <remarks>
+          <para>Only a single <b>ItemId</b>, <b>OccurrenceItemId</b>, or <b>RecurringMasterItemId</b> element can be used in an <b>ItemChange</b> element.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BaseItemIdType Item { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BaseItemIdType Item" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemChangeType.Item" />
+      <MemberSignature Language="VB.NET" Value="Public Property Item As BaseItemIdType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::BaseItemIdType ^ Item { ExchangeWebServices::BaseItemIdType ^ get(); void set(ExchangeWebServices::BaseItemIdType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ItemId", typeof(ExchangeWebServices.ItemIdType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("RecurringMasterItemId", typeof(ExchangeWebServices.RecurringMasterItemIdType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("OccurrenceItemId", typeof(ExchangeWebServices.OccurrenceItemIdType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BaseItemIdType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Updates">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ItemChangeDescriptionType[] Updates { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ItemChangeDescriptionType[] Updates" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.ItemChangeType.Updates" />
+      <MemberSignature Language="VB.NET" Value="Public Property Updates As ItemChangeDescriptionType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::ItemChangeDescriptionType ^&gt; ^ Updates { cli::array &lt;ExchangeWebServices::ItemChangeDescriptionType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::ItemChangeDescriptionType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("AppendToItemField", typeof(ExchangeWebServices.AppendToItemFieldType), IsNullable=false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("DeleteItemField", typeof(ExchangeWebServices.DeleteItemFieldType), IsNullable=false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("SetItemField", typeof(ExchangeWebServices.SetItemFieldType), IsNullable=false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemChangeDescriptionType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.ItemChangeType.Updates" /><see cref="P:ExchangeWebServices.ItemChangeType.Updates" /> property gets or sets an array that defines append, set, and delete changes to item properties. This property is required.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The updates that are defined by this property are performed on the item that is identified by the <b>ItemId</b>, <b>OccurrenceItemId</b>, or <b>RecurringMasterItemId</b> elements.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

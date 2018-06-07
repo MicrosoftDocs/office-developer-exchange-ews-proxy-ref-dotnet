@@ -1,0 +1,10 @@
+{
+  "dependencies": [
+    "System",
+    "System.Web.Services",
+    "System.XML"
+  ],
+  "exchange-ews-proxy": [
+    "EWS"
+  ]
+}

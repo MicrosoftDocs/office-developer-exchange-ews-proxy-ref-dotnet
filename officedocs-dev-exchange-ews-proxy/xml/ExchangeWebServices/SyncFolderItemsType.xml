@@ -1,0 +1,321 @@
+﻿<Type Name="SyncFolderItemsType" FullName="ExchangeWebServices.SyncFolderItemsType">
+  <TypeSignature Language="C#" Value="public class SyncFolderItemsType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SyncFolderItemsType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SyncFolderItemsType" />
+  <TypeSignature Language="VB.NET" Value="Public Class SyncFolderItemsType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SyncFolderItemsType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.SyncFolderItemsType" /> class represents a request to synchronize items in a folder with the computer that is running Microsoft Exchange Server 2007.</summary>
+    <remarks>
+      <para>To synchronize the folder hierarchy, use the <see cref="T:ExchangeWebServices.SyncFolderHierarchyType" /> proxy object. </para>
+      <para />
+    </remarks>
+    <example>
+      <para>The following example shows you how to synchronize the items in the Inbox folder. Because the <see cref="P:ExchangeWebServices.SyncFolderItemsType.SyncState" /> property is set, the items in the folder have been synchronized before. This SyncFolderItems operation will return all changes that were made since the synchronization call that is represented by the <see cref="P:ExchangeWebServices.SyncFolderItemsType.SyncState" /> property. This call will return a maximum of 100 items, which are represented by their item identifiers and their subject field, if applicable. Also be aware that this call ignores a single item.</para>
+      <code>static void SyncFolderItems(ExchangeServiceBinding esb)
+{ 
+    // Create the request.
+    SyncFolderItemsType &lt;span class="label"&gt;request&lt;/span&gt; = new SyncFolderItemsType();
+
+    // Identify the properties that are synchronized.
+    ItemResponseShapeType shape = new ItemResponseShapeType();
+    shape.BaseShape = DefaultShapeNamesType.IdOnly;
+    PathToUnindexedFieldType itemSubject = new PathToUnindexedFieldType();
+    itemSubject.FieldURI = UnindexedFieldURIType.itemSubject;
+    shape.AdditionalProperties = new BasePathToElementType[1];
+    shape.AdditionalProperties[0] = itemSubject;
+    
+    // Add the synchronized properties to the request.
+    &lt;span class="label"&gt;request&lt;/span&gt;.ItemShape = shape;
+
+    // Define the maximum number of changes returned in the response.
+    &lt;span class="label"&gt;request&lt;/span&gt;.MaxChangesReturned = 100;
+
+    // Identify the folder to synchronize.
+    DistinguishedFolderIdType inbox = new DistinguishedFolderIdType();
+    inbox.Id = DistinguishedFolderIdNameType.inbox;
+    &lt;span class="label"&gt;request&lt;/span&gt;.SyncFolderId = new TargetFolderIdType();
+    &lt;span class="label"&gt;request&lt;/span&gt;.SyncFolderId.Item = inbox;
+
+    // Add the synchronization state to the request.
+    &lt;span class="label"&gt;request&lt;/span&gt;.SyncState = "wQ3YnacHwN3pRYZFQ1jv7HwSZzl/z/wESqUej1h8AAA==";
+
+    // Identify which items should not be synchronized.
+    &lt;span class="label"&gt;request&lt;/span&gt;.Ignore = new ItemIdType[1];
+    &lt;span class="label"&gt;request&lt;/span&gt;.Ignore[0] = new ItemIdType();
+    &lt;span class="label"&gt;request&lt;/span&gt;.Ignore[0].Id = "AAAlAE1BQG1haW5lcmNvbnRvc";
+    &lt;span class="label"&gt;request&lt;/span&gt;.Ignore[0].ChangeKey = "CQAAABYAAAAMoHzy8/QATr21qKEgNudZAG6ns+MG";
+
+    // Send the request and get the response.
+    SyncFolderItemsResponseType response = esb.SyncFolderItems(&lt;span class="label"&gt;request&lt;/span&gt;);
+
+    ArrayOfResponseMessagesType aormt = response.ResponseMessages;
+    ResponseMessageType[] rmta = aormt.Items;
+
+    if (rmta[0].ResponseClass == ResponseClassType.Success)
+    {
+        // Cast the response message to the appropriate type.
+        SyncFolderItemsResponseMessageType sfirmt = rmta[0] as SyncFolderItemsResponseMessageType;
+
+        // Get the sync state string to use in later synchronization calls.
+        string syncState = sfirmt.SyncState;
+
+        // Get the array of changes that are returned in the response.
+        SyncFolderItemsChangesType changeArray = sfirmt.Changes;
+
+        // This contains the array of item changes.
+        object[] changes = changeArray.Items;
+
+        // This identifies the type of change that occurred on an item.
+        ItemsChoiceType2 changeType;
+
+        for (int count = 0; count &amp;lt; changes.Length; count++)
+        { 
+            // This identifies the type of change that is represented by the objects
+            // in the changes object[].
+            changeType = changeArray.ItemsElementName[count];
+
+            // Check for the change type of each folder that is returned in the response.
+            switch (changeType)
+            {
+                case ItemsChoiceType2.Create:
+                    SyncFolderItemsCreateOrUpdateType createdItem = changes[count] as SyncFolderItemsCreateOrUpdateType;
+                    // TODO: Handle the created item.
+                    if (createdItem.Item is TaskType)
+                    {
+                        // TODO: Cast to task item and handle properties.
+                    }
+                    else;
+                    // TODO: Check and cast for MeetingCancellationMessageType, MeetingResponseMessageType,
+                    // MeetingRequestMessageType, MeetingMessageType, DistributionListType, ContactItemType,
+                    // CalendarItemType, MessageType, or ItemType types.
+                    break;
+
+                case ItemsChoiceType2.Update:
+                    SyncFolderItemsCreateOrUpdateType updatedItem = changes[count] as SyncFolderItemsCreateOrUpdateType;
+                    // TODO: Handle the updated item.
+                    // TODO: Check and cast to one of the 10 item types.
+                    break;
+
+                case ItemsChoiceType2.ReadFlagChange:
+                    SyncFolderItemsCreateOrUpdateType changeReadFlag = changes[count] as SyncFolderItemsCreateOrUpdateType;
+                    // TODO: Check and cast to one of the 10 item types.
+                    // TODO: Update the read flag on the local item.
+                    break;
+                case ItemsChoiceType2.Delete:
+                    SyncFolderItemsDeleteType deletedItem = changes[count] as SyncFolderItemsDeleteType;
+                    // TODO: Get the identifier of the deleted item.
+                    break;
+            }
+        }
+    }
+}</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SyncFolderItemsType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.SyncFolderItemsType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SyncFolderItemsType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.SyncFolderItemsType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.SyncFolderItemsType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Ignore">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ItemIdType[] Ignore { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ItemIdType[] Ignore" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SyncFolderItemsType.Ignore" />
+      <MemberSignature Language="VB.NET" Value="Public Property Ignore As ItemIdType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::ItemIdType ^&gt; ^ Ignore { cli::array &lt;ExchangeWebServices::ItemIdType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::ItemIdType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("ItemId", IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemIdType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.SyncFolderItemsType.Ignore" /> property gets or sets an array of items to skip for synchronization. This property is optional. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.SyncFolderItemsType.Ignore" /> property returns an <see cref="T:ExchangeWebServices.ItemIdType" /> array.</value>
+        <remarks>
+          <para>The item identifier and change key are required for each skipped item. Otherwise, an error will occur.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemShape">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ItemResponseShapeType ItemShape { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ItemResponseShapeType ItemShape" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SyncFolderItemsType.ItemShape" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemShape As ItemResponseShapeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ItemResponseShapeType ^ ItemShape { ExchangeWebServices::ItemResponseShapeType ^ get(); void set(ExchangeWebServices::ItemResponseShapeType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemResponseShapeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.SyncFolderItemsType.ItemShape" /> property gets or sets the shape that describes which properties are returned in the response. This property is required. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.SyncFolderItemsType.ItemShape" /> property returns an <see cref="T:ExchangeWebServices.ItemResponseShapeType" /> array.</value>
+        <remarks>
+          <para>The potential properties that are returned for each item vary based on the item type.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxChangesReturned">
+      <MemberSignature Language="C#" Value="public int MaxChangesReturned { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaxChangesReturned" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SyncFolderItemsType.MaxChangesReturned" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxChangesReturned As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MaxChangesReturned { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.SyncFolderItemsType.MaxChangesReturned" /> property gets or sets the maximum number of changes that can be returned in a synchronization response. This property is required. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.SyncFolderItemsType.MaxChangesReturned" /> property returns an integer.</value>
+        <remarks>
+          <para>The value for this property must be between 1 and 512, inclusive.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SyncFolderId">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.TargetFolderIdType SyncFolderId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.TargetFolderIdType SyncFolderId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SyncFolderItemsType.SyncFolderId" />
+      <MemberSignature Language="VB.NET" Value="Public Property SyncFolderId As TargetFolderIdType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::TargetFolderIdType ^ SyncFolderId { ExchangeWebServices::TargetFolderIdType ^ get(); void set(ExchangeWebServices::TargetFolderIdType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TargetFolderIdType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.SyncFolderItemsType.SyncFolderId" /> property gets or sets the identity of the folder that contains the items to synchronize. This property is required. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.SyncFolderItemsType.SyncFolderId" /> property returns a <see cref="T:ExchangeWebServices.TargetFolderIdType" /> object.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SyncScope">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.SyncFolderItemsScopeType SyncScope { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.SyncFolderItemsScopeType SyncScope" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SyncFolderItemsType.SyncScope" />
+      <MemberSignature Language="VB.NET" Value="Public Property SyncScope As SyncFolderItemsScopeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::SyncFolderItemsScopeType SyncScope { ExchangeWebServices::SyncFolderItemsScopeType get(); void set(ExchangeWebServices::SyncFolderItemsScopeType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SyncFolderItemsScopeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.SyncFolderItemsType.SyncScope" /> property gets or sets one of the <see cref="T:ExchangeWebServices.SyncFolderItemsScopeType" /> enumeration values that specifies whether just items or items and folder associated information are returned in a synchronization response.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.SyncFolderItemsType.SyncScope" /> property is one of the <see cref="T:ExchangeWebServices.SyncFolderItemsScopeType" /> enumeration values. </value>
+        <remarks>
+          <para>You must set the <see cref="P:ExchangeWebServices.SyncFolderItemsType.SyncScopeSpecified" /> property to <b>true</b> so that the <see cref="P:ExchangeWebServices.SyncFolderItemsType.SyncScope" /> property is serialized into the SOAP request.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SyncScopeSpecified">
+      <MemberSignature Language="C#" Value="public bool SyncScopeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SyncScopeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SyncFolderItemsType.SyncScopeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property SyncScopeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SyncScopeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.SyncFolderItemsType.SyncScopeSpecified" /> property gets or sets a Boolean value that specifies whether the <see cref="P:ExchangeWebServices.SyncFolderItemsType.SyncScope" /> property is serialized into the SOAP request. This property is required if the <see cref="P:ExchangeWebServices.SyncFolderItemsType.SyncScope" /> property is specified.</summary>
+        <value>The value of the <see cref="P:ExchangeWebServices.SyncFolderItemsType.SyncScopeSpecified" /> property is <b>true</b> if the <see cref="P:ExchangeWebServices.SyncFolderItemsType.SyncScope" /> property is serialized into the SOAP request; otherwise, the value is <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SyncState">
+      <MemberSignature Language="C#" Value="public string SyncState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SyncState" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SyncFolderItemsType.SyncState" />
+      <MemberSignature Language="VB.NET" Value="Public Property SyncState As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SyncState { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.SyncFolderItemsType.SyncState" /> property gets or sets the synchronization state identifier. This property is optional with caveats. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.SyncFolderItemsType.SyncState" /> property returns a string.</value>
+        <remarks>
+          <para>The <see cref="P:ExchangeWebServices.SyncFolderItemsType.SyncState" /> property contains a string that represents the synchronization state identifier. This identifier represents a type of watermark that describes which items have been changed since the last synchronization. This property is optional when the first synchronization call is performed. The first call returns a <see cref="P:ExchangeWebServices.SyncFolderItemsResponseMessageType.SyncState" /> in the response. The returned <see cref="P:ExchangeWebServices.SyncFolderItemsResponseMessageType.SyncState" /> is used in later SyncFolderItems calls to synchronize the set of changes that occurred since the last synchronization call. Therefore, the <see cref="P:ExchangeWebServices.SyncFolderItemsType.SyncState" /> property is required for incremental synchronization calls.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

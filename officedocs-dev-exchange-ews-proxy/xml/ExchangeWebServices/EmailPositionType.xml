@@ -1,0 +1,104 @@
+﻿<Type Name="EmailPositionType" FullName="ExchangeWebServices.EmailPositionType">
+  <TypeSignature Language="C#" Value="public enum EmailPositionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed EmailPositionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.EmailPositionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum EmailPositionType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class EmailPositionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="LatestReply">
+      <MemberSignature Language="C#" Value="LatestReply" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.EmailPositionType LatestReply = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.EmailPositionType.LatestReply" />
+      <MemberSignature Language="VB.NET" Value="LatestReply" />
+      <MemberSignature Language="C++ CLI" Value="LatestReply" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailPositionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Other">
+      <MemberSignature Language="C#" Value="Other" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.EmailPositionType Other = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.EmailPositionType.Other" />
+      <MemberSignature Language="VB.NET" Value="Other" />
+      <MemberSignature Language="C++ CLI" Value="Other" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailPositionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Signature">
+      <MemberSignature Language="C#" Value="Signature" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.EmailPositionType Signature = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.EmailPositionType.Signature" />
+      <MemberSignature Language="VB.NET" Value="Signature" />
+      <MemberSignature Language="C++ CLI" Value="Signature" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailPositionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Subject">
+      <MemberSignature Language="C#" Value="Subject" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.EmailPositionType Subject = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.EmailPositionType.Subject" />
+      <MemberSignature Language="VB.NET" Value="Subject" />
+      <MemberSignature Language="C++ CLI" Value="Subject" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailPositionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

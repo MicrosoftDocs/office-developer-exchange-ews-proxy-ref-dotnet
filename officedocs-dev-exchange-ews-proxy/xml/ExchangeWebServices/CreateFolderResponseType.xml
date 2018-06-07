@@ -1,0 +1,56 @@
+﻿<Type Name="CreateFolderResponseType" FullName="ExchangeWebServices.CreateFolderResponseType">
+  <TypeSignature Language="C#" Value="public class CreateFolderResponseType : ExchangeWebServices.BaseResponseMessageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit CreateFolderResponseType extends ExchangeWebServices.BaseResponseMessageType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.CreateFolderResponseType" />
+  <TypeSignature Language="VB.NET" Value="Public Class CreateFolderResponseType&#xA;Inherits BaseResponseMessageType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CreateFolderResponseType : ExchangeWebServices::BaseResponseMessageType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseResponseMessageType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.CreateFolderResponseType" /> class represents a response to a CreateFolder method call.</summary>
+    <remarks>
+      <para>For an example that uses the <see cref="T:ExchangeWebServices.CreateFolderResponseType" /> class, see <see cref="T:ExchangeWebServices.CreateFolderType" />.</para>
+      <para>The <see cref="T:ExchangeWebServices.CreateFolderResponseType" /> class will not be instantiated by the consumer. This class will be returned by the <see cref="M:ExchangeWebServices.ExchangeServiceBinding.CreateFolder(ExchangeWebServices.CreateFolderType)" /> method.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CreateFolderResponseType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.CreateFolderResponseType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CreateFolderResponseType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.CreateFolderResponseType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.CreateFolderResponseType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

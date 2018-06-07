@@ -1,0 +1,161 @@
+﻿<Type Name="RetentionActionType" FullName="ExchangeWebServices.RetentionActionType">
+  <TypeSignature Language="C#" Value="public enum RetentionActionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed RetentionActionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.RetentionActionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum RetentionActionType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class RetentionActionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DeleteAndAllowRecovery">
+      <MemberSignature Language="C#" Value="DeleteAndAllowRecovery" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RetentionActionType DeleteAndAllowRecovery = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RetentionActionType.DeleteAndAllowRecovery" />
+      <MemberSignature Language="VB.NET" Value="DeleteAndAllowRecovery" />
+      <MemberSignature Language="C++ CLI" Value="DeleteAndAllowRecovery" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RetentionActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MarkAsPastRetentionLimit">
+      <MemberSignature Language="C#" Value="MarkAsPastRetentionLimit" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RetentionActionType MarkAsPastRetentionLimit = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RetentionActionType.MarkAsPastRetentionLimit" />
+      <MemberSignature Language="VB.NET" Value="MarkAsPastRetentionLimit" />
+      <MemberSignature Language="C++ CLI" Value="MarkAsPastRetentionLimit" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RetentionActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MoveToArchive">
+      <MemberSignature Language="C#" Value="MoveToArchive" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RetentionActionType MoveToArchive = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RetentionActionType.MoveToArchive" />
+      <MemberSignature Language="VB.NET" Value="MoveToArchive" />
+      <MemberSignature Language="C++ CLI" Value="MoveToArchive" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RetentionActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MoveToDeletedItems">
+      <MemberSignature Language="C#" Value="MoveToDeletedItems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RetentionActionType MoveToDeletedItems = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RetentionActionType.MoveToDeletedItems" />
+      <MemberSignature Language="VB.NET" Value="MoveToDeletedItems" />
+      <MemberSignature Language="C++ CLI" Value="MoveToDeletedItems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RetentionActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="MoveToFolder">
+      <MemberSignature Language="C#" Value="MoveToFolder" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RetentionActionType MoveToFolder = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RetentionActionType.MoveToFolder" />
+      <MemberSignature Language="VB.NET" Value="MoveToFolder" />
+      <MemberSignature Language="C++ CLI" Value="MoveToFolder" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RetentionActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RetentionActionType None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RetentionActionType.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RetentionActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="PermanentlyDelete">
+      <MemberSignature Language="C#" Value="PermanentlyDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.RetentionActionType PermanentlyDelete = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.RetentionActionType.PermanentlyDelete" />
+      <MemberSignature Language="VB.NET" Value="PermanentlyDelete" />
+      <MemberSignature Language="C++ CLI" Value="PermanentlyDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RetentionActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

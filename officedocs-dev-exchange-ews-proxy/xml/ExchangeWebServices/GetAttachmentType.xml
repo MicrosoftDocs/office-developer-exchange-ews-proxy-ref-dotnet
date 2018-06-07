@@ -1,0 +1,161 @@
+﻿<Type Name="GetAttachmentType" FullName="ExchangeWebServices.GetAttachmentType">
+  <TypeSignature Language="C#" Value="public class GetAttachmentType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetAttachmentType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetAttachmentType" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetAttachmentType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetAttachmentType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.GetAttachmentType" /> class represents a request to get attached items and files on an item in an Exchange database.</summary>
+    <remarks>
+      <para>Use the GetItem call to get the attachment identifiers to use in the GetAttachment operation.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>The following code example shows a get attachment request for two attachments.</para>
+      <code>static void GetAttachment(ExchangeServiceBinding esb)
+{
+    // Create the request.
+    &lt;span class="label"&gt;GetAttachmentType&lt;/span&gt;&lt;span class="label"&gt;request&lt;/span&gt; = new GetAttachmentType();
+
+    // Create the response shape.
+    AttachmentResponseShapeType responseShape = new AttachmentResponseShapeType();
+    responseShape.BodyType = BodyTypeResponseType.Text;
+    responseShape.BodyTypeSpecified = true;
+
+    // Add the response shape to the request.
+    &lt;span class="label"&gt;request&lt;/span&gt;.AttachmentShape = responseShape;
+
+    // Identify the attachment IDs to get.
+    RequestAttachmentIdType[] ids = new RequestAttachmentIdType[2];
+    ids[0] = new RequestAttachmentIdType();
+    ids[1] = new RequestAttachmentIdType();
+    ids[0].Id = "AAAlAE1BQG1";
+    ids[1].Id = "AAAlAE1Bas";
+
+    // Add the attachment IDs to the request.
+    &lt;span class="label"&gt;request&lt;/span&gt;.AttachmentIds = ids;
+
+    try
+    {
+        GetAttachmentResponseType response = esb.GetAttachment(&lt;span class="label"&gt;request&lt;/span&gt;);
+        ResponseMessageType[] rmta = response.ResponseMessages.Items;
+
+        foreach (ResponseMessageType responseMessage in rmta)
+        { 
+            AttachmentInfoResponseMessageType airmt = (responseMessage as AttachmentInfoResponseMessageType);
+            AttachmentType[] attachments = airmt.Attachments;
+            
+            // Type check for item or file attachment.
+            foreach (AttachmentType attachment in attachments)
+            {
+                if (attachment is FileAttachmentType)
+                {
+                    FileAttachmentType fat = (attachment as FileAttachmentType);
+
+                    // Assumes ASCII encoding.
+                    string myContent = ASCIIEncoding.ASCII.GetString(fat.Content);
+                }
+
+                // Attachment is item attachment.
+                else
+                {
+                    ItemAttachmentType iat = (attachment as ItemAttachmentType);
+                    // TODO: Handle the item attachment.
+                }
+            }
+        }
+    }
+    catch (Exception x)
+    {
+        Console.WriteLine(x.Message);
+    }
+}</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetAttachmentType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetAttachmentType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetAttachmentType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.GetAttachmentType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.GetAttachmentType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachmentIds">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.RequestAttachmentIdType[] AttachmentIds { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.RequestAttachmentIdType[] AttachmentIds" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetAttachmentType.AttachmentIds" />
+      <MemberSignature Language="VB.NET" Value="Public Property AttachmentIds As RequestAttachmentIdType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::RequestAttachmentIdType ^&gt; ^ AttachmentIds { cli::array &lt;ExchangeWebServices::RequestAttachmentIdType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::RequestAttachmentIdType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("AttachmentId", IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RequestAttachmentIdType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GetAttachmentType.AttachmentIds" /> property gets or sets the identifiers of the attachments to return in the response. </summary>
+        <value>The <see cref="P:ExchangeWebServices.GetAttachmentType.AttachmentIds" /> property returns a <see cref="T:ExchangeWebServices.RequestAttachmentIdType" /> array that identifies the attachments to return.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachmentShape">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.AttachmentResponseShapeType AttachmentShape { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.AttachmentResponseShapeType AttachmentShape" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetAttachmentType.AttachmentShape" />
+      <MemberSignature Language="VB.NET" Value="Public Property AttachmentShape As AttachmentResponseShapeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::AttachmentResponseShapeType ^ AttachmentShape { ExchangeWebServices::AttachmentResponseShapeType ^ get(); void set(ExchangeWebServices::AttachmentResponseShapeType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.AttachmentResponseShapeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.GetAttachmentType.AttachmentShape" /> property gets or sets which additional properties to return for the attachments.</summary>
+        <value>The <see cref="P:ExchangeWebServices.GetAttachmentType.AttachmentShape" /> property returns an <see cref="T:ExchangeWebServices.AttachmentResponseShapeType" /> that identifies which additional properties to return for attachments.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

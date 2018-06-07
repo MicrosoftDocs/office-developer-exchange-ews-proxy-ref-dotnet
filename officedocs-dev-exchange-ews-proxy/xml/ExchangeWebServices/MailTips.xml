@@ -1,0 +1,492 @@
+﻿<Type Name="MailTips" FullName="ExchangeWebServices.MailTips">
+  <TypeSignature Language="C#" Value="public class MailTips" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit MailTips extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.MailTips" />
+  <TypeSignature Language="VB.NET" Value="Public Class MailTips" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MailTips" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MailTips ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.MailTips.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MailTips();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomMailTip">
+      <MemberSignature Language="C#" Value="public string CustomMailTip { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CustomMailTip" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailTips.CustomMailTip" />
+      <MemberSignature Language="VB.NET" Value="Public Property CustomMailTip As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CustomMailTip { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.String" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeliveryRestricted">
+      <MemberSignature Language="C#" Value="public bool DeliveryRestricted { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DeliveryRestricted" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailTips.DeliveryRestricted" />
+      <MemberSignature Language="VB.NET" Value="Public Property DeliveryRestricted As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DeliveryRestricted { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.Boolean" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeliveryRestrictedSpecified">
+      <MemberSignature Language="C#" Value="public bool DeliveryRestrictedSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DeliveryRestrictedSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailTips.DeliveryRestrictedSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property DeliveryRestrictedSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DeliveryRestrictedSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.Boolean" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalMemberCount">
+      <MemberSignature Language="C#" Value="public int ExternalMemberCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ExternalMemberCount" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailTips.ExternalMemberCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExternalMemberCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ExternalMemberCount { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.Int32" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalMemberCountSpecified">
+      <MemberSignature Language="C#" Value="public bool ExternalMemberCountSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ExternalMemberCountSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailTips.ExternalMemberCountSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExternalMemberCountSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ExternalMemberCountSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.Boolean" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidRecipient">
+      <MemberSignature Language="C#" Value="public bool InvalidRecipient { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool InvalidRecipient" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailTips.InvalidRecipient" />
+      <MemberSignature Language="VB.NET" Value="Public Property InvalidRecipient As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool InvalidRecipient { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.Boolean" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidRecipientSpecified">
+      <MemberSignature Language="C#" Value="public bool InvalidRecipientSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool InvalidRecipientSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailTips.InvalidRecipientSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property InvalidRecipientSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool InvalidRecipientSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.Boolean" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsModerated">
+      <MemberSignature Language="C#" Value="public bool IsModerated { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsModerated" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailTips.IsModerated" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsModerated As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsModerated { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.Boolean" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsModeratedSpecified">
+      <MemberSignature Language="C#" Value="public bool IsModeratedSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsModeratedSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailTips.IsModeratedSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsModeratedSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsModeratedSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.Boolean" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailboxFull">
+      <MemberSignature Language="C#" Value="public bool MailboxFull { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MailboxFull" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailTips.MailboxFull" />
+      <MemberSignature Language="VB.NET" Value="Public Property MailboxFull As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MailboxFull { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.Boolean" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailboxFullSpecified">
+      <MemberSignature Language="C#" Value="public bool MailboxFullSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MailboxFullSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailTips.MailboxFullSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property MailboxFullSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MailboxFullSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.Boolean" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxMessageSize">
+      <MemberSignature Language="C#" Value="public int MaxMessageSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaxMessageSize" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailTips.MaxMessageSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxMessageSize As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MaxMessageSize { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.Int32" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxMessageSizeSpecified">
+      <MemberSignature Language="C#" Value="public bool MaxMessageSizeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MaxMessageSizeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailTips.MaxMessageSizeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxMessageSizeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MaxMessageSizeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.Boolean" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OutOfOffice">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.OutOfOfficeMailTip OutOfOffice { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.OutOfOfficeMailTip OutOfOffice" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailTips.OutOfOffice" />
+      <MemberSignature Language="VB.NET" Value="Public Property OutOfOffice As OutOfOfficeMailTip" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::OutOfOfficeMailTip ^ OutOfOffice { ExchangeWebServices::OutOfOfficeMailTip ^ get(); void set(ExchangeWebServices::OutOfOfficeMailTip ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.OutOfOfficeMailTip</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:ExchangeWebServices.OutOfOfficeMailTip" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PendingMailTips">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.MailTipTypes PendingMailTips { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.MailTipTypes PendingMailTips" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailTips.PendingMailTips" />
+      <MemberSignature Language="VB.NET" Value="Public Property PendingMailTips As MailTipTypes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::MailTipTypes PendingMailTips { ExchangeWebServices::MailTipTypes get(); void set(ExchangeWebServices::MailTipTypes value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MailTipTypes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:ExchangeWebServices.MailTipTypes" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecipientAddress">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddressType RecipientAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddressType RecipientAddress" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailTips.RecipientAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property RecipientAddress As EmailAddressType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::EmailAddressType ^ RecipientAddress { ExchangeWebServices::EmailAddressType ^ get(); void set(ExchangeWebServices::EmailAddressType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddressType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:ExchangeWebServices.EmailAddressType" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Scope">
+      <MemberSignature Language="C#" Value="public int Scope { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Scope" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailTips.Scope" />
+      <MemberSignature Language="VB.NET" Value="Public Property Scope As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Scope { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScopeSpecified">
+      <MemberSignature Language="C#" Value="public bool ScopeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ScopeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailTips.ScopeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ScopeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ScopeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalMemberCount">
+      <MemberSignature Language="C#" Value="public int TotalMemberCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TotalMemberCount" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailTips.TotalMemberCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property TotalMemberCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int TotalMemberCount { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.Int32" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalMemberCountSpecified">
+      <MemberSignature Language="C#" Value="public bool TotalMemberCountSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TotalMemberCountSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.MailTips.TotalMemberCountSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property TotalMemberCountSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TotalMemberCountSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.Boolean" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

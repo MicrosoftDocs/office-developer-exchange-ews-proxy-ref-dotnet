@@ -1,0 +1,52 @@
+﻿<Type Name="DeleteFolderFieldType" FullName="ExchangeWebServices.DeleteFolderFieldType">
+  <TypeSignature Language="C#" Value="public class DeleteFolderFieldType : ExchangeWebServices.FolderChangeDescriptionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit DeleteFolderFieldType extends ExchangeWebServices.FolderChangeDescriptionType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.DeleteFolderFieldType" />
+  <TypeSignature Language="VB.NET" Value="Public Class DeleteFolderFieldType&#xA;Inherits FolderChangeDescriptionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DeleteFolderFieldType : ExchangeWebServices::FolderChangeDescriptionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.FolderChangeDescriptionType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.DeleteFolderFieldType" /> class represents an UpdateFolder operation to delete a property from a folder.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DeleteFolderFieldType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.DeleteFolderFieldType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DeleteFolderFieldType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.DeleteFolderFieldType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.DeleteFolderFieldType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

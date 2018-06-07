@@ -1,0 +1,85 @@
+﻿<Type Name="SetClientExtensionActionIdType" FullName="ExchangeWebServices.SetClientExtensionActionIdType">
+  <TypeSignature Language="C#" Value="public enum SetClientExtensionActionIdType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed SetClientExtensionActionIdType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SetClientExtensionActionIdType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SetClientExtensionActionIdType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SetClientExtensionActionIdType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Configure">
+      <MemberSignature Language="C#" Value="Configure" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SetClientExtensionActionIdType Configure = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SetClientExtensionActionIdType.Configure" />
+      <MemberSignature Language="VB.NET" Value="Configure" />
+      <MemberSignature Language="C++ CLI" Value="Configure" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SetClientExtensionActionIdType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Install">
+      <MemberSignature Language="C#" Value="Install" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SetClientExtensionActionIdType Install = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SetClientExtensionActionIdType.Install" />
+      <MemberSignature Language="VB.NET" Value="Install" />
+      <MemberSignature Language="C++ CLI" Value="Install" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SetClientExtensionActionIdType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+    <Member MemberName="Uninstall">
+      <MemberSignature Language="C#" Value="Uninstall" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.SetClientExtensionActionIdType Uninstall = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.SetClientExtensionActionIdType.Uninstall" />
+      <MemberSignature Language="VB.NET" Value="Uninstall" />
+      <MemberSignature Language="C++ CLI" Value="Uninstall" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.SetClientExtensionActionIdType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary />
+      </Docs>
+    </Member>
+  </Members>
+</Type>

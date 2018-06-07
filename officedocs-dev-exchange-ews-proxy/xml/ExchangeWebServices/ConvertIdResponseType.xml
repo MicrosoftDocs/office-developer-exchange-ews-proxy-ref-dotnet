@@ -1,0 +1,55 @@
+﻿<Type Name="ConvertIdResponseType" FullName="ExchangeWebServices.ConvertIdResponseType">
+  <TypeSignature Language="C#" Value="public class ConvertIdResponseType : ExchangeWebServices.BaseResponseMessageType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ConvertIdResponseType extends ExchangeWebServices.BaseResponseMessageType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ConvertIdResponseType" />
+  <TypeSignature Language="VB.NET" Value="Public Class ConvertIdResponseType&#xA;Inherits BaseResponseMessageType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ConvertIdResponseType : ExchangeWebServices::BaseResponseMessageType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseResponseMessageType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.ConvertIdResponseType" /> class contains a response to a ConvertId request. This element was introduced in Microsoft Exchange Server 2007 Service Pack 1 (SP1).</summary>
+    <remarks>
+      <para>The response messages that are contained within the ResponseMessages element will be instances of the <see cref="T:ExchangeWebServices.ConvertIdResponseType" /> class.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ConvertIdResponseType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.ConvertIdResponseType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ConvertIdResponseType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.ConvertIdResponseType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.ConvertIdResponseType" /> class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

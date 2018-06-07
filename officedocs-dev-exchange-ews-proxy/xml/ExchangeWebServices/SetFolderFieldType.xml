@@ -1,0 +1,89 @@
+﻿<Type Name="SetFolderFieldType" FullName="ExchangeWebServices.SetFolderFieldType">
+  <TypeSignature Language="C#" Value="public class SetFolderFieldType : ExchangeWebServices.FolderChangeDescriptionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SetFolderFieldType extends ExchangeWebServices.FolderChangeDescriptionType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.SetFolderFieldType" />
+  <TypeSignature Language="VB.NET" Value="Public Class SetFolderFieldType&#xA;Inherits FolderChangeDescriptionType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SetFolderFieldType : ExchangeWebServices::FolderChangeDescriptionType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.FolderChangeDescriptionType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.SetFolderFieldType" /> class represents an UpdateFolder operation to set a property on an existing folder.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SetFolderFieldType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.SetFolderFieldType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SetFolderFieldType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.SetFolderFieldType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.SetFolderFieldType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item1">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BaseFolderType Item1 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BaseFolderType Item1" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.SetFolderFieldType.Item1" />
+      <MemberSignature Language="VB.NET" Value="Public Property Item1 As BaseFolderType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::BaseFolderType ^ Item1 { ExchangeWebServices::BaseFolderType ^ get(); void set(ExchangeWebServices::BaseFolderType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("Folder", typeof(ExchangeWebServices.FolderType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("SearchFolder", typeof(ExchangeWebServices.SearchFolderType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("CalendarFolder", typeof(ExchangeWebServices.CalendarFolderType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ContactsFolder", typeof(ExchangeWebServices.ContactsFolderType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("TasksFolder", typeof(ExchangeWebServices.TasksFolderType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BaseFolderType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.SetFolderFieldType.Item1" /> property gets or sets a folder update. </summary>
+        <value>The <see cref="P:ExchangeWebServices.SetFolderFieldType.Item1" /> property returns a <see cref="T:ExchangeWebServices.BaseFolderType" /> that represents a folder that contains a set of updates.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

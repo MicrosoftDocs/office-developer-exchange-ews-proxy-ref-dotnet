@@ -1,0 +1,86 @@
+﻿<Type Name="AlternateIdBaseType" FullName="ExchangeWebServices.AlternateIdBaseType">
+  <TypeSignature Language="C#" Value="public abstract class AlternateIdBaseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract serializable beforefieldinit AlternateIdBaseType extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.AlternateIdBaseType" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class AlternateIdBaseType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AlternateIdBaseType abstract" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.AlternatePublicFolderItemIdType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.AlternatePublicFolderIdType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlInclude(typeof(ExchangeWebServices.AlternateIdType))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.AlternateIdBaseType" /> class is the base class for derived classes that describe item, folder, or public folder identifiers to convert.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected AlternateIdBaseType ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.AlternateIdBaseType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; AlternateIdBaseType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.AlternateIdBaseType" /> class is abstract and cannot be instantiated.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Format">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.IdFormatType Format { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.IdFormatType Format" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.AlternateIdBaseType.Format" />
+      <MemberSignature Language="VB.NET" Value="Public Property Format As IdFormatType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::IdFormatType Format { ExchangeWebServices::IdFormatType get(); void set(ExchangeWebServices::IdFormatType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.IdFormatType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.AlternateIdBaseType.Format" /> property gets or sets the source format in a ConvertId request and the destination format in a ConvertId response.</summary>
+        <value>The <see cref="P:ExchangeWebServices.AlternateIdBaseType.Format" /> property returns an <see cref="T:ExchangeWebServices.IdFormatType" /> enumeration.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,162 @@
+﻿<Type Name="GetDiscoverySearchConfigurationType" FullName="ExchangeWebServices.GetDiscoverySearchConfigurationType">
+  <TypeSignature Language="C#" Value="public class GetDiscoverySearchConfigurationType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetDiscoverySearchConfigurationType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetDiscoverySearchConfigurationType" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetDiscoverySearchConfigurationType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetDiscoverySearchConfigurationType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetDiscoverySearchConfigurationType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetDiscoverySearchConfigurationType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetDiscoverySearchConfigurationType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExpandGroupMembership">
+      <MemberSignature Language="C#" Value="public bool ExpandGroupMembership { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ExpandGroupMembership" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetDiscoverySearchConfigurationType.ExpandGroupMembership" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExpandGroupMembership As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ExpandGroupMembership { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExpandGroupMembershipSpecified">
+      <MemberSignature Language="C#" Value="public bool ExpandGroupMembershipSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ExpandGroupMembershipSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetDiscoverySearchConfigurationType.ExpandGroupMembershipSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExpandGroupMembershipSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ExpandGroupMembershipSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InPlaceHoldConfigurationOnly">
+      <MemberSignature Language="C#" Value="public bool InPlaceHoldConfigurationOnly { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool InPlaceHoldConfigurationOnly" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetDiscoverySearchConfigurationType.InPlaceHoldConfigurationOnly" />
+      <MemberSignature Language="VB.NET" Value="Public Property InPlaceHoldConfigurationOnly As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool InPlaceHoldConfigurationOnly { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InPlaceHoldConfigurationOnlySpecified">
+      <MemberSignature Language="C#" Value="public bool InPlaceHoldConfigurationOnlySpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool InPlaceHoldConfigurationOnlySpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetDiscoverySearchConfigurationType.InPlaceHoldConfigurationOnlySpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property InPlaceHoldConfigurationOnlySpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool InPlaceHoldConfigurationOnlySpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchId">
+      <MemberSignature Language="C#" Value="public string SearchId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SearchId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetDiscoverySearchConfigurationType.SearchId" />
+      <MemberSignature Language="VB.NET" Value="Public Property SearchId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SearchId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

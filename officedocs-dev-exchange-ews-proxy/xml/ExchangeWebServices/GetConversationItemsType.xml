@@ -1,0 +1,260 @@
+﻿<Type Name="GetConversationItemsType" FullName="ExchangeWebServices.GetConversationItemsType">
+  <TypeSignature Language="C#" Value="public class GetConversationItemsType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetConversationItemsType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetConversationItemsType" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetConversationItemsType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetConversationItemsType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetConversationItemsType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetConversationItemsType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetConversationItemsType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Conversations">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ConversationRequestType[] Conversations { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ConversationRequestType[] Conversations" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetConversationItemsType.Conversations" />
+      <MemberSignature Language="VB.NET" Value="Public Property Conversations As ConversationRequestType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::ConversationRequestType ^&gt; ^ Conversations { cli::array &lt;ExchangeWebServices::ConversationRequestType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::ConversationRequestType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("Conversation", IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ConversationRequestType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FoldersToIgnore">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BaseFolderIdType[] FoldersToIgnore { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BaseFolderIdType[] FoldersToIgnore" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetConversationItemsType.FoldersToIgnore" />
+      <MemberSignature Language="VB.NET" Value="Public Property FoldersToIgnore As BaseFolderIdType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ FoldersToIgnore { cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("FolderId", typeof(ExchangeWebServices.FolderIdType), IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("DistinguishedFolderId", typeof(ExchangeWebServices.DistinguishedFolderIdType), IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BaseFolderIdType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemShape">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ItemResponseShapeType ItemShape { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ItemResponseShapeType ItemShape" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetConversationItemsType.ItemShape" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemShape As ItemResponseShapeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ItemResponseShapeType ^ ItemShape { ExchangeWebServices::ItemResponseShapeType ^ get(); void set(ExchangeWebServices::ItemResponseShapeType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemResponseShapeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailboxScope">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.MailboxSearchLocationType MailboxScope { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.MailboxSearchLocationType MailboxScope" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetConversationItemsType.MailboxScope" />
+      <MemberSignature Language="VB.NET" Value="Public Property MailboxScope As MailboxSearchLocationType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::MailboxSearchLocationType MailboxScope { ExchangeWebServices::MailboxSearchLocationType get(); void set(ExchangeWebServices::MailboxSearchLocationType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MailboxSearchLocationType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailboxScopeSpecified">
+      <MemberSignature Language="C#" Value="public bool MailboxScopeSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MailboxScopeSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetConversationItemsType.MailboxScopeSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property MailboxScopeSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MailboxScopeSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxItemsToReturn">
+      <MemberSignature Language="C#" Value="public int MaxItemsToReturn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaxItemsToReturn" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetConversationItemsType.MaxItemsToReturn" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxItemsToReturn As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MaxItemsToReturn { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxItemsToReturnSpecified">
+      <MemberSignature Language="C#" Value="public bool MaxItemsToReturnSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MaxItemsToReturnSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetConversationItemsType.MaxItemsToReturnSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxItemsToReturnSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MaxItemsToReturnSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SortOrder">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ConversationNodeSortOrder SortOrder { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.ConversationNodeSortOrder SortOrder" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetConversationItemsType.SortOrder" />
+      <MemberSignature Language="VB.NET" Value="Public Property SortOrder As ConversationNodeSortOrder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ConversationNodeSortOrder SortOrder { ExchangeWebServices::ConversationNodeSortOrder get(); void set(ExchangeWebServices::ConversationNodeSortOrder value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ConversationNodeSortOrder</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SortOrderSpecified">
+      <MemberSignature Language="C#" Value="public bool SortOrderSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SortOrderSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetConversationItemsType.SortOrderSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property SortOrderSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SortOrderSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

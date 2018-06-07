@@ -1,0 +1,69 @@
+﻿<Type Name="ContactSourceType" FullName="ExchangeWebServices.ContactSourceType">
+  <TypeSignature Language="C#" Value="public enum ContactSourceType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed ContactSourceType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.ContactSourceType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ContactSourceType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ContactSourceType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.ContactSourceType" /> enumeration describes whether the contact is located in the Exchange store or in the Active Directory directory service.</summary>
+    <remarks>
+      <para>This enumeration is used by the <see cref="P:ExchangeWebServices.ContactItemType.ContactSource" /> property of the <see cref="T:ExchangeWebServices.ContactItemType" /> object and the <see cref="P:ExchangeWebServices.DistributionListType.ContactSource" /> property of the <see cref="T:ExchangeWebServices.DistributionListType" /> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ActiveDirectory">
+      <MemberSignature Language="C#" Value="ActiveDirectory" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ContactSourceType ActiveDirectory = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ContactSourceType.ActiveDirectory" />
+      <MemberSignature Language="VB.NET" Value="ActiveDirectory" />
+      <MemberSignature Language="C++ CLI" Value="ActiveDirectory" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ContactSourceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Indicates that the contact is located in Active Directory.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Store">
+      <MemberSignature Language="C#" Value="Store" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype ExchangeWebServices.ContactSourceType Store = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:ExchangeWebServices.ContactSourceType.Store" />
+      <MemberSignature Language="VB.NET" Value="Store" />
+      <MemberSignature Language="C++ CLI" Value="Store" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ContactSourceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Indicates that the contact is located in the Exchange store.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

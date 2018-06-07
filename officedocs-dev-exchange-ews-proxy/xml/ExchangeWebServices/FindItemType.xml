@@ -1,0 +1,590 @@
+﻿<Type Name="FindItemType" FullName="ExchangeWebServices.FindItemType">
+  <TypeSignature Language="C#" Value="public class FindItemType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit FindItemType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.FindItemType" />
+  <TypeSignature Language="VB.NET" Value="Public Class FindItemType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FindItemType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <see cref="T:ExchangeWebServices.FindItemType" /> class represents a query to find items in a mailbox.</summary>
+    <remarks>
+      <para>The <see cref="T:ExchangeWebServices.FindItemType" /> class provides many options for querying a mailbox. Although the FindItem query is limited to shallow and soft-deleted searches of a set of folders, many options are available for creating complex search expressions and views of the search result set. The <see cref="T:ExchangeWebServices.FindItemType" /> class contains a set of properties that are used to set the parameters of the search. The following table lists the properties that describe the different parameters that are used to construct queries.</para>
+      <para>Properties that are used to construct queries</para>
+      <list type="table">
+        <item>
+          <term>
+            <see cref="P:ExchangeWebServices.FindItemType.Item" />
+          </term>
+          <description>Identifies the paging mechanism of the result set. This property is optional.</description>
+        </item>
+        <item>
+          <term>
+            <see cref="P:ExchangeWebServices.FindItemType.Item1" />
+          </term>
+          <description>Identifies how the data is grouped in the result set. This property is optional. If this property is not set, no grouping will be applied.</description>
+        </item>
+        <item>
+          <term>
+            <see cref="P:ExchangeWebServices.FindItemType.ItemShape" />
+          </term>
+          <description>Identifies which item properties are returned for the items in the result set.</description>
+        </item>
+        <item>
+          <term>
+            <see cref="P:ExchangeWebServices.FindItemType.ParentFolderIds" />
+          </term>
+          <description>Identifies which folders are searched.</description>
+        </item>
+        <item>
+          <term>
+            <see cref="P:ExchangeWebServices.FindItemType.Restriction" />
+          </term>
+          <description>Identifies a set of parameters that define a filter on the items that are returned in the result set. This property is optional.</description>
+        </item>
+        <item>
+          <term>
+            <see cref="P:ExchangeWebServices.FindItemType.SortOrder" />
+          </term>
+          <description>Identifies how the items are ordered in the results set. This property is optional.</description>
+        </item>
+        <item>
+          <term>
+            <see cref="P:ExchangeWebServices.FindItemType.Traversal" />
+          </term>
+          <description>Identifies how the search is performed in the folders.</description>
+        </item>
+      </list>
+      <para>The FindItem query should be used for queries that change frequently and that do not require a deep traversal of the folder structure. If a specific search is performed regularly, it may be more appropriate to create a search folder for the search. Note that search folders can also perform deep traversals of the folder structure.</para>
+      <para>
+        <b>Important</b>: Search folders run in the Exchange Server 2007 database and therefore do affect the performance of the computer that is running the Exchange server, while FindItem queries only affect performance when the queries are received by the Exchange server.</para>
+      <para>The FindItem query will provide much of the information that a client application needs. It basically returns a summary of an item. FindItem returns only the first 512 bytes of any streamable property. For Unicode, it returns the first 255 characters by using a null-terminated Unicode string. </para>
+      <para>
+        <b>Note</b>: FindItem does not return a message body, attachments, or recipient lists.</para>
+      <para>Use <see cref="T:ExchangeWebServices.GetItemType" /> to get the details of specific items. GetItem returns more properties than FindItem. If more information is required, a client application must perform a FindItem call and then use the item identifiers in a GetItem call to get the properties that are not available in the FindItem call.</para>
+      <para>The following table lists the properties that are returned in both the FindItem and GetItem calls.</para>
+      <para>Properties that are returned in FindItem and GetItem calls</para>
+      <list type="table">
+        <item>
+          <term>ConversationIndex</term>
+          <description>ConversationTopic</description>
+          <description>Culture</description>
+        </item>
+        <item>
+          <term>DateTimeCreated</term>
+          <description>DateTimeReceived</description>
+          <description>DateTimeSent</description>
+        </item>
+        <item>
+          <term>DisplayCc</term>
+          <description>DisplayTo</description>
+          <description>From</description>
+        </item>
+        <item>
+          <term>HasAttachments</term>
+          <description>Importance</description>
+          <description>InReplyTo</description>
+        </item>
+        <item>
+          <term>InternetMessageId</term>
+          <description>IsDeliveryReceiptRequested</description>
+          <description>IsDraft</description>
+        </item>
+        <item>
+          <term>IsFromMe</term>
+          <description>IsRead</description>
+          <description>IsReadReceiptRequested</description>
+        </item>
+        <item>
+          <term>IsResend</term>
+          <description>IsResponseRequested</description>
+          <description>IsSubmitted</description>
+        </item>
+        <item>
+          <term>IsUnmodified</term>
+          <description>ItemClass</description>
+          <description>ItemId</description>
+        </item>
+        <item>
+          <term>ParentFolderId</term>
+          <description>References</description>
+          <description>ReminderDueBy</description>
+        </item>
+        <item>
+          <term>ReminderIsSet</term>
+          <description>ReminderMinutesBeforeStart</description>
+          <description>Sender</description>
+        </item>
+        <item>
+          <term>Sensitivity</term>
+          <description>Size</description>
+          <description>Subject</description>
+        </item>
+      </list>
+      <para>
+        <b>Note</b>: Although the Sender property is returned in both FindItem and GetItem calls, only the DisplayName (string) is returned in the FindItem call. DisplayName (string), EmailAddress (NonEmptyStringType), and RoutingType (EmailAddress) are returned by the GetItem call.</para>
+      <para>The <see cref="P:ExchangeWebServices.FindItemType.Item" /> and <see cref="P:ExchangeWebServices.FindItemType.Item1" /> properties are created by the proxy generation process and how it handles XML schema choice elements. The <see cref="P:ExchangeWebServices.FindItemType.Item" /> property is set with an object that extends the <see cref="T:ExchangeWebServices.BasePagingType" /> class. This property describes which type of view will be returned in the response. The <see cref="P:ExchangeWebServices.FindItemType.Item1" /> property is set with an object that extends the <see cref="T:ExchangeWebServices.BaseGroupByType" /> class. This property describes how the response will group items in the result set. For more information about these properties, see XML Schema Choice Element Proxy Artifacts.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>The following code example shows a find item query that returns the following results:</para>
+      <list type="number">
+        <item>
+          <description>An indexed query result that starts at the beginning of the result set and returns at most 10 entries from the result set.</description>
+        </item>
+        <item>
+          <description>A grouped search that does the following:</description>
+        </item>
+        <item>
+          <description>All the properties that are defined for the AllProperties shape, in addition to the IsMeeting and Importance properties. Note that the AllProperties shape is different in a FindItem operation than it is in a GetItem operation.</description>
+        </item>
+        <item>
+          <description>Items found in the Calendar default folder.</description>
+        </item>
+        <item>
+          <description>Only items that have a start time that is after the current time.</description>
+        </item>
+        <item>
+          <description>Items sorted by the Subject property.</description>
+        </item>
+        <item>
+          <description>Items found only in the top level of the searched folder.</description>
+        </item>
+      </list>
+      <code>static void FindItem()
+{
+    // Create the service binding.
+    ExchangeServiceBinding esb = new ExchangeServiceBinding();
+    esb.Credentials = new NetworkCredential("username", "password", "domain");
+    esb.Url = @"https://ExchangeServer/EWS/Exchange.asmx";
+
+    // Form the FindItem request.
+    FindItemType &lt;span class="label"&gt;findItemRequest&lt;/span&gt; = new &lt;span class="label"&gt;FindItemType&lt;/span&gt;();
+
+    // Define the paging scheme for the result set.
+    IndexedPageViewType ipvt = new IndexedPageViewType();
+    ipvt.BasePoint = IndexBasePointType.Beginning;
+    ipvt.MaxEntriesReturned = 10;
+    ipvt.MaxEntriesReturnedSpecified = true;
+    ipvt.Offset = 0;
+    // Add the paging scheme to the request.
+    &lt;span class="label"&gt;findItemRequest&lt;/span&gt;.Item = ipvt;
+
+    // Define the grouping scheme for the result set.
+    GroupByType group = new GroupByType();
+    // Define the property that is used to determine the order of groups of items in a group.
+    AggregateOnType aggregate = new AggregateOnType();
+    PathToUnindexedFieldType subject = new PathToUnindexedFieldType();
+    subject.FieldURI = UnindexedFieldURIType.itemSubject;
+    aggregate.Item = subject;
+    aggregate.Aggregate = AggregateType.Minimum;
+    group.AggregateOn = aggregate;
+    // Define the property that is used to group items.
+    PathToUnindexedFieldType importance = new PathToUnindexedFieldType();
+    importance.FieldURI = UnindexedFieldURIType.itemImportance;
+    group.Item = importance;
+    // Define how the groups are ordered in the response.
+    group.Order = SortDirectionType.Descending;
+    // Add the grouping scheme to the request.
+    &lt;span class="label"&gt;findItemRequest&lt;/span&gt;.Item1 = group;
+
+    // Define the item properties that are returned in the response.
+    ItemResponseShapeType itemProperties = new ItemResponseShapeType();
+    // Use the Default shape for the response.            
+    itemProperties.BaseShape = DefaultShapeNamesType.Default;
+    // Add more properties to the request.
+    PathToUnindexedFieldType addIsMeeting = new PathToUnindexedFieldType();
+    PathToUnindexedFieldType addImportance = new PathToUnindexedFieldType();
+    addIsMeeting.FieldURI = UnindexedFieldURIType.calendarIsMeeting;
+    addImportance.FieldURI = UnindexedFieldURIType.itemImportance;
+    itemProperties.AdditionalProperties = new PathToUnindexedFieldType[2];
+    itemProperties.AdditionalProperties[0] = addIsMeeting;
+    itemProperties.AdditionalProperties[1] = addImportance;
+    // Add the properties shape to the request.
+    &lt;span class="label"&gt;findItemRequest&lt;/span&gt;.ItemShape = itemProperties;
+
+    // Identify which folders to search.
+    DistinguishedFolderIdType[] folderIDArray = new DistinguishedFolderIdType[1];
+    folderIDArray[0] = new DistinguishedFolderIdType();
+    folderIDArray[0].Id = DistinguishedFolderIdNameType.calendar;
+    // Add folders to the request.
+    &lt;span class="label"&gt;findItemRequest&lt;/span&gt;.ParentFolderIds = folderIDArray;
+
+    // Create a restriction for the result set.
+    RestrictionType restriction = new RestrictionType();
+    PathToUnindexedFieldType pteft = new PathToUnindexedFieldType();
+    pteft.FieldURI = UnindexedFieldURIType.calendarStart;
+    FieldURIOrConstantType fieldURIORConstant = new FieldURIOrConstantType();
+    fieldURIORConstant.Item = new ConstantValueType();
+    (fieldURIORConstant.Item as ConstantValueType).Value = DateTime.Now.ToString();
+    IsGreaterThanType isGreaterThan = new IsGreaterThanType();
+    isGreaterThan.Item = pteft;
+    isGreaterThan.FieldURIOrConstant = fieldURIORConstant;
+    restriction.Item = isGreaterThan;
+    &lt;span class="label"&gt;findItemRequest&lt;/span&gt;.Restriction = restriction;
+
+    // Define the sort order of items.
+    FieldOrderType[] fieldsOrder = new FieldOrderType[1];
+    fieldsOrder[0] = new FieldOrderType();
+    PathToUnindexedFieldType subjectOrder = new PathToUnindexedFieldType();
+    subjectOrder.FieldURI = UnindexedFieldURIType.itemSubject;
+    fieldsOrder[0].Item = subjectOrder;
+    fieldsOrder[0].Order = SortDirectionType.Ascending;
+    &lt;span class="label"&gt;findItemRequest&lt;/span&gt;.SortOrder = fieldsOrder;
+
+    // Define the traversal type.
+    &lt;span class="label"&gt;findItemRequest&lt;/span&gt;.Traversal = ItemQueryTraversalType.Shallow;
+
+    try
+    {
+        // Send the FindItem request and get the response.
+        FindItemResponseType findItemResponse = esb.FindItem(&lt;span class="label"&gt;findItemRequest&lt;/span&gt;);
+
+        // Access the response message.
+        ArrayOfResponseMessagesType responseMessages = findItemResponse.ResponseMessages;
+        ResponseMessageType responseMessage = responseMessages.Items[0];
+
+        if (responseMessage is FindItemResponseMessageType)
+        {
+            FindItemResponseMessageType firmt = (responseMessage as FindItemResponseMessageType);
+            FindItemParentType fipt = firmt.RootFolder;
+            object obj = fipt.Item;
+
+            // Determine whether the FindItem response contains grouped items.
+            if (obj is ArrayOfGroupedItemsType)
+            {
+                ArrayOfGroupedItemsType groupedItems = (obj as ArrayOfGroupedItemsType);
+                //TODO: Write code to handle grouped items.
+            }
+
+            // FindItem contains an array of items.
+            else if (obj is ArrayOfRealItemsType)
+            {
+                ArrayOfRealItemsType items = (obj as ArrayOfRealItemsType);
+                //TODO: Write code to handle items.
+            }
+        }
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine(e.Message);
+    }
+}</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FindItemType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.FindItemType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FindItemType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="T:ExchangeWebServices.FindItemType" /> constructor initializes a new instance of the <see cref="T:ExchangeWebServices.FindItemType" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BasePagingType Item { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BasePagingType Item" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FindItemType.Item" />
+      <MemberSignature Language="VB.NET" Value="Public Property Item As BasePagingType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::BasePagingType ^ Item { ExchangeWebServices::BasePagingType ^ get(); void set(ExchangeWebServices::BasePagingType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("SeekToConditionPageItemView", typeof(ExchangeWebServices.SeekToConditionPageViewType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("CalendarView", typeof(ExchangeWebServices.CalendarViewType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("ContactsView", typeof(ExchangeWebServices.ContactsViewType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("FractionalPageItemView", typeof(ExchangeWebServices.FractionalPageViewType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("IndexedPageItemView", typeof(ExchangeWebServices.IndexedPageViewType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BasePagingType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.FindItemType.Item" /> property gets or sets the paging type that describes how the query result set is paged in the response. This property gets or sets either an <see cref="T:ExchangeWebServices.IndexedPageViewType" />, <see cref="T:ExchangeWebServices.FractionalPageViewType" />, <see cref="T:ExchangeWebServices.CalendarViewType" />, or <see cref="T:ExchangeWebServices.ContactsViewType" /> object. This property is optional. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.FindItemType.Item" /> property returns a <see cref="T:ExchangeWebServices.BasePagingType" /> object that represents the type of paging to be performed for the query set.</value>
+        <remarks>
+          <para>The <see cref="P:ExchangeWebServices.FindItemType.Item" /> property can be set with either an <see cref="T:ExchangeWebServices.IndexedPageViewType" />, <see cref="T:ExchangeWebServices.FractionalPageViewType" />, <see cref="T:ExchangeWebServices.CalendarViewType" />, or <see cref="T:ExchangeWebServices.ContactsViewType" /> object. All these types extend <see cref="T:ExchangeWebServices.BasePagingType" />, which is an abstract class. This property is optional. If this property is not set, the default behavior is to return a view that includes all the items in the result set.</para>
+          <para>
+            <b>Note</b>: You cannot specify restrictions when you are performing CalendarView paging.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item1">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BaseGroupByType Item1 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BaseGroupByType Item1" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FindItemType.Item1" />
+      <MemberSignature Language="VB.NET" Value="Public Property Item1 As BaseGroupByType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::BaseGroupByType ^ Item1 { ExchangeWebServices::BaseGroupByType ^ get(); void set(ExchangeWebServices::BaseGroupByType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("GroupBy", typeof(ExchangeWebServices.GroupByType))</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlElement("DistinguishedGroupBy", typeof(ExchangeWebServices.DistinguishedGroupByType))</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BaseGroupByType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.FindItemType.Item1" /> property gets or sets the grouping type that describes how the query result set is grouped in the response. This property gets or sets either a <see cref="T:ExchangeWebServices.GroupByType" /> or <see cref="T:ExchangeWebServices.DistinguishedGroupByType" /> object. This property is optional. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.FindItemType.Item1" /> property returns a <see cref="T:ExchangeWebServices.BaseGroupByType" /> object that represents the type of grouping scheme that is applied to the result set.</value>
+        <remarks>
+          <para>The <see cref="P:ExchangeWebServices.FindItemType.Item1" /> property can be set with either a <see cref="T:ExchangeWebServices.GroupByType" /> or <see cref="T:ExchangeWebServices.DistinguishedGroupByType" /> object. Both types extend <see cref="T:ExchangeWebServices.BaseGroupByType" />, which is an abstract class. This property is optional. If this property is not set, the result set will not be grouped.</para>
+          <para>
+            <b>Note</b>: Some properties cannot be used to form the group definitions.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemShape">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ItemResponseShapeType ItemShape { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.ItemResponseShapeType ItemShape" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FindItemType.ItemShape" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemShape As ItemResponseShapeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ItemResponseShapeType ^ ItemShape { ExchangeWebServices::ItemResponseShapeType ^ get(); void set(ExchangeWebServices::ItemResponseShapeType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemResponseShapeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.FindItemType.ItemShape" /> property gets or sets the shape of the query set. This property is required. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.FindItemType.ItemShape" /> property returns an <see cref="T:ExchangeWebServices.ItemResponseShapeType" /> object that contains the description of which properties are requested to be returned in the result set.</value>
+        <remarks>
+          <para>The <see cref="P:ExchangeWebServices.FindItemType.ItemShape" /> property must be set for FindItem operations. This property describes which properties are returned by the FindItem operation. This property is required.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentFolderIds">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.BaseFolderIdType[] ParentFolderIds { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.BaseFolderIdType[] ParentFolderIds" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FindItemType.ParentFolderIds" />
+      <MemberSignature Language="VB.NET" Value="Public Property ParentFolderIds As BaseFolderIdType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ ParentFolderIds { cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::BaseFolderIdType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("FolderId", typeof(ExchangeWebServices.FolderIdType), IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("DistinguishedFolderId", typeof(ExchangeWebServices.DistinguishedFolderIdType), IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.BaseFolderIdType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.FindItemType.ParentFolderIds" /> property gets or sets the folders that the FindItem operation searches. This property is required. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.FindItemType.ParentFolderIds" /> property returns an array of <see cref="T:ExchangeWebServices.BaseFolderIdType" /> objects that contains the identifiers of all folders for the FindItem operation to search.</value>
+        <remarks>
+          <para>The <see cref="P:ExchangeWebServices.FindItemType.ParentFolderIds" /> property can be set with arrays of either <see cref="T:ExchangeWebServices.FolderIdType" /> or <see cref="T:ExchangeWebServices.DistinguishedFolderIdType" /> objects. Both types extend <see cref="T:ExchangeWebServices.BaseFolderIdType" />, which is an abstract class. </para>
+          <para>This property is required and must be set for FindItem operations.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueryString">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.QueryStringType QueryString { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.QueryStringType QueryString" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FindItemType.QueryString" />
+      <MemberSignature Language="VB.NET" Value="Public Property QueryString As QueryStringType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::QueryStringType ^ QueryString { ExchangeWebServices::QueryStringType ^ get(); void set(ExchangeWebServices::QueryStringType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.QueryStringType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.String" />.</value>
+        <remarks>
+          <para>
+            <b>Note</b>: This member applies to versions of Exchange starting with Exchange Server 2010 Service Pack 1 (SP1), including Exchange Online.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Restriction">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.RestrictionType Restriction { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.RestrictionType Restriction" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FindItemType.Restriction" />
+      <MemberSignature Language="VB.NET" Value="Public Property Restriction As RestrictionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::RestrictionType ^ Restriction { ExchangeWebServices::RestrictionType ^ get(); void set(ExchangeWebServices::RestrictionType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.RestrictionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.FindItemType.Restriction" /> property gets or sets the search parameters that define an item query. This property is optional. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.FindItemType.Restriction" /> property returns a <see cref="T:ExchangeWebServices.RestrictionType" /> object that contains the search parameters that define the query.</value>
+        <remarks>
+          <para>The <see cref="P:ExchangeWebServices.FindItemType.Restriction" /> property contains all the comparison arguments that the query filter includes. It can contain the following search expressions:</para>
+          <list type="bullet">
+            <item>
+              <description>And</description>
+            </item>
+            <item>
+              <description>Contains</description>
+            </item>
+            <item>
+              <description>Excludes</description>
+            </item>
+            <item>
+              <description>Exists</description>
+            </item>
+            <item>
+              <description>IsEqualTo</description>
+            </item>
+            <item>
+              <description>IsGreaterThan</description>
+            </item>
+            <item>
+              <description>IsGreaterThanOrEqualTo</description>
+            </item>
+            <item>
+              <description>IsLessThan</description>
+            </item>
+            <item>
+              <description>IsLessThanOrEqualTo</description>
+            </item>
+            <item>
+              <description>IsNotEqualTo</description>
+            </item>
+            <item>
+              <description>Not</description>
+            </item>
+            <item>
+              <description>Or</description>
+            </item>
+          </list>
+          <para>This property is optional.</para>
+          <para>
+            <b>Note</b>: You cannot specify restrictions when doing CalendarView paging. Additionally, some properties cannot be used to form the restriction definitions.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SortOrder">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.FieldOrderType[] SortOrder { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.FieldOrderType[] SortOrder" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FindItemType.SortOrder" />
+      <MemberSignature Language="VB.NET" Value="Public Property SortOrder As FieldOrderType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::FieldOrderType ^&gt; ^ SortOrder { cli::array &lt;ExchangeWebServices::FieldOrderType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::FieldOrderType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem("FieldOrder", IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.FieldOrderType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.FindItemType.SortOrder" /> property gets or sets the sort order of items returned in the result set. This property is optional. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.FindItemType.SortOrder" /> property returns an array of <see cref="T:ExchangeWebServices.FieldOrderType" /> objects that describe which properties are used to sort the result set.</value>
+        <remarks>
+          <para>The first item in the array of <see cref="T:ExchangeWebServices.FieldOrderType" /> objects is the primary property that is used to determine the sort order. The next item in the array is the secondary property that is used to determine the sort order in the result set. Each consecutive item in the array of <see cref="T:ExchangeWebServices.FieldOrderType" /> objects is used to sort the items in the result set, with each consecutive item being of lower precedence in the sort hierarchy. The <see cref="T:ExchangeWebServices.FieldOrderType" /> objects also describe the sort direction of the items.</para>
+          <para>This property is optional.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Traversal">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.ItemQueryTraversalType Traversal { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.ItemQueryTraversalType Traversal" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.FindItemType.Traversal" />
+      <MemberSignature Language="VB.NET" Value="Public Property Traversal As ItemQueryTraversalType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::ItemQueryTraversalType Traversal { ExchangeWebServices::ItemQueryTraversalType get(); void set(ExchangeWebServices::ItemQueryTraversalType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlAttribute</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.ItemQueryTraversalType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:ExchangeWebServices.FindItemType.Traversal" /> property gets or sets the traversal scheme that is used to search for items in folders. This property is required. This is a read/write property.</summary>
+        <value>The <see cref="P:ExchangeWebServices.FindItemType.Traversal" /> property returns an <see cref="T:ExchangeWebServices.ItemQueryTraversalType" /> enumeration that defines the type of traversal that is performed for the search.</value>
+        <remarks>
+          <para>FindItem only supports shallow or soft-deleted traversals of a folder. To perform deep traversals, use search folders. </para>
+          <para>This property is required for FindItem operations.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

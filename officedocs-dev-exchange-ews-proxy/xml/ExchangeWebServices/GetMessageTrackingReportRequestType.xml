@@ -1,0 +1,222 @@
+﻿<Type Name="GetMessageTrackingReportRequestType" FullName="ExchangeWebServices.GetMessageTrackingReportRequestType">
+  <TypeSignature Language="C#" Value="public class GetMessageTrackingReportRequestType : ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GetMessageTrackingReportRequestType extends ExchangeWebServices.BaseRequestType" />
+  <TypeSignature Language="DocId" Value="T:ExchangeWebServices.GetMessageTrackingReportRequestType" />
+  <TypeSignature Language="VB.NET" Value="Public Class GetMessageTrackingReportRequestType&#xA;Inherits BaseRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetMessageTrackingReportRequestType : ExchangeWebServices::BaseRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>EWS</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>ExchangeWebServices.BaseRequestType</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.CodeDom.Compiler.GeneratedCode("wsdl", "2.0.50727.3038")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.ComponentModel.DesignerCategory("code")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Xml.Serialization.XmlType(Namespace="http://schemas.microsoft.com/exchange/services/2006/messages")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetMessageTrackingReportRequestType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:ExchangeWebServices.GetMessageTrackingReportRequestType.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetMessageTrackingReportRequestType();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DiagnosticsLevel">
+      <MemberSignature Language="C#" Value="public string DiagnosticsLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DiagnosticsLevel" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetMessageTrackingReportRequestType.DiagnosticsLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property DiagnosticsLevel As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DiagnosticsLevel { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.String" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MessageTrackingReportId">
+      <MemberSignature Language="C#" Value="public string MessageTrackingReportId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MessageTrackingReportId" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetMessageTrackingReportRequestType.MessageTrackingReportId" />
+      <MemberSignature Language="VB.NET" Value="Public Property MessageTrackingReportId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MessageTrackingReportId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.String" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Properties">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.TrackingPropertyType[] Properties { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.TrackingPropertyType[] Properties" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetMessageTrackingReportRequestType.Properties" />
+      <MemberSignature Language="VB.NET" Value="Public Property Properties As TrackingPropertyType()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;ExchangeWebServices::TrackingPropertyType ^&gt; ^ Properties { cli::array &lt;ExchangeWebServices::TrackingPropertyType ^&gt; ^ get(); void set(cli::array &lt;ExchangeWebServices::TrackingPropertyType ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlArrayItem(IsNullable=false, Namespace="http://schemas.microsoft.com/exchange/services/2006/types")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.TrackingPropertyType[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:ExchangeWebServices.TrackingPropertyType" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecipientFilter">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.EmailAddressType RecipientFilter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class ExchangeWebServices.EmailAddressType RecipientFilter" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetMessageTrackingReportRequestType.RecipientFilter" />
+      <MemberSignature Language="VB.NET" Value="Public Property RecipientFilter As EmailAddressType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::EmailAddressType ^ RecipientFilter { ExchangeWebServices::EmailAddressType ^ get(); void set(ExchangeWebServices::EmailAddressType ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.EmailAddressType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:ExchangeWebServices.EmailAddressType" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReportTemplate">
+      <MemberSignature Language="C#" Value="public ExchangeWebServices.MessageTrackingReportTemplateType ReportTemplate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype ExchangeWebServices.MessageTrackingReportTemplateType ReportTemplate" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetMessageTrackingReportRequestType.ReportTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReportTemplate As MessageTrackingReportTemplateType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property ExchangeWebServices::MessageTrackingReportTemplateType ReportTemplate { ExchangeWebServices::MessageTrackingReportTemplateType get(); void set(ExchangeWebServices::MessageTrackingReportTemplateType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>ExchangeWebServices.MessageTrackingReportTemplateType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:ExchangeWebServices.MessageTrackingReportTemplateType" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReturnQueueEvents">
+      <MemberSignature Language="C#" Value="public bool ReturnQueueEvents { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReturnQueueEvents" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetMessageTrackingReportRequestType.ReturnQueueEvents" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReturnQueueEvents As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReturnQueueEvents { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.Boolean" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReturnQueueEventsSpecified">
+      <MemberSignature Language="C#" Value="public bool ReturnQueueEventsSpecified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReturnQueueEventsSpecified" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetMessageTrackingReportRequestType.ReturnQueueEventsSpecified" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReturnQueueEventsSpecified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReturnQueueEventsSpecified { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Xml.Serialization.XmlIgnore</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.Boolean" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Scope">
+      <MemberSignature Language="C#" Value="public string Scope { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Scope" />
+      <MemberSignature Language="DocId" Value="P:ExchangeWebServices.GetMessageTrackingReportRequestType.Scope" />
+      <MemberSignature Language="VB.NET" Value="Public Property Scope As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Scope { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>EWS</AssemblyName>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>Returns <see cref="T:System.String" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
