@@ -151,7 +151,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The <see cref="P:ExchangeWebServices.SuggestionsViewOptionsType.GoodThreshold" /> property gets or sets the percentage of attendees that must have a time period open for the time period to qualify as a good suggested meeting tiem.</summary>
+        <summary>The <see cref="P:ExchangeWebServices.SuggestionsViewOptionsType.GoodThreshold" /> property gets or sets the percentage of attendees that must have a time period open for the time period to qualify as a good suggested meeting item.</summary>
         <value>The <see cref="P:ExchangeWebServices.SuggestionsViewOptionsType.GoodThreshold" /> property returns the percentage of attendees that must have a time period open for the time period to qualify as a good suggested meeting time.</value>
         <remarks>To be added.</remarks>
       </Docs>
