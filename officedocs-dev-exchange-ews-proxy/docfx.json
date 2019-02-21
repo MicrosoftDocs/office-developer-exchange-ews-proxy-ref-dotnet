@@ -49,7 +49,7 @@
       "audience": "developer",
       "ms.suite": "office365",
       "ms.prod": "exchange",
-      "ms.technology": "sdk",
+      "ms.technology": "ews",
       "ms.tgt_pltfrm": "dotnet",
       "apiPlatform": "dotnet"
     },
