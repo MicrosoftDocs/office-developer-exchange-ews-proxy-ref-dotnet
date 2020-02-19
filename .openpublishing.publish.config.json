@@ -13,18 +13,17 @@
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
-        "RestApi": "Content",
         "NetEnum": "Content",
         "NetDelegate": "Content",
         "NetNamespace": "Content",
         "NetMember": "Content",
-        "NetType": "Content"
+        "NetType": "Content",
+        "RestApi": "Content"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes",
       "base_path": "dotnet",
       "site_name": "Docs",
-      "customized_template_paths": [],
       "customized_tasks": {
         "docset_prebuild": [
           "_dependentPackages/ECMA2Yaml/tools/Run.ps1",
@@ -39,21 +38,24 @@
         "SourceXmlFolder": "officedocs-dev-exchange-ews-proxy/xml",
         "OutputYamlFolder": "officedocs-dev-exchange-ews-proxy/api",
         "Flatten": true,
-        "id": "officedocs-dev-exchange-ews-proxy",
-        "SDPMode": "true"
+        "id": "officedocs-dev-exchange-ews-proxy"
       },
       "SplitTOC": [
         "officedocs-dev-exchange-ews-proxy/api/officedocs-dev-exchange-ews-proxy/toc.yml"
       ],
       "DiffFolder": [
         "officedocs-dev-exchange-ews-proxy/api"
+      ],
+      "customized_template_paths": [
+        "_dependentPackages/memberpage.plugins/content"
       ]
     }
   ],
   "notification_subscribers": [],
+  "sync_notification_subscribers": [],
   "branches_to_filter": [],
   "skip_source_output_uploading": false,
-  "need_preview_pull_request": false,
+  "need_preview_pull_request": true,
   "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
@@ -65,6 +67,7 @@
   ],
   "branch_target_mapping": {},
   "need_generate_pdf_url_template": false,
+  "targets": {},
   "need_generate_pdf": false,
   "need_generate_intellisense": false,
   "dependent_packages": [
