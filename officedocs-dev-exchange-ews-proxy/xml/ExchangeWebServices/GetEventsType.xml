@@ -58,8 +58,8 @@
             GetEventsResponseMessageType responseMessage = (rmt as GetEventsResponseMessageType);
 
             // Get the notifications.
-            NotificationType notificaton = responseMessage.Notification;
-            BaseNotificationEventType[] bneta = notificaton.Items;
+            NotificationType notification = responseMessage.Notification;
+            BaseNotificationEventType[] bneta = notification.Items;
 
             foreach (BaseNotificationEventType bnet in bneta)
             {
@@ -67,7 +67,7 @@
                 //       sample for an example of how to do this.
             }
 
-            if (notificaton.MoreEvents)
+            if (notification.MoreEvents)
             {
                 // TODO: Call GetEvents again with the watermark to get the
                 //       remaining events.
