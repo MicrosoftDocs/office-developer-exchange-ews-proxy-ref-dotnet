@@ -39,6 +39,7 @@
       ]
     },
     "globalMetadata": {
+      "feedback_system": "Standard",
       "ms.subservice": "exchange-web-services",
       "ms.service": "exchange",
       "apiPlatform": "dotnet",
